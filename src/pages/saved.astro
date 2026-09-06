@@ -1,0 +1,16 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../layouts/Layout.astro';
+import PostCard from '../components/PostCard.astro';
+const posts = await getCollection('posts');
+---
+<Layout title="Your Saved Home Ideas" noindex>
+  <section class="wrap py-16">
+    <p class="eyebrow">Your own little inspiration board</p>
+    <h1 class="mt-4 font-display text-display-2">Ideas to come home to.</h1>
+    <p class="mt-5 text-ink-60">Your favorites, kept together on this browser. Save a guide whenever something catches your eye.</p>
+    <div id="saved-empty" class="saved-empty"><h2 class="font-display text-display-3">Something lovely starts with one idea.</h2><p class="my-5">Tap “Save idea” on a guide to keep it here for your next room refresh.</p><a class="btn btn-primary" href="/#find-ideas">Explore decorating ideas ↗</a></div>
+    <noscript><p>Enable JavaScript to view ideas saved in this browser.</p></noscript>
+    <div class="ideas-grid mt-10">{posts.map(post => <div data-saved-card={post.id} hidden><PostCard post={post} /></div>)}</div>
+  </section>
+</Layout>

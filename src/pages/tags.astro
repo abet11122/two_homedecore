@@ -1,0 +1,99 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../layouts/Layout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import Newsletter from '../components/Newsletter.astro';
+import { SITE, CATEGORIES, collectTags } from '../site';
+
+/**
+ * Topic index — the counterpart to the room nav.
+ *
+ * Sized by frequency so the archive's real shape is visible at a glance,
+ * and it gives every tag hub one strong internal link from a crawlable page.
+ */
+const posts = await getCollection('posts');
+const tags = collectTags(posts);
+const max = tags[0]?.count ?? 1;
+
+const description = `Browse ${SITE.name} by topic — ${tags.length} themes running across ${CATEGORIES.length} rooms, from storage and lighting to renter-friendly fixes.`;
+
+const origin = (Astro.site ?? new URL(SITE.url)).origin;
+
+const listSchema = {
+  '@type': 'CollectionPage',
+  '@id': `${origin}/tags/#collection`,
+  name: 'All topics',
+  description,
+  isPartOf: { '@id': `${origin}/#website` },
+  mainEntity: {
+    '@type': 'ItemList',
+    numberOfItems: tags.length,
+    itemListElement: tags.map((tag, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      url: new URL(`/tag/${tag.slug}/`, origin).href,
+      name: tag.label,
+    })),
+  },
+};
+
+/** Bigger type for the tags that carry more of the archive. */
+function scale(count: number) {
+  const ratio = count / max;
+  if (ratio > 0.66) return 'text-[2rem] sm:text-[2.75rem]';
+  if (ratio > 0.4) return 'text-[1.625rem] sm:text-[2.125rem]';
+  if (ratio > 0.2) return 'text-[1.375rem] sm:text-[1.75rem]';
+  return 'text-[1.125rem] sm:text-[1.375rem]';
+}
+---
+
+<Layout title="All topics" description={description} schemas={[listSchema]}>
+  <header class="border-b border-rule bg-sand/40">
+    <div class="wrap py-10 lg:py-14">
+      <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Tags' }]} />
+      <div class="mt-7 max-w-2xl">
+        <p class="eyebrow">The index</p>
+        <h1 class="mt-4 font-display text-[2.5rem] leading-[1.05] text-ink sm:text-5xl lg:text-6xl">
+          Browse by topic
+        </h1>
+        <p class="mt-5 text-[1.0625rem] leading-relaxed text-ink-60">
+          Rooms are one way in. These are the other one — the themes that run through the whole
+          archive, sized by how much of it they cover.
+        </p>
+      </div>
+    </div>
+  </header>
+
+  <section class="wrap py-14 lg:py-20">
+    <ul class="flex flex-wrap items-baseline gap-x-8 gap-y-5">
+      {tags.map((tag) => (
+        <li>
+          <a
+            href={`/tag/${tag.slug}/`}
+            class={`link-underline font-display leading-none text-ink hover:text-clay ${scale(tag.count)}`}
+          >
+            {tag.label}
+            <span class="ml-1.5 align-super font-body text-[0.6875rem] font-semibold text-ink-20">
+              {tag.count}
+            </span>
+          </a>
+        </li>
+      ))}
+    </ul>
+  </section>
+
+  <section class="wrap border-t border-rule pt-10" aria-labelledby="tag-rooms-index">
+    <h2 id="tag-rooms-index" class="eyebrow-muted">Or browse by room</h2>
+    <div class="mt-5 flex flex-wrap gap-x-7 gap-y-3">
+      {CATEGORIES.map((c) => (
+        <a href={`/category/${c.slug}/`} class="font-display text-xl text-ink transition-colors hover:text-clay sm:text-2xl">
+          {c.name}
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <div class="mt-16 lg:mt-20">
+    <Newsletter />
+  </div>
+</Layout>

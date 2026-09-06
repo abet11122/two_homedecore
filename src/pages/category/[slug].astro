@@ -1,0 +1,253 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+import PostCard from '../../components/PostCard.astro';
+import Img from '../../components/Img.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import AdSlot from '../../components/AdSlot.astro';
+import Newsletter from '../../components/Newsletter.astro';
+import { SITE, CATEGORIES, categoryBySlug, collectTags } from '../../site';
+
+export async function getStaticPaths() {
+  return CATEGORIES.map((c) => ({ params: { slug: c.slug } }));
+}
+
+const { slug } = Astro.params;
+const category = categoryBySlug(slug!)!;
+
+const posts = (await getCollection('posts'))
+  .filter((p) => p.data.category === slug)
+  .sort((a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime());
+
+const [lead, ...others] = posts;
+const otherCategories = CATEGORIES.filter((c) => c.slug !== slug);
+
+// Thin rooms were rendering a single card stranded in a three-column row with
+// two-thirds of the row empty. Match the column count to what is actually left:
+// one story reads better full-width, and two or four sit square in two columns.
+const gridClass =
+  others.length === 2 || others.length === 4
+    ? 'sm:grid-cols-2'
+    : 'sm:grid-cols-2 lg:grid-cols-3';
+
+// Topic hubs that actually have posts in this room. Rooms and topics are the
+// site's two axes; linking them here is what turns a flat archive into a
+// graph a crawler can traverse in either direction.
+const allPosts = await getCollection('posts');
+const hubs = new Set(collectTags(allPosts).map((t) => t.slug));
+const topics = collectTags(posts, 1)
+  .filter((t) => hubs.has(t.slug) && t.slug !== slug)
+  .slice(0, 10);
+
+const origin = (Astro.site ?? new URL(SITE.url)).origin;
+
+const listSchema = {
+  '@type': 'CollectionPage',
+  '@id': `${new URL(Astro.url.pathname, origin).href}#collection`,
+  name: category.name,
+  description: category.blurb,
+  isPartOf: { '@id': `${origin}/#website` },
+  mainEntity: {
+    '@type': 'ItemList',
+    numberOfItems: posts.length,
+    itemListElement: posts.map((post, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      url: new URL(`/post/${post.id}/`, origin).href,
+      name: post.data.title,
+    })),
+  },
+};
+---
+
+<Layout
+  title={`${category.name} Ideas`}
+  description={category.blurb}
+  image={lead?.data.pinImage}
+  imageWide={lead?.data.heroImage ?? category.image}
+  schemas={[listSchema]}
+>
+  <header class="room-header">
+    <div class="wrap py-7 lg:py-9">
+      <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: category.name }]} />
+      {/*
+        The room's own photograph anchors the header — without it a category
+        page opened from search is a wall of type, while every other template
+        on the site leads with an image.
+      */}
+      <div class="room-hero">
+        <div class="room-intro">
+          <p class="room-kicker">The room edit</p>
+          <h1 class="room-title font-display">{category.name}</h1>
+          <p class="room-description">{category.blurb}</p>
+          {posts.length > 0 && (
+            <div class="room-actions">
+              <a href="#room-guides" class="room-explore">
+                {posts.length === 1 ? 'Explore the guide' : 'Explore the ideas'}
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                  <path d="M12 5v14m-6-6 6 6 6-6" />
+                </svg>
+              </a>
+              <span class="room-story-count">{posts.length} {posts.length === 1 ? 'guide to inspire you' : 'guides to inspire you'}</span>
+            </div>
+          )}
+        </div>
+
+        <figure class="room-image">
+          <div class="frame room-image-frame">
+            <Img
+              src={category.image}
+              alt=""
+              width={860}
+              height={573}
+              loading="eager"
+              fetchpriority="high"
+              sizes="(min-width: 1024px) 45vw, 100vw"
+            />
+          </div>
+          <figcaption>
+            <span>A little inspiration, a place to begin.</span>
+            <span>{category.name}</span>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </header>
+
+  {topics.length > 0 && (
+    <nav class="room-topic-bar" aria-label={`Browse ${category.name.toLowerCase()} topics`}>
+      <div class="wrap room-topics">
+        <span class="room-kicker">Explore by topic</span>
+        <div class="room-topic-links">
+          {topics.map((t) => (
+            <a href={`/tag/${t.slug}/`}>{t.label}</a>
+          ))}
+        </div>
+      </div>
+    </nav>
+  )}
+
+  {posts.length > 0 ? (
+    <>
+      <section id="room-guides" class="wrap room-guides" aria-labelledby="room-guide-heading">
+        <div class="room-section-heading">
+          <div>
+            <p class="room-kicker">Ideas for a home you love</p>
+            <h2 id="room-guide-heading" class="font-display">{posts.length === 1 ? 'Start with this guide' : 'Ideas to make your own'}</h2>
+          </div>
+          <p>Thoughtful details. Real-life inspiration.</p>
+        </div>
+        <PostCard post={lead} variant="wide" eager sizes="(min-width: 640px) 45vw, 90vw" />
+
+        {others.length === 1 && (
+          <div class="mt-14 border-t border-rule pt-12">
+            <PostCard post={others[0]} variant="wide" sizes="(min-width: 640px) 45vw, 90vw" />
+          </div>
+        )}
+
+        {others.length > 1 && (
+          <div class={`mt-14 grid gap-x-7 gap-y-12 border-t border-rule pt-12 ${gridClass}`}>
+            {others.map((post) => (
+              <PostCard post={post} />
+            ))}
+          </div>
+        )}
+      </section>
+
+      {others.length > 0 && (
+        <div class="wrap">
+          <AdSlot placement="feed" class="mb-12 lg:mb-16" />
+        </div>
+      )}
+    </>
+  ) : (
+    <section class="wrap py-20 text-center">
+      <p class="font-display text-2xl text-ink">Nothing here yet.</p>
+      <p class="mx-auto mt-3 max-w-md text-ink-60">
+        We are working on this room. In the meantime, browse the rest of the archive.
+      </p>
+      <a href="/" class="btn btn-outline mt-7">Back to home</a>
+    </section>
+  )}
+
+  <section class="wrap room-next" aria-labelledby="other-rooms">
+    <div class="room-section-heading">
+      <div>
+        <p class="room-kicker">Keep exploring</p>
+        <h2 id="other-rooms" class="font-display">Find your next room</h2>
+      </div>
+      <a href="/#rooms-title" class="room-all-link">Browse all rooms <span aria-hidden="true">↗</span></a>
+    </div>
+    <div class="room-next-grid">
+      {otherCategories.map((c) => (
+        <a href={`/category/${c.slug}/`} class="room-next-link">
+          <span class="room-next-photo">
+            <Img src={c.image} alt="" width={128} height={152} sizes="64px" />
+          </span>
+          <span class="font-display">{c.name}</span>
+          <span class="room-next-arrow" aria-hidden="true">↗</span>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <div class="mt-16 lg:mt-20">
+    <Newsletter />
+  </div>
+</Layout>
+
+<style>
+  .room-header { background: #f3efe8; border-bottom: 1px solid #dfd9ce; }
+  .room-hero { display: grid; gap: 2.5rem; align-items: center; padding: 2.5rem 0 1rem; }
+  .room-kicker { color: #8f4728; font-size: .65rem; font-weight: 600; letter-spacing: .17em; text-transform: uppercase; }
+  .room-title { margin-top: 1.1rem; color: #344b3c; font-size: clamp(3.25rem, 6.5vw, 6rem); line-height: .98; letter-spacing: -.045em; }
+  .room-description { max-width: 31rem; margin-top: 1.5rem; color: #615e55; font-size: 1rem; line-height: 1.85; }
+  .room-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 1.25rem; margin-top: 2rem; }
+  .room-explore { display: inline-flex; align-items: center; gap: 1.5rem; min-height: 3rem; padding: .8rem 1.2rem; background: #344b3c; color: #fbf8f4; font-size: .75rem; font-weight: 600; transition: background-color .2s; }
+  .room-explore:hover { background: #243a2c; }
+  .room-explore svg { width: 1rem; height: 1rem; }
+  .room-story-count { font-size: .72rem; color: #716e65; }
+  .room-image { min-width: 0; }
+  .room-image-frame { aspect-ratio: 4 / 3; border: 7px solid #fbf8f4; border-radius: 1px; box-shadow: 0 10px 30px #342e2510; }
+  .room-image figcaption { display: flex; justify-content: space-between; flex-wrap: wrap; gap: .5rem; padding-top: .85rem; color: #706b61; font-size: .625rem; letter-spacing: .015em; }
+  .room-image figcaption span:last-child { text-transform: uppercase; letter-spacing: .13em; }
+  .room-topic-bar { border-bottom: 1px solid #e3ddd3; }
+  .room-topics { display: flex; flex-wrap: wrap; align-items: baseline; gap: 1rem 2rem; padding-top: 1.3rem; padding-bottom: 1.3rem; }
+  .room-topics > span { flex-shrink: 0; }
+  .room-topic-links { display: flex; flex-wrap: wrap; gap: .7rem 1.3rem; }
+  .room-topic-links a { font-size: .75rem; line-height: 1.8; color: #625d52; text-decoration-color: transparent; text-underline-offset: 4px; transition: color .2s; }
+  .room-topic-links a:hover { color: #8f4728; text-decoration: underline; }
+  .room-guides { padding-top: 3.5rem; padding-bottom: 3.5rem; scroll-margin-top: 8rem; }
+  .room-section-heading { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: end; gap: 1rem; margin-bottom: 2.1rem; }
+  .room-section-heading h2 { margin-top: .65rem; color: #344b3c; font-size: clamp(1.8rem, 3vw, 2.65rem); letter-spacing: -.025em; line-height: 1.15; }
+  .room-section-heading > p { padding-bottom: .2rem; color: #716b60; font-size: .75rem; }
+  .room-next { border-top: 1px solid #dfd9ce; padding-top: 2.7rem; }
+  .room-all-link { display: inline-flex; align-items: center; gap: .65rem; padding: .5rem 0; color: #344b3c; font-size: .75rem; border-bottom: 1px solid #abb1a6; }
+  .room-next-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 1.25rem; }
+  .room-next-link { display: flex; align-items: center; gap: .75rem; padding: 1rem 0; border-top: 1px solid #e3ddd3; color: #344b3c; }
+  .room-next-photo { flex-shrink: 0; width: 2.9rem; aspect-ratio: 4/5; overflow: hidden; background: #e9e2d8; }
+  .room-next-photo :global(img) { width: 100%; height: 100%; object-fit: cover; transition: transform .3s; }
+  .room-next-link > .font-display { font-size: 1.05rem; line-height: 1.2; }
+  .room-next-arrow { margin-left: auto; color: #8f4728; font-size: .85rem; }
+  .room-next-link:hover { color: #8f4728; }
+  .room-next-link:hover :global(img) { transform: scale(1.05); }
+  @media (max-width: 420px) {
+    .room-next-link > .font-display { font-size: .95rem; }
+    .room-next-arrow { display: none; }
+  }
+  @media (min-width: 768px) {
+    .room-next-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0 2rem; }
+  }
+  @media (min-width: 1024px) {
+    .room-hero { grid-template-columns: 1fr 1.08fr; gap: 5rem; padding: 2.5rem 0 1.4rem; }
+    .room-intro { padding-bottom: 1.25rem; }
+    .room-description { font-size: 1.05rem; }
+    .room-guides { padding-top: 4.5rem; padding-bottom: 4.5rem; }
+    .room-next-grid { grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 0 1.4rem; }
+    .room-next-photo { width: 3.2rem; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .room-next-photo :global(img) { transition: none; }
+    .room-next-link:hover :global(img) { transform: none; }
+  }
+</style>

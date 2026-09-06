@@ -1,0 +1,47 @@
+---
+import { getCollection } from 'astro:content';
+import PostCard from './PostCard.astro';
+import SectionHead from './SectionHead.astro';
+import { categoryName, tagSlug } from '../site';
+
+interface Props {
+  category: string;
+  currentId: string;
+  limit?: number;
+}
+
+const { category, currentId, limit = 3 } = Astro.props;
+
+const all = await getCollection('posts');
+const currentTags = new Set((all.find(p => p.id === currentId)?.data.tags ?? []).map(tagSlug));
+const relevance = (post: (typeof all)[number]) => (post.data.tags ?? []).filter(tag => currentTags.has(tagSlug(tag))).length;
+
+// Prefer posts from the same category; top up with the newest from elsewhere
+// so the block is never half-empty on a thin category.
+const sameCategory = all
+  .filter((p) => p.data.category === category && p.id !== currentId)
+  .sort((a, b) => relevance(b) - relevance(a) || b.data.publishDate.getTime() - a.data.publishDate.getTime());
+
+const fillers = all
+  .filter((p) => p.data.category !== category && p.id !== currentId)
+  .sort((a, b) => relevance(b) - relevance(a) || b.data.publishDate.getTime() - a.data.publishDate.getTime());
+
+const related = [...sameCategory, ...fillers].slice(0, limit);
+---
+
+{related.length > 0 && (
+  <section class="mt-16 border-t border-rule pt-10" aria-labelledby="related-heading">
+    <SectionHead
+      id="related-heading"
+      kicker="Keep reading"
+      title="A few more ideas you'll love"
+      href={`/category/${category}/`}
+    />
+
+    <div class="mt-12 grid gap-x-8 gap-y-14 sm:grid-cols-2 lg:grid-cols-3">
+      {related.map((post) => (
+        <PostCard post={post} sizes="(min-width: 1024px) 30vw, (min-width: 640px) 45vw, 90vw" />
+      ))}
+    </div>
+  </section>
+)}

@@ -1,0 +1,28 @@
+---
+interface Props {
+  title: string;
+  kicker?: string;
+  href?: string;
+  hrefLabel?: string;
+  id?: string;
+  class?: string;
+}
+
+const { title, kicker, href, hrefLabel = 'See all', id, class: className = '' } = Astro.props;
+---
+
+<div class={`section-head reveal ${className}`}>
+  <div>
+    {kicker && <p class="eyebrow mb-2.5">{kicker}</p>}
+    <h2 id={id} class="section-title">{title}</h2>
+  </div>
+
+  {href && (
+    <a href={href} class="link-arrow shrink-0 pb-1 text-ink-60 hover:text-clay">
+      {hrefLabel}
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true">
+        <path d="M5 12h14M13 6l6 6-6 6"></path>
+      </svg>
+    </a>
+  )}
+</div>

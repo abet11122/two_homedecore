@@ -1,0 +1,56 @@
+---
+import { SITE, formatDate } from '../site';
+
+interface Props {
+  publishDate: Date;
+  updatedDate?: Date;
+}
+
+const { publishDate, updatedDate } = Astro.props;
+---
+
+<aside class="author-note mt-14 border-y border-rule py-8" aria-label="About the author">
+  <div class="flex flex-col gap-5 sm:flex-row sm:gap-7">
+    <img
+      src={SITE.authorAvatar}
+      alt=""
+      width="72"
+      height="72"
+      loading="lazy"
+      class="h-[72px] w-[72px] shrink-0 rounded-full object-cover ring-1 ring-rule"
+    />
+    <div class="author-copy">
+      <p class="eyebrow-muted">Written by</p>
+      <p class="mt-2 font-display text-title-lg text-ink"><a href={`/author/${SITE.authorSlug}/`}>{SITE.author}</a></p>
+      <p class="mt-0.5 text-xs uppercase tracking-[0.1em] text-ink-40">{SITE.authorRole}</p>
+      <p class="mt-3 max-w-xl text-[0.9375rem] leading-relaxed text-ink-60">{SITE.authorBio}</p>
+      <p class="mt-4 text-xs text-ink-40">
+        Published <time datetime={publishDate.toISOString()}>{formatDate(publishDate)}</time>
+        {updatedDate && (
+          <>
+            {' · '}Updated <time datetime={updatedDate.toISOString()}>{formatDate(updatedDate)}</time>
+          </>
+        )}
+      </p>
+      <a class="author-stories" href={`/author/${SITE.authorSlug}/`}>More stories from {SITE.author.split(' ')[0]} <span aria-hidden="true">↗</span></a>
+    </div>
+  </div>
+</aside>
+
+<style>
+  .author-note { padding-block: 30px; border-color: #dedbd0; }
+  .author-note .eyebrow-muted { color: #6b725c; font-size: 10px; letter-spacing: .14em; }
+  .author-note a:hover { color: #555c43; }
+  .author-note p.text-xs { font-size: 11px; letter-spacing: .025em; line-height: 1.8; }
+  .author-stories { display: inline-flex; align-items: center; gap: 20px; min-height: 44px; margin-top: 13px; color: #555c43; font-size: 12px; font-weight: 500; text-underline-offset: 4px; }
+  .author-stories:hover { text-decoration: underline; }
+  @media (max-width: 639px) {
+    .author-note > div { display: grid; grid-template-columns: 48px minmax(0, 1fr); gap: 4px 16px; }
+    .author-note img { width: 48px; height: 48px; grid-row: 1 / 4; }
+    .author-copy { display: contents; }
+    .author-copy > * { grid-column: 1 / -1; }
+    .author-copy > p:nth-child(-n + 3) { grid-column: 2; margin-top: 0; }
+    .author-note p { overflow-wrap: break-word; }
+    .author-note p.max-w-xl { font-size: 14px; line-height: 1.85; }
+  }
+</style>

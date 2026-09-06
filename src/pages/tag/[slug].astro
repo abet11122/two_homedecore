@@ -1,0 +1,164 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+import PostCard from '../../components/PostCard.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import AdSlot from '../../components/AdSlot.astro';
+import Newsletter from '../../components/Newsletter.astro';
+import { SITE, CATEGORIES, categoryName, collectTags, postHasTag, tagSlug } from '../../site';
+
+/**
+ * Tag hubs.
+ *
+ * The archive is organised by room, but readers arrive searching by *idea*
+ * ("storage", "renter-friendly", "lighting") — themes that cut across every
+ * room. These pages give those long-tail queries a landing page and, just as
+ * importantly, wire posts to each other across category boundaries, which is
+ * where the site's internal linking was thinnest.
+ *
+ * Tags used only once are deliberately not built: a one-post page is thin
+ * content, and thin pages drag the whole domain down.
+ */
+export async function getStaticPaths() {
+  const posts = await getCollection('posts');
+  const tags = collectTags(posts);
+  // Only these slugs get a page built, so only these may be linked to.
+  const hubs = new Set(tags.map((t) => t.slug));
+
+  return tags.map((tag) => ({
+    params: { slug: tag.slug },
+    props: {
+      tag,
+      // Related tags = the ones that co-occur most with this one, which
+      // gives every hub a handful of genuinely relevant onward links.
+      // Co-occurrence is counted with minCount 1, so this has to be filtered
+      // back down to tags that actually have a hub — otherwise every one-off
+      // tag on a shared post becomes a link to a page that was never built.
+      siblings: collectTags(posts.filter((p) => postHasTag(p, tag.slug)), 1)
+        .filter((t) => t.slug !== tag.slug && hubs.has(t.slug))
+        .slice(0, 8),
+    },
+  }));
+}
+
+const { tag, siblings } = Astro.props;
+
+const posts = (await getCollection('posts'))
+  .filter((p) => postHasTag(p, tag.slug))
+  .sort((a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime());
+
+const [lead, ...others] = posts;
+
+// Which rooms this theme actually shows up in — a second axis of navigation
+// and a real signal to search engines about what the tag covers.
+const rooms = CATEGORIES.filter((c) => posts.some((p) => p.data.category === c.slug));
+
+const title = `${tag.label} Ideas`;
+const description = `${posts.length} ${tag.label.toLowerCase()} ideas from the ${SITE.name} archive — practical, room-by-room decorating advice you can use this weekend.`;
+
+const origin = (Astro.site ?? new URL(SITE.url)).origin;
+
+const listSchema = {
+  '@type': 'CollectionPage',
+  '@id': `${new URL(Astro.url.pathname, origin).href}#collection`,
+  name: title,
+  description,
+  isPartOf: { '@id': `${origin}/#website` },
+  mainEntity: {
+    '@type': 'ItemList',
+    numberOfItems: posts.length,
+    itemListElement: posts.map((post, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      url: new URL(`/post/${post.id}/`, origin).href,
+      name: post.data.title,
+    })),
+  },
+};
+---
+
+<Layout
+  title={title}
+  description={description}
+  image={lead?.data.pinImage}
+  imageWide={lead?.data.heroImage}
+  schemas={[listSchema]}
+>
+  <header class="border-b border-rule bg-sand/40">
+    <div class="wrap py-10 lg:py-14">
+      <Breadcrumbs
+        items={[{ label: 'Home', href: '/' }, { label: 'Tags', href: '/tags/' }, { label: tag.label }]}
+      />
+
+      <div class="mt-7 max-w-3xl">
+        <p class="eyebrow">Topic</p>
+        <h1 class="mt-4 font-display text-[2.5rem] leading-[1.05] text-ink sm:text-5xl lg:text-6xl">
+          {tag.label}
+        </h1>
+        <p class="mt-5 text-[1.0625rem] leading-relaxed text-ink-60">
+          Every story in the archive filed under <strong class="text-ink">{tag.label.toLowerCase()}</strong> —
+          {rooms.length > 1 ? ` gathered from ${rooms.length} different rooms.` : ' collected in one place.'}
+        </p>
+        <p class="mt-6 flex items-center gap-3 text-eyebrow font-semibold uppercase text-ink-40">
+          <span class="h-px w-8 bg-clay"></span>
+          {posts.length} {posts.length === 1 ? 'story' : 'stories'}
+        </p>
+      </div>
+    </div>
+  </header>
+
+  <section class="wrap py-12 lg:py-16">
+    {lead && <PostCard post={lead} variant="wide" eager sizes="(min-width: 640px) 45vw, 90vw" />}
+
+    {others.length > 0 && (
+      <div class="mt-14 grid gap-x-7 gap-y-12 border-t border-rule pt-12 sm:grid-cols-2 lg:grid-cols-3">
+        {others.map((post) => (
+          <PostCard post={post} />
+        ))}
+      </div>
+    )}
+  </section>
+
+  <div class="wrap">
+    <AdSlot placement="feed" class="mb-14" />
+  </div>
+
+  {rooms.length > 0 && (
+    <section class="wrap border-t border-rule pt-10" aria-labelledby="tag-rooms">
+      <h2 id="tag-rooms" class="eyebrow-muted">{tag.label} by room</h2>
+      <div class="mt-5 flex flex-wrap gap-x-7 gap-y-3">
+        {rooms.map((c) => (
+          <a
+            href={`/category/${c.slug}/`}
+            class="link-underline font-display text-xl text-ink hover:text-clay sm:text-2xl"
+          >
+            {categoryName(c.slug)}
+          </a>
+        ))}
+      </div>
+    </section>
+  )}
+
+  {siblings.length > 0 && (
+    <section class="wrap mt-10 border-t border-rule pt-10" aria-labelledby="tag-related">
+      <h2 id="tag-related" class="eyebrow-muted">Often paired with</h2>
+      <div class="mt-5 flex flex-wrap gap-2">
+        {siblings.map((t) => (
+          <a href={`/tag/${t.slug}/`} class="chip-link">{t.label}</a>
+        ))}
+      </div>
+      <p class="mt-6">
+        <a href="/tags/" class="link-arrow text-ink-60 hover:text-clay">
+          All topics
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true">
+            <path d="M5 12h14M13 6l6 6-6 6"></path>
+          </svg>
+        </a>
+      </p>
+    </section>
+  )}
+
+  <div class="mt-16 lg:mt-20">
+    <Newsletter />
+  </div>
+</Layout>

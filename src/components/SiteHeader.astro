@@ -1,0 +1,166 @@
+---
+import { SITE, CATEGORIES, PRIMARY_CATEGORIES, SECONDARY_CATEGORIES } from '../site';
+const { currentCategory } = Astro.props;
+const isArticle = Astro.url.pathname.startsWith('/post/');
+---
+
+<header class:list={['masthead site-masthead', { 'reading-masthead': isArticle }]}>
+  <div class="wrap masthead-top">
+    <div class="masthead-left">
+      <a href="/search/" class="header-search">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4.5 4.5"/></svg>
+        <span>Find your inspiration</span>
+      </a>
+      <details class="mobile-navigation" data-menu>
+        <summary aria-label="Open navigation" aria-controls="mobile-room-panel">
+          <svg class="menu-open-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M3 7h18M3 12h18M3 17h12"/></svg>
+          <svg class="menu-close-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m6 6 12 12M6 18 18 6"/></svg>
+        </summary>
+        <nav id="mobile-room-panel" class="mobile-room-panel" aria-label="Mobile">
+          <div class="mobile-menu-intro">
+            <p class="eyebrow">Make yourself at home</p>
+            <p class="mobile-menu-title">A room for every idea.</p>
+          </div>
+          <a href="/" class="mobile-home-link" aria-current={Astro.url.pathname === '/' ? 'page' : undefined}>The home edit <span aria-hidden="true">&nearr;</span></a>
+          <div class="mobile-category-links">
+            {CATEGORIES.map(c => (
+              <a href={'/category/' + c.slug + '/'} aria-current={currentCategory === c.slug ? 'page' : undefined}>
+                {c.name}<span aria-hidden="true">&nearr;</span>
+              </a>
+            ))}
+          </div>
+          <div class="mobile-menu-footer">
+            <a href="/tags/">Explore all topics <span aria-hidden="true">&nearr;</span></a>
+            <a href="/about/">About {SITE.name} <span aria-hidden="true">&nearr;</span></a>
+          </div>
+        </nav>
+      </details>
+    </div>
+    <a class="wordmark" href="/" aria-label={SITE.name + ' home'}>
+      <span>{SITE.name}</span>
+      <small>Considered interiors. Everyday living.</small>
+    </a>
+    <div class="masthead-actions">
+      <a href="/search/" class="mobile-search" aria-label="Search ideas">
+        <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4.5 4.5"/></svg>
+      </a>
+      <a href="/saved/" class="header-saved" aria-label="Your saved ideas" aria-current={Astro.url.pathname === '/saved/' ? 'page' : undefined}>
+        <svg width="17" height="19" viewBox="0 0 20 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M4 3h12v18l-6-4-6 4z"/></svg>
+        <span>Saved ideas</span>
+      </a>
+    </div>
+  </div>
+  <nav class="room-navigation" aria-label="Primary">
+    <a href="/" aria-current={Astro.url.pathname === '/' ? 'page' : undefined}>The home edit</a>
+    {PRIMARY_CATEGORIES.map(c => <a href={'/category/' + c.slug + '/'} aria-current={currentCategory === c.slug ? 'page' : undefined}>{c.name}</a>)}
+    <details data-menu>
+      <summary>More inspiration <svg width="10" height="10" viewBox="0 0 12 12" fill="none" stroke="currentColor" aria-hidden="true"><path d="m2 4 4 4 4-4"/></svg></summary>
+      <div class="more-room-panel">
+        {SECONDARY_CATEGORIES.map(c => <a href={'/category/' + c.slug + '/'} aria-current={currentCategory === c.slug ? 'page' : undefined}>{c.name} <span aria-hidden="true">&nearr;</span></a>)}
+        <a href="/tags/">All topics <span aria-hidden="true">&nearr;</span></a>
+      </div>
+    </details>
+  </nav>
+</header>
+
+<style>
+  .site-masthead { color: #343a30; background: rgb(251 248 244 / .97); border-top-width: 3px; }
+  .masthead-top { height: 98px; }
+  .wordmark { display: flex; min-width: 0; min-height: 44px; flex-direction: column; justify-content: center; }
+  .wordmark > span { font-size: 35px; letter-spacing: -.055em; white-space: nowrap; }
+  .wordmark small { margin-top: 10px; font-size: 9px; letter-spacing: .13em; color: #66685b; }
+  .header-search, .header-saved { min-height: 44px; font-size: 12px; }
+  .header-saved { padding: 11px 15px; border-color: #d7d6c8; border-radius: 3px; }
+  .header-saved:hover { background: #eeefe5; color: #344b3c; }
+  .header-saved[aria-current='page'] { color: #344b3c; background: #e8ece2; }
+  .room-navigation { min-height: 49px; gap: clamp(18px, 2.45vw, 34px); }
+  .room-navigation > a, .room-navigation summary { display: inline-flex; align-items: center; min-height: 48px; padding-block: 12px; font-size: 12px; letter-spacing: .015em; }
+  .room-navigation summary svg { transition: transform 180ms ease; }
+  .room-navigation details[open] summary svg { transform: rotate(180deg); }
+  .more-room-panel { width: 252px; padding: 10px 22px; border-top: 2px solid #344b3c; }
+  .more-room-panel a { min-height: 48px; }
+  .menu-close-icon { display: none; }
+
+  @media (max-width: 900px) {
+    .masthead-top { height: 78px; grid-template-columns: 1fr auto 1fr; gap: 12px; }
+    .wordmark > span { font-size: 30px; }
+    .wordmark small { font-size: 8px; margin-top: 8px; letter-spacing: .08em; }
+    .header-search, .room-navigation { display: none; }
+    .mobile-navigation summary, .mobile-search, .header-saved {
+      width: 44px; height: 44px; min-width: 44px; min-height: 44px;
+      padding: 0; border: 0; border-radius: 3px; color: #344b3c; touch-action: manipulation;
+    }
+    .mobile-search { display: grid; place-items: center; }
+    .header-saved { justify-content: center; }
+    .header-saved > span { display: none; }
+    .mobile-navigation[open] summary { background: #e8ece2; }
+    .mobile-navigation[open] .menu-open-icon { display: none; }
+    .mobile-navigation[open] .menu-close-icon { display: block; }
+    .mobile-room-panel {
+      max-height: calc(100dvh - 81px);
+      padding: 26px 32px max(28px, env(safe-area-inset-bottom));
+      overflow-y: auto; overscroll-behavior: contain; scrollbar-width: thin;
+      border-top: 1px solid #d7d6c8;
+    }
+    .mobile-room-panel > .mobile-menu-intro { display: block; margin: 0 0 20px; }
+    .mobile-menu-intro .eyebrow { color: #6a705e; font-size: 10px; letter-spacing: .13em; }
+    .mobile-menu-title { margin-top: 8px; color: #303a2e; font-family: 'Playfair Display', Georgia, serif; font-size: 27px; line-height: 1.25; letter-spacing: -.025em; }
+    .mobile-room-panel > .mobile-category-links { gap: 0 22px; margin-block: 4px 20px; }
+    .mobile-room-panel a { min-height: 49px; font-size: 14px; color: #3a4135; }
+    .mobile-room-panel a > span { padding-left: 8px; color: #7c816f; font-size: 15px; }
+    .mobile-room-panel a[aria-current='page'] { color: #344b3c; font-weight: 600; border-bottom-color: #8a987d; }
+    .mobile-room-panel > .mobile-home-link { font-size: 15px; }
+    .mobile-room-panel > .mobile-menu-footer { display: block; margin: 0; padding-top: 6px; }
+    .mobile-menu-footer a { font-size: 13px; }
+    .reading-masthead .masthead-top { height: 64px; }
+    .reading-masthead .wordmark small { display: none; }
+    .reading-masthead .mobile-room-panel { max-height: calc(100dvh - 67px); }
+  }
+
+  @media (max-width: 600px) {
+    .masthead-top { height: 74px; padding-inline: 12px; grid-template-columns: 44px minmax(0, 1fr) 88px; gap: 0; }
+    .wordmark > span { font-size: clamp(20px, 5.8vw, 28px); }
+    .wordmark small { font-size: 7px; letter-spacing: .035em; white-space: nowrap; }
+    .mobile-room-panel { max-height: calc(100dvh - 77px); padding: 25px 22px max(26px, env(safe-area-inset-bottom)); }
+  }
+
+  @media (max-width: 360px) {
+    .wordmark small { display: none; }
+    .mobile-room-panel > .mobile-category-links { column-gap: 16px; }
+    .mobile-room-panel a { font-size: 13px; }
+  }
+</style>
+
+<script>
+  const menus = [...document.querySelectorAll<HTMLDetailsElement>('[data-menu]')];
+  const mobileMenu = document.querySelector<HTMLDetailsElement>('.mobile-navigation');
+
+  menus.forEach(menu => {
+    menu.addEventListener('toggle', () => {
+      if (menu === mobileMenu) {
+        menu.querySelector('summary')?.setAttribute('aria-label', menu.open ? 'Close navigation' : 'Open navigation');
+      }
+      if (menu.open) menus.forEach(other => { if (other !== menu) other.open = false; });
+    });
+  });
+
+  document.addEventListener('click', event => {
+    if (!(event.target instanceof Node)) return;
+    menus.forEach(menu => { if (!menu.contains(event.target as Node)) menu.open = false; });
+  });
+
+  document.addEventListener('keydown', event => {
+    if (event.key !== 'Escape') return;
+    menus.forEach(menu => {
+      if (menu.open) {
+        menu.open = false;
+        menu.querySelector('summary')?.focus();
+      }
+    });
+  });
+
+  // Close hidden menus when rotating a phone or resizing across the desktop breakpoint.
+  window.matchMedia('(max-width: 900px)').addEventListener('change', () => {
+    menus.forEach(menu => { menu.open = false; });
+  });
+</script>

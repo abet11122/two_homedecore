@@ -1,0 +1,39 @@
+---
+/**
+ * "The short version" — a scannable summary above the article body.
+ *
+ * Two jobs. For readers it answers the question that brought them here
+ * before they commit to 1,500 words, which is what stops the back-button
+ * bounce. For AI answer engines it is the most citable block on the page:
+ * short, self-contained, declarative sentences that can be lifted whole.
+ */
+interface Props {
+  items: string[];
+  class?: string;
+}
+
+const { items, class: className = '' } = Astro.props;
+---
+
+{items.length > 0 && (
+  <aside class={`takeaways reveal ${className}`} aria-labelledby="takeaways-heading">
+    <p id="takeaways-heading" class="eyebrow">The short version</p>
+    <ul class="mt-5 space-y-3.5">
+      {items.map((item) => (
+        <li class="flex gap-3.5">
+          <svg
+            class="mt-[0.4rem] h-3 w-3 shrink-0 text-clay"
+            viewBox="0 0 12 12"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            aria-hidden="true"
+          >
+            <path d="M1.5 6.5 4.5 9.5 10.5 2.5"></path>
+          </svg>
+          <span class="text-[0.9375rem] leading-relaxed text-ink-60 sm:text-base">{item}</span>
+        </li>
+      ))}
+    </ul>
+  </aside>
+)}

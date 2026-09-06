@@ -1,0 +1,65 @@
+---
+import { articleImage } from '../lib/articleImages';
+/**
+ * Responsive image.
+ *
+ * `src` accepts either a bare Unsplash photo id ("photo-1600210492486-...")
+ * or any absolute URL. For Unsplash we append `auto=format`, which makes their
+ * CDN negotiate AVIF → WebP → JPEG from the browser's Accept header, so modern
+ * browsers get AVIF and everything else falls back automatically.
+ *
+ * width/height are always emitted so the browser reserves the box before the
+ * bytes arrive — this is what keeps CLS at zero.
+ */
+interface Props {
+  src: string;
+  alt: string;
+  width: number;
+  height: number;
+  sizes?: string;
+  loading?: 'lazy' | 'eager';
+  fetchpriority?: 'high' | 'low' | 'auto';
+  class?: string;
+}
+
+const {
+  src,
+  alt,
+  width,
+  height,
+  sizes = '100vw',
+  loading = 'lazy',
+  fetchpriority = 'auto',
+  class: className = '',
+} = Astro.props;
+
+const isUnsplashId = src.startsWith('photo-');
+const localImage = articleImage(src);
+const ratio = height / width;
+
+function unsplash(id: string, w: number) {
+  const h = Math.round(w * ratio);
+  return `https://images.unsplash.com/${id}?w=${w}&h=${h}&fit=crop&crop=entropy&auto=format&q=72`;
+}
+
+// Candidate widths up to 2× the layout size, so small tiles don't pull a
+// full-width file and retina screens still get a sharp one.
+const widths = [240, 360, 480, 720, 960, 1280, 1600].filter((w) => w <= width * 2);
+if (widths.length === 0) widths.push(width);
+
+const srcset = isUnsplashId ? widths.map((w) => `${unsplash(src, w)} ${w}w`).join(', ') : localImage?.srcset;
+const finalSrc = isUnsplashId ? unsplash(src, Math.min(width * 2, 1600)) : src;
+---
+
+<img
+  src={finalSrc}
+  srcset={srcset}
+  sizes={srcset ? sizes : undefined}
+  alt={alt === '' ? '' : localImage?.alt ?? alt}
+  width={localImage?.width ?? width}
+  height={localImage?.height ?? height}
+  loading={loading}
+  decoding={loading === 'eager' ? 'sync' : 'async'}
+  fetchpriority={fetchpriority}
+  class={className}
+/>

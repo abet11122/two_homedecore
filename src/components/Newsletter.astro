@@ -1,0 +1,7 @@
+﻿---
+const { class: className = '' } = Astro.props;
+---
+<section class={`inspiration-banner ${className}`}>
+  <div><p class="eyebrow">Collect a little inspiration</p><h2>A home you love,<br /><em>one idea at a time.</em></h2><p>Keep the rooms, clever details, and weekend projects you want to come back to. Your next refresh starts here.</p></div>
+  <div class="banner-actions"><a class="btn" href="/saved/"><svg width="15" height="18" viewBox="0 0 20 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M4 3h12v18l-6-4-6 4z"/></svg> Open my saved ideas</a><a href="/category/diy-decor/">Find a weekend project ↗</a><span>Saved on this browser. No account needed.</span></div>
+</section>

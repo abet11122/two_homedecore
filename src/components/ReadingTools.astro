@@ -1,0 +1,111 @@
+---
+interface Props { minutes: number }
+const { minutes } = Astro.props;
+---
+
+<div class="reading-tools" data-reading-minutes={minutes} hidden>
+  <p class="reading-time-left"><span class="reading-dot" aria-hidden="true"></span><span data-reading-remaining>{minutes} min read</span></p>
+  <button class="reading-size" type="button" aria-pressed="false" aria-controls="article-body" aria-label="Use larger article text" data-reading-size><span class="reading-size-icon" aria-hidden="true">Aa</span><span data-reading-size-label>Larger text</span></button>
+</div>
+
+<script>
+  const article = document.querySelector<HTMLElement>('#article-body');
+  const toolbar = document.querySelector<HTMLElement>('.reading-tools');
+  const sizeButton = document.querySelector<HTMLButtonElement>('[data-reading-size]');
+  const remaining = document.querySelector<HTMLElement>('[data-reading-remaining]');
+  const backTop = document.querySelector<HTMLAnchorElement>('.reading-back-top');
+  const progress = document.getElementById('progress');
+  const preferenceKey = 'hearth-reading-size';
+
+  if (article && toolbar && sizeButton && remaining && backTop) {
+    const minutes = Number(toolbar.dataset.readingMinutes) || 1;
+    let pending = false;
+    let articleTop = 0;
+    let articleHeight = 0;
+    let mastheadHeight = 0;
+    let lastMinute = -1;
+
+    function update() {
+      pending = false;
+      // Progress starts when the text reaches the reading area, and finishes
+      // when its last line is visible. Footer and recommendations don't count.
+      const start = articleTop - mastheadHeight - 24;
+      const end = articleTop + articleHeight - innerHeight;
+      const fraction = Math.min(1, Math.max(0, (scrollY - start) / Math.max(1, end - start)));
+      if (progress) progress.style.transform = `scaleX(${fraction})`;
+      const left = Math.max(1, Math.ceil(minutes * (1 - fraction)));
+      if (left !== lastMinute) {
+        remaining!.textContent = left === 1 ? 'About a minute left' : `${left} min left to read`;
+        lastMinute = left;
+      }
+      backTop!.hidden = scrollY < articleTop + 400;
+    }
+    function schedule() {
+      if (!pending) { pending = true; requestAnimationFrame(update); }
+    }
+    function measure() {
+      articleTop = article!.getBoundingClientRect().top + scrollY;
+      articleHeight = article!.offsetHeight;
+      mastheadHeight = document.querySelector('.site-masthead')?.getBoundingClientRect().height ?? 0;
+      schedule();
+    }
+    function setSize(large: boolean) {
+      article!.dataset.textSize = large ? 'large' : 'default';
+      sizeButton!.setAttribute('aria-pressed', String(large));
+      sizeButton!.setAttribute('aria-label', large ? 'Use standard article text' : 'Use larger article text');
+      sizeButton!.querySelector('[data-reading-size-label]')!.textContent = large ? 'Standard text' : 'Larger text';
+      measure();
+    }
+    try { setSize(localStorage.getItem(preferenceKey) === 'large'); } catch { setSize(false); }
+    toolbar.hidden = false;
+    sizeButton.addEventListener('click', () => {
+      const large = sizeButton.getAttribute('aria-pressed') !== 'true';
+      setSize(large);
+      try { localStorage.setItem(preferenceKey, large ? 'large' : 'default'); } catch { /* Still works for this visit. */ }
+    });
+    addEventListener('storage', event => {
+      if (event.key === preferenceKey || event.key === null) setSize(event.newValue === 'large');
+    });
+    addEventListener('scroll', schedule, { passive: true });
+    addEventListener('resize', measure, { passive: true });
+    addEventListener('load', measure);
+    document.fonts.ready.then(measure);
+    if ('ResizeObserver' in window) new ResizeObserver(measure).observe(document.querySelector('.post-page')!);
+    measure();
+  }
+
+  const shareButton = document.querySelector<HTMLButtonElement>('[data-share-url]');
+  const shareStatus = document.querySelector<HTMLElement>('[data-share-status]');
+  if (shareButton && (navigator.share || navigator.clipboard?.writeText)) {
+    shareButton.hidden = false;
+    shareButton.addEventListener('click', async () => {
+      const url = shareButton.dataset.shareUrl!;
+      const title = shareButton.dataset.shareTitle!;
+      shareButton.disabled = true;
+      try {
+        if (navigator.share) await navigator.share({ title, url });
+        else { await navigator.clipboard.writeText(url); if (shareStatus) shareStatus.textContent = 'Link copied. A little inspiration to share.'; }
+      } catch (error) {
+        if (!(error instanceof Error && error.name === 'AbortError') && shareStatus) shareStatus.textContent = 'You can share this story by copying the address from your browser.';
+      } finally { shareButton.disabled = false; }
+    });
+  }
+
+  // Preserve table semantics and let wide comparison tables scroll locally.
+  document.querySelectorAll<HTMLTableElement>('.reading-article table').forEach(table => {
+    const wrapper = document.createElement('div');
+    wrapper.className = 'reading-table';
+    wrapper.setAttribute('role', 'region');
+    wrapper.setAttribute('aria-label', 'Article comparison table');
+    table.before(wrapper);
+    wrapper.append(table);
+    const updateOverflow = () => {
+      const overflowing = wrapper.scrollWidth > wrapper.clientWidth + 1;
+      wrapper.tabIndex = overflowing ? 0 : -1;
+      if (overflowing) wrapper.setAttribute('aria-label', 'Article comparison table, scroll horizontally for more');
+      else wrapper.setAttribute('aria-label', 'Article comparison table');
+    };
+    if ('ResizeObserver' in window) new ResizeObserver(updateOverflow).observe(wrapper);
+    updateOverflow();
+  });
+</script>

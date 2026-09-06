@@ -1,0 +1,66 @@
+---
+import Img from './Img.astro';
+import { categoryName } from '../site';
+
+/**
+ * Previous / next story, immediately after the article body.
+ *
+ * The related-posts grid further down asks the reader to choose between
+ * three options; this asks them to make one decision, in the direction
+ * they were already reading. On editorial sites that difference is most
+ * of the pages-per-session lift — and pages per session is the number
+ * ad revenue actually tracks.
+ */
+interface Props {
+  prev?: any;
+  next?: any;
+}
+
+const { prev, next } = Astro.props;
+---
+
+{(prev || next) && (
+  <nav class="mt-16 border-t border-rule pt-8" aria-label="More stories">
+    <div class="reveal grid gap-px overflow-hidden bg-rule sm:grid-cols-2">
+      {prev ? (
+        <a href={`/post/${prev.id}/`} class="group flex items-center gap-5 bg-paper py-6 pr-5 transition-colors hover:bg-sand/60 sm:pl-1">
+          <span class="frame aspect-square w-16 shrink-0 sm:w-20">
+            <Img src={prev.data.heroImage} alt="" width={160} height={160} sizes="80px" />
+          </span>
+          <span class="min-w-0">
+            <span class="flex items-center gap-2 text-eyebrow font-semibold uppercase text-ink-40">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M19 12H5M11 18l-6-6 6-6"></path>
+              </svg>
+              Previous
+            </span>
+            <span class="mt-2 block font-display text-title-sm text-ink transition-colors group-hover:text-clay">
+              {prev.data.title}
+            </span>
+          </span>
+        </a>
+      ) : (
+        <span class="hidden bg-paper sm:block"></span>
+      )}
+
+      {next && (
+        <a href={`/post/${next.id}/`} class="group flex items-center gap-5 bg-paper py-6 pl-5 text-right transition-colors hover:bg-sand/60 sm:pr-1">
+          <span class="min-w-0 flex-1">
+            <span class="flex items-center justify-end gap-2 text-eyebrow font-semibold uppercase text-ink-40">
+              Next in {categoryName(next.data.category)}
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M5 12h14M13 6l6 6-6 6"></path>
+              </svg>
+            </span>
+            <span class="mt-2 block font-display text-title-sm text-ink transition-colors group-hover:text-clay">
+              {next.data.title}
+            </span>
+          </span>
+          <span class="frame aspect-square w-16 shrink-0 sm:w-20">
+            <Img src={next.data.heroImage} alt="" width={160} height={160} sizes="80px" />
+          </span>
+        </a>
+      )}
+    </div>
+  </nav>
+)}

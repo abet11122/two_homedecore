@@ -1,0 +1,157 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Img from '../components/Img.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import Newsletter from '../components/Newsletter.astro';
+import { SITE, CATEGORIES } from '../site';
+
+const values = [
+  {
+    n: '01',
+    title: 'Buy less, choose better',
+    body: 'One well-made chair beats four disposable ones. We cost projects honestly and tell you when the cheap version is genuinely fine.',
+  },
+  {
+    n: '02',
+    title: 'Rooms are for living in',
+    body: 'Every room we feature has to survive Tuesday night — homework, muddy shoes, a dog. Styling that only works for a photograph is not styling.',
+  },
+  {
+    n: '03',
+    title: 'Show the method',
+    body: 'Not just what a room looks like, but the ratio, the spacing, the reason it works. Principles travel between homes; shopping lists do not.',
+  },
+];
+---
+
+<Layout
+  title="About"
+  description={`${SITE.name} is an editorial guide to interiors — room-by-room design ideas, DIY projects and styling tips you can actually use.`}
+>
+  <header class="border-b border-rule">
+    <div class="wrap py-10 lg:py-14">
+      <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'About' }]} />
+      <div class="mt-8 grid gap-8 lg:grid-cols-12 lg:items-end lg:gap-14">
+        <div class="lg:col-span-7">
+          <p class="eyebrow">About us</p>
+          <h1 class="mt-4 font-display text-[2.5rem] leading-[1.05] text-ink sm:text-5xl lg:text-[3.5rem]">
+            Good rooms are built slowly.
+          </h1>
+        </div>
+        <div class="lg:col-span-5">
+          <p class="text-lg leading-relaxed text-ink-60">
+            {SITE.name} is a small independent publication about interiors — written for people
+            decorating real homes on real budgets, one decision at a time.
+          </p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="wrap py-12 lg:py-16">
+    <div class="frame aspect-[16/9] sm:aspect-[5/2]">
+      <Img
+        src="photo-1616486338812-3dadae4b4ace"
+        alt="A sunlit living room with linen seating and warm wood"
+        width={1280}
+        height={512}
+        loading="eager"
+        fetchpriority="high"
+        sizes="(min-width: 1280px) 1180px, 100vw"
+      />
+    </div>
+  </section>
+
+  <section class="wrap">
+    <div class="grid gap-10 lg:grid-cols-12 lg:gap-14">
+      <div class="lg:col-span-7">
+        <div class="article no-dropcap">
+          <h2>Why we started</h2>
+          <p>
+            Most interiors writing falls into one of two traps. It is either a catalogue — a grid of
+            products with affiliate links and no argument — or it is aspirational to the point of
+            uselessness, photographed in a house nobody actually lives in.
+          </p>
+          <p>
+            We wanted a third thing: writing that explains <em>why</em> a room works. The ratio of
+            colour to neutral. The eight inches of wall you should leave empty. The reason your
+            shelves look cluttered even though you own less than your neighbour.
+          </p>
+          <p>
+            Principles travel. Once you understand why a grouping of three reads as intentional and a
+            grouping of seven reads as clutter, you can apply that in any room, in any house, at any
+            budget. That is what we are trying to teach.
+          </p>
+
+          <h2>How we work</h2>
+          <p>
+            Every project is done before it is published. If we say a DIY planter takes three hours
+            and costs eight dollars, it is because we made one and kept the receipts. When something
+            does not work, we say so — the troubleshooting sections in our guides are written from
+            genuine mistakes.
+          </p>
+          <p>
+            We accept affiliate commissions and display advertising, and we are transparent about
+            both. Nothing is recommended because it pays better. Read our
+            <a href="/disclosure/">full disclosure policy</a> for the details.
+          </p>
+        </div>
+      </div>
+
+      <aside class="lg:col-span-5">
+        <div class="border border-rule p-7">
+          <img
+            src={SITE.authorAvatar}
+            alt=""
+            width="80"
+            height="80"
+            loading="lazy"
+            class="h-20 w-20 rounded-full object-cover"
+          />
+          <p class="eyebrow-muted mt-5">Editor</p>
+          <p class="mt-2 font-display text-2xl text-ink">{SITE.author}</p>
+          <p class="mt-1 text-xs uppercase tracking-[0.1em] text-ink-40">{SITE.authorRole}</p>
+          <p class="mt-4 text-[0.9375rem] leading-relaxed text-ink-60">{SITE.authorBio}</p>
+          <a href="/contact/" class="link-arrow mt-6">
+            Get in touch
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true">
+              <path d="M5 12h14M13 6l6 6-6 6"></path>
+            </svg>
+          </a>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <section class="wrap mt-20" aria-labelledby="values-heading">
+    <h2 id="values-heading" class="border-b border-rule pb-5 font-display text-2xl text-ink sm:text-3xl">
+      What we believe
+    </h2>
+    <div class="mt-10 grid gap-x-10 gap-y-10 sm:grid-cols-3">
+      {values.map((v) => (
+        <div>
+          <p class="font-display text-3xl text-clay">{v.n}</p>
+          <h3 class="mt-3 font-display text-xl leading-snug text-ink">{v.title}</h3>
+          <p class="mt-3 text-[0.9375rem] leading-relaxed text-ink-60">{v.body}</p>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <section class="wrap mt-20" aria-labelledby="rooms-heading">
+    <h2 id="rooms-heading" class="border-b border-rule pb-5 font-display text-2xl text-ink sm:text-3xl">
+      Where to start
+    </h2>
+    <div class="mt-6 flex flex-wrap gap-x-8 gap-y-3">
+      {CATEGORIES.map((c) => (
+        <a href={`/category/${c.slug}/`} class="font-display text-xl text-ink transition-colors hover:text-clay sm:text-2xl">
+          {c.name}
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <div class="mt-20">
+    <Newsletter />
+  </div>
+</Layout>

@@ -1,0 +1,366 @@
+﻿---
+interface Heading {
+  depth: number;
+  text: string;
+  slug: string;
+}
+
+interface Props {
+  headings: Heading[];
+  variant?: 'inline' | 'sidebar';
+  class?: string;
+}
+
+const { headings, variant = 'inline', class: className = '' } = Astro.props;
+const items = headings.filter((heading) => heading.depth === 2);
+---
+
+{items.length > 2 && variant === 'inline' && (
+  <details class={`reading-contents reading-contents--inline ${className}`} data-reading-contents>
+    <summary class="contents-summary">
+      <span class="contents-symbol" aria-hidden="true">
+        <svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+          <path d="M9 6h11M9 12h11M9 18h8M4 6h.01M4 12h.01M4 18h.01" />
+        </svg>
+      </span>
+      <span class="contents-summary-copy">
+        <span class="contents-title">In this article</span>
+        <span class="contents-hint">{items.length} sections · Jump to an idea</span>
+      </span>
+      <svg class="contents-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="m6 9 6 6 6-6" />
+      </svg>
+    </summary>
+    <nav class="contents-panel" aria-label="Article contents">
+      <ol class="contents-list">
+        {items.map((heading, index) => (
+          <li>
+            <a href={`#${heading.slug}`} data-contents-link={heading.slug} class="contents-link">
+              <span class="contents-number" aria-hidden="true">{String(index + 1).padStart(2, '0')}</span>
+              <span class="contents-link-text">{heading.text.replace(/^\d+[.)]\s+/, '')}</span>
+            </a>
+          </li>
+        ))}
+      </ol>
+    </nav>
+  </details>
+)}
+
+{items.length > 2 && variant === 'sidebar' && (
+  <nav class={`reading-contents reading-contents--sidebar ${className}`} data-reading-contents aria-label="Article contents">
+    <p class="contents-rail-label">On this page</p>
+    <ol class="contents-list">
+      {items.map((heading, index) => (
+        <li>
+          <a href={`#${heading.slug}`} data-contents-link={heading.slug} class="contents-link">
+            <span class="contents-number" aria-hidden="true">{String(index + 1).padStart(2, '0')}</span>
+            <span class="contents-link-text">{heading.text.replace(/^\d+[.)]\s+/, '')}</span>
+          </a>
+        </li>
+      ))}
+    </ol>
+    <p class="contents-rail-note">A little inspiration, at your own pace.</p>
+  </nav>
+)}
+
+<style>
+  .reading-contents {
+    color: #292620;
+  }
+
+  .reading-contents--inline {
+    margin-block: 2rem;
+    border: 1px solid #deded1;
+    border-radius: 8px;
+    background: #f2f2e9;
+  }
+
+  .contents-summary {
+    display: flex;
+    min-height: 82px;
+    align-items: center;
+    gap: 14px;
+    padding: 18px 20px;
+    cursor: pointer;
+    list-style: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .contents-summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .contents-summary::marker {
+    content: '';
+  }
+
+  .contents-summary:focus-visible {
+    outline: 2px solid #555c43;
+    outline-offset: 4px;
+    border-radius: 8px;
+  }
+
+  .contents-symbol {
+    display: grid;
+    width: 38px;
+    height: 38px;
+    flex-shrink: 0;
+    place-items: center;
+    border: 1px solid #d4d7c6;
+    border-radius: 50%;
+    color: #555c43;
+  }
+
+  .contents-summary-copy {
+    display: grid;
+    min-width: 0;
+    gap: 4px;
+  }
+
+  .contents-title {
+    font-family: 'Playfair Display', 'Playfair Fallback', Georgia, serif;
+    font-size: 1.125rem;
+    line-height: 1.3;
+    letter-spacing: -0.015em;
+  }
+
+  .contents-hint {
+    color: #626752;
+    font-size: 0.75rem;
+    line-height: 1.5;
+  }
+
+  .contents-chevron {
+    margin-left: auto;
+    flex-shrink: 0;
+    color: #555c43;
+    transition: transform 180ms ease;
+  }
+
+  [open] > .contents-summary .contents-chevron {
+    transform: rotate(180deg);
+  }
+
+  .contents-panel {
+    margin-inline: 20px;
+    padding-block: 10px 16px;
+    border-top: 1px solid #deded1;
+  }
+
+  .contents-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .contents-link {
+    display: grid;
+    position: relative;
+    grid-template-columns: 1.4rem minmax(0, 1fr);
+    min-height: 46px;
+    align-items: baseline;
+    column-gap: 10px;
+    padding: 11px 10px;
+    border-radius: 4px;
+    color: #5d6053;
+    font-size: 0.875rem;
+    line-height: 1.55;
+    text-decoration: none;
+    transition: color 160ms ease, background-color 160ms ease;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .contents-link-text {
+    min-width: 0;
+    overflow-wrap: anywhere;
+    text-wrap: pretty;
+  }
+
+  .contents-number {
+    color: #74765e;
+    font-size: 0.6875rem;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: 0.035em;
+  }
+
+  .contents-link:hover,
+  .contents-link[aria-current='location'] {
+    background: #e7eadc;
+    color: #343d29;
+  }
+
+  .contents-link:focus-visible {
+    outline: 2px solid #555c43;
+    outline-offset: 1px;
+  }
+
+  .contents-rail-label {
+    margin: 0 0 18px;
+    color: #555c43;
+    font-size: 0.6875rem;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+  }
+
+  .reading-contents--sidebar .contents-list {
+    max-height: max(120px, calc(100vh - 26rem));
+    max-height: max(120px, calc(100dvh - 26rem));
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    padding-right: 5px;
+    border-left: 1px solid #deded1;
+    scrollbar-width: thin;
+    scrollbar-color: #c8cab7 transparent;
+  }
+
+  .reading-contents--sidebar .contents-link {
+    grid-template-columns: 1.1rem minmax(0, 1fr);
+    padding: 11px 9px 11px 14px;
+    border-radius: 0 4px 4px 0;
+    column-gap: 6px;
+    font-size: 0.78125rem;
+    line-height: 1.6;
+  }
+
+  .reading-contents--sidebar .contents-link[aria-current='location']::before {
+    content: '';
+    position: absolute;
+    inset: 7px auto 7px 0;
+    width: 2px;
+    border-radius: 2px;
+    background: #555c43;
+  }
+
+  .contents-rail-note {
+    margin-top: 20px;
+    max-width: 155px;
+    color: #747064;
+    font-family: 'Playfair Display', 'Playfair Fallback', Georgia, serif;
+    font-size: 0.8125rem;
+    font-style: italic;
+    line-height: 1.7;
+  }
+
+  @media (max-width: 374px) {
+    .contents-summary {
+      gap: 10px;
+      padding-inline: 14px;
+    }
+
+    .contents-panel {
+      margin-inline: 14px;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .contents-link,
+    .contents-chevron {
+      transition: none;
+    }
+  }
+
+  @media print {
+    .reading-contents {
+      display: none !important;
+    }
+  }
+</style>
+
+<script>
+  let cleanUpContents: (() => void) | undefined;
+
+  function initializeContents() {
+    cleanUpContents?.();
+
+    const links = Array.from(document.querySelectorAll<HTMLAnchorElement>('[data-contents-link]'));
+    const article = document.querySelector<HTMLElement>('.article');
+    if (!links.length || !article) return;
+
+    // Both layouts share a heading, so keep their current-section state in sync.
+    const groups = new Map<string, HTMLAnchorElement[]>();
+    for (const link of links) {
+      link.removeAttribute('aria-current');
+      const slug = link.dataset.contentsLink!;
+      const group = groups.get(slug) ?? [];
+      group.push(link);
+      groups.set(slug, group);
+    }
+
+    const sections = Array.from(groups, ([slug, sectionLinks]) => ({
+      heading: document.getElementById(slug),
+      links: sectionLinks,
+      top: 0,
+    })).filter((section) => section.heading !== null);
+    if (!sections.length) return;
+
+    const controller = new AbortController();
+    let current = -1;
+    let frame = 0;
+    let headingOffset = 120;
+
+    function update() {
+      frame = 0;
+      const readingPosition = window.scrollY + headingOffset;
+      let active = 0;
+      for (let index = 0; index < sections.length; index++) {
+        if (sections[index].top <= readingPosition) active = index;
+      }
+
+      if (active === current) return;
+      if (current !== -1) {
+        for (const link of sections[current].links) link.removeAttribute('aria-current');
+      }
+      for (const link of sections[active].links) {
+        link.setAttribute('aria-current', 'location');
+        const rail = link.closest('.reading-contents--sidebar');
+        const list = rail?.querySelector<HTMLOListElement>('.contents-list');
+        if (!list || !list.clientHeight) continue;
+
+        // Keep the active link in the rail's own scroll area without moving the page.
+        const linkBounds = link.getBoundingClientRect();
+        const listBounds = list.getBoundingClientRect();
+        if (linkBounds.top < listBounds.top) {
+          list.scrollTop -= listBounds.top - linkBounds.top + 8;
+        } else if (linkBounds.bottom > listBounds.bottom) {
+          list.scrollTop += linkBounds.bottom - listBounds.bottom + 8;
+        }
+      }
+      current = active;
+    }
+
+    function scheduleUpdate() {
+      if (!frame) frame = window.requestAnimationFrame(update);
+    }
+
+    function measure() {
+      const masthead = document.querySelector<HTMLElement>('.site-masthead');
+      headingOffset = (masthead?.getBoundingClientRect().height ?? 96) + 28;
+      for (const section of sections) {
+        section.top = section.heading!.getBoundingClientRect().top + window.scrollY;
+      }
+      scheduleUpdate();
+    }
+
+    // Observe layout shifts from photos, fonts, and the contents disclosure.
+    const observer = new ResizeObserver(measure);
+    observer.observe(article.closest('article') ?? article);
+    document.querySelectorAll<HTMLElement>('[data-reading-contents]').forEach((contents) => {
+      contents.addEventListener('toggle', measure, { signal: controller.signal });
+    });
+    window.addEventListener('scroll', scheduleUpdate, { passive: true, signal: controller.signal });
+    window.addEventListener('resize', measure, { passive: true, signal: controller.signal });
+    window.addEventListener('load', measure, { once: true, signal: controller.signal });
+    measure();
+
+    cleanUpContents = () => {
+      controller.abort();
+      observer.disconnect();
+      window.cancelAnimationFrame(frame);
+    };
+  }
+
+  initializeContents();
+  document.addEventListener('astro:page-load', initializeContents);
+  document.addEventListener('astro:before-swap', () => cleanUpContents?.());
+</script>

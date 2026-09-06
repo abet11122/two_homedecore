@@ -1,0 +1,107 @@
+---
+/**
+ * AdSense slot with a reserved box.
+ *
+ * The wrapper is given the ad's exact height in CSS *before* any script runs,
+ * so filling (or failing to fill) the slot can never shift the page — that is
+ * what keeps CLS at 0.
+ *
+ * Slot IDs come from env vars so the markup can ship before the account is
+ * approved. Until PUBLIC_ADSENSE_CLIENT_ID is set you see a labelled
+ * placeholder of the identical size.
+ */
+interface Props {
+  /** Which configured slot to render. */
+  placement: 'in-article-top' | 'in-article-mid' | 'before-related' | 'feed' | 'anchor' | 'sidebar';
+  /** Reserved box on screens < 768px. */
+  mobile?: { w: number; h: number };
+  /** Reserved box on screens >= 768px. */
+  desktop?: { w: number; h: number };
+  class?: string;
+}
+
+const SIZES: Record<string, { mobile: { w: number; h: number }; desktop: { w: number; h: number } }> = {
+  'in-article-top': { mobile: { w: 336, h: 280 }, desktop: { w: 728, h: 90 } },
+  'in-article-mid': { mobile: { w: 336, h: 280 }, desktop: { w: 336, h: 280 } },
+  'before-related': { mobile: { w: 336, h: 280 }, desktop: { w: 728, h: 90 } },
+  feed: { mobile: { w: 336, h: 280 }, desktop: { w: 728, h: 90 } },
+  anchor: { mobile: { w: 320, h: 50 }, desktop: { w: 320, h: 50 } },
+  // Half-page unit in the sticky desktop rail. It is only rendered from
+  // 2xl up, where the margin is otherwise empty, so it costs no content
+  // space — and a viewable sticky 300x600 is the highest-CPM slot on a
+  // long-form page.
+  sidebar: { mobile: { w: 300, h: 600 }, desktop: { w: 300, h: 600 } },
+};
+
+const { placement, mobile, desktop, class: className = '' } = Astro.props;
+
+const m = mobile ?? SIZES[placement].mobile;
+const dsk = desktop ?? SIZES[placement].desktop;
+
+const clientId =
+  import.meta.env.PUBLIC_ADSENSE_CLIENT_ID || import.meta.env.ADSENSE_CLIENT_ID || '';
+
+// Optional per-placement slot IDs, e.g. PUBLIC_ADSENSE_SLOT_IN_ARTICLE_TOP=1234567890
+const envKey = `PUBLIC_ADSENSE_SLOT_${placement.toUpperCase().replace(/-/g, '_')}`;
+const slotId = (import.meta.env as Record<string, string | undefined>)[envKey] || '';
+
+const showAd = Boolean(clientId && slotId);
+const uid = `ad-${placement}`;
+---
+
+{showAd && <div class={`ad ${className}`} data-placement={placement}>
+  <span class="ad-label">Advertisement</span>
+  <div class="ad-box" id={uid}>
+    {showAd ? (
+      <ins
+        class="adsbygoogle"
+        style="display:block;width:100%;height:100%"
+        data-ad-client={clientId}
+        data-ad-slot={slotId}
+        data-ad-format={placement === 'anchor' ? 'horizontal' : 'auto'}
+        data-full-width-responsive="false"
+      />
+    ) : (
+      <span class="ad-placeholder">
+        <span class="md:hidden">{m.w}×{m.h}</span>
+        <span class="hidden md:inline">{dsk.w}×{dsk.h}</span> ad slot
+      </span>
+    )}
+  </div>
+</div>}
+
+{showAd && (
+  <script is:inline>
+    (window.adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+)}
+
+<style define:vars={{ mw: `${m.w}px`, mh: `${m.h}px`, dw: `${dsk.w}px`, dh: `${dsk.h}px` }}>
+  /*
+    The reserved box. Height is fixed at both breakpoints — never auto — which
+    is what guarantees zero layout shift when the ad fills.
+
+    Width is capped at the configured size but allowed to shrink, so a 728px
+    unit placed inside the narrower reading column fits instead of overflowing.
+    The <ins> fills the box rather than carrying its own fixed width.
+  */
+  .ad-box {
+    width: 100%;
+    max-width: var(--mw);
+    height: var(--mh);
+  }
+  .ad-box ins {
+    display: block;
+    width: 100%;
+    height: var(--mh);
+  }
+  @media (min-width: 768px) {
+    .ad-box {
+      max-width: var(--dw);
+      height: var(--dh);
+    }
+    .ad-box ins {
+      height: var(--dh);
+    }
+  }
+</style>

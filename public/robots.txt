@@ -1,0 +1,30 @@
+User-agent: *
+Allow: /
+Disallow: /search/
+
+# Answer engines are a real referral channel for this kind of content, and
+# each of these obeys robots.txt. They are allowed explicitly so a future
+# blanket rule cannot shut them out by accident.
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# Update the domain here and in src/site.ts once you buy one.
+Sitemap: https://homedecore-neon.vercel.app/sitemap-index.xml

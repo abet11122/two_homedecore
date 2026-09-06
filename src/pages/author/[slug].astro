@@ -1,0 +1,186 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+import PostCard from '../../components/PostCard.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import SectionHead from '../../components/SectionHead.astro';
+import Newsletter from '../../components/Newsletter.astro';
+import { SITE, CATEGORIES, categoryName, formatDateShort } from '../../site';
+
+/**
+ * Author hub.
+ *
+ * Google's guidance on helpful content leans hard on who wrote a page and why
+ * they are qualified to. Every article already carries an author byline and a
+ * Person node in its structured data — this is the page that node points at,
+ * so the claim resolves to something real instead of dangling.
+ */
+export async function getStaticPaths() {
+  return [{ params: { slug: SITE.authorSlug } }];
+}
+
+const posts = (await getCollection('posts')).sort(
+  (a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime()
+);
+
+const [latest, ...rest] = posts;
+const recent = rest.slice(0, 5);
+
+// Rooms written about most — concrete evidence of where the expertise sits.
+const beats = CATEGORIES.map((c) => ({
+  ...c,
+  count: posts.filter((p) => p.data.category === c.slug).length,
+}))
+  .filter((c) => c.count > 0)
+  .sort((a, b) => b.count - a.count);
+
+const oldest = posts[posts.length - 1];
+const description = `${SITE.author}, ${SITE.authorRole.toLowerCase()} at ${SITE.name}. ${SITE.authorBio}`;
+
+const origin = (Astro.site ?? new URL(SITE.url)).origin;
+
+const profileSchema = {
+  '@type': 'ProfilePage',
+  '@id': `${origin}/author/${SITE.authorSlug}/#profile`,
+  isPartOf: { '@id': `${origin}/#website` },
+  mainEntity: { '@id': `${origin}/author/${SITE.authorSlug}/#person` },
+  // The byline count is the signal that separates a real author page from a
+  // placeholder, so state it explicitly rather than leaving it implied.
+  mainEntityOfPage: {
+    '@type': 'ItemList',
+    numberOfItems: posts.length,
+    itemListElement: posts.slice(0, 20).map((post, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      url: new URL(`/post/${post.id}/`, origin).href,
+      name: post.data.title,
+    })),
+  },
+};
+---
+
+<Layout
+  title={SITE.author}
+  description={description}
+  imageWide={latest?.data.heroImage}
+  schemas={[profileSchema]}
+>
+  <header class="border-b border-rule bg-sand/40">
+    <div class="wrap py-10 lg:py-14">
+      <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: SITE.author }]} />
+
+      <div class="mt-8 grid gap-9 lg:grid-cols-12 lg:items-center lg:gap-14">
+        <div class="lg:col-span-2">
+          <img
+            src={SITE.authorAvatar}
+            alt={SITE.author}
+            width="160"
+            height="160"
+            loading="eager"
+            class="h-[7.5rem] w-[7.5rem] rounded-full object-cover lg:h-[10rem] lg:w-[10rem]"
+          />
+        </div>
+
+        <div class="lg:col-span-10">
+          <p class="eyebrow">{SITE.authorRole}</p>
+          <h1 class="mt-4 font-display text-[2.5rem] leading-[1.05] text-ink sm:text-5xl lg:text-[3.5rem]">
+            {SITE.author}
+          </h1>
+          <p class="mt-5 max-w-2xl text-[1.0625rem] leading-relaxed text-ink-60">
+            {SITE.authorBio}
+          </p>
+
+          <dl class="mt-8 flex flex-wrap gap-x-12 gap-y-5 border-t border-rule pt-6">
+            <div>
+              <dt class="eyebrow-muted">Stories</dt>
+              <dd class="mt-1.5 font-display text-2xl text-ink">{posts.length}</dd>
+            </div>
+            <div>
+              <dt class="eyebrow-muted">Rooms covered</dt>
+              <dd class="mt-1.5 font-display text-2xl text-ink">{beats.length}</dd>
+            </div>
+            {oldest && (
+              <div>
+                <dt class="eyebrow-muted">Writing since</dt>
+                <dd class="mt-1.5 font-display text-2xl text-ink">
+                  {oldest.data.publishDate.getUTCFullYear()}
+                </dd>
+              </div>
+            )}
+            <div>
+              <dt class="eyebrow-muted">Get in touch</dt>
+              <dd class="mt-1.5">
+                <a href="/contact/" class="link-underline font-display text-2xl text-ink hover:text-clay">
+                  Contact
+                </a>
+              </dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="wrap py-12 lg:py-16" aria-labelledby="author-beats">
+    <h2 id="author-beats" class="eyebrow-muted">What Elena writes about</h2>
+    <ul class="mt-5 flex flex-wrap items-baseline gap-x-7 gap-y-3">
+      {beats.map((c) => (
+        <li>
+          <a href={`/category/${c.slug}/`} class="link-underline font-display text-xl text-ink hover:text-clay sm:text-2xl">
+            {c.name}
+            <span class="ml-1.5 align-super font-body text-[0.6875rem] font-semibold text-ink-20">
+              {c.count}
+            </span>
+          </a>
+        </li>
+      ))}
+    </ul>
+  </section>
+
+  {latest && (
+    <section class="wrap" aria-labelledby="author-latest">
+      <SectionHead id="author-latest" kicker="Most recent" title="Latest byline" />
+      <div class="mt-12">
+        <PostCard post={latest} variant="wide" sizes="(min-width: 640px) 45vw, 90vw" />
+      </div>
+    </section>
+  )}
+
+  {recent.length > 0 && (
+    <section class="wrap mt-16 lg:mt-20" aria-labelledby="author-archive">
+      <SectionHead
+        id="author-archive"
+        kicker="The back catalogue"
+        title="More from Elena"
+        href="/tags/"
+        hrefLabel="Browse all"
+      />
+      <ol class="mt-2">
+        {recent.map((post, i) => (
+          <li class="group border-b border-rule">
+            <a
+              href={`/post/${post.id}/`}
+              class="grid grid-cols-[2.75rem_1fr] items-baseline gap-5 py-6 sm:gap-8"
+            >
+              <span class="font-display text-2xl leading-none text-ink-20 transition-colors duration-250 group-hover:text-clay">
+                {String(i + 1).padStart(2, '0')}
+              </span>
+              <span class="min-w-0">
+                <span class="eyebrow-muted">
+                  {categoryName(post.data.category)} · {formatDateShort(post.data.publishDate)}
+                </span>
+                <span class="mt-2 block font-display text-lg leading-snug text-ink transition-colors duration-250 group-hover:text-clay sm:text-xl">
+                  {post.data.title}
+                </span>
+              </span>
+            </a>
+          </li>
+        ))}
+      </ol>
+    </section>
+  )}
+
+  <div class="mt-16 lg:mt-20">
+    <Newsletter />
+  </div>
+</Layout>

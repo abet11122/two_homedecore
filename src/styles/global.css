@@ -1,0 +1,1114 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ------------------------------------------------------------------
+   Fallback font metrics
+
+   Between first paint and the webfont arriving, the page is set in the
+   fallback. If that fallback sets at a different width, the whole column
+   reflows the moment the real face lands — a layout shift on every cold
+   visit. Overriding the fallback's metrics to match makes the swap
+   invisible instead.
+------------------------------------------------------------------- */
+@font-face {
+  font-family: 'Inter Fallback';
+  src: local('Arial');
+  size-adjust: 107.12%;
+  ascent-override: 90.2%;
+  descent-override: 22.48%;
+  line-gap-override: 0%;
+}
+
+@font-face {
+  font-family: 'Playfair Fallback';
+  src: local('Georgia');
+  size-adjust: 104%;
+  ascent-override: 104%;
+  descent-override: 25%;
+  line-gap-override: 0%;
+}
+
+/* ------------------------------------------------------------------
+   Base
+   Fonts are loaded from <head> in Layout.astro with font-display:swap
+   so text paints immediately and never shifts the layout.
+------------------------------------------------------------------- */
+@layer base {
+  :root {
+    /*
+      One easing curve for the whole site, so nothing moves off-tempo.
+      Referenced by every transition and animation below — if this token
+      goes missing, each `animation`/`transition` shorthand that reads it
+      becomes invalid at computed-value time and silently resolves to its
+      initial value, which is to say: no motion at all, and no error.
+    */
+    --ease: cubic-bezier(0.2, 0, 0.2, 1);
+    --paper-glow: rgb(255 255 255 / 0.58);
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+
+  body {
+    @apply bg-paper text-ink-60 font-body antialiased;
+    font-size: 1rem;
+    line-height: 1.6;
+    font-feature-settings: 'kern' 1, 'liga' 1;
+    -moz-osx-font-smoothing: grayscale;
+    background-image: radial-gradient(circle at 50% -10%, var(--paper-glow), transparent 40rem);
+  }
+
+  /*
+    Tracking is set per step on the type scale (see tailwind.config.mjs) so
+    a 60px headline is drawn tight and a 17px card title is not. What is left
+    here is only the fallback for a heading that opts out of the scale.
+  */
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-display text-ink;
+    font-weight: 600;
+    letter-spacing: -0.014em;
+    text-wrap: balance;
+    /* Old-style figures and proper ligatures in display type */
+    font-feature-settings: 'kern' 1, 'liga' 1, 'dlig' 1;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  /* Images never collapse: every <img> keeps its aspect box while loading */
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
+  ::selection {
+    background: #f1e2da;
+    color: #1f1b17;
+  }
+
+  /*
+    The ring needs to survive being drawn over the ink footer and the ink
+    newsletter panel as well as over paper, so it carries a paper-coloured
+    shadow immediately outside the clay stroke.
+  */
+  :focus-visible {
+    outline: 2px solid #b05b38;
+    outline-offset: 3px;
+    border-radius: 1px;
+    box-shadow: 0 0 0 5px rgb(251 248 244 / 0.85);
+  }
+
+  hr {
+    @apply border-0 border-t border-rule;
+  }
+}
+
+/* ------------------------------------------------------------------
+   Components
+------------------------------------------------------------------- */
+@layer components {
+  .wrap {
+    @apply mx-auto w-full max-w-[82rem] px-5 sm:px-8 lg:px-12;
+  }
+
+  .wrap-tight {
+    @apply mx-auto w-full max-w-[60rem] px-5 sm:px-8;
+  }
+
+  .brand {
+    @apply flex items-center gap-3;
+  }
+
+  .brand-mark {
+    @apply grid h-10 w-10 shrink-0 place-items-center border border-clay bg-clay-soft font-display text-xl italic text-clay shadow-raise;
+    border-radius: 999px 999px 999px 0.35rem;
+    transform: rotate(-8deg);
+    transition: transform 250ms var(--ease), background-color 250ms var(--ease);
+  }
+
+  .brand:hover .brand-mark {
+    transform: rotate(0deg) scale(1.05);
+    background-color: theme('colors.sand');
+  }
+
+  .brand-type {
+    transform: translateY(-1px);
+  }
+
+  /* Small uppercase editorial label — the kicker above a headline */
+  .eyebrow {
+    @apply font-body text-eyebrow font-semibold uppercase text-clay;
+  }
+
+  .eyebrow-muted {
+    @apply font-body text-eyebrow font-semibold uppercase text-ink-40;
+  }
+
+  /* Thin rule with a bit of air, used to separate editorial blocks */
+  .rule-t {
+    @apply border-t border-rule;
+  }
+
+  .link-underline {
+    @apply relative text-ink no-underline;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-size: 0% 1px;
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 250ms ease;
+  }
+
+  .link-underline:hover {
+    background-size: 100% 1px;
+  }
+
+  /* The nav item for the room you are in keeps its underline, in clay. */
+  .link-underline.is-current {
+    background-image: linear-gradient(theme('colors.clay.DEFAULT'), theme('colors.clay.DEFAULT'));
+    background-size: 100% 1px;
+  }
+
+  /* Arrow link: "Read the story →" */
+  .link-arrow {
+    @apply inline-flex items-center gap-2 font-body text-sm font-semibold text-ink;
+  }
+
+  .link-arrow svg {
+    transition: transform 250ms ease;
+  }
+
+  .link-arrow:hover svg {
+    transform: translateX(4px);
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-sm px-6 py-3 font-body text-sm font-semibold;
+    transition:
+      background-color 250ms var(--ease),
+      color 250ms var(--ease),
+      box-shadow 250ms var(--ease),
+      transform 250ms var(--ease);
+  }
+
+  .btn:active {
+    transform: translateY(1px);
+  }
+
+  .btn-primary {
+    @apply bg-ink text-paper hover:bg-clay hover:shadow-raise;
+  }
+
+  .btn-outline {
+    @apply border border-ink text-ink hover:bg-ink hover:text-paper;
+  }
+
+  .field {
+    @apply w-full rounded-sm border border-rule bg-white px-4 py-3 font-body text-base text-ink placeholder:text-ink-40 shadow-raise;
+    transition:
+      border-color 200ms var(--ease),
+      box-shadow 200ms var(--ease);
+  }
+
+  /* A tinted halo rather than a second border, so the field doesn't jump. */
+  .field:focus {
+    @apply border-clay outline-none;
+    box-shadow: 0 0 0 3px rgb(176 91 56 / 0.12);
+  }
+
+  /* Image frame: reserves the aspect ratio so nothing shifts on load */
+  .frame {
+    @apply relative overflow-hidden rounded-sm bg-sand shadow-raise;
+  }
+
+  /* Hairline inset so images sit on the paper rather than floating off it */
+  .frame::after {
+    content: '';
+    @apply pointer-events-none absolute inset-0;
+    box-shadow: inset 0 0 0 1px rgb(31 27 23 / 0.07);
+  }
+
+  .frame img {
+    @apply h-full w-full object-cover;
+    transition: transform 700ms var(--ease);
+  }
+
+  .group:hover .frame img {
+    transform: scale(1.045);
+  }
+
+  /*
+    A warm wash over the image on hover. Scaling alone reads as a glitch on a
+    still photograph; a touch of clay light over it reads as a response.
+  */
+  .frame::before {
+    content: '';
+    @apply pointer-events-none absolute inset-0 z-10;
+    background: rgb(176 91 56 / 0.1);
+    opacity: 0;
+    transition: opacity 400ms var(--ease);
+  }
+
+  .group:hover .frame::before {
+    opacity: 1;
+  }
+
+  /* Photographic category tile with the label set over the image */
+  .tile {
+    @apply relative block overflow-hidden rounded-sm bg-ink shadow-raise;
+  }
+
+  .tile img {
+    @apply h-full w-full object-cover;
+    transition:
+      transform 700ms var(--ease),
+      opacity 400ms var(--ease);
+    opacity: 0.88;
+  }
+
+  .tile:hover img {
+    transform: scale(1.05);
+    opacity: 0.72;
+  }
+
+  /*
+    Two stops at the foot rather than one: a linear fade over a photograph
+    leaves a visible band where it starts. Easing the first half in keeps the
+    label legible without the gradient announcing itself.
+  */
+  .tile::after {
+    content: '';
+    @apply pointer-events-none absolute inset-0;
+    background: linear-gradient(
+      to top,
+      rgb(31 27 23 / 0.78) 0%,
+      rgb(31 27 23 / 0.46) 26%,
+      rgb(31 27 23 / 0.14) 58%,
+      transparent 100%
+    );
+  }
+
+  .tile-label {
+    @apply absolute inset-x-0 bottom-0 z-10 flex items-center gap-2 p-4 font-display text-title-sm leading-tight text-paper sm:text-title;
+  }
+
+  /* The rule grows out from the label on hover — the tile's only affordance. */
+  .tile-label::after {
+    content: '';
+    @apply h-px shrink-0 bg-clay;
+    width: 0;
+    transition: width 350ms var(--ease);
+  }
+
+  .tile:hover .tile-label::after {
+    width: 1.25rem;
+  }
+
+  /* Section header: kicker + rule, used across the site */
+  .section-head {
+    @apply flex items-end justify-between gap-6 border-b border-ink pb-4;
+    position: relative;
+  }
+
+  .section-head::after {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 3.5rem;
+    height: 2px;
+    background: theme('colors.clay.DEFAULT');
+  }
+
+  .hero-section {
+    position: relative;
+  }
+
+  .hero-section::before {
+    content: '';
+    position: absolute;
+    z-index: 0;
+    top: 3.5rem;
+    right: max(1.25rem, calc((100vw - 82rem) / 2));
+    width: min(42vw, 38rem);
+    height: 24rem;
+    background: theme('colors.sand');
+    opacity: 0.72;
+  }
+
+  .hero-section > * {
+    position: relative;
+    z-index: 1;
+  }
+
+  .lead-image-wrap {
+    position: relative;
+    z-index: 0;
+  }
+
+  .lead-image-wrap::after {
+    content: '';
+    position: absolute;
+    inset: 0.75rem -0.75rem -0.75rem 0.75rem;
+    z-index: -1;
+    border: 1px solid theme('colors.clay');
+    opacity: 0.35;
+  }
+
+  .lead-image-wrap .frame {
+    box-shadow: 0 18px 45px -28px rgb(31 27 23 / 0.5);
+  }
+
+  .hero-copy {
+    padding-left: 0;
+  }
+
+  @media (min-width: 1024px) {
+    .hero-copy {
+      padding-left: 0.5rem;
+    }
+  }
+
+  .section-title {
+    @apply font-display text-display-3 text-ink;
+  }
+
+  /* Ad slots — every one reserves its exact box before the script loads */
+  .ad {
+    @apply mx-auto flex flex-col items-center justify-center;
+  }
+
+  .ad-label {
+    @apply mb-2 block text-center font-body text-[0.625rem] font-semibold uppercase tracking-[0.18em] text-ink-40;
+  }
+
+  .ad-box {
+    @apply flex items-center justify-center overflow-hidden bg-sand/70;
+  }
+
+  .ad-placeholder {
+    @apply font-body text-xs text-ink-40;
+  }
+}
+
+/* ------------------------------------------------------------------
+   Article typography
+   Applied to the rendered Markdown body on post pages.
+------------------------------------------------------------------- */
+.article {
+  @apply font-body text-ink-80;
+  font-size: clamp(1.0625rem, 1.0223rem + 0.2009vw, 1.1875rem);
+  line-height: 1.72;
+}
+
+.article > * + * {
+  margin-top: 1.5rem;
+}
+
+.article h2 {
+  @apply font-display text-ink;
+  font-size: clamp(1.6875rem, 1.2946rem + 1.9643vw, 2.125rem);
+  line-height: 1.18;
+  letter-spacing: -0.018em;
+  margin-top: 3.25rem;
+  margin-bottom: 0;
+  scroll-margin-top: 6rem;
+}
+
+.article h3 {
+  @apply font-display text-ink;
+  font-size: clamp(1.3125rem, 1.2232rem + 0.4464vw, 1.4375rem);
+  line-height: 1.3;
+  letter-spacing: -0.008em;
+  margin-top: 2.25rem;
+  margin-bottom: 0;
+  scroll-margin-top: 6rem;
+}
+
+.article h2 + *,
+.article h3 + * {
+  margin-top: 0.85rem;
+}
+
+/*
+  Drop cap on the opening paragraph.
+
+  Sized in em off the body copy rather than in rem, so it stays the same
+  three lines deep at every step of the fluid article scale instead of
+  drifting out of the paragraph as the text grows.
+*/
+.article > p:first-of-type::first-letter {
+  @apply font-display text-ink;
+  float: left;
+  font-size: 3.45em;
+  line-height: 0.82;
+  padding-right: 0.06em;
+  padding-top: 0.02em;
+  margin-right: 0.06em;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+/* Utility pages don't get a drop cap */
+.article.no-dropcap > p:first-of-type::first-letter {
+  float: none;
+  font-size: inherit;
+  line-height: inherit;
+  padding: 0;
+  font-weight: inherit;
+  font-family: inherit;
+}
+
+.article a {
+  @apply text-ink;
+  text-decoration: underline;
+  text-decoration-color: #b05b38;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+}
+
+.article a:hover {
+  @apply text-clay;
+}
+
+.article strong {
+  @apply font-semibold text-ink;
+}
+
+.article ul,
+.article ol {
+  padding-left: 1.25rem;
+}
+
+.article li + li {
+  margin-top: 0.5rem;
+}
+
+.article ul > li {
+  list-style: none;
+  position: relative;
+  padding-left: 1rem;
+}
+
+.article ul > li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.7em;
+  width: 6px;
+  height: 1px;
+  background: #b05b38;
+}
+
+.article ol {
+  list-style: decimal;
+}
+
+.article ol > li::marker {
+  @apply font-display text-clay;
+  font-weight: 600;
+}
+
+/* Pull quote */
+.article blockquote {
+  @apply relative border-l-2 border-clay pl-6 font-display text-ink;
+  font-size: 1.375rem;
+  line-height: 1.45;
+  font-style: italic;
+  margin-top: 2.75rem;
+  margin-bottom: 2.75rem;
+}
+
+/* Set in the display face at a size that reads as a mark, not a character. */
+.article blockquote::before {
+  content: '“';
+  @apply pointer-events-none absolute font-display text-clay/25;
+  left: 0.55rem;
+  top: -0.75rem;
+  font-size: 3.5rem;
+  line-height: 1;
+  font-style: normal;
+}
+
+.article blockquote p {
+  margin: 0;
+}
+
+.article hr {
+  @apply border-0 border-t border-rule;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.article code {
+  @apply bg-sand px-1.5 py-0.5 text-[0.9em] text-ink;
+}
+
+.article img {
+  @apply my-8 w-full;
+}
+
+/* ------------------------------------------------------------------
+   Tables
+   A third of the archive ends on a spec table (measurements, clearances,
+   bulb temperatures). Set them as editorial data: a firm rule under the
+   header, hairlines between rows, and the label column carrying the ink.
+------------------------------------------------------------------- */
+.article table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 2.25rem;
+  margin-bottom: 2.25rem;
+  font-size: 0.9375rem;
+  line-height: 1.5;
+}
+
+.article thead th {
+  @apply font-body text-eyebrow font-semibold uppercase text-ink-40;
+  text-align: left;
+  padding: 0 1rem 0.7rem 0;
+  border-bottom: 1px solid theme('colors.ink.DEFAULT');
+}
+
+.article tbody td {
+  @apply text-ink-60;
+  padding: 0.8rem 1rem 0.8rem 0;
+  border-bottom: 1px solid theme('colors.rule');
+  vertical-align: top;
+}
+
+.article tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+/* The first column is the label in every one of these tables */
+.article tbody td:first-child {
+  @apply font-medium text-ink;
+}
+
+.article th:last-child,
+.article td:last-child {
+  padding-right: 0;
+}
+
+@media (max-width: 30rem) {
+  .article table {
+    font-size: 0.875rem;
+  }
+  .article thead th,
+  .article tbody td {
+    padding-right: 0.65rem;
+  }
+}
+
+/* Sizes above are fluid; only the pull quote still wants a breakpoint step. */
+@media (min-width: 768px) {
+  .article blockquote {
+    font-size: 1.5rem;
+  }
+}
+
+/* ------------------------------------------------------------------
+   Sticky mobile anchor ad — reserves 60px so content is never covered
+------------------------------------------------------------------- */
+.anchor-ad {
+  @apply fixed inset-x-0 bottom-0 z-40 flex h-[60px] items-center justify-center border-t border-rule bg-paper/95;
+  backdrop-filter: blur(8px);
+}
+
+/* The bar is only 60px tall — the label would push the unit out of it */
+.anchor-ad .ad-label {
+  display: none;
+}
+
+.anchor-ad .ad {
+  @apply w-full;
+}
+
+@media (min-width: 768px) {
+  .anchor-ad {
+    display: none;
+  }
+}
+
+/* Line clamping without a plugin */
+.clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Reading progress bar */
+#progress {
+  @apply fixed left-0 top-0 z-50 h-[2px] bg-clay;
+  width: 0;
+  transition: width 120ms linear;
+}
+
+/* ------------------------------------------------------------------
+   Post grid
+
+   The reading column is the constant; the rails are margin that only
+   appears once the viewport can spare it. Below xl the grid is a single
+   column and behaves exactly as it did before.
+
+   xl   14 + 43 + 3 gap            = 60rem of content
+   2xl  14 + 43 + 19.5 + 6.5 gaps  = 83rem, inside a 1536px viewport
+------------------------------------------------------------------- */
+.post-grid {
+  display: grid;
+}
+
+@media (min-width: 1280px) {
+  .post-grid {
+    grid-template-columns: 14rem minmax(0, 43rem);
+    column-gap: 3rem;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 1536px) {
+  .post-grid {
+    grid-template-columns: 14rem minmax(0, 43rem) 19.5rem;
+    column-gap: 3.25rem;
+    /*
+      Three columns do not fit inside the 82rem page width without stealing
+      from the middle one, and the reading measure is the thing that must not
+      move. So the grid — and only the grid — steps outside the wrapper here.
+    */
+    margin-inline: -6rem;
+  }
+}
+
+/* ------------------------------------------------------------------
+   Sticky contents rail
+------------------------------------------------------------------- */
+
+/* A long article must not push the rail past the fold — it scrolls itself. */
+.toc-rail ol {
+  max-height: calc(100vh - 18rem);
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #e5dcd0 transparent;
+}
+
+.toc-rail ol::-webkit-scrollbar {
+  width: 3px;
+}
+
+.toc-rail ol::-webkit-scrollbar-thumb {
+  background: #e5dcd0;
+}
+
+.toc-link {
+  position: relative;
+}
+
+.toc-link.is-current {
+  @apply font-medium text-ink;
+}
+
+/* Sits on top of the list's own hairline, so the marker reads as the rule
+   lighting up rather than as a second line appearing beside it. */
+.toc-link.is-current::before {
+  content: '';
+  position: absolute;
+  left: -1px;
+  top: 0.3rem;
+  bottom: 0.3rem;
+  width: 2px;
+  @apply bg-clay;
+}
+
+/* ------------------------------------------------------------------
+   Tag chips
+------------------------------------------------------------------- */
+.chip-link {
+  @apply inline-flex items-center rounded-full border border-rule bg-paper px-3 py-1 font-body text-xs text-ink-60 shadow-raise;
+  transition:
+    color 200ms ease,
+    background-color 200ms ease,
+    border-color 200ms ease;
+}
+
+.chip-link:hover {
+  @apply border-clay bg-clay-soft text-clay-deep;
+}
+
+/* ------------------------------------------------------------------
+   Key takeaways
+
+   Deliberately the only tinted block in the reading column, so it reads
+   as an aside rather than as part of the argument.
+------------------------------------------------------------------- */
+.takeaways {
+  @apply border-l-2 border-clay bg-sand/70 px-6 py-6 sm:px-8 sm:py-7;
+}
+
+/* ------------------------------------------------------------------
+   FAQ accordion
+------------------------------------------------------------------- */
+.faq-icon svg {
+  transition: transform 250ms cubic-bezier(0.2, 0, 0.2, 1);
+}
+
+.faq-item[open] .faq-icon svg {
+  transform: rotate(45deg);
+}
+
+.faq-item[open] summary h3 {
+  @apply text-clay;
+}
+
+.faq-item[open] .faq-answer {
+  animation: faq-reveal 240ms ease both;
+}
+
+@keyframes faq-reveal {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* ------------------------------------------------------------------
+   Masthead
+
+   The header is flat against the page until the reader leaves the top of
+   it, then it lifts. Driven by the scroll timeline rather than a scroll
+   listener, so it costs no JavaScript and never fights the main thread.
+   Browsers without scroll-driven animations get the flat header, which is
+   exactly what the site had before.
+------------------------------------------------------------------- */
+@supports (animation-timeline: scroll()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .masthead {
+      animation: masthead-lift linear both;
+      animation-timeline: scroll(root block);
+      animation-range: 0 6rem;
+    }
+
+    @keyframes masthead-lift {
+      from {
+        box-shadow: 0 0 0 0 rgb(31 27 23 / 0);
+      }
+      to {
+        box-shadow: 0 1px 0 rgb(31 27 23 / 0.06), 0 8px 24px -16px rgb(31 27 23 / 0.24);
+      }
+    }
+  }
+}
+
+/* ------------------------------------------------------------------
+   Print
+
+   Long how-to pieces get printed and taped inside cupboard doors. Strip
+   the furniture, keep the argument, and put every link's destination on
+   the page — a printed underline is not a link.
+------------------------------------------------------------------- */
+@media print {
+  @page {
+    margin: 18mm 16mm;
+  }
+
+  html {
+    font-size: 11pt;
+  }
+
+  body {
+    background: #fff;
+    color: #000;
+  }
+
+  header,
+  footer,
+  nav,
+  aside,
+  form,
+  .ad,
+  .anchor-ad,
+  #progress,
+  .toc-rail,
+  .no-print {
+    display: none !important;
+  }
+
+  .article {
+    font-size: 10.5pt;
+    line-height: 1.5;
+    color: #000;
+  }
+
+  .article h2,
+  .article h3 {
+    break-after: avoid;
+    page-break-after: avoid;
+  }
+
+  .article img,
+  .article table,
+  .article blockquote,
+  .takeaways {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  /* Spell out where a link went, since the reader can't follow it. */
+  .article a[href^='http']::after {
+    content: ' (' attr(href) ')';
+    font-size: 0.8em;
+    word-break: break-all;
+  }
+
+  .article > p:first-of-type::first-letter {
+    float: none;
+    font-size: inherit;
+    line-height: inherit;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+/* ==================================================================
+   Motion
+
+   Three rules hold for everything below.
+
+   1. Nothing above the fold fades in. An opacity animation on the
+      headline or the lead photograph delays the largest paint, and a
+      slow site is not an elegant one.
+   2. Motion is driven by the scroll and view timelines, never by a
+      scroll listener or an IntersectionObserver. It costs no
+      JavaScript and it cannot fall behind the scroll.
+   3. Every block is gated on prefers-reduced-motion. The global
+      reduced-motion rule collapses animation *duration*, which does
+      nothing to a timeline-driven animation — those have no duration
+      to collapse. They have to be switched off by hand.
+================================================================== */
+
+/* ------------------------------------------------------------------
+   Page transitions
+
+   Cross-document, so it works on a static site with no router and no
+   client JavaScript. Browsers without it simply navigate as before.
+------------------------------------------------------------------- */
+/*
+  Top level, not inside a media query — @view-transition is only valid at
+  the top level of a stylesheet, and a conditional group rule around it is
+  ignored. Reduced motion is honoured further down by removing the
+  animations from the pseudo-elements instead, which leaves the navigation
+  as an instant swap.
+*/
+@view-transition {
+  navigation: auto;
+}
+
+/*
+  The masthead and footer are the same on both pages, so they are
+  captured as their own elements and sit still while the body of the
+  page changes underneath them.
+*/
+.masthead {
+  view-transition-name: masthead;
+}
+
+.site-footer {
+  view-transition-name: site-footer;
+}
+
+::view-transition-old(root) {
+  animation: vt-leave 160ms cubic-bezier(0.4, 0, 1, 1) both;
+}
+
+::view-transition-new(root) {
+  animation: vt-enter 300ms var(--ease) both;
+}
+
+@keyframes vt-leave {
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes vt-enter {
+  from {
+    opacity: 0;
+    transform: translateY(0.75rem);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  ::view-transition-old(root),
+  ::view-transition-new(root) {
+    animation: none;
+  }
+}
+
+/* ------------------------------------------------------------------
+   Scroll reveal
+
+   A block lifts the last few pixels into place as it enters. The range
+   ends well before the element reaches the middle of the screen — a
+   reveal the reader has to wait for is an obstacle, not an effect.
+------------------------------------------------------------------- */
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    /*
+      Both ends of the range sit in the same phase on purpose. Mixing two
+      phases — `entry 10% cover 24%` and the like — lets the end resolve
+      *before* the start on some element/viewport ratios, which inverts the
+      range and strands the element at the `from` keyframe: invisible
+      content, no error, only on some screen sizes. Not worth the elegance.
+    */
+    .reveal,
+    .reveal-group > * {
+      animation: reveal-rise linear both;
+      animation-timeline: view();
+      animation-range: entry 10% entry 70%;
+    }
+
+    @keyframes reveal-rise {
+      from {
+        opacity: 0;
+        transform: translateY(1.5rem);
+      }
+      to {
+        opacity: 1;
+        transform: none;
+      }
+    }
+
+  }
+}
+
+/* ------------------------------------------------------------------
+   Above the fold
+
+   No fade, so nothing delays the paint. The lead photograph settles out
+   of a slight overscale and the clay rule draws itself in — both start
+   from a visible state and both are pure transform/width.
+------------------------------------------------------------------- */
+@media (prefers-reduced-motion: no-preference) {
+  .lead-photo img {
+    animation: lead-settle 1100ms var(--ease) both;
+  }
+
+  @keyframes lead-settle {
+    from {
+      transform: scale(1.06);
+    }
+    to {
+      transform: none;
+    }
+  }
+
+  .rule-draw {
+    animation: rule-draw 700ms var(--ease) 120ms both;
+  }
+
+  @keyframes rule-draw {
+    from {
+      transform: scaleX(0);
+    }
+    to {
+      transform: none;
+    }
+  }
+}
+
+.rule-draw {
+  transform-origin: left center;
+}
+
+/* ------------------------------------------------------------------
+   Hover
+
+   The card lifts as one object — image, rule and type together. Lifting
+   only the photograph makes the card look like it is coming apart.
+------------------------------------------------------------------- */
+.card-lift {
+  transition: transform 350ms var(--ease);
+}
+
+@media (hover: hover) {
+  .group:hover .card-lift {
+    transform: translateY(-4px);
+  }
+}
+
+/* ------------------------------------------------------------------
+   Disclosure panels
+------------------------------------------------------------------- */
+@media (prefers-reduced-motion: no-preference) {
+  details[open] > .nav-panel {
+    animation: panel-in 220ms var(--ease) both;
+  }
+
+  @keyframes panel-in {
+    from {
+      opacity: 0;
+      transform: translateY(-0.5rem);
+    }
+  }
+}
+
+/* ------------------------------------------------------------------
+   Reading progress
+
+   Handed to the scroll timeline where it exists, which keeps the bar
+   locked to the scroll instead of chasing it one frame behind. The
+   JavaScript in PostLayout still runs the contents rail, and still
+   drives this bar for browsers without scroll-driven animations.
+------------------------------------------------------------------- */
+@supports (animation-timeline: scroll()) {
+  @media (prefers-reduced-motion: no-preference) {
+    #progress {
+      width: 100%;
+      transform-origin: left center;
+      transform: scaleX(0);
+      transition: none;
+      animation: progress-fill linear both;
+      animation-timeline: scroll(root block);
+    }
+
+    @keyframes progress-fill {
+      from {
+        transform: scaleX(0);
+      }
+      to {
+        transform: scaleX(1);
+      }
+    }
+  }
+}

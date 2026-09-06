@@ -1,0 +1,36 @@
+---
+import Layout from './Layout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+
+interface Props {
+  title: string;
+  description: string;
+  eyebrow?: string;
+  lede?: string;
+  updated?: string;
+}
+
+const { title, description, eyebrow = 'Hearth & Grain', lede, updated } = Astro.props;
+---
+
+<Layout title={title} description={description}>
+  <header class="border-b border-rule">
+    <div class="wrap py-10 lg:py-14">
+      <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: title }]} />
+      <p class="eyebrow mt-7">{eyebrow}</p>
+      <h1 class="mt-4 max-w-3xl font-display text-[2.5rem] leading-[1.05] text-ink sm:text-5xl">
+        {title}
+      </h1>
+      {lede && <p class="mt-5 max-w-2xl text-lg leading-relaxed text-ink-60">{lede}</p>}
+      {updated && (
+        <p class="mt-6 text-eyebrow font-semibold uppercase text-ink-40">Last updated {updated}</p>
+      )}
+    </div>
+  </header>
+
+  <div class="wrap py-12 lg:py-16">
+    <div class="article no-dropcap mx-auto max-w-reading">
+      <slot />
+    </div>
+  </div>
+</Layout>
