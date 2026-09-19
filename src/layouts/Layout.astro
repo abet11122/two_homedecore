@@ -69,7 +69,10 @@ const ogH = ogIsPin ? 1500 : 630;
 // middle. Feed the horizontal hero there instead when we have one.
 const twitterImage = imageWide ? photo(imageWide, 1200, 630) : ogImage;
 
-const adsenseId = import.meta.env.PUBLIC_ADSENSE_CLIENT_ID || import.meta.env.ADSENSE_CLIENT_ID || '';
+const adsenseId =
+  import.meta.env.PUBLIC_ADSENSE_CLIENT_ID ||
+  import.meta.env.ADSENSE_CLIENT_ID ||
+  'ca-pub-8497285724891966';
 
 /*
   Which room the reader is standing in. A category page marks its own item;

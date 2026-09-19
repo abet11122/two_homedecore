@@ -39,7 +39,9 @@ const m = mobile ?? SIZES[placement].mobile;
 const dsk = desktop ?? SIZES[placement].desktop;
 
 const clientId =
-  import.meta.env.PUBLIC_ADSENSE_CLIENT_ID || import.meta.env.ADSENSE_CLIENT_ID || '';
+  import.meta.env.PUBLIC_ADSENSE_CLIENT_ID ||
+  import.meta.env.ADSENSE_CLIENT_ID ||
+  'ca-pub-8497285724891966';
 
 // Optional per-placement slot IDs, e.g. PUBLIC_ADSENSE_SLOT_IN_ARTICLE_TOP=1234567890
 const envKey = `PUBLIC_ADSENSE_SLOT_${placement.toUpperCase().replace(/-/g, '_')}`;
