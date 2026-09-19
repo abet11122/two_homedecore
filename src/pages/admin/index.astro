@@ -1,0 +1,522 @@
+---
+import { getCollection } from 'astro:content';
+import { CATEGORIES, formatDate } from '../../site';
+
+export const prerender = false;
+
+const posts = (await getCollection('posts')).sort(
+  (a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime()
+);
+
+const byCategory: Record<string, number> = {};
+for (const p of posts) byCategory[p.data.category] = (byCategory[p.data.category] ?? 0) + 1;
+const featured = posts.filter((p) => p.data.featured).length;
+const withFaqs = posts.filter((p) => p.data.faqs?.length).length;
+---
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Admin — Hearth &amp; Grain</title>
+<meta name="robots" content="noindex, nofollow" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@600&display=swap" />
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --paper:#FBF8F4;--sand:#F4EEE6;--rule:#E5DCD0;
+  --ink:#1F1B17;--ink60:#4A423A;--ink40:#736758;--ink20:#9C907F;
+  --clay:#B05B38;--clay-soft:#F1E2DA;--clay-deep:#8F4728;
+  --ease:cubic-bezier(0.2,0,0.2,1);
+  --sidebar-w:16rem;
+}
+body{font-family:'Inter',system-ui,sans-serif;background:#F7F4F0;color:var(--ink60);font-size:.9375rem;line-height:1.6;min-height:100vh}
+
+/* ── Shell ── */
+.shell{display:flex;min-height:100vh}
+
+/* ── Sidebar ── */
+.sidebar{
+  width:var(--sidebar-w);flex-shrink:0;
+  background:var(--ink);
+  display:flex;flex-direction:column;
+  padding:0;
+  position:sticky;top:0;height:100vh;overflow-y:auto;
+}
+.sidebar-top{padding:1.75rem 1.5rem 1.25rem}
+.sidebar-logo{display:flex;align-items:center;gap:.75rem;margin-bottom:1.75rem}
+.sidebar-mark{
+  width:2.25rem;height:2.25rem;border-radius:.5rem;
+  background:var(--clay);display:grid;place-items:center;flex-shrink:0;
+}
+.sidebar-brand{font-family:'Playfair Display',Georgia,serif;font-size:1rem;color:#fff;line-height:1.2}
+.sidebar-sub{font-size:.625rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.35)}
+.nav-section{padding:.25rem 1rem 1rem}
+.nav-label{font-size:.5625rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:rgba(255,255,255,.28);padding:.75rem .5rem .4rem;display:block}
+.nav-link{
+  display:flex;align-items:center;gap:.625rem;
+  padding:.5rem .75rem;border-radius:.4rem;
+  color:rgba(255,255,255,.55);text-decoration:none;
+  font-size:.8125rem;font-weight:500;
+  transition:background 160ms var(--ease),color 160ms var(--ease);
+  margin-bottom:.125rem;position:relative;
+}
+.nav-link:hover{background:rgba(255,255,255,.07);color:rgba(255,255,255,.9)}
+.nav-link.active{background:rgba(176,91,56,.18);color:#fff}
+.nav-link.active::before{content:'';position:absolute;left:0;top:.375rem;bottom:.375rem;width:2px;background:var(--clay);border-radius:0 2px 2px 0}
+.nav-link svg{opacity:.6;flex-shrink:0}
+.nav-link.active svg,.nav-link:hover svg{opacity:1}
+.nav-count{margin-left:auto;font-size:.625rem;background:rgba(255,255,255,.1);color:rgba(255,255,255,.5);padding:.1rem .45rem;border-radius:999px;font-weight:600}
+.nav-divider{height:1px;background:rgba(255,255,255,.07);margin:.5rem 1rem}
+.sidebar-footer{margin-top:auto;padding:1rem 1.5rem;border-top:1px solid rgba(255,255,255,.07)}
+.sidebar-footer a{display:flex;align-items:center;gap:.5rem;color:rgba(255,255,255,.35);text-decoration:none;font-size:.8125rem;transition:color 160ms}
+.sidebar-footer a:hover{color:rgba(255,255,255,.7)}
+
+/* ── Main ── */
+.main{flex:1;min-width:0;display:flex;flex-direction:column}
+
+/* ── Topbar ── */
+.topbar{
+  display:flex;align-items:center;justify-content:space-between;
+  padding:1rem 2rem;
+  border-bottom:1px solid var(--rule);
+  background:var(--paper);
+  position:sticky;top:0;z-index:10;
+  gap:1rem;
+}
+.topbar-left{display:flex;align-items:center;gap:.75rem}
+.topbar-title{font-family:'Playfair Display',Georgia,serif;font-size:1.375rem;color:var(--ink)}
+.topbar-date{font-size:.75rem;color:var(--ink40);padding:.2rem .6rem;background:var(--sand);border-radius:999px;border:1px solid var(--rule)}
+.btn-new{
+  display:inline-flex;align-items:center;gap:.5rem;
+  background:var(--clay);color:#fff;text-decoration:none;
+  font-size:.8125rem;font-weight:600;padding:.55rem 1.125rem;
+  border-radius:.4rem;
+  transition:background 160ms var(--ease),transform 120ms,box-shadow 160ms;
+  box-shadow:0 1px 3px rgb(176 91 56/.3);
+}
+.btn-new:hover{background:var(--clay-deep);transform:translateY(-1px);box-shadow:0 4px 12px rgb(176 91 56/.35)}
+
+/* ── Content ── */
+.content{padding:1.75rem 2rem;display:flex;flex-direction:column;gap:1.5rem}
+
+/* ── Stat cards ── */
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:1rem}
+.stat-card{
+  background:var(--paper);border:1px solid var(--rule);border-radius:.625rem;
+  padding:1.25rem 1.5rem;
+  display:flex;align-items:flex-start;justify-content:space-between;gap:1rem;
+  box-shadow:0 1px 3px rgb(31 27 23/.04);
+  transition:box-shadow 200ms,transform 200ms;
+}
+.stat-card:hover{box-shadow:0 4px 16px rgb(31 27 23/.08);transform:translateY(-1px)}
+.stat-info{}
+.stat-label{font-size:.6875rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--ink40);margin-bottom:.5rem}
+.stat-value{font-family:'Playfair Display',Georgia,serif;font-size:2.25rem;color:var(--ink);line-height:1}
+.stat-value.sm{font-size:.9375rem;line-height:1.4;font-family:'Inter',sans-serif;font-weight:600}
+.stat-sub{font-size:.75rem;color:var(--ink40);margin-top:.375rem}
+.stat-icon{
+  width:2.5rem;height:2.5rem;border-radius:.5rem;
+  display:grid;place-items:center;flex-shrink:0;
+}
+.stat-icon.clay{background:var(--clay-soft);color:var(--clay)}
+.stat-icon.amber{background:#fef3c7;color:#d97706}
+.stat-icon.sage{background:#e8ebe3;color:#5a6b50}
+.stat-icon.blue{background:#eff6ff;color:#3b82f6}
+
+/* ── Upload card ── */
+.upload-card{background:var(--paper);border:1px solid var(--rule);border-radius:.625rem;overflow:hidden;box-shadow:0 1px 3px rgb(31 27 23/.04)}
+.upload-head{
+  display:flex;align-items:center;justify-content:space-between;
+  padding:.875rem 1.5rem;cursor:pointer;
+  border-bottom:1px solid transparent;
+  transition:border-color 150ms;
+  user-select:none;
+}
+.upload-head.open{border-bottom-color:var(--rule)}
+.upload-head-left{display:flex;align-items:center;gap:.625rem}
+.upload-head-icon{width:1.75rem;height:1.75rem;background:var(--clay-soft);border-radius:.375rem;display:grid;place-items:center;color:var(--clay)}
+.upload-head-title{font-size:.875rem;font-weight:600;color:var(--ink)}
+.upload-head-sub{font-size:.75rem;color:var(--ink40);margin-top:.05rem}
+.upload-chevron{color:var(--ink40);transition:transform 200ms var(--ease)}
+.upload-chevron.open{transform:rotate(180deg)}
+.upload-body{padding:1.25rem 1.5rem;display:none}
+.upload-body.open{display:block}
+.drop-zone{
+  border:2px dashed var(--rule);border-radius:.5rem;
+  padding:2rem 1.5rem;text-align:center;cursor:pointer;
+  transition:border-color 200ms,background 200ms;
+  background:var(--sand);
+}
+.drop-zone:hover,.drop-zone.drag-over{border-color:var(--clay);background:var(--clay-soft)}
+.drop-zone input[type=file]{display:none}
+.drop-icon{margin:0 auto .625rem;width:2.25rem;height:2.25rem;background:rgba(176,91,56,.12);border-radius:50%;display:flex;align-items:center;justify-content:center;color:var(--clay)}
+.drop-title{font-size:.875rem;font-weight:600;color:var(--ink);margin-bottom:.2rem}
+.drop-sub{font-size:.8125rem;color:var(--ink40)}
+.drop-sub span{color:var(--clay);font-weight:500}
+.file-preview{margin-top:1rem;background:#fff;border:1px solid var(--rule);border-radius:.4rem;padding:.75rem 1rem;display:none;align-items:center;justify-content:space-between;gap:1rem}
+.file-preview.show{display:flex}
+.file-info{display:flex;align-items:center;gap:.625rem}
+.file-name{font-size:.875rem;font-weight:500;color:var(--ink)}
+.file-size{font-size:.75rem;color:var(--ink40)}
+.btn-upload{display:inline-flex;align-items:center;gap:.4rem;background:var(--clay);color:#fff;font-size:.8125rem;font-weight:600;padding:.5rem 1rem;border-radius:.375rem;border:none;cursor:pointer;font-family:inherit;transition:background 160ms;flex-shrink:0}
+.btn-upload:hover{background:var(--clay-deep)}
+.btn-upload:disabled{opacity:.5;cursor:not-allowed}
+.upload-status{margin-top:.875rem;padding:.625rem .875rem;border-radius:.375rem;font-size:.8125rem;display:none}
+.upload-status.success{background:#f0fdf4;border:1px solid #86efac;color:#166534;display:block}
+.upload-status.error{background:#fef2f2;border:1px solid #fca5a5;color:#991b1b;display:block}
+.upload-status.loading{background:var(--sand);border:1px solid var(--rule);color:var(--ink60);display:block}
+
+/* ── Table card ── */
+.table-card{background:var(--paper);border:1px solid var(--rule);border-radius:.625rem;overflow:hidden;box-shadow:0 1px 3px rgb(31 27 23/.04)}
+.table-head{display:flex;align-items:center;justify-content:space-between;padding:1rem 1.5rem;border-bottom:1px solid var(--rule);gap:1rem;flex-wrap:wrap}
+.table-head-left{display:flex;align-items:center;gap:.75rem}
+.table-title{font-size:.9375rem;font-weight:600;color:var(--ink)}
+.table-count{font-size:.75rem;color:var(--ink40);background:var(--sand);border:1px solid var(--rule);padding:.15rem .55rem;border-radius:999px}
+.search-wrap{display:flex;align-items:center;gap:.5rem;background:#fff;border:1px solid var(--rule);border-radius:.375rem;padding:.375rem .75rem;transition:border-color 180ms,box-shadow 180ms}
+.search-wrap:focus-within{border-color:var(--clay);box-shadow:0 0 0 3px rgb(176 91 56/.1)}
+.search-wrap input{border:none;background:transparent;font-family:inherit;font-size:.8125rem;color:var(--ink);outline:none;width:14rem}
+.search-wrap input::placeholder{color:var(--ink40)}
+.filter-bar{display:flex;gap:.375rem;flex-wrap:wrap;padding:.75rem 1.5rem;border-bottom:1px solid var(--rule);background:var(--sand)}
+.chip{padding:.2rem .7rem;border-radius:999px;font-size:.75rem;font-weight:500;border:1px solid var(--rule);background:#fff;color:var(--ink60);cursor:pointer;transition:all 150ms;font-family:inherit}
+.chip:hover{border-color:var(--ink40);color:var(--ink)}
+.chip.active{background:var(--ink);color:#fff;border-color:var(--ink)}
+table{width:100%;border-collapse:collapse}
+thead th{text-align:left;font-size:.625rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--ink40);padding:.7rem 1.5rem;border-bottom:1px solid var(--rule);background:var(--sand);white-space:nowrap}
+tbody tr{border-bottom:1px solid var(--rule);transition:background 100ms}
+tbody tr:last-child{border-bottom:none}
+tbody tr:hover{background:#fdf9f6}
+tbody td{padding:.875rem 1.5rem;font-size:.875rem;color:var(--ink60);vertical-align:middle}
+.post-title{font-weight:600;color:var(--ink);max-width:26rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.post-slug{font-size:.6875rem;color:var(--ink20);margin-top:.1rem;font-family:'Courier New',monospace}
+.badge{display:inline-flex;align-items:center;padding:.175rem .55rem;border-radius:999px;font-size:.6875rem;font-weight:600;white-space:nowrap}
+.badge-cat{background:var(--clay-soft);color:var(--clay-deep)}
+.badge-feat{background:#fef3c7;color:#92400e;margin-left:.35rem}
+.date-cell{white-space:nowrap;color:var(--ink40);font-size:.8125rem}
+.actions{display:flex;gap:.375rem}
+.action-btn{
+  display:inline-flex;align-items:center;gap:.3rem;
+  padding:.3rem .65rem;border-radius:.3rem;
+  font-size:.75rem;font-weight:500;text-decoration:none;
+  border:1px solid var(--rule);color:var(--ink60);background:var(--paper);
+  transition:border-color 150ms,color 150ms,background 150ms;
+  white-space:nowrap;
+}
+.action-btn:hover{border-color:var(--clay);color:var(--clay);background:var(--clay-soft)}
+.action-btn.edit:hover{border-color:var(--ink);color:var(--ink);background:var(--sand)}
+#empty td{text-align:center;padding:3.5rem;color:var(--ink40);font-style:italic}
+</style>
+</head>
+<body>
+<div class="shell">
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <div class="sidebar-top">
+      <div class="sidebar-logo">
+        <div class="sidebar-mark">
+          <svg width="14" height="14" fill="none" stroke="#fff" stroke-width="2" viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+        </div>
+        <div>
+          <p class="sidebar-brand">Hearth &amp; Grain</p>
+          <p class="sidebar-sub">Admin Panel</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="nav-section">
+      <span class="nav-label">Content</span>
+      <a href="/admin/" class="nav-link active">
+        <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.75" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
+        Dashboard
+      </a>
+      <a href="/admin/new/" class="nav-link">
+        <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.75" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg>
+        New Post
+      </a>
+    </div>
+
+    <div class="nav-divider"></div>
+
+    <div class="nav-section" style="flex:1;overflow-y:auto">
+      <span class="nav-label">Rooms</span>
+      {CATEGORIES.map((c) => (
+        <a href={`/category/${c.slug}/`} target="_blank" class="nav-link" style="font-size:.8rem">
+          {c.name}
+          {(byCategory[c.slug] ?? 0) > 0 && <span class="nav-count">{byCategory[c.slug]}</span>}
+        </a>
+      ))}
+    </div>
+
+    <div class="sidebar-footer">
+      <a href="/" target="_blank">
+        <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="1.75" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+        View live site
+      </a>
+    </div>
+  </aside>
+
+  <!-- Main -->
+  <div class="main">
+    <div class="topbar">
+      <div class="topbar-left">
+        <h1 class="topbar-title">Dashboard</h1>
+        <span class="topbar-date" id="today-date"></span>
+      </div>
+      <a href="/admin/new/" class="btn-new">
+        <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg>
+        New Post
+      </a>
+    </div>
+
+    <div class="content">
+
+      <!-- Stats -->
+      <div class="stats">
+        <div class="stat-card">
+          <div class="stat-info">
+            <p class="stat-label">Total Posts</p>
+            <p class="stat-value">{posts.length}</p>
+            <p class="stat-sub">{CATEGORIES.filter(c => (byCategory[c.slug] ?? 0) > 0).length} categories active</p>
+          </div>
+          <div class="stat-icon clay">
+            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.75" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+          </div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-info">
+            <p class="stat-label">Featured</p>
+            <p class="stat-value">{featured}</p>
+            <p class="stat-sub">on homepage lead slot</p>
+          </div>
+          <div class="stat-icon amber">
+            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.75" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-info">
+            <p class="stat-label">With FAQs</p>
+            <p class="stat-value">{withFaqs}</p>
+            <p class="stat-sub">eligible for PAA block</p>
+          </div>
+          <div class="stat-icon sage">
+            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.75" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+          </div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-info">
+            <p class="stat-label">Latest Post</p>
+            <p class={`stat-value${posts[0] ? ' sm' : ''}`}>{posts[0]?.data.title ? posts[0].data.title.slice(0,32) + (posts[0].data.title.length > 32 ? '…' : '') : '—'}</p>
+            <p class="stat-sub">{posts[0]?.data.publishDate ? formatDate(posts[0].data.publishDate) : ''}</p>
+          </div>
+          <div class="stat-icon blue">
+            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.75" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          </div>
+        </div>
+      </div>
+
+      <!-- Upload -->
+      <div class="upload-card">
+        <div class="upload-head" id="upload-toggle">
+          <div class="upload-head-left">
+            <div class="upload-head-icon">
+              <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
+            </div>
+            <div>
+              <p class="upload-head-title">Upload Post File</p>
+              <p class="upload-head-sub">Drop a .md file to publish instantly</p>
+            </div>
+          </div>
+          <svg class="upload-chevron" id="upload-chevron" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+        </div>
+        <div class="upload-body" id="upload-body">
+          <div class="drop-zone" id="drop-zone">
+            <input type="file" id="file-input" accept=".md" />
+            <div class="drop-icon">
+              <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.75" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
+            </div>
+            <p class="drop-title">Drop your .md file here</p>
+            <p class="drop-sub">or <span>click to browse</span></p>
+          </div>
+          <div class="file-preview" id="file-preview">
+            <div class="file-info">
+              <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.75" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+              <div>
+                <p class="file-name" id="file-name">—</p>
+                <p class="file-size" id="file-size">—</p>
+              </div>
+            </div>
+            <button class="btn-upload" id="btn-upload">
+              <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
+              Publish Post
+            </button>
+          </div>
+          <div class="upload-status" id="upload-status"></div>
+        </div>
+      </div>
+
+      <!-- Posts table -->
+      <div class="table-card">
+        <div class="table-head">
+          <div class="table-head-left">
+            <p class="table-title">All Posts</p>
+            <span class="table-count" id="visible-count">{posts.length}</span>
+          </div>
+          <div class="search-wrap">
+            <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+            <input id="search" type="text" placeholder="Search posts…" autocomplete="off" />
+          </div>
+        </div>
+
+        <div class="filter-bar" id="filters">
+          <button class="chip active" data-cat="all">All ({posts.length})</button>
+          {CATEGORIES.filter((c) => (byCategory[c.slug] ?? 0) > 0).map((c) => (
+            <button class="chip" data-cat={c.slug}>{c.name} ({byCategory[c.slug]})</button>
+          ))}
+        </div>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Title</th>
+              <th>Category</th>
+              <th>Published</th>
+              <th style="width:1%"></th>
+            </tr>
+          </thead>
+          <tbody id="tbody">
+            {posts.map((post) => (
+              <tr data-cat={post.data.category} data-title={post.data.title.toLowerCase()}>
+                <td>
+                  <p class="post-title">{post.data.title}</p>
+                  <p class="post-slug">{post.id}.md</p>
+                </td>
+                <td>
+                  <span class="badge badge-cat">{post.data.category.replace(/-/g,' ')}</span>
+                  {post.data.featured && <span class="badge badge-feat">★ featured</span>}
+                </td>
+                <td class="date-cell">{formatDate(post.data.publishDate)}</td>
+                <td>
+                  <div class="actions">
+                    <a href={`/admin/edit/${post.id}/`} class="action-btn edit">
+                      <svg width="11" height="11" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
+                      Edit
+                    </a>
+                    <a href={`/post/${post.id}/`} target="_blank" class="action-btn">
+                      <svg width="11" height="11" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+                      View
+                    </a>
+                  </div>
+                </td>
+              </tr>
+            ))}
+            <tr id="empty" style="display:none"><td colspan="4">No posts match your search.</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+    </div><!-- /content -->
+  </div><!-- /main -->
+</div><!-- /shell -->
+
+<script>
+  // Today date
+  document.getElementById('today-date')!.textContent = new Date().toLocaleDateString('en-US',{weekday:'short',month:'short',day:'numeric'});
+
+  // Search + filter
+  const search = document.getElementById('search') as HTMLInputElement;
+  const filters = document.getElementById('filters')!;
+  const rows = document.querySelectorAll<HTMLTableRowElement>('#tbody tr[data-cat]');
+  const empty = document.getElementById('empty')!;
+  const visibleCount = document.getElementById('visible-count')!;
+  let cat = 'all';
+
+  function filter() {
+    const q = search.value.toLowerCase();
+    let n = 0;
+    rows.forEach((r) => {
+      const show = (cat === 'all' || r.dataset.cat === cat) && (!q || r.dataset.title!.includes(q));
+      r.style.display = show ? '' : 'none';
+      if (show) n++;
+    });
+    empty.style.display = n ? 'none' : '';
+    visibleCount.textContent = String(n);
+  }
+
+  search.addEventListener('input', filter);
+  filters.addEventListener('click', (e) => {
+    const btn = (e.target as HTMLElement).closest<HTMLButtonElement>('.chip');
+    if (!btn) return;
+    filters.querySelectorAll('.chip').forEach((c) => c.classList.remove('active'));
+    btn.classList.add('active');
+    cat = btn.dataset.cat!;
+    filter();
+  });
+
+  // Upload toggle
+  const uploadToggle = document.getElementById('upload-toggle')!;
+  const uploadBody = document.getElementById('upload-body')!;
+  const uploadChevron = document.getElementById('upload-chevron')!;
+  uploadToggle.addEventListener('click', () => {
+    const open = uploadBody.classList.toggle('open');
+    uploadToggle.classList.toggle('open', open);
+    uploadChevron.classList.toggle('open', open);
+  });
+
+  // Upload
+  const dropZone = document.getElementById('drop-zone')!;
+  const fileInput = document.getElementById('file-input') as HTMLInputElement;
+  const filePreview = document.getElementById('file-preview')!;
+  const fileName = document.getElementById('file-name')!;
+  const fileSize = document.getElementById('file-size')!;
+  const btnUpload = document.getElementById('btn-upload') as HTMLButtonElement;
+  const uploadStatus = document.getElementById('upload-status')!;
+  let selectedFile: File | null = null;
+
+  dropZone.addEventListener('click', () => fileInput.click());
+  dropZone.addEventListener('dragover', (e) => { e.preventDefault(); dropZone.classList.add('drag-over'); });
+  dropZone.addEventListener('dragleave', () => dropZone.classList.remove('drag-over'));
+  dropZone.addEventListener('drop', (e) => {
+    e.preventDefault(); dropZone.classList.remove('drag-over');
+    const f = e.dataTransfer?.files[0]; if (f) setFile(f);
+  });
+  fileInput.addEventListener('change', () => { if (fileInput.files?.[0]) setFile(fileInput.files[0]); });
+
+  function setFile(f: File) {
+    if (!f.name.endsWith('.md')) { showStatus('error','Only .md files are accepted.'); return; }
+    selectedFile = f;
+    fileName.textContent = f.name;
+    fileSize.textContent = (f.size / 1024).toFixed(1) + ' KB';
+    filePreview.classList.add('show');
+    uploadStatus.className = 'upload-status';
+  }
+
+  btnUpload.addEventListener('click', async () => {
+    if (!selectedFile) return;
+    btnUpload.disabled = true;
+    showStatus('loading','Publishing…');
+    const form = new FormData();
+    form.append('file', selectedFile);
+    try {
+      const res = await fetch('/admin/api/upload/', { method: 'POST', body: form });
+      const data = await res.json();
+      if (data.ok) {
+        showStatus('success', `✓ Published as "${data.filename}" — reload to see it in the list.`);
+        filePreview.classList.remove('show');
+        selectedFile = null; fileInput.value = '';
+      } else {
+        showStatus('error', data.error ?? 'Upload failed.');
+      }
+    } catch { showStatus('error','Network error — is the dev server running?'); }
+    btnUpload.disabled = false;
+  });
+
+  function showStatus(type: 'success'|'error'|'loading', msg: string) {
+    uploadStatus.className = 'upload-status ' + type;
+    uploadStatus.textContent = msg;
+  }
+</script>
+</body>
+</html>

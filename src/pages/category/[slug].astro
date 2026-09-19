@@ -8,6 +8,8 @@ import AdSlot from '../../components/AdSlot.astro';
 import Newsletter from '../../components/Newsletter.astro';
 import { SITE, CATEGORIES, categoryBySlug, collectTags } from '../../site';
 
+export const prerender = true;
+
 export async function getStaticPaths() {
   return CATEGORIES.map((c) => ({ params: { slug: c.slug } }));
 }

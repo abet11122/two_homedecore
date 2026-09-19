@@ -243,6 +243,18 @@ To switch on the banner: in AdSense go to **Privacy & messaging → GDPR**, crea
 
 ## Deploying
 
+### Vercel
+
+Push to GitHub, then import the repository in Vercel. The included Vercel adapter builds the public site and the protected `/admin/` server routes automatically.
+
+Set these Environment Variables in **Project Settings → Environment Variables** before deploying:
+
+- `SITE_URL`
+- `ADMIN_USERNAME`
+- `ADMIN_PASSWORD` (use a long, unique password)
+
+The admin uses browser password authentication. On Vercel it is intentionally read-only: generate Markdown in the admin, then commit the content change through Git. Vercel functions cannot persist edits to the deployed filesystem.
+
 ### Netlify
 
 Push to GitHub, then New site from Git:

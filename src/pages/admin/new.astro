@@ -1,0 +1,483 @@
+---
+import { CATEGORIES } from '../../site';
+
+export const prerender = false;
+const cats = CATEGORIES.map((c) => c.slug);
+const today = new Date().toISOString().slice(0, 10);
+---
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>New Post — Admin</title>
+<meta name="robots" content="noindex, nofollow" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@600&display=swap" />
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --paper:#FBF8F4;--sand:#F4EEE6;--rule:#E5DCD0;
+  --ink:#1F1B17;--ink60:#4A423A;--ink40:#736758;--ink20:#9C907F;
+  --clay:#B05B38;--clay-soft:#F1E2DA;--clay-deep:#8F4728;
+  --ease:cubic-bezier(0.2,0,0.2,1);
+}
+body{font-family:'Inter',system-ui,sans-serif;background:var(--paper);color:var(--ink60);font-size:.9375rem;line-height:1.6;min-height:100vh}
+.shell{display:flex;min-height:100vh}
+
+/* sidebar */
+.sidebar{width:15rem;flex-shrink:0;background:var(--ink);color:#fff;display:flex;flex-direction:column;padding:2rem 1.25rem;position:sticky;top:0;height:100vh;overflow-y:auto}
+.sidebar-brand{font-family:'Playfair Display',Georgia,serif;font-size:1.125rem;color:#fff;margin-bottom:.2rem}
+.sidebar-sub{font-size:.625rem;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:rgba(255,255,255,.35);margin-bottom:2.5rem}
+.nav-label{font-size:.625rem;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:rgba(255,255,255,.3);margin:1.75rem 0 .625rem .5rem}
+.nav-link{display:flex;align-items:center;gap:.625rem;padding:.5rem .75rem;border-radius:.375rem;color:rgba(255,255,255,.6);text-decoration:none;font-size:.875rem;font-weight:500;transition:background 180ms var(--ease),color 180ms var(--ease);margin-bottom:.125rem}
+.nav-link:hover,.nav-link.active{background:rgba(255,255,255,.09);color:#fff}
+.sidebar-footer{margin-top:auto;padding-top:1.25rem;border-top:1px solid rgba(255,255,255,.1)}
+.sidebar-footer a{display:flex;align-items:center;gap:.5rem;color:rgba(255,255,255,.4);text-decoration:none;font-size:.8125rem;transition:color 180ms}
+.sidebar-footer a:hover{color:rgba(255,255,255,.75)}
+
+/* main */
+.main{flex:1;min-width:0;display:flex;flex-direction:column}
+.topbar{display:flex;align-items:center;justify-content:space-between;padding:1.125rem 2rem;border-bottom:1px solid var(--rule);background:var(--paper);position:sticky;top:0;z-index:10;gap:1rem}
+.topbar-left{display:flex;align-items:center;gap:1rem}
+.back-link{display:inline-flex;align-items:center;gap:.375rem;color:var(--ink40);text-decoration:none;font-size:.8125rem;transition:color 150ms}
+.back-link:hover{color:var(--clay)}
+.topbar-title{font-family:'Playfair Display',Georgia,serif;font-size:1.375rem;color:var(--ink)}
+.topbar-actions{display:flex;gap:.625rem}
+.btn{display:inline-flex;align-items:center;gap:.5rem;font-size:.875rem;font-weight:600;padding:.6rem 1.25rem;border-radius:.375rem;cursor:pointer;font-family:inherit;transition:background 180ms var(--ease),transform 150ms,border-color 150ms}
+.btn-primary{background:var(--clay);color:#fff;border:1px solid var(--clay)}
+.btn-primary:hover{background:var(--clay-deep);border-color:var(--clay-deep);transform:translateY(-1px)}
+.btn-outline{background:transparent;color:var(--ink60);border:1px solid var(--rule)}
+.btn-outline:hover{border-color:var(--ink40);color:var(--ink)}
+
+/* layout */
+.editor-shell{display:grid;grid-template-columns:1fr 1fr;height:calc(100vh - 3.75rem);overflow:hidden}
+.pane{overflow-y:auto;padding:2rem}
+.pane-form{border-right:1px solid var(--rule)}
+
+/* form */
+.section-title{font-family:'Playfair Display',Georgia,serif;font-size:1rem;color:var(--ink);margin-bottom:1.25rem;padding-bottom:.625rem;border-bottom:1px solid var(--rule)}
+.field-group{display:grid;gap:1.25rem;margin-bottom:2rem}
+.field-row{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+label{display:block;font-size:.75rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--ink40);margin-bottom:.375rem}
+label span{font-weight:400;text-transform:none;letter-spacing:0;color:var(--ink20);margin-left:.25rem}
+input[type=text],input[type=date],select,textarea{width:100%;background:#fff;border:1px solid var(--rule);border-radius:.375rem;padding:.625rem .875rem;font-family:inherit;font-size:.875rem;color:var(--ink);outline:none;transition:border-color 180ms,box-shadow 180ms}
+input[type=text]:focus,input[type=date]:focus,select:focus,textarea:focus{border-color:var(--clay);box-shadow:0 0 0 3px rgb(176 91 56/.1)}
+textarea{resize:vertical;line-height:1.6;font-family:'Courier New',monospace;font-size:.8125rem}
+.char-count{font-size:.6875rem;color:var(--ink20);text-align:right;margin-top:.25rem}
+.char-count.warn{color:#d97706}
+.char-count.over{color:#dc2626}
+.toggle-row{display:flex;align-items:center;justify-content:space-between;padding:.75rem 1rem;background:var(--sand);border:1px solid var(--rule);border-radius:.375rem}
+.toggle-label{font-size:.875rem;font-weight:500;color:var(--ink)}
+.toggle-sub{font-size:.75rem;color:var(--ink40);margin-top:.1rem}
+.toggle{position:relative;width:2.5rem;height:1.375rem;flex-shrink:0}
+.toggle input{opacity:0;width:0;height:0;position:absolute}
+.toggle-track{position:absolute;inset:0;background:var(--rule);border-radius:999px;cursor:pointer;transition:background 200ms}
+.toggle input:checked+.toggle-track{background:var(--clay)}
+.toggle-thumb{position:absolute;top:.1875rem;left:.1875rem;width:1rem;height:1rem;background:#fff;border-radius:50%;transition:transform 200ms;pointer-events:none;box-shadow:0 1px 3px rgb(0 0 0/.2)}
+.toggle input:checked~.toggle-thumb{transform:translateX(1.125rem)}
+
+/* preview pane */
+.preview-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:1.5rem;padding-bottom:.75rem;border-bottom:1px solid var(--rule)}
+.preview-label{font-size:.6875rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--ink40)}
+.preview-tabs{display:flex;gap:.25rem}
+.tab{padding:.25rem .75rem;border-radius:.3rem;font-size:.75rem;font-weight:500;border:1px solid var(--rule);background:transparent;color:var(--ink60);cursor:pointer;font-family:inherit;transition:all 150ms}
+.tab.active{background:var(--ink);color:#fff;border-color:var(--ink)}
+
+/* markdown output */
+.output-box{background:var(--sand);border:1px solid var(--rule);border-radius:.375rem;padding:1.25rem;font-family:'Courier New',monospace;font-size:.75rem;line-height:1.7;color:var(--ink60);white-space:pre-wrap;word-break:break-word;min-height:20rem}
+.copy-btn{display:inline-flex;align-items:center;gap:.4rem;margin-top:.75rem;padding:.4rem .875rem;border-radius:.3rem;font-size:.8125rem;font-weight:600;background:var(--ink);color:#fff;border:none;cursor:pointer;font-family:inherit;transition:background 150ms}
+.copy-btn:hover{background:var(--clay)}
+.copy-btn.copied{background:#16a34a}
+
+/* article preview */
+.article-preview{font-family:'Inter',system-ui,sans-serif;color:var(--ink60);font-size:.9375rem;line-height:1.7}
+.article-preview h1{font-family:'Playfair Display',Georgia,serif;font-size:1.75rem;color:var(--ink);line-height:1.2;margin-bottom:.75rem}
+.article-preview .meta{font-size:.75rem;color:var(--ink40);margin-bottom:1.5rem;display:flex;gap:1rem;flex-wrap:wrap}
+.article-preview .badge{display:inline-flex;padding:.175rem .55rem;border-radius:999px;font-size:.6875rem;font-weight:600;background:var(--clay-soft);color:var(--clay-deep)}
+.article-preview .desc{font-size:1rem;color:var(--ink60);border-left:2px solid var(--clay);padding-left:1rem;margin-bottom:1.5rem;font-style:italic}
+.article-preview .body-text{white-space:pre-wrap;font-size:.9rem;color:var(--ink60)}
+.article-preview .takeaways{background:var(--sand);border-left:2px solid var(--clay);padding:1rem 1.25rem;margin-bottom:1.5rem;border-radius:0 .375rem .375rem 0}
+.article-preview .takeaways p{font-size:.75rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--clay);margin-bottom:.5rem}
+.article-preview .takeaways li{font-size:.875rem;color:var(--ink60);margin-bottom:.25rem;list-style:none;padding-left:1rem;position:relative}
+.article-preview .takeaways li::before{content:'';position:absolute;left:0;top:.65em;width:6px;height:1px;background:var(--clay)}
+.placeholder{color:var(--ink20);font-style:italic;font-size:.875rem;text-align:center;padding:3rem 1rem}
+</style>
+</head>
+<body>
+<div class="shell">
+  <aside class="sidebar">
+    <p class="sidebar-brand">Hearth &amp; Grain</p>
+    <p class="sidebar-sub">Admin</p>
+    <p class="nav-label">Content</p>
+    <a href="/admin/" class="nav-link">
+      <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.75" viewBox="0 0 24 24"><path d="M4 6h16M4 10h16M4 14h10"/></svg>
+      All Posts
+    </a>
+    <a href="/admin/new/" class="nav-link active">
+      <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.75" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg>
+      New Post
+    </a>
+    <p class="nav-label">Rooms</p>
+    {CATEGORIES.map((c) => (
+      <a href={`/category/${c.slug}/`} target="_blank" class="nav-link" style="font-size:.8125rem">{c.name}</a>
+    ))}
+    <div class="sidebar-footer">
+      <a href="/" target="_blank">
+        <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="1.75" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+        View site
+      </a>
+    </div>
+  </aside>
+
+  <div class="main">
+    <div class="topbar">
+      <div class="topbar-left">
+        <a href="/admin/" class="back-link">
+          <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M19 12H5M12 5l-7 7 7 7"/></svg>
+          Posts
+        </a>
+        <h1 class="topbar-title">New Post</h1>
+      </div>
+      <div class="topbar-actions">
+        <span id="save-status" style="font-size:.8125rem;color:var(--ink40);align-self:center"></span>
+        <button class="btn btn-outline" id="btn-preview-tab">Preview</button>
+        <button class="btn btn-outline" id="btn-generate">
+          <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          Preview MD
+        </button>
+        <button class="btn btn-primary" id="btn-save">
+          <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"/><polyline points="17 21 17 13 7 13 7 21"/><polyline points="7 3 7 8 15 8"/></svg>
+          Publish Post
+        </button>
+      </div>
+    </div>
+
+    <div class="editor-shell">
+      <!-- LEFT: form -->
+      <div class="pane pane-form" id="form-pane">
+        <p class="section-title">Required Fields</p>
+        <div class="field-group">
+          <div>
+            <label for="f-title">Title <span>max 90 chars</span></label>
+            <input id="f-title" type="text" placeholder="Your Headline Here" maxlength="90" />
+            <p class="char-count" id="cc-title">0 / 90</p>
+          </div>
+          <div>
+            <label for="f-desc">Description <span>50–200 chars</span></label>
+            <input id="f-desc" type="text" placeholder="50–200 character meta description…" maxlength="200" />
+            <p class="char-count" id="cc-desc">0 / 200</p>
+          </div>
+          <div class="field-row">
+            <div>
+              <label for="f-cat">Category</label>
+              <select id="f-cat">
+                <option value="">— select —</option>
+                {cats.map((s) => <option value={s}>{s.replace(/-/g,' ')}</option>)}
+              </select>
+            </div>
+            <div>
+              <label for="f-date">Publish Date</label>
+              <input id="f-date" type="date" value={today} />
+            </div>
+          </div>
+          <div>
+            <label for="f-slug">Slug <span>becomes the URL: /post/your-slug/</span></label>
+            <input id="f-slug" type="text" placeholder="cozy-winter-home-decor-ideas" />
+            <p class="char-count" id="slug-hint" style="text-align:left">Auto-generated from title. Edit if needed.</p>
+          </div>
+          <div class="field-row">
+            <div>
+              <label for="f-hero">Hero Image <span>Unsplash ID or URL</span></label>
+              <input id="f-hero" type="text" placeholder="photo-1600210492486-724fe5c67fb0" />
+            </div>
+            <div>
+              <label for="f-pin">Pin Image <span>vertical 2:3</span></label>
+              <input id="f-pin" type="text" placeholder="photo-1616486338812-3dadae4b4ace" />
+            </div>
+          </div>
+        </div>
+
+        <p class="section-title">Optional Fields</p>
+        <div class="field-group">
+          <div>
+            <label for="f-tags">Tags <span>comma-separated</span></label>
+            <input id="f-tags" type="text" placeholder="storage, small spaces, renter-friendly" />
+          </div>
+          <div>
+            <label for="f-updated">Updated Date <span>optional</span></label>
+            <input id="f-updated" type="date" />
+          </div>
+          <div>
+            <label for="f-takeaways">Key Takeaways <span>one per line, 3–5 lines</span></label>
+            <textarea id="f-takeaways" rows="5" placeholder="Undertone, not the colour name, is what ruins a paint choice.&#10;North-facing rooms need warm pigment or genuine depth."></textarea>
+          </div>
+          <div>
+            <label for="f-faqs">FAQs <span>q: … / a: … pairs, blank line between</span></label>
+            <textarea id="f-faqs" rows="8" placeholder="q: Why does my grey paint look purple?&#10;a: Every neutral carries an undertone. Hold the sample beside plain printer paper and the bias shows immediately.&#10;&#10;q: Next question here&#10;a: Answer here"></textarea>
+          </div>
+          <div class="toggle-row">
+            <div>
+              <p class="toggle-label">Featured</p>
+              <p class="toggle-sub">Promotes to homepage lead slot</p>
+            </div>
+            <label class="toggle">
+              <input type="checkbox" id="f-featured" />
+              <span class="toggle-track"></span>
+              <span class="toggle-thumb"></span>
+            </label>
+          </div>
+          <div class="toggle-row">
+            <div>
+              <p class="toggle-label">Affiliate Disclosure</p>
+              <p class="toggle-sub">Shows FTC disclosure banner</p>
+            </div>
+            <label class="toggle">
+              <input type="checkbox" id="f-affiliate" />
+              <span class="toggle-track"></span>
+              <span class="toggle-thumb"></span>
+            </label>
+          </div>
+        </div>
+
+        <p class="section-title">Article Body</p>
+        <div class="field-group">
+          <div>
+            <label for="f-body">Markdown Body</label>
+            <textarea id="f-body" rows="20" placeholder="Your opening paragraph. This one gets a drop cap automatically.&#10;&#10;## A section heading&#10;&#10;Level-2 headings are collected into the table of contents."></textarea>
+            <p class="char-count" id="wc-body" style="text-align:left">0 words</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT: preview -->
+      <div class="pane" id="preview-pane">
+        <div class="preview-header">
+          <p class="preview-label">Output</p>
+          <div class="preview-tabs">
+            <button class="tab active" data-tab="markdown">Markdown</button>
+            <button class="tab" data-tab="preview">Preview</button>
+          </div>
+        </div>
+
+        <div id="tab-markdown">
+          <pre class="output-box" id="output">Fill in the form and click "Generate Markdown" to see the output here.</pre>
+          <button class="copy-btn" id="copy-btn">
+            <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+            Copy to clipboard
+          </button>
+        </div>
+
+        <div id="tab-preview" style="display:none">
+          <div class="article-preview" id="article-preview">
+            <p class="placeholder">Fill in the form fields to see a live preview here.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  // char counters
+  function charCounter(inputId: string, counterId: string, min = 0, max = 999) {
+    const input = document.getElementById(inputId) as HTMLInputElement;
+    const counter = document.getElementById(counterId)!;
+    input.addEventListener('input', () => {
+      const n = input.value.length;
+      counter.textContent = `${n} / ${max}`;
+      counter.className = 'char-count' + (n > max ? ' over' : n < min && n > 0 ? ' warn' : '');
+    });
+  }
+  charCounter('f-title', 'cc-title', 1, 90);
+  charCounter('f-desc', 'cc-desc', 50, 200);
+
+  // Auto-generate slug from title
+  const titleInput = document.getElementById('f-title') as HTMLInputElement;
+  const slugInput = document.getElementById('f-slug') as HTMLInputElement;
+  let slugEdited = false;
+  slugInput.addEventListener('input', () => { slugEdited = true; });
+  titleInput.addEventListener('input', () => {
+    if (!slugEdited) {
+      slugInput.value = titleInput.value.toLowerCase().trim()
+        .replace(/[^a-z0-9\s-]/g, '').replace(/\s+/g, '-').replace(/-+/g, '-').slice(0, 80);
+    }
+  });
+
+  // Word count
+  const bodyArea = document.getElementById('f-body') as HTMLTextAreaElement;
+  const wcBody = document.getElementById('wc-body')!;
+  bodyArea.addEventListener('input', () => {
+    const words = bodyArea.value.trim().split(/\s+/).filter(Boolean).length;
+    wcBody.textContent = `${words.toLocaleString()} words`;
+  });
+
+  // Unsaved changes warning
+  let dirty = false;
+  document.querySelectorAll('input,textarea,select').forEach((el) => {
+    el.addEventListener('input', () => { dirty = true; });
+  });
+  window.addEventListener('beforeunload', (e) => {
+    if (dirty) { e.preventDefault(); e.returnValue = ''; }
+  });
+
+  // tabs
+  const tabs = document.querySelectorAll<HTMLButtonElement>('.tab');
+  const tabMarkdown = document.getElementById('tab-markdown')!;
+  const tabPreview = document.getElementById('tab-preview')!;
+  tabs.forEach((tab) => {
+    tab.addEventListener('click', () => {
+      tabs.forEach((t) => t.classList.remove('active'));
+      tab.classList.add('active');
+      if (tab.dataset.tab === 'markdown') {
+        tabMarkdown.style.display = '';
+        tabPreview.style.display = 'none';
+      } else {
+        tabMarkdown.style.display = 'none';
+        tabPreview.style.display = '';
+        renderPreview();
+      }
+    });
+  });
+
+  document.getElementById('btn-preview-tab')!.addEventListener('click', () => {
+    tabs.forEach((t) => t.classList.remove('active'));
+    document.querySelector<HTMLButtonElement>('[data-tab="preview"]')!.classList.add('active');
+    tabMarkdown.style.display = 'none';
+    tabPreview.style.display = '';
+    renderPreview();
+  });
+
+  function val(id: string) { return (document.getElementById(id) as HTMLInputElement).value.trim(); }
+  function chk(id: string) { return (document.getElementById(id) as HTMLInputElement).checked; }
+  function yamlValue(value: string) { return value.replace(/\\/g, '\\\\').replace(/"/g, '\\"').replace(/\r?\n/g, ' '); }
+
+  function validate(): string | null {
+    if (!val('f-title')) return 'Title is required.';
+    if (!val('f-slug')) return 'Slug is required.';
+    if (!val('f-cat')) return 'Category is required.';
+    if (!val('f-desc')) return 'Description is required.';
+    if (val('f-desc').length < 50) return 'Description must be at least 50 characters.';
+    if (!val('f-hero')) return 'Hero image is required.';
+    if (!val('f-pin')) return 'Pin image is required.';
+    if (!bodyArea.value.trim()) return 'Article body is required.';
+    return null;
+  }
+
+  function buildMarkdown(): string {
+    const title = val('f-title'), desc = val('f-desc'), cat = val('f-cat');
+    const date = val('f-date'), hero = val('f-hero'), pin = val('f-pin');
+    const tagsRaw = val('f-tags'), updated = val('f-updated');
+    const takeawaysRaw = val('f-takeaways'), faqsRaw = val('f-faqs');
+    const featured = chk('f-featured'), affiliate = chk('f-affiliate');
+    const body = bodyArea.value.trim();
+    const tags = tagsRaw ? tagsRaw.split(',').map((t) => t.trim()).filter(Boolean) : [];
+    const tagsYaml = `\ntags: [${tags.map((t) => `"${yamlValue(t)}"`).join(', ')}]`;
+    const updatedLine = updated ? `\nupdatedDate: ${updated}` : '';
+    const takeaways = takeawaysRaw
+      ? '\nkeyTakeaways:\n' + takeawaysRaw.split('\n').filter((l) => l.trim()).map((l) => `  - "${l.trim().replace(/"/g,'\\"')}"`).join('\n')
+      : '';
+    let faqsYaml = '';
+    if (faqsRaw.trim()) {
+      const parsed = faqsRaw.trim().split(/\n\s*\n/).map((block) => {
+        const lines = block.trim().split('\n');
+        let q = '', a = '';
+        for (const line of lines) {
+          if (line.startsWith('q:')) q = line.slice(2).trim();
+          else if (line.startsWith('a:')) a = line.slice(2).trim();
+        }
+        return q && a ? `  - q: "${q.replace(/"/g,'\\"')}"\n    a: "${a.replace(/"/g,'\\"')}"` : null;
+      }).filter(Boolean);
+      if (parsed.length) faqsYaml = '\nfaqs:\n' + parsed.join('\n');
+    }
+    return `---\ntitle: "${yamlValue(title)}"\ndescription: "${yamlValue(desc)}"\ncategory: "${cat}"${tagsYaml}\npublishDate: ${date}${updatedLine}\nheroImage: "${yamlValue(hero)}"\npinImage: "${yamlValue(pin)}"\nfeatured: ${featured}\naffiliateDisclosure: ${affiliate}${takeaways}${faqsYaml}\n---\n\n${body}`;
+  }
+
+  document.getElementById('btn-generate')!.addEventListener('click', () => {
+    document.getElementById('output')!.textContent = buildMarkdown();
+    tabs.forEach((t) => t.classList.remove('active'));
+    document.querySelector<HTMLButtonElement>('[data-tab="markdown"]')!.classList.add('active');
+    tabMarkdown.style.display = ''; tabPreview.style.display = 'none';
+  });
+
+  // Publish Post
+  const saveStatus = document.getElementById('save-status')!;
+  const btnSave = document.getElementById('btn-save') as HTMLButtonElement;
+  btnSave.addEventListener('click', async () => {
+    const err = validate();
+    if (err) { saveStatus.textContent = '\u2717 ' + err; saveStatus.style.color = '#dc2626'; return; }
+    const slug = val('f-slug');
+    const content = buildMarkdown();
+    btnSave.disabled = true;
+    saveStatus.textContent = 'Publishing\u2026';
+    saveStatus.style.color = 'var(--ink40)';
+    try {
+      const res = await fetch('/admin/api/save/', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ slug, content }),
+      });
+      const data = await res.json();
+      if (data.ok) {
+        dirty = false;
+        saveStatus.textContent = '\u2713 Published! Redirecting\u2026';
+        saveStatus.style.color = '#16a34a';
+        setTimeout(() => { window.location.href = `/admin/edit/${slug}/`; }, 1200);
+      } else {
+        saveStatus.textContent = '\u2717 ' + (data.error ?? 'Failed');
+        saveStatus.style.color = '#dc2626';
+      }
+    } catch {
+      saveStatus.textContent = '\u2717 Network error';
+      saveStatus.style.color = '#dc2626';
+    }
+    btnSave.disabled = false;
+  });
+
+  // copy
+  const copyBtn = document.getElementById('copy-btn') as HTMLButtonElement;
+  copyBtn.addEventListener('click', async () => {
+    const text = document.getElementById('output')!.textContent ?? '';
+    await navigator.clipboard.writeText(text);
+    copyBtn.textContent = '\u2713 Copied!';
+    copyBtn.classList.add('copied');
+    setTimeout(() => {
+      copyBtn.innerHTML = `<svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg> Copy to clipboard`;
+      copyBtn.classList.remove('copied');
+    }, 2000);
+  });
+
+  function renderPreview() {
+    const title = val('f-title'), desc = val('f-desc'), cat = val('f-cat'), date = val('f-date');
+    const takeawaysRaw = val('f-takeaways');
+    const body = bodyArea.value.trim();
+    const container = document.getElementById('article-preview')!;
+    if (!title && !desc && !body) {
+      container.innerHTML = '<p class="placeholder">Fill in the form fields to see a live preview here.</p>';
+      return;
+    }
+    const takeawayLines = takeawaysRaw ? takeawaysRaw.split('\n').filter((l) => l.trim()) : [];
+    const takeawaysHtml = takeawayLines.length
+      ? `<div class="takeaways"><p>Key Takeaways</p><ul>${takeawayLines.map((l) => `<li>${l}</li>`).join('')}</ul></div>`
+      : '';
+    container.innerHTML = `
+      ${title ? `<h1>${title}</h1>` : ''}
+      <div class="meta">
+        ${cat ? `<span class="badge">${cat.replace(/-/g,' ')}</span>` : ''}
+        ${date ? `<span>${date}</span>` : ''}
+      </div>
+      ${desc ? `<p class="desc">${desc}</p>` : ''}
+      ${takeawaysHtml}
+      ${body ? `<div class="body-text">${body.replace(/</g,'&lt;').replace(/>/g,'&gt;')}</div>` : ''}
+    `;
+  }
+
+  ['f-title','f-desc','f-cat','f-date','f-takeaways','f-body'].forEach((id) => {
+    document.getElementById(id)!.addEventListener('input', () => {
+      if (tabPreview.style.display !== 'none') renderPreview();
+    });
+  });
+</script>
+</body>
+</html>

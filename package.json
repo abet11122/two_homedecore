@@ -14,7 +14,9 @@
   "dependencies": {
     "@astrojs/rss": "^4.0.19",
     "@astrojs/sitemap": "^3.7.3",
-    "astro": "^7.2.9"
+    "@astrojs/vercel": "^11.0.10",
+    "astro": "^7.2.9",
+    "yaml": "^2.9.1"
   },
   "allowScripts": {
     "esbuild": true

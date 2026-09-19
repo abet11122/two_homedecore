@@ -1,0 +1,29 @@
+import { t as __exportAll } from "./rolldown-runtime_D7D4PA-g.mjs";
+import { C as renderComponent, O as renderTemplate, j as addAttribute, k as maybeRenderHead } from "./sequence_CyX1LPhK.mjs";
+import { t as createComponent } from "./astro-component_BKkGvKJH.mjs";
+import "./compiler_rxq6eLSk.mjs";
+import { i as SITE } from "./site_BpGwPZXI.mjs";
+import { t as $$PageLayout } from "./PageLayout__cqDyEHb.mjs";
+//#region src/pages/privacy-policy.astro
+var privacy_policy_exports = /* @__PURE__ */ __exportAll({
+	default: () => $$PrivacyPolicy,
+	file: () => $$file,
+	url: () => $$url
+});
+var $$PrivacyPolicy = createComponent(($$result, $$props, $$slots) => {
+	const domain = SITE.email.split("@")[1];
+	return renderTemplate`${renderComponent($$result, "PageLayout", $$PageLayout, {
+		"title": "Privacy Policy",
+		"eyebrow": "Legal",
+		"description": `How ${SITE.name} collects, uses and protects your information.`,
+		"lede": "What we collect, why we collect it, and how to tell us to stop.",
+		"updated": "August 29, 2026"
+	}, { "default": ($$result) => renderTemplate`${maybeRenderHead($$result)}<p>This policy explains how ${SITE.name} ("we", "us") handles information when you visit<strong>${SITE.url}</strong>. We have tried to write it in plain language. If anything is unclear, email <a${addAttribute(`mailto:privacy@${domain}`, "href")}>privacy@${domain}</a> and we will explain.</p><h2>Information we collect</h2><p>We keep this deliberately minimal. There is no account system and no login on this site.</p><ul><li><strong>Information you give us.</strong> If you email us or submit the contact form, we receive your name, email address and whatever you write. If you subscribe to the newsletter, we store your email address with our mail provider.</li><li><strong>Usage data.</strong> Standard server and analytics data — pages viewed, approximate region, referring site, device type and browser. This is aggregated and not used to identify you personally.</li><li><strong>Cookies and similar technologies.</strong> Set by us for basic site function, and by our advertising and analytics partners as described below.</li></ul><p>We do not collect payment details, government identifiers, or health information, and we do not knowingly collect information from children under 13.</p><h2>How we use it</h2><ul><li>To publish and improve the site, and to understand which articles are useful.</li><li>To reply to messages you send us.</li><li>To send the newsletter, if you asked for it. Every email has an unsubscribe link.</li><li>To display advertising, which is how the site pays for itself.</li></ul><h2>Advertising and Google AdSense</h2><p>We use Google AdSense to display advertising. Third-party vendors, including Google, use cookies to serve ads based on your prior visits to this and other websites. Google's use of advertising cookies enables it and its partners to serve ads to you based on your visits to our site and other sites on the internet.</p><p>You can opt out of personalised advertising by visiting<a href="https://www.google.com/settings/ads" rel="nofollow noopener" target="_blank">Google Ads Settings</a>, or opt out of third-party vendor cookies at<a href="https://www.aboutads.info/choices/" rel="nofollow noopener" target="_blank">aboutads.info</a>.</p><h2>Consent in the EEA, UK and Switzerland</h2><p>If you are visiting from the European Economic Area, the United Kingdom or Switzerland, a consent banner from Google's certified Consent Management Platform appears before any advertising or analytics cookies are set. Until you make a choice, those cookies stay disabled. You can change your choice at any time using the privacy settings link in the banner.</p><h2>Who we share it with</h2><p>We do not sell your personal information. We share data only with:</p><ul><li><strong>Google AdSense</strong> — advertising delivery and measurement.</li><li><strong>Our hosting provider</strong> — to serve the site.</li><li><strong>Our email provider</strong> — to send the newsletter, if you subscribed.</li><li><strong>Legal authorities</strong> — where we are legally required to.</li></ul><h2>Your rights</h2><p>Depending on where you live, you may have the right to access, correct, export or delete the personal information we hold about you, and to object to certain processing. Residents of the EEA and UK have these rights under the GDPR; California residents have comparable rights under the CCPA/CPRA, including the right not to be discriminated against for exercising them.</p><p>To make a request, email <a${addAttribute(`mailto:privacy@${domain}`, "href")}>privacy@${domain}</a>. We will respond within 30 days.</p><h2>Retention and security</h2><p>We keep contact-form messages for as long as needed to handle the conversation, and newsletter subscriptions until you unsubscribe. The site is served over HTTPS. No method of transmission over the internet is completely secure, and we cannot guarantee absolute security.</p><h2>Changes</h2><p>We will update this page when our practices change, and we will move the "last updated" date at the top. Material changes will be noted on the homepage.</p><h2>Contact</h2><p>Questions about this policy: <a${addAttribute(`mailto:privacy@${domain}`, "href")}>privacy@${domain}</a>.</p><hr><p><em>This template is a starting point, not legal advice. Have a solicitor or attorney review it against your jurisdiction and your actual data practices before you launch.</em></p>` })}`;
+}, "C:/Users/mmuba/OneDrive/Desktop/home_decore - Copy/src/pages/privacy-policy.astro", void 0);
+var $$file = "C:/Users/mmuba/OneDrive/Desktop/home_decore - Copy/src/pages/privacy-policy.astro";
+var $$url = "/privacy-policy/";
+//#endregion
+//#region \0virtual:astro:page:src/pages/privacy-policy@_@astro
+var page = () => privacy_policy_exports;
+//#endregion
+export { page };

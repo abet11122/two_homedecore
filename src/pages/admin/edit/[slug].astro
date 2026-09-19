@@ -1,0 +1,501 @@
+---
+import { getCollection, getEntry } from 'astro:content';
+import { CATEGORIES } from '../../../site';
+
+export const prerender = false;
+
+const { slug } = Astro.params;
+const post = await getEntry('posts', slug!);
+if (!post) return Astro.redirect('/admin/');
+
+const d = post.data;
+const cats = CATEGORIES.map((c) => c.slug);
+const publishDate = d.publishDate.toISOString().slice(0, 10);
+const updatedDate = d.updatedDate ? d.updatedDate.toISOString().slice(0, 10) : '';
+const tagsStr = (d.tags ?? []).join(', ');
+const takeawaysStr = (d.keyTakeaways ?? []).join('\n');
+const faqsStr = (d.faqs ?? []).map((f) => `q: ${f.q}\na: ${f.a}`).join('\n\n');
+const heroImageAlt = (d as any).heroImageAlt ?? '';
+---
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Edit — {d.title}</title>
+<meta name="robots" content="noindex, nofollow" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@600&display=swap" />
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--paper:#FBF8F4;--sand:#F4EEE6;--rule:#E5DCD0;--ink:#1F1B17;--ink60:#4A423A;--ink40:#736758;--ink20:#9C907F;--clay:#B05B38;--clay-soft:#F1E2DA;--clay-deep:#8F4728;--ease:cubic-bezier(0.2,0,0.2,1)}
+body{font-family:'Inter',system-ui,sans-serif;background:var(--paper);color:var(--ink60);font-size:.9375rem;line-height:1.6;min-height:100vh}
+.shell{display:flex;min-height:100vh}
+.sidebar{width:15rem;flex-shrink:0;background:var(--ink);color:#fff;display:flex;flex-direction:column;padding:2rem 1.25rem;position:sticky;top:0;height:100vh;overflow-y:auto}
+.sidebar-brand{font-family:'Playfair Display',Georgia,serif;font-size:1.125rem;color:#fff;margin-bottom:.2rem}
+.sidebar-sub{font-size:.625rem;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:rgba(255,255,255,.35);margin-bottom:2.5rem}
+.nav-label{font-size:.625rem;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:rgba(255,255,255,.3);margin:1.75rem 0 .625rem .5rem}
+.nav-link{display:flex;align-items:center;gap:.625rem;padding:.5rem .75rem;border-radius:.375rem;color:rgba(255,255,255,.6);text-decoration:none;font-size:.875rem;font-weight:500;transition:background 180ms,color 180ms;margin-bottom:.125rem}
+.nav-link:hover{background:rgba(255,255,255,.09);color:#fff}
+.sidebar-footer{margin-top:auto;padding-top:1.25rem;border-top:1px solid rgba(255,255,255,.1)}
+.sidebar-footer a{display:flex;align-items:center;gap:.5rem;color:rgba(255,255,255,.4);text-decoration:none;font-size:.8125rem;transition:color 180ms}
+.sidebar-footer a:hover{color:rgba(255,255,255,.75)}
+.main{flex:1;min-width:0;display:flex;flex-direction:column}
+.topbar{display:flex;align-items:center;justify-content:space-between;padding:1.125rem 2rem;border-bottom:1px solid var(--rule);background:var(--paper);position:sticky;top:0;z-index:10;gap:1rem}
+.topbar-left{display:flex;align-items:center;gap:1rem}
+.back-link{display:inline-flex;align-items:center;gap:.375rem;color:var(--ink40);text-decoration:none;font-size:.8125rem;transition:color 150ms}
+.back-link:hover{color:var(--clay)}
+.topbar-title{font-family:'Playfair Display',Georgia,serif;font-size:1.25rem;color:var(--ink);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:28rem}
+.topbar-actions{display:flex;gap:.625rem;flex-shrink:0}
+.btn{display:inline-flex;align-items:center;gap:.5rem;font-size:.875rem;font-weight:600;padding:.6rem 1.25rem;border-radius:.375rem;cursor:pointer;font-family:inherit;transition:background 180ms,transform 150ms,border-color 150ms;text-decoration:none}
+.btn-primary{background:var(--clay);color:#fff;border:1px solid var(--clay)}
+.btn-primary:hover{background:var(--clay-deep);transform:translateY(-1px)}
+.btn-outline{background:transparent;color:var(--ink60);border:1px solid var(--rule)}
+.btn-outline:hover{border-color:var(--ink40);color:var(--ink)}
+.editor-shell{display:grid;grid-template-columns:1fr 1fr;height:calc(100vh - 3.75rem);overflow:hidden}
+.pane{overflow-y:auto;padding:2rem}
+.pane-form{border-right:1px solid var(--rule)}
+.section-title{font-family:'Playfair Display',Georgia,serif;font-size:1rem;color:var(--ink);margin-bottom:1.25rem;padding-bottom:.625rem;border-bottom:1px solid var(--rule)}
+.field-group{display:grid;gap:1.25rem;margin-bottom:2rem}
+.field-row{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+label{display:block;font-size:.75rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--ink40);margin-bottom:.375rem}
+label span{font-weight:400;text-transform:none;letter-spacing:0;color:var(--ink20);margin-left:.25rem}
+input[type=text],input[type=date],select,textarea{width:100%;background:#fff;border:1px solid var(--rule);border-radius:.375rem;padding:.625rem .875rem;font-family:inherit;font-size:.875rem;color:var(--ink);outline:none;transition:border-color 180ms,box-shadow 180ms}
+input[type=text]:focus,input[type=date]:focus,select:focus,textarea:focus{border-color:var(--clay);box-shadow:0 0 0 3px rgb(176 91 56/.1)}
+textarea{resize:vertical;line-height:1.6;font-family:'Courier New',monospace;font-size:.8125rem}
+.char-count{font-size:.6875rem;color:var(--ink20);text-align:right;margin-top:.25rem}
+.char-count.warn{color:#d97706}
+.char-count.over{color:#dc2626}
+.toggle-row{display:flex;align-items:center;justify-content:space-between;padding:.75rem 1rem;background:var(--sand);border:1px solid var(--rule);border-radius:.375rem}
+.toggle-label{font-size:.875rem;font-weight:500;color:var(--ink)}
+.toggle-sub{font-size:.75rem;color:var(--ink40);margin-top:.1rem}
+.toggle{position:relative;width:2.5rem;height:1.375rem;flex-shrink:0}
+.toggle input{opacity:0;width:0;height:0;position:absolute}
+.toggle-track{position:absolute;inset:0;background:var(--rule);border-radius:999px;cursor:pointer;transition:background 200ms}
+.toggle input:checked+.toggle-track{background:var(--clay)}
+.toggle-thumb{position:absolute;top:.1875rem;left:.1875rem;width:1rem;height:1rem;background:#fff;border-radius:50%;transition:transform 200ms;pointer-events:none;box-shadow:0 1px 3px rgb(0 0 0/.2)}
+.toggle input:checked~.toggle-thumb{transform:translateX(1.125rem)}
+.preview-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:1.5rem;padding-bottom:.75rem;border-bottom:1px solid var(--rule)}
+.preview-label{font-size:.6875rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--ink40)}
+.preview-tabs{display:flex;gap:.25rem}
+.tab{padding:.25rem .75rem;border-radius:.3rem;font-size:.75rem;font-weight:500;border:1px solid var(--rule);background:transparent;color:var(--ink60);cursor:pointer;font-family:inherit;transition:all 150ms}
+.tab.active{background:var(--ink);color:#fff;border-color:var(--ink)}
+.output-box{background:var(--sand);border:1px solid var(--rule);border-radius:.375rem;padding:1.25rem;font-family:'Courier New',monospace;font-size:.75rem;line-height:1.7;color:var(--ink60);white-space:pre-wrap;word-break:break-word;min-height:20rem}
+.copy-btn{display:inline-flex;align-items:center;gap:.4rem;margin-top:.75rem;padding:.4rem .875rem;border-radius:.3rem;font-size:.8125rem;font-weight:600;background:var(--ink);color:#fff;border:none;cursor:pointer;font-family:inherit;transition:background 150ms}
+.copy-btn:hover{background:var(--clay)}
+.copy-btn.copied{background:#16a34a}
+.slug-banner{background:var(--sand);border:1px solid var(--rule);border-radius:.375rem;padding:.75rem 1rem;font-size:.8125rem;color:var(--ink60);margin-bottom:1.5rem;display:flex;align-items:center;gap:.5rem}
+.slug-banner code{font-family:'Courier New',monospace;font-size:.75rem;color:var(--clay-deep);background:var(--clay-soft);padding:.1rem .4rem;border-radius:.2rem}
+.save-note{background:#fef3c7;border:1px solid #fde68a;border-radius:.375rem;padding:1rem 1.25rem;font-size:.875rem;color:#92400e;line-height:1.7}
+.save-note strong{font-weight:600}
+.save-note code{font-family:'Courier New',monospace;font-size:.8rem;background:#fde68a;padding:.1rem .35rem;border-radius:.2rem}
+.affiliate-helper{background:var(--sand);border:1px solid var(--rule);border-radius:.375rem;padding:1rem 1.25rem;margin-bottom:1.25rem}
+.affiliate-helper p{font-size:.8125rem;color:var(--ink60);margin-bottom:.75rem;line-height:1.6}
+.affiliate-helper code{font-family:'Courier New',monospace;font-size:.75rem;background:var(--clay-soft);color:var(--clay-deep);padding:.15rem .4rem;border-radius:.2rem;display:block;margin:.25rem 0;word-break:break-all}
+.affiliate-row{display:grid;grid-template-columns:1fr 1fr auto;gap:.5rem;align-items:end;margin-bottom:.5rem}
+.affiliate-row input{margin:0}
+.add-link-btn{display:inline-flex;align-items:center;gap:.35rem;padding:.5rem .875rem;border-radius:.3rem;font-size:.8125rem;font-weight:600;background:var(--ink);color:#fff;border:none;cursor:pointer;font-family:inherit;white-space:nowrap;transition:background 150ms}
+.add-link-btn:hover{background:var(--clay)}
+.remove-btn{padding:.5rem .6rem;border-radius:.3rem;border:1px solid var(--rule);background:transparent;color:var(--ink40);cursor:pointer;font-size:.875rem;line-height:1;transition:all 150ms}
+.remove-btn:hover{border-color:#dc2626;color:#dc2626;background:#fef2f2}
+.insert-btn{display:inline-flex;align-items:center;gap:.35rem;padding:.35rem .75rem;border-radius:.3rem;font-size:.75rem;font-weight:600;background:var(--clay-soft);color:var(--clay-deep);border:1px solid var(--clay);cursor:pointer;font-family:inherit;transition:all 150ms;margin-top:.5rem}
+.insert-btn:hover{background:var(--clay);color:#fff}
+</style>
+</head>
+<body>
+<div class="shell">
+  <aside class="sidebar">
+    <p class="sidebar-brand">Hearth &amp; Grain</p>
+    <p class="sidebar-sub">Admin</p>
+    <p class="nav-label">Content</p>
+    <a href="/admin/" class="nav-link">
+      <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.75" viewBox="0 0 24 24"><path d="M4 6h16M4 10h16M4 14h10"/></svg>
+      All Posts
+    </a>
+    <a href="/admin/new/" class="nav-link">
+      <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.75" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg>
+      New Post
+    </a>
+    <p class="nav-label">Rooms</p>
+    {CATEGORIES.map((c) => (
+      <a href={`/category/${c.slug}/`} target="_blank" class="nav-link" style="font-size:.8125rem">{c.name}</a>
+    ))}
+    <div class="sidebar-footer">
+      <a href="/" target="_blank">
+        <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="1.75" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+        View site
+      </a>
+    </div>
+  </aside>
+
+  <div class="main">
+    <div class="topbar">
+      <div class="topbar-left">
+        <a href="/admin/" class="back-link">
+          <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M19 12H5M12 5l-7 7 7 7"/></svg>
+          Posts
+        </a>
+        <h1 class="topbar-title">Edit: {d.title}</h1>
+      </div>
+      <div class="topbar-actions">
+        <span id="save-status" style="font-size:.8125rem;color:var(--ink40);align-self:center"></span>
+        <a href={`/post/${slug}/`} target="_blank" class="btn btn-outline">
+          <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+          View Live
+        </a>
+        <button class="btn btn-outline" id="btn-generate">
+          <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          Preview MD
+        </button>
+        <button class="btn btn-primary" id="btn-save">
+          <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"/><polyline points="17 21 17 13 7 13 7 21"/><polyline points="7 3 7 8 15 8"/></svg>
+          Save Post
+        </button>
+      </div>
+    </div>
+
+    <div class="editor-shell">
+      <div class="pane pane-form">
+        <div class="slug-banner">
+          <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+          File: <code>src/content/posts/{slug}.md</code>
+        </div>
+
+        <p class="section-title">Required Fields</p>
+        <div class="field-group">
+          <div>
+            <label for="f-title">Title <span>max 90 chars</span></label>
+            <input id="f-title" type="text" maxlength="90" value={d.title} />
+            <p class="char-count" id="cc-title">{d.title.length} / 90</p>
+          </div>
+          <div>
+            <label for="f-desc">Description <span>50–200 chars</span></label>
+            <input id="f-desc" type="text" maxlength="200" value={d.description} />
+            <p class="char-count" id="cc-desc">{d.description.length} / 200</p>
+          </div>
+          <div class="field-row">
+            <div>
+              <label for="f-cat">Category</label>
+              <select id="f-cat">
+                {cats.map((s) => (
+                  <option value={s} selected={s === d.category}>{s.replace(/-/g,' ')}</option>
+                ))}
+              </select>
+            </div>
+            <div>
+              <label for="f-date">Publish Date</label>
+              <input id="f-date" type="date" value={publishDate} />
+            </div>
+          </div>
+          <div class="field-row">
+            <div>
+              <label for="f-hero">Hero Image</label>
+              <input id="f-hero" type="text" value={d.heroImage} />
+            </div>
+            <div>
+              <label for="f-pin">Pin Image</label>
+              <input id="f-pin" type="text" value={d.pinImage} />
+            </div>
+          </div>
+          <div>
+            <label for="f-hero-alt">Hero Image Alt Text <span>optional but good for SEO</span></label>
+            <input id="f-hero-alt" type="text" placeholder="A cozy living room with warm lighting and layered textiles" value={heroImageAlt} />
+          </div>
+        </div>
+
+        <p class="section-title">Optional Fields</p>
+        <div class="field-group">
+          <div>
+            <label for="f-tags">Tags <span>comma-separated</span></label>
+            <input id="f-tags" type="text" value={tagsStr} />
+          </div>
+          <div>
+            <label for="f-updated">Updated Date</label>
+            <input id="f-updated" type="date" value={updatedDate} />
+          </div>
+          <div>
+            <label for="f-takeaways">Key Takeaways <span>one per line</span></label>
+            <textarea id="f-takeaways" rows="5">{takeawaysStr}</textarea>
+          </div>
+          <div>
+            <label for="f-faqs">FAQs <span>q: … / a: … pairs, blank line between</span></label>
+            <textarea id="f-faqs" rows="8">{faqsStr}</textarea>
+          </div>
+          <div class="toggle-row">
+            <div>
+              <p class="toggle-label">Featured</p>
+              <p class="toggle-sub">Promotes to homepage lead slot</p>
+            </div>
+            <label class="toggle">
+              <input type="checkbox" id="f-featured" checked={d.featured} />
+              <span class="toggle-track"></span>
+              <span class="toggle-thumb"></span>
+            </label>
+          </div>
+          <div class="toggle-row">
+            <div>
+              <p class="toggle-label">Affiliate Disclosure</p>
+              <p class="toggle-sub">Shows FTC disclosure banner</p>
+            </div>
+            <label class="toggle">
+              <input type="checkbox" id="f-affiliate" checked={d.affiliateDisclosure} />
+              <span class="toggle-track"></span>
+              <span class="toggle-thumb"></span>
+            </label>
+          </div>
+        </div>
+
+        <p class="section-title">Affiliate Links</p>
+        <div class="field-group">
+          <div class="affiliate-helper">
+            <p>Add your affiliate links below. Each one generates a ready-to-paste Markdown link you can insert into the body.</p>
+            <div id="affiliate-rows"></div>
+            <button class="add-link-btn" id="add-affiliate">
+              <svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg>
+              Add link
+            </button>
+          </div>
+          <div id="affiliate-output" style="display:none">
+            <label>Generated Markdown Links <span>click to insert into body</span></label>
+            <div id="affiliate-links-list"></div>
+          </div>
+        </div>
+
+        <p class="section-title">Article Body</p>
+        <div class="field-group">
+          <div>
+            <label for="f-body">Markdown Body</label>
+            <textarea id="f-body" rows="20">{post.body}</textarea>
+            <p class="char-count" id="wc-body" style="text-align:left">{post.body ? post.body.trim().split(/\s+/).filter(Boolean).length.toLocaleString() : '0'} words</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="pane">
+        <div class="preview-header">
+          <p class="preview-label">Output</p>
+          <div class="preview-tabs">
+            <button class="tab active" data-tab="markdown">Markdown</button>
+            <button class="tab" data-tab="instructions">How to Save</button>
+          </div>
+        </div>
+
+        <div id="tab-markdown">
+          <pre class="output-box" id="output">Click "Generate Markdown" to see the updated file content here.</pre>
+          <button class="copy-btn" id="copy-btn">
+            <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+            Copy to clipboard
+          </button>
+        </div>
+
+        <div id="tab-instructions" style="display:none">
+          <div class="save-note">
+            <strong>Saving on Vercel:</strong><br/><br/>
+            Vercel does not provide persistent file storage for this admin panel. Use <strong>Generate Markdown</strong>, copy the result, and commit it to <code>src/content/posts/{slug}.md</code> through Git.<br/><br/>
+            The Save button is available for local development only.
+            6. Save the file — Astro hot-reloads instantly.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  function charCounter(inputId: string, counterId: string, min = 0, max = 999) {
+    const input = document.getElementById(inputId) as HTMLInputElement;
+    const counter = document.getElementById(counterId)!;
+    input.addEventListener('input', () => {
+      const n = input.value.length;
+      counter.textContent = `${n} / ${max}`;
+      counter.className = 'char-count' + (n > max ? ' over' : n < min && n > 0 ? ' warn' : '');
+    });
+  }
+  charCounter('f-title', 'cc-title', 1, 90);
+  charCounter('f-desc', 'cc-desc', 50, 200);
+
+  // Word count
+  const bodyArea = document.getElementById('f-body') as HTMLTextAreaElement;
+  const wcBody = document.getElementById('wc-body')!;
+  bodyArea.addEventListener('input', () => {
+    const words = bodyArea.value.trim().split(/\s+/).filter(Boolean).length;
+    wcBody.textContent = `${words.toLocaleString()} words`;
+  });
+
+  // Unsaved changes warning
+  let dirty = false;
+  document.querySelectorAll('input,textarea,select').forEach((el) => {
+    el.addEventListener('input', () => { dirty = true; });
+  });
+  window.addEventListener('beforeunload', (e) => {
+    if (dirty) { e.preventDefault(); e.returnValue = ''; }
+  });
+
+  const tabs = document.querySelectorAll<HTMLButtonElement>('.tab');
+  const tabMd = document.getElementById('tab-markdown')!;
+  const tabInstr = document.getElementById('tab-instructions')!;
+  tabs.forEach((tab) => {
+    tab.addEventListener('click', () => {
+      tabs.forEach((t) => t.classList.remove('active'));
+      tab.classList.add('active');
+      tabMd.style.display = tab.dataset.tab === 'markdown' ? '' : 'none';
+      tabInstr.style.display = tab.dataset.tab === 'instructions' ? '' : 'none';
+    });
+  });
+
+  function val(id: string) { return (document.getElementById(id) as HTMLInputElement).value.trim(); }
+  function chk(id: string) { return (document.getElementById(id) as HTMLInputElement).checked; }
+  function yamlValue(value: string) { return value.replace(/\\/g, '\\\\').replace(/"/g, '\\"').replace(/\r?\n/g, ' '); }
+
+  function validate(): string | null {
+    if (!val('f-title')) return 'Title is required.';
+    if (!val('f-cat')) return 'Category is required.';
+    if (!val('f-desc')) return 'Description is required.';
+    if (val('f-desc').length < 50) return 'Description must be at least 50 characters.';
+    if (!val('f-hero')) return 'Hero image is required.';
+    if (!val('f-pin')) return 'Pin image is required.';
+    if (!bodyArea.value.trim()) return 'Article body is required.';
+    return null;
+  }
+
+  // Affiliate links builder
+  const affiliateRows = document.getElementById('affiliate-rows')!;
+  const affiliateOutput = document.getElementById('affiliate-output')!;
+  const affiliateLinksList = document.getElementById('affiliate-links-list')!;
+
+  function addAffiliateRow() {
+    const row = document.createElement('div');
+    row.className = 'affiliate-row';
+    row.innerHTML = `
+      <div><label style="margin-bottom:.25rem">Link Text</label><input type="text" placeholder="cozy linen throw" class="aff-text" /></div>
+      <div><label style="margin-bottom:.25rem">URL</label><input type="text" placeholder="https://amazon.com/..." class="aff-url" /></div>
+      <button class="remove-btn" title="Remove">✕</button>
+    `;
+    row.querySelector('.remove-btn')!.addEventListener('click', () => { row.remove(); updateAffiliateOutput(); });
+    row.querySelectorAll('input').forEach((i) => i.addEventListener('input', updateAffiliateOutput));
+    affiliateRows.appendChild(row);
+  }
+
+  function updateAffiliateOutput() {
+    const rows = affiliateRows.querySelectorAll('.affiliate-row');
+    const links: string[] = [];
+    rows.forEach((row) => {
+      const text = (row.querySelector('.aff-text') as HTMLInputElement).value.trim();
+      const url = (row.querySelector('.aff-url') as HTMLInputElement).value.trim();
+      if (text && url) links.push(`[${text}](${url})`);
+    });
+    if (links.length === 0) { affiliateOutput.style.display = 'none'; return; }
+    affiliateOutput.style.display = '';
+    affiliateLinksList.innerHTML = links.map((link) => `
+      <div style="display:flex;align-items:center;gap:.5rem;margin-bottom:.375rem">
+        <code style="font-family:'Courier New',monospace;font-size:.75rem;background:var(--clay-soft);color:var(--clay-deep);padding:.25rem .6rem;border-radius:.25rem;flex:1;word-break:break-all">${link}</code>
+        <button class="insert-btn" data-link="${link.replace(/"/g,'&quot;')}">
+          <svg width="11" height="11" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg>
+          Insert
+        </button>
+      </div>
+    `).join('');
+    affiliateLinksList.querySelectorAll('.insert-btn').forEach((btn) => {
+      btn.addEventListener('click', () => {
+        const body = document.getElementById('f-body') as HTMLTextAreaElement;
+        const link = (btn as HTMLElement).dataset.link ?? '';
+        const pos = body.selectionStart ?? body.value.length;
+        body.value = body.value.slice(0, pos) + link + body.value.slice(pos);
+        body.focus();
+        body.selectionStart = body.selectionEnd = pos + link.length;
+      });
+    });
+  }
+
+  document.getElementById('add-affiliate')!.addEventListener('click', addAffiliateRow);
+
+  function buildMarkdown(): string {
+    const title = val('f-title'), desc = val('f-desc'), cat = val('f-cat');
+    const date = val('f-date'), hero = val('f-hero'), pin = val('f-pin');
+    const tagsRaw = val('f-tags'), updated = val('f-updated');
+    const takeawaysRaw = val('f-takeaways'), faqsRaw = val('f-faqs');
+    const body = (document.getElementById('f-body') as HTMLTextAreaElement).value.trim();
+
+    const heroAlt = val('f-hero-alt');
+    const tags = tagsRaw ? tagsRaw.split(',').map((t) => t.trim()).filter(Boolean) : [];
+    const tagsYaml = `\ntags: [${tags.map((t) => `"${yamlValue(t)}"`).join(', ')}]`;
+    const updatedLine = updated ? `\nupdatedDate: ${updated}` : '';
+    const heroAltLine = heroAlt ? `\nheroImageAlt: "${yamlValue(heroAlt)}"` : '';
+    const takeaways = takeawaysRaw
+      ? '\nkeyTakeaways:\n' + takeawaysRaw.split('\n').filter((l) => l.trim()).map((l) => `  - "${l.trim().replace(/"/g,'\\"')}"`).join('\n')
+      : '';
+    let faqsYaml = '';
+    if (faqsRaw.trim()) {
+      const parsed = faqsRaw.trim().split(/\n\s*\n/).map((block) => {
+        const lines = block.trim().split('\n');
+        let q = '', a = '';
+        for (const line of lines) {
+          if (line.startsWith('q:')) q = line.slice(2).trim();
+          else if (line.startsWith('a:')) a = line.slice(2).trim();
+        }
+        return q && a ? `  - q: "${q.replace(/"/g,'\\"')}"\n    a: "${a.replace(/"/g,'\\"')}"` : null;
+      }).filter(Boolean);
+      if (parsed.length) faqsYaml = '\nfaqs:\n' + parsed.join('\n');
+    }
+    return `---\ntitle: "${yamlValue(title)}"\ndescription: "${yamlValue(desc)}"\ncategory: "${cat}"${tagsYaml}\npublishDate: ${date}${updatedLine}\nheroImage: "${yamlValue(hero)}"${heroAltLine}\npinImage: "${yamlValue(pin)}"\nfeatured: ${chk('f-featured')}\naffiliateDisclosure: ${chk('f-affiliate')}${takeaways}${faqsYaml}\n---\n\n${body}`;
+  }
+
+  document.getElementById('btn-generate')!.addEventListener('click', () => {
+    document.getElementById('output')!.textContent = buildMarkdown();
+    tabs.forEach((t) => t.classList.remove('active'));
+    document.querySelector<HTMLButtonElement>('[data-tab="markdown"]')!.classList.add('active');
+    tabMd.style.display = ''; tabInstr.style.display = 'none';
+  });
+
+  // Save directly to file
+  const saveStatus = document.getElementById('save-status')!;
+  const btnSave = document.getElementById('btn-save') as HTMLButtonElement;
+
+  btnSave.addEventListener('click', async () => {
+    const validationError = validate();
+    if (validationError) {
+      saveStatus.textContent = 'âœ— ' + validationError;
+      saveStatus.style.color = '#dc2626';
+      return;
+    }
+    const content = buildMarkdown();
+    const slug = window.location.pathname.split('/').filter(Boolean).pop();
+    btnSave.disabled = true;
+    saveStatus.textContent = 'Saving…';
+    saveStatus.style.color = 'var(--ink40)';
+    try {
+      const res = await fetch('/admin/api/save/', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ slug, content }),
+      });
+      const data = await res.json();
+      if (data.ok) {
+        saveStatus.textContent = '✓ Saved — Astro is reloading';
+        saveStatus.style.color = '#16a34a';
+        setTimeout(() => { saveStatus.textContent = ''; }, 4000);
+      } else {
+        saveStatus.textContent = '✗ ' + (data.error ?? 'Save failed');
+        saveStatus.style.color = '#dc2626';
+      }
+    } catch {
+      saveStatus.textContent = '✗ Network error';
+      saveStatus.style.color = '#dc2626';
+    }
+    btnSave.disabled = false;
+  });
+
+  const copyBtn = document.getElementById('copy-btn') as HTMLButtonElement;
+  copyBtn.addEventListener('click', async () => {
+    await navigator.clipboard.writeText(document.getElementById('output')!.textContent ?? '');
+    copyBtn.textContent = '✓ Copied!';
+    copyBtn.classList.add('copied');
+    setTimeout(() => {
+      copyBtn.innerHTML = `<svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg> Copy to clipboard`;
+      copyBtn.classList.remove('copied');
+    }, 2000);
+  });
+</script>
+</body>
+</html>
