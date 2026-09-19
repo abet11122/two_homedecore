@@ -6,6 +6,9 @@ import PostCard from '../components/PostCard.astro';
 import AdSlot from '../components/AdSlot.astro';
 import Newsletter from '../components/Newsletter.astro';
 import { CATEGORIES, PRIMARY_CATEGORIES, categoryName } from '../site';
+
+export const prerender = true;
+
 const posts = (await getCollection('posts')).sort((a,b) => b.data.publishDate.getTime()-a.data.publishDate.getTime());
 const featured = posts.find(p => p.data.featured) ?? posts[0];
 const weekend = posts.find(p => p.id === 'diy-floating-shelves');

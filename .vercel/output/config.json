@@ -41,10 +41,6 @@
 			"dest": "_render"
 		},
 		{
-			"src": "^/about/$",
-			"dest": "_render"
-		},
-		{
 			"src": "^/admin/api/login/$",
 			"dest": "_render"
 		},
@@ -77,19 +73,7 @@
 			"dest": "_render"
 		},
 		{
-			"src": "^/contact/$",
-			"dest": "_render"
-		},
-		{
-			"src": "^/disclosure/$",
-			"dest": "_render"
-		},
-		{
 			"src": "^/llms\\.txt$",
-			"dest": "_render"
-		},
-		{
-			"src": "^/privacy-policy/$",
 			"dest": "_render"
 		},
 		{
@@ -106,10 +90,6 @@
 		},
 		{
 			"src": "^/tags/$",
-			"dest": "_render"
-		},
-		{
-			"src": "^/$",
 			"dest": "_render"
 		},
 		{
