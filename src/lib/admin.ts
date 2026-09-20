@@ -59,7 +59,18 @@ export function isVercelDeployment() {
 
 export function normalizePostContent(content: unknown) {
   if (!isString(content)) return content;
-  return content.replace(/^(category:\s*["']?)christmas(["']?\s*)$/im, '$1seasonal$2');
+  const aliases: Record<string, string> = {
+    christmas: 'seasonal',
+    'christmas-decor': 'seasonal',
+    'christmas-entryway': 'seasonal',
+    holiday: 'seasonal',
+    'holiday-decor': 'seasonal',
+    'entryway-decor': 'entryway',
+  };
+  return content.replace(/^(category:\s*)(["']?)([^"'\r\n]+)\2(\s*)$/im, (line, prefix, quote, value, trailing) => {
+    const canonicalCategory = aliases[value.trim().toLowerCase().replace(/\s+/g, '-')];
+    return canonicalCategory ? `${prefix}${quote}${canonicalCategory}${quote}${trailing}` : line;
+  });
 }
 
 function isString(value: unknown): value is string {
