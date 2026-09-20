@@ -161,6 +161,12 @@ body{font-family:'Inter',system-ui,sans-serif;background:#F7F4F0;color:var(--ink
 .file-info{display:flex;align-items:center;gap:.625rem}
 .file-name{font-size:.875rem;font-weight:500;color:var(--ink)}
 .file-size{font-size:.75rem;color:var(--ink40)}
+.upload-editor{display:none;margin-top:1rem}
+.upload-editor.show{display:block}
+.upload-editor label{display:block;font-size:.75rem;font-weight:600;color:var(--ink40);margin-bottom:.375rem}
+.upload-editor label span{font-weight:400;color:var(--ink20)}
+.upload-editor textarea{width:100%;min-height:22rem;resize:vertical;background:#fff;border:1px solid var(--rule);border-radius:.4rem;padding:1rem;font-family:'Courier New',monospace;font-size:.8125rem;line-height:1.6;color:var(--ink);outline:none;tab-size:2}
+.upload-editor textarea:focus{border-color:var(--clay);box-shadow:0 0 0 3px rgb(176 91 56/.1)}
 .btn-upload{display:inline-flex;align-items:center;gap:.4rem;background:var(--clay);color:#fff;font-size:.8125rem;font-weight:600;padding:.5rem 1rem;border-radius:.375rem;border:none;cursor:pointer;font-family:inherit;transition:background 160ms;flex-shrink:0}
 .btn-upload:hover{background:var(--clay-deep)}
 .btn-upload:disabled{opacity:.5;cursor:not-allowed}
@@ -326,7 +332,7 @@ tbody td{padding:.875rem 1.5rem;font-size:.875rem;color:var(--ink60);vertical-al
             </div>
             <div>
               <p class="upload-head-title">Upload Post File</p>
-              <p class="upload-head-sub">Drop a .md file to publish instantly</p>
+              <p class="upload-head-sub">Review and edit a .md file before publishing</p>
             </div>
           </div>
           <svg class="upload-chevron" id="upload-chevron" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
@@ -352,6 +358,10 @@ tbody td{padding:.875rem 1.5rem;font-size:.875rem;color:var(--ink60);vertical-al
               <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
               Publish Post
             </button>
+          </div>
+          <div class="upload-editor" id="upload-editor">
+            <label for="upload-content">Markdown preview <span>— edit any field or article text before publishing</span></label>
+            <textarea id="upload-content" spellcheck="false" aria-label="Editable Markdown file contents"></textarea>
           </div>
           <div class="upload-status" id="upload-status"></div>
         </div>
@@ -471,6 +481,8 @@ tbody td{padding:.875rem 1.5rem;font-size:.875rem;color:var(--ink60);vertical-al
   const filePreview = document.getElementById('file-preview')!;
   const fileName = document.getElementById('file-name')!;
   const fileSize = document.getElementById('file-size')!;
+  const uploadEditor = document.getElementById('upload-editor')!;
+  const uploadContent = document.getElementById('upload-content') as HTMLTextAreaElement;
   const btnUpload = document.getElementById('btn-upload') as HTMLButtonElement;
   const uploadStatus = document.getElementById('upload-status')!;
   let selectedFile: File | null = null;
@@ -484,21 +496,24 @@ tbody td{padding:.875rem 1.5rem;font-size:.875rem;color:var(--ink60);vertical-al
   });
   fileInput.addEventListener('change', () => { if (fileInput.files?.[0]) setFile(fileInput.files[0]); });
 
-  function setFile(f: File) {
+  async function setFile(f: File) {
     if (!f.name.endsWith('.md')) { showStatus('error','Only .md files are accepted.'); return; }
+    if (f.size > 500_000) { showStatus('error','File too large (max 500KB).'); return; }
     selectedFile = f;
     fileName.textContent = f.name;
     fileSize.textContent = (f.size / 1024).toFixed(1) + ' KB';
+    uploadContent.value = await f.text();
     filePreview.classList.add('show');
+    uploadEditor.classList.add('show');
     uploadStatus.className = 'upload-status';
   }
 
   btnUpload.addEventListener('click', async () => {
     if (!selectedFile) return;
     btnUpload.disabled = true;
-    showStatus('loading','Publishing…');
+    showStatus('loading','Validating and publishing…');
     const form = new FormData();
-    form.append('file', selectedFile);
+    form.append('file', new File([uploadContent.value], selectedFile.name, { type: 'text/markdown' }));
     try {
       const res = await fetch('/admin/api/upload/', { method: 'POST', body: form });
       const data = await res.json();
@@ -511,10 +526,14 @@ tbody td{padding:.875rem 1.5rem;font-size:.875rem;color:var(--ink60);vertical-al
         URL.revokeObjectURL(link.href);
         showStatus('success', `Downloaded "${data.filename}". Add it to src/content/posts/ and push to publish.`);
         filePreview.classList.remove('show');
+        uploadEditor.classList.remove('show');
+        uploadContent.value = '';
         selectedFile = null; fileInput.value = '';
       } else if (data.ok) {
         showStatus('success', `✓ Published as "${data.filename}" — reload to see it in the list.`);
         filePreview.classList.remove('show');
+        uploadEditor.classList.remove('show');
+        uploadContent.value = '';
         selectedFile = null; fileInput.value = '';
       } else {
         showStatus('error', data.error ?? 'Upload failed.');
