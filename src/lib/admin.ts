@@ -7,6 +7,15 @@ const CATEGORIES = new Set([
   'entryway', 'home-office', 'bathroom', 'outdoor', 'renter',
 ]);
 
+const CATEGORY_ALIASES: Record<string, string> = {
+  christmas: 'seasonal',
+  'christmas-decor': 'seasonal',
+  'christmas-entryway': 'seasonal',
+  holiday: 'seasonal',
+  'holiday-decor': 'seasonal',
+  'entryway-decor': 'entryway',
+};
+
 function credentials() {
   return ADMIN_USERNAME && ADMIN_PASSWORD ? { username: ADMIN_USERNAME, password: ADMIN_PASSWORD } : null;
 }
@@ -59,16 +68,17 @@ export function isVercelDeployment() {
 
 export function normalizePostContent(content: unknown) {
   if (!isString(content)) return content;
-  const aliases: Record<string, string> = {
-    christmas: 'seasonal',
-    'christmas-decor': 'seasonal',
-    'christmas-entryway': 'seasonal',
-    holiday: 'seasonal',
-    'holiday-decor': 'seasonal',
-    'entryway-decor': 'entryway',
-  };
   return content.replace(/^(category:\s*)(["']?)([^"'\r\n]+)\2(\s*)$/im, (line, prefix, quote, value, trailing) => {
-    const canonicalCategory = aliases[value.trim().toLowerCase().replace(/\s+/g, '-')];
+    const categorySlug = value
+      .trim()
+      .toLowerCase()
+      .replace(/[_\s]+/g, '-')
+      .replace(/[^a-z0-9-]/g, '')
+      .replace(/-+/g, '-')
+      .replace(/^-|-$/g, '');
+    const canonicalCategory = CATEGORIES.has(categorySlug)
+      ? categorySlug
+      : CATEGORY_ALIASES[categorySlug];
     return canonicalCategory ? `${prefix}${quote}${canonicalCategory}${quote}${trailing}` : line;
   });
 }
@@ -98,7 +108,9 @@ export function validatePostContent(content: unknown): string | null {
   const post = data as Record<string, unknown>;
   if (!isString(post.title) || post.title.length < 1 || post.title.length > 90) return 'Title must be between 1 and 90 characters.';
   if (!isString(post.description) || post.description.length < 50 || post.description.length > 200) return 'Description must be between 50 and 200 characters.';
-  if (!isString(post.category) || !CATEGORIES.has(post.category)) return 'Category is invalid.';
+  if (!isString(post.category) || !CATEGORIES.has(post.category)) {
+    return `Category is invalid. Use one of: ${[...CATEGORIES].join(', ')}.`;
+  }
   if (!isDate(post.publishDate)) return 'Publish date is invalid.';
   if (post.updatedDate !== undefined && !isDate(post.updatedDate)) return 'Updated date is invalid.';
   if (!isString(post.heroImage) || !post.heroImage.trim()) return 'Hero image is required.';
