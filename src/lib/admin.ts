@@ -68,7 +68,7 @@ export function isVercelDeployment() {
 
 export function normalizePostContent(content: unknown) {
   if (!isString(content)) return content;
-  return content.replace(/^(category:\s*)(["']?)([^"'\r\n]+)\2(\s*)$/im, (line, prefix, quote, value, trailing) => {
+  const normalizedCategory = content.replace(/^(category:\s*)(["']?)([^"'\r\n]+)\2(\s*)$/im, (line, prefix, quote, value, trailing) => {
     const categorySlug = value
       .trim()
       .toLowerCase()
@@ -81,14 +81,34 @@ export function normalizePostContent(content: unknown) {
       : CATEGORY_ALIASES[categorySlug];
     return canonicalCategory ? `${prefix}${quote}${canonicalCategory}${quote}${trailing}` : line;
   });
+
+  return normalizedCategory.replace(/^(publishDate|updatedDate):(\s*)(["']?)([^"'\r\n]+)\3(\s*)$/gim, (line, field, spacing, quote, value, trailing) => {
+    const normalizedDate = dateToIso(value);
+    return normalizedDate ? `${field}:${spacing}${quote}${normalizedDate}${quote}${trailing}` : line;
+  });
 }
 
 function isString(value: unknown): value is string {
   return typeof value === 'string';
 }
 
+function dateToIso(value: unknown): string | null {
+  if (!isString(value)) return null;
+  const input = value.trim();
+  const isoPrefix = input.match(/^(\d{4}-\d{2}-\d{2})(?:[T\s]|$)/)?.[1];
+  if (isoPrefix && isDate(isoPrefix)) return isoPrefix;
+
+  const timestamp = Date.parse(input);
+  return Number.isNaN(timestamp) ? null : new Date(timestamp).toISOString().slice(0, 10);
+}
+
 function isDate(value: unknown) {
-  return isString(value) && /^\d{4}-\d{2}-\d{2}$/.test(value) && !Number.isNaN(Date.parse(`${value}T00:00:00Z`));
+  if (!isString(value) || !/^\d{4}-\d{2}-\d{2}$/.test(value)) return false;
+  const [year, month, day] = value.split('-').map(Number);
+  const date = new Date(Date.UTC(year, month - 1, day));
+  return date.getUTCFullYear() === year
+    && date.getUTCMonth() === month - 1
+    && date.getUTCDate() === day;
 }
 
 /** Validates the same frontmatter requirements enforced by the content collection. */
@@ -111,8 +131,8 @@ export function validatePostContent(content: unknown): string | null {
   if (!isString(post.category) || !CATEGORIES.has(post.category)) {
     return `Category is invalid. Use one of: ${[...CATEGORIES].join(', ')}.`;
   }
-  if (!isDate(post.publishDate)) return 'Publish date is invalid.';
-  if (post.updatedDate !== undefined && !isDate(post.updatedDate)) return 'Updated date is invalid.';
+  if (!isDate(post.publishDate)) return `Publish date is invalid (${String(post.publishDate ?? 'missing')}). Use YYYY-MM-DD.`;
+  if (post.updatedDate !== undefined && !isDate(post.updatedDate)) return `Updated date is invalid (${String(post.updatedDate)}). Use YYYY-MM-DD.`;
   if (!isString(post.heroImage) || !post.heroImage.trim()) return 'Hero image is required.';
   if (!isString(post.pinImage) || !post.pinImage.trim()) return 'Pin image is required.';
   if (post.featured !== undefined && typeof post.featured !== 'boolean') return 'Featured must be true or false.';
