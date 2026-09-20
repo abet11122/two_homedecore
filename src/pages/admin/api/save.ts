@@ -4,11 +4,12 @@ export const trailingSlash = 'ignore';
 import type { APIRoute } from 'astro';
 import { writeFile, access } from 'node:fs/promises';
 import { resolve } from 'node:path';
-import { isVercelDeployment, validatePostContent } from '../../../lib/admin';
+import { isVercelDeployment, normalizePostContent, validatePostContent } from '../../../lib/admin';
 
 export const POST: APIRoute = async ({ request }) => {
   try {
-    const { slug, content } = await request.json();
+    const { slug, content: rawContent } = await request.json();
+    const content = normalizePostContent(rawContent);
 
     if (!slug || !content) {
       return new Response(JSON.stringify({ error: 'Missing slug or content.' }), {

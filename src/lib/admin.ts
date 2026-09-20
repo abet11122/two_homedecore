@@ -57,6 +57,11 @@ export function isVercelDeployment() {
   return process.env.VERCEL === '1';
 }
 
+export function normalizePostContent(content: unknown) {
+  if (!isString(content)) return content;
+  return content.replace(/^(category:\s*["']?)christmas(["']?\s*)$/im, '$1seasonal$2');
+}
+
 function isString(value: unknown): value is string {
   return typeof value === 'string';
 }
