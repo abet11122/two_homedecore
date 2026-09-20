@@ -502,7 +502,17 @@ tbody td{padding:.875rem 1.5rem;font-size:.875rem;color:var(--ink60);vertical-al
     try {
       const res = await fetch('/admin/api/upload/', { method: 'POST', body: form });
       const data = await res.json();
-      if (data.ok) {
+      if (data.download) {
+        const blob = new Blob([data.content], { type: 'text/markdown;charset=utf-8' });
+        const link = document.createElement('a');
+        link.href = URL.createObjectURL(blob);
+        link.download = data.filename;
+        link.click();
+        URL.revokeObjectURL(link.href);
+        showStatus('success', `Downloaded "${data.filename}". Add it to src/content/posts/ and push to publish.`);
+        filePreview.classList.remove('show');
+        selectedFile = null; fileInput.value = '';
+      } else if (data.ok) {
         showStatus('success', `✓ Published as "${data.filename}" — reload to see it in the list.`);
         filePreview.classList.remove('show');
         selectedFile = null; fileInput.value = '';

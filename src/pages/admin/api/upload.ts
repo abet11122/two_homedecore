@@ -28,17 +28,20 @@ export const POST: APIRoute = async ({ request }) => {
 
     const text = await file.text();
 
-    if (isVercelDeployment()) {
-      return new Response(JSON.stringify({ error: 'Publishing is disabled on Vercel. Add the file through Git instead.' }), {
-        status: 403, headers: { 'Content-Type': 'application/json' },
-      });
-    }
-
     const validationError = validatePostContent(text);
     if (validationError) {
       return new Response(JSON.stringify({ error: validationError }), {
         status: 400, headers: { 'Content-Type': 'application/json' },
       });
+    }
+
+    if (isVercelDeployment()) {
+      return new Response(JSON.stringify({
+        download: true,
+        filename: safeName,
+        content: text,
+        message: 'Downloaded the validated Markdown file. Commit it to src/content/posts/ and push to publish.',
+      }), { status: 200, headers: { 'Content-Type': 'application/json' } });
     }
 
     // Path traversal protection

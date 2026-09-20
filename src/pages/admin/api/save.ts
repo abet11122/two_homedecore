@@ -24,12 +24,6 @@ export const POST: APIRoute = async ({ request }) => {
       });
     }
 
-    if (isVercelDeployment()) {
-      return new Response(JSON.stringify({ error: 'Publishing is disabled on Vercel. Copy the generated Markdown and commit it through Git.' }), {
-        status: 403, headers: { 'Content-Type': 'application/json' },
-      });
-    }
-
     // Path traversal protection
     const postsDir = resolve(process.cwd(), 'src', 'content', 'posts');
     const dest = resolve(postsDir, `${safeSlug}.md`);
@@ -44,6 +38,15 @@ export const POST: APIRoute = async ({ request }) => {
       return new Response(JSON.stringify({ error: validationError }), {
         status: 400, headers: { 'Content-Type': 'application/json' },
       });
+    }
+
+    if (isVercelDeployment()) {
+      return new Response(JSON.stringify({
+        download: true,
+        filename: `${safeSlug}.md`,
+        content,
+        message: 'Downloaded the validated Markdown file. Commit it to src/content/posts/ and push to publish.',
+      }), { status: 200, headers: { 'Content-Type': 'application/json' } });
     }
 
     const isNew = await access(dest).then(() => false).catch(() => true);
