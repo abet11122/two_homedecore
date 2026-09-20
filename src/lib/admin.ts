@@ -1,6 +1,6 @@
 import { createHmac, timingSafeEqual } from 'node:crypto';
-import { getSecret } from 'astro:env/server';
 import { parseDocument } from 'yaml';
+import { ADMIN_PASSWORD, ADMIN_USERNAME } from '../config/admin-credentials';
 
 const CATEGORIES = new Set([
   'living-room', 'bedroom', 'kitchen', 'small-spaces', 'diy-decor', 'seasonal',
@@ -8,9 +8,7 @@ const CATEGORIES = new Set([
 ]);
 
 function credentials() {
-  const username = getSecret('ADMIN_USERNAME');
-  const password = getSecret('ADMIN_PASSWORD');
-  return username && password ? { username, password } : null;
+  return ADMIN_USERNAME && ADMIN_PASSWORD ? { username: ADMIN_USERNAME, password: ADMIN_PASSWORD } : null;
 }
 
 export function hasAdminCredentials() {
