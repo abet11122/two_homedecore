@@ -3,8 +3,9 @@ import { getCollection } from 'astro:content';
 import Layout from '../layouts/Layout.astro';
 import PostCard from '../components/PostCard.astro';
 import SectionHead from '../components/SectionHead.astro';
+import { isPublishedPost } from '../site';
 
-const posts = (await getCollection('posts'))
+const posts = (await getCollection('posts')).filter(isPublishedPost)
   .sort((a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime())
   .slice(0, 3);
 ---

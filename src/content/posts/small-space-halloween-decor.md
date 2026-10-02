@@ -52,13 +52,9 @@ A common mistake is introducing a different strong color in every object. In a s
 
 Grouping pumpkins of different heights and sizes creates a more natural, editorial look than a row of identical ones. Mix real, ceramic, and fabric pumpkins to reduce yearly waste.
 
-Choose pieces that are easy to store and that work with your normal decor.
-
 ## 7. Add Black Candles or Flameless Candles
 
 Black candles are one of the simplest ways to signal the season without adding themed products. Use them in existing candlesticks or lanterns you already own.
-
-Choose pieces that are easy to store and that work with your normal decor.
 
 ## 8. Create One Spooky Focal Point
 
@@ -70,19 +66,13 @@ Repeat a few materials and colors instead of using many unrelated decorations.
 
 A few bare or dark-painted branches in a tall vase add height and a slightly eerie quality without any obvious Halloween imagery. They also last the entire season.
 
-Choose pieces that are easy to store and that work with your normal decor.
-
 ## 10. Add a Simple Black Garland
 
 A thin black garland of leaves, stars, or geometric shapes adds a subtle seasonal note to a mantel, shelf, or windowsill without overwhelming the space.
 
-Choose pieces that are easy to store and that work with your normal decor.
-
 ## 11. Decorate With Vintage-Inspired Prints
 
 A framed vintage-style print of a moon, botanical skull, or dark landscape adds atmosphere without looking childish. Swap it into an existing frame you already own.
-
-Choose pieces that are easy to store and that work with your normal decor.
 
 ## 12. Use Dark Linen or Velvet Textiles
 
@@ -100,8 +90,6 @@ A tray is useful because the whole group can be moved at once.
 
 A small ceramic skull or a single skeleton figurine adds a touch of Halloween without dominating the room. Use one or two pieces rather than a collection.
 
-Choose pieces that are easy to store and that work with your normal decor.
-
 ## 15. Use Warm Amber Lighting
 
 Warm amber bulbs or candles create a moody atmosphere that suits Halloween without any additional decoration. Swap a standard bulb for an amber one in a lamp you already own.
@@ -111,8 +99,6 @@ For cozy rooms, warm-white bulbs around 2700K are a useful starting point.
 ## 16. Decorate the Entryway First
 
 The entryway is the first thing guests see. A wreath, a pumpkin, and one candle lantern can create a strong seasonal impression without decorating the whole apartment.
-
-Choose pieces that are easy to store and that work with your normal decor.
 
 ## 17. Add a Few Paper Bats to One Wall
 

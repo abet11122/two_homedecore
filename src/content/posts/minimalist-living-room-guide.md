@@ -106,7 +106,7 @@ Pots should be in white, soft gray, or natural ceramic. All the same material an
 
 ## Styling Your Minimalist Living Room
 
-When styling is complete, your room should pass this test: Can you describe it in one sentence? 
+When styling is complete, your room should pass this test: Can you describe it in one sentence?
 
 *"A neutral living room with a linen sofa, one artwork, and a single potted plant."*
 

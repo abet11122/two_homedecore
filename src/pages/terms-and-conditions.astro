@@ -1,0 +1,77 @@
+import PageLayout from '../layouts/PageLayout.astro';
+import { SITE } from '../site';
+
+export const prerender = true;
+
+const domain = SITE.email.split('@')[1];
+---
+
+<PageLayout
+  title="Terms & Conditions"
+  eyebrow="Legal"
+  description={`Terms and conditions for using ${SITE.name}.`}
+  lede={`The terms that apply when you visit and use ${SITE.name}.`}
+  updated="October 2, 2026"
+>
+  <p>
+    These Terms &amp; Conditions apply to your use of <strong>{SITE.url}</strong> (the "site"),
+ operated by {SITE.name} ("we", "us" or "our"). By using the site, you agree to these terms.
+    If you do not agree, please do not use the site.
+  </p>
+
+  <h2>Using this site</h2>
+  <p>
+    You may browse and read the site for personal, non-commercial use. Please use it lawfully and
+    do not interfere with the site's operation, attempt to gain unauthorized access, or use the
+    site to distribute malware, spam or harmful material.
+  </p>
+
+  <h2>Our content</h2>
+  <p>
+    The articles, photographs, graphics, branding and other material on this site belong to us or
+    our respective licensors and are protected by applicable intellectual-property laws. You may
+    share links to our pages. You may not reproduce, republish, modify or commercially exploit our
+    content without written permission, except where the law allows it.
+  </p>
+
+  <h2>Information and availability</h2>
+  <p>
+    We work to keep our articles accurate and useful, but home-decor advice, prices, product details
+    and availability can change. Content is provided for general information and inspiration. Your
+    home, measurements, materials and circumstances are your responsibility; review our
+    <a href="/disclaimer/">Disclaimer</a> before relying on guidance or starting a project.
+  </p>
+  <p>
+    We may update, suspend or remove any part of the site at any time. We do not promise that the
+    site will always be available, uninterrupted or free from errors.
+  </p>
+
+  <h2>Third-party sites and products</h2>
+  <p>
+    Our pages may link to third-party websites or products. Those links are provided for
+    convenience; we do not control or take responsibility for third-party content, services,
+    policies or transactions. Purchases you make from another seller are governed by that seller's
+    terms. Some links may earn us a commission, as explained in our
+    <a href="/disclosure/">Disclosure</a>.
+  </p>
+
+  <h2>Limitation of liability</h2>
+  <p>
+    To the extent permitted by law, we are not responsible for loss or damage arising from your use
+    of, or inability to use, this site or from reliance on its content. Nothing in these terms
+    excludes a responsibility that cannot legally be excluded.
+  </p>
+
+  <h2>Privacy and changes to these terms</h2>
+  <p>
+    Our <a href="/privacy-policy/">Privacy Policy</a> explains how information is handled. We may
+    revise these terms from time to time by posting an updated version here. The date at the top
+    shows when they were last revised. Continued use of the site after a change means you accept
+    the updated terms.
+  </p>
+
+  <h2>Contact</h2>
+  <p>
+    Questions about these terms? Email <a href={`mailto:${SITE.email}`}>{SITE.email}</a>.
+  </p>
+</PageLayout>

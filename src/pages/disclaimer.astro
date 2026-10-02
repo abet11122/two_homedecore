@@ -1,0 +1,60 @@
+import PageLayout from '../layouts/PageLayout.astro';
+import { SITE } from '../site';
+
+export const prerender = true;
+---
+
+<PageLayout
+  title="Disclaimer"
+  eyebrow="Legal"
+  description={`Important information about the home-decor content published by ${SITE.name}.`}
+  lede="How to use our ideas, guides and recommendations responsibly."
+  updated="October 2, 2026"
+>
+  <p>
+    The content on {SITE.name} is for general information and inspiration. We share home-decor
+    ideas, styling suggestions, product information and do-it-yourself projects. It is not a
+    substitute for advice tailored to your home or circumstances.
+  </p>
+
+  <h2>Projects and safety</h2>
+  <p>
+    A project that works in one home may not be suitable for another. Before using tools, changing
+    fixtures, mounting items, painting or working with materials, read the product instructions and
+    assess the risks in your space. Follow applicable building, electrical and fire-safety rules,
+    use appropriate protective equipment, and consult a qualified professional when a project
+    involves structural, electrical, plumbing or other specialist work. You are responsible for
+    deciding whether an idea is safe and suitable for you.
+  </p>
+
+  <h2>Products, prices and availability</h2>
+  <p>
+    Products, prices, dimensions, materials and availability may change after an article is
+    published. Check current details with the seller or manufacturer before making a purchase or
+    relying on a product specification. Mention of a product is not a guarantee or endorsement of
+    its performance in every home.
+  </p>
+
+  <h2>Affiliate links and advertising</h2>
+  <p>
+    Some pages contain affiliate links, and the site may display advertising. We may earn a
+    commission if you buy through an affiliate link, at no additional cost to you. Paid placements
+    and affiliate relationships are disclosed in the relevant content and described in our
+    <a href="/disclosure/">Disclosure</a>. Advertising or a link does not guarantee or certify a
+    third party's products or services.
+  </p>
+
+  <h2>External links</h2>
+  <p>
+    Links to other websites are offered as a convenience. We do not control and are not responsible
+    for their content, accuracy, availability, products or privacy practices. Visiting or buying
+    from a third-party site is your choice and subject to its own terms and policies.
+  </p>
+
+  <h2>Corrections and questions</h2>
+  <p>
+    We aim to keep our content useful and accurate, but errors or outdated details can happen. If
+    you spot something that needs attention, please contact us at
+    <a href={`mailto:${SITE.email}`}>{SITE.email}</a>.
+  </p>
+</PageLayout>

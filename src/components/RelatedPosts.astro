@@ -2,7 +2,7 @@
 import { getCollection } from 'astro:content';
 import PostCard from './PostCard.astro';
 import SectionHead from './SectionHead.astro';
-import { categoryName, tagSlug } from '../site';
+import { categoryName, isPublishedPost, tagSlug } from '../site';
 
 interface Props {
   category: string;
@@ -12,7 +12,7 @@ interface Props {
 
 const { category, currentId, limit = 3 } = Astro.props;
 
-const all = await getCollection('posts');
+const all = (await getCollection('posts')).filter(isPublishedPost);
 const currentTags = new Set((all.find(p => p.id === currentId)?.data.tags ?? []).map(tagSlug));
 const relevance = (post: (typeof all)[number]) => (post.data.tags ?? []).filter(tag => currentTags.has(tagSlug(tag))).length;
 

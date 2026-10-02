@@ -16,8 +16,6 @@ keyTakeaways:
 
 If you are looking for earthy bedroom ideas, the best place to start is with function rather than decoration. A room feels better when the layout is easy to use, storage has a clear purpose, and the styling supports everyday life instead of getting in the way.
 
-The ideas below are designed to be practical for real homes. You do not need to use every idea. Choose the changes that solve the biggest problem in your space first, then build from there.
-
 ## 1. Use Clay, Sand, Olive, and Warm Brown
 
 These four tones form the foundation of an earthy bedroom palette. Use one as the dominant wall or bedding color and repeat the others through accessories, textiles, and furniture.
@@ -39,8 +37,6 @@ Choose washable or easy-care materials in high-use areas.
 ## 4. Bring in One or Two Plants
 
 A plant adds life, color, and a connection to nature without requiring any structural changes. Choose low-maintenance varieties such as a snake plant, pothos, or rubber plant.
-
-Before buying anything, measure the available area and think about how the item will be used every day.
 
 ## 5. Start With a Simple Furniture Layout
 
@@ -76,8 +72,6 @@ Measure the wall before drilling or ordering storage.
 
 A slim desk or wall-mounted surface can be enough for a laptop, notebook, and lamp.
 
-Before buying anything, measure the available area and think about how the item will be used every day.
-
 ## 11. Take Storage Up the Wall
 
 When floor space is limited, use height. Tall bookcases, pegboards, wall pockets, and shelves let you store more without making the room harder to walk through.
@@ -100,8 +94,6 @@ Matching baskets can make open storage look calmer.
 
 A reading corner can fit into a space too small for another piece of furniture. Add a floor cushion, a wall-mounted reading light, and a short book ledge.
 
-Before buying anything, measure the available area and think about how the item will be used every day.
-
 ## 15. Add Hooks Behind the Door
 
 The back of the bedroom door is useful for bags, dressing gowns, or tomorrow's outfit.
@@ -110,4 +102,4 @@ In rentals, over-door hooks are a no-drill option.
 
 ## Final Thoughts
 
-The strongest earthy bedroom ideas are the ones that make the room feel grounded and calm, not simply more decorated. Start with a natural palette, add wood and linen textures, and bring in a plant or two. Small, deliberate improvements are usually more successful than changing everything at once.
+The strongest earthy bedroom ideas are the ones that make the room feel grounded and calm, not simply more decorated. Start with a natural palette, add wood and linen textures, and bring in a plant or two.

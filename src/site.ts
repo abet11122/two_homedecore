@@ -14,7 +14,7 @@ export const SITE = {
   author: 'Sophie Lane',
   authorRole: 'Editor & Home Stylist',
   authorBio:
-    'Sophie has spent a decade turning compact apartments and small houses into warm, intentional homes. She believes a cozy room is never about size — it is about the choices you make inside it.',
+    'Sophie edits practical ideas for compact apartments and small homes, with a focus on thoughtful layouts, useful storage, and rooms that feel comfortable to live in.',
   authorAvatar:
     'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=160&h=160&fit=crop&auto=format&q=70',
   pinterest: 'https://pinterest.com/smallcozyhome',
@@ -173,6 +173,11 @@ export function formatDate(date: Date): string {
     day: 'numeric',
     timeZone: 'UTC',
   });
+}
+
+/** Keep scheduled articles out of every public archive until their publish date. */
+export function isPublishedPost(post: { data: { publishDate: Date } }, now = new Date()): boolean {
+  return post.data.publishDate.getTime() <= now.getTime();
 }
 
 export function formatDateShort(date: Date): string {

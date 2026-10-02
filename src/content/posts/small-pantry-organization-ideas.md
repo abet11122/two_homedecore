@@ -16,13 +16,9 @@ keyTakeaways:
 
 If you are looking for small pantry organization ideas, the best place to start is with function rather than decoration. A room feels better when the layout is easy to use, storage has a clear purpose, and the styling supports everyday life instead of getting in the way.
 
-The ideas below are designed to be practical for real homes. You do not need to use every idea. Choose the changes that solve the biggest problem in your space first, then build from there.
-
 ## 1. Group Food by Meal or Use
 
 Organizing by meal — breakfast items together, baking supplies together, pasta and sauces together — makes it faster to find what you need and easier to see when you are running low.
-
-Before buying anything, measure the available area and think about how the item will be used every day.
 
 ## 2. Use Shelf Risers for Cans
 
@@ -34,31 +30,21 @@ Measure the wall before drilling or ordering storage.
 
 A lazy Susan or turntable in a deep corner cabinet lets you reach items at the back with a single spin. Use one for oils and sauces, and another for spices or condiments.
 
-Group a small number of items together and leave visible empty space so the surface can still do its real job.
-
 ## 4. Decant Only the Foods That Benefit From It
 
 Clear containers for flour, sugar, pasta, and rice look tidy and make it easy to see quantities. But decanting every item adds time and cost. Focus on the foods you use most often.
-
-Before buying anything, measure the available area and think about how the item will be used every day.
 
 ## 5. Clear the Counter Before You Organize
 
 Remove everything from the pantry before deciding what should live there. This prevents the habit of organizing around existing clutter.
 
-Group a small number of items together and leave visible empty space so the surface can still do its real job.
-
 ## 6. Create Zones for Cooking and Prep
 
 Group items by task: cooking ingredients near the hob, baking supplies together, and snacks in one accessible area. This makes the pantry faster to use and easier to restock.
 
-Before buying anything, measure the available area and think about how the item will be used every day.
-
 ## 7. Use Drawer Dividers for Utensils
 
 If your pantry includes a drawer, dividers prevent utensils from mixing together and make it faster to find what you need.
-
-Before buying anything, measure the available area and think about how the item will be used every day.
 
 ## 8. Add Shelf Risers Inside Cabinets
 
@@ -76,8 +62,6 @@ Measure the wall before drilling or ordering storage.
 
 A lazy Susan on a pantry shelf lets you reach items at the back without moving everything in front.
 
-Before buying anything, measure the available area and think about how the item will be used every day.
-
 ## 11. Use Clear Pantry Containers Carefully
 
 Clear containers look tidy but require regular refilling and labeling. Use them only for items you use frequently enough to justify the extra step.
@@ -88,13 +72,9 @@ Use labels only where they genuinely help.
 
 Keep all baking supplies — flour, sugar, baking powder, and tools — in one area. This makes baking faster and prevents supplies from being scattered across multiple shelves.
 
-Before buying anything, measure the available area and think about how the item will be used every day.
-
 ## 13. Store Daily Items Closest to Their Work Zone
 
 Keep the items you use every day at the front of shelves and closest to where you use them. Store less-used items at the back or on higher shelves.
-
-Before buying anything, measure the available area and think about how the item will be used every day.
 
 ## 14. Use the Inside of Cabinet Doors
 
@@ -112,8 +92,6 @@ Keep walking paths, doors, drawers, and frequently used surfaces easy to access.
 
 A slim rolling cart beside the pantry can hold overflow items or act as a mobile prep station.
 
-Before buying anything, measure the available area and think about how the item will be used every day.
-
 ## 17. Store Cutting Boards Vertically
 
 A vertical divider or a few bookends keep cutting boards upright and easy to grab. This frees up the horizontal shelf space they would otherwise take up.
@@ -122,4 +100,4 @@ Measure the wall before drilling or ordering storage.
 
 ## Final Thoughts
 
-The strongest small pantry organization ideas are the ones that make the pantry easier to use, not simply more organized. Start with grouping by meal, add shelf risers and turntables, and use the inside of doors for extra storage. Small, deliberate improvements are usually more successful than changing everything at once.
+The strongest small pantry organization ideas are the ones that make the pantry easier to use, not simply more organized. Start with grouping by meal, add shelf risers and turntables, and use the inside of doors for extra storage.

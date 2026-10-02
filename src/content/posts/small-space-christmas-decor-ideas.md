@@ -22,8 +22,6 @@ The ideas below are designed to be practical for real homes. You do not need to 
 
 A tabletop tree on a console or side table, or a slim pencil tree in a corner, takes up far less floor space than a full-size tree. Both can look just as festive with the right decorations.
 
-Group a small number of items together and leave visible empty space so the surface can still do its real job.
-
 ## 2. Use Window and Wall Space
 
 String lights around a window frame, a wreath on the wall, or a garland along a shelf use vertical and wall space rather than floor space.
@@ -33,8 +31,6 @@ Measure the wall before drilling or ordering storage.
 ## 3. Hang Stockings Without a Mantel
 
 A hook rail, a decorative ladder, or adhesive hooks on the wall let you hang stockings without a fireplace or mantel.
-
-Group a small number of items together and leave visible empty space so the surface can still do its real job.
 
 ## 4. Keep Gift Wrap in One Slim Container
 
@@ -58,13 +54,9 @@ For cozy rooms, warm-white bulbs around 2700K are a useful starting point.
 
 Layer greenery first — a small garland, a sprig of eucalyptus, or a few branches — then add ornaments and decorative objects on top.
 
-Choose pieces that are easy to store and that work with your normal decor.
-
 ## 8. Use a Few Meaningful Decorations
 
 A handful of meaningful ornaments or decorations creates more atmosphere than a space full of generic seasonal products.
-
-Choose pieces that are easy to store and that work with your normal decor.
 
 ## 9. Layer Cozy Throws and Cushions
 
@@ -76,13 +68,9 @@ Choose washable or easy-care materials in high-use areas.
 
 A wreath on the wall, above a mirror, or on a door adds a classic seasonal note without taking up any surface space.
 
-Choose pieces that are easy to store and that work with your normal decor.
-
 ## 11. Style One Main Surface
 
 Choose one surface — the coffee table, console, or windowsill — and style it as the seasonal focal point. Keep the rest of the space calm.
-
-Group a small number of items together and leave visible empty space so the surface can still do its real job.
 
 ## 12. Use Natural Wood and Woven Texture
 
@@ -100,8 +88,6 @@ Flameless LED candles are a good alternative when open flames are not practical.
 
 A length of velvet or satin ribbon tied around a vase, lamp base, or picture frame adds a seasonal touch without buying new decorations.
 
-Choose pieces that are easy to store and that work with your normal decor.
-
 ## 15. Create a Small Holiday Tray
 
 A tray containing a candle, a small ornament, and a sprig of greenery keeps the seasonal display contained and easy to move.
@@ -112,14 +98,10 @@ A tray is useful because the whole group can be moved at once.
 
 A small tabletop tree on a side table, bookcase, or windowsill adds a festive note in a space too small for a full-size tree.
 
-Choose pieces that are easy to store and that work with your normal decor.
-
 ## 17. Use Garland Without Overfilling the Room
 
 A single garland on a shelf or windowsill is usually enough. Adding garland to every surface can make a small space feel cluttered rather than festive.
 
-Choose pieces that are easy to store and that work with your normal decor.
-
 ## Final Thoughts
 
-The strongest small space Christmas decor ideas are the ones that make the space feel warm and festive without cluttering it. Start with lighting and one focal point, choose a simple palette, and keep enough open space for the apartment to feel comfortable. Small, deliberate improvements are usually more successful than changing everything at once.
+The strongest small space Christmas decor ideas are the ones that make the space feel warm and festive without cluttering it. Start with lighting and one focal point, choose a simple palette, and keep enough open space for the apartment to feel comfortable.

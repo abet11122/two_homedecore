@@ -16,13 +16,9 @@ keyTakeaways:
 
 If you are looking for small bathroom decor ideas, the best place to start is with function rather than decoration. A room feels better when the layout is easy to use, storage has a clear purpose, and the styling supports everyday life instead of getting in the way.
 
-The ideas below are designed to be practical for real homes. You do not need to use every idea. Choose the changes that solve the biggest problem in your space first, then build from there.
-
 ## 1. Use a Large Mirror
 
 A large mirror reflects light and makes a small bathroom feel bigger and brighter. Choose one that fills most of the wall above the sink.
-
-Before buying anything, measure the available area and think about how the item will be used every day.
 
 ## 2. Choose Light, Warm Wall Colors
 
@@ -39,8 +35,6 @@ For cozy rooms, warm-white bulbs around 2700K are a useful starting point.
 ## 4. Add One Small Plant or Branch
 
 A small plant — a pothos, fern, or air plant — or a single branch in a vase adds life and texture without cluttering the space. Choose a variety that tolerates humidity.
-
-Before buying anything, measure the available area and think about how the item will be used every day.
 
 ## 5. Declutter Before Buying Organizers
 
@@ -76,13 +70,9 @@ Measure the wall before drilling or ordering storage.
 
 Drawer dividers prevent small items from mixing together and make it faster to find what you need.
 
-Before buying anything, measure the available area and think about how the item will be used every day.
-
 ## 11. Keep Only Daily Essentials on the Counter
 
 A clear counter makes a small bathroom feel larger and easier to clean.
-
-Group a small number of items together and leave visible empty space so the surface can still do its real job.
 
 ## 12. Use a Tray to Contain Small Items
 
@@ -100,26 +90,18 @@ Measure the wall before drilling or ordering storage.
 
 An over-door organizer on the bathroom door holds small items, cleaning supplies, or hair tools without using any wall or floor space.
 
-Before buying anything, measure the available area and think about how the item will be used every day.
-
 ## 15. Add a Lazy Susan for Bottles
 
 A lazy Susan inside a cabinet or on a shelf lets you reach items at the back without moving everything in front.
-
-Before buying anything, measure the available area and think about how the item will be used every day.
 
 ## 16. Move Toothbrushes Off a Tiny Counter
 
 A wall-mounted toothbrush holder or a cup on a shelf frees up counter space and keeps the surface looking tidy.
 
-Group a small number of items together and leave visible empty space so the surface can still do its real job.
-
 ## 17. Store Backup Products Separately
 
 Keep backup products in a separate cabinet, under the sink, or in a linen closet rather than in the main bathroom storage.
 
-Before buying anything, measure the available area and think about how the item will be used every day.
-
 ## Final Thoughts
 
-The strongest small bathroom decor ideas are the ones that make the room feel larger and easier to use, not simply more decorated. Start with a large mirror and light wall colors, keep the counter clear, and add one or two natural elements for texture. Small, deliberate improvements are usually more successful than changing everything at once.
+The strongest small bathroom decor ideas are the ones that make the room feel larger and easier to use, not simply more decorated. Start with a large mirror and light wall colors, keep the counter clear, and add one or two natural elements for texture.

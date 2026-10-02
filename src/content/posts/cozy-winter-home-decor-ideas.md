@@ -65,8 +65,6 @@ For cozy rooms, warm-white bulbs around 2700K are a useful starting point.
 
 A wood tray, side table, picture frame, bowl, or stool adds visual warmth. You do not need to replace furniture; one or two small wood elements are enough.
 
-Before buying anything, measure the available area and think about how the item will be used every day.
-
 ## 9. Add Wool, Boucle, or Knit Texture
 
 These three materials are the foundation of a cozy winter room. Use them in cushions, throws, and rugs for maximum warmth and texture.
@@ -82,8 +80,6 @@ A common mistake is introducing a different strong color in every object.
 ## 11. Create a Reading Corner
 
 An unused corner can become a cozy winter feature with a comfortable chair, a small table, a lamp, and a throw. It adds function instead of simply adding more decor.
-
-Before buying anything, measure the available area and think about how the item will be used every day.
 
 ## 12. Keep Extra Blankets in a Basket
 
@@ -101,13 +97,9 @@ Flameless LED candles are a good alternative when open flames are not practical.
 
 A few evergreen branches in a vase extend the seasonal feeling into January without looking festive. Replace them with dried eucalyptus or bare branches as the season progresses.
 
-Before buying anything, measure the available area and think about how the item will be used every day.
-
 ## 15. Swap Bright Art for Moody Winter Prints
 
 Changing a single framed print to a moody landscape, abstract, or botanical can shift the entire mood of a room for the season.
-
-Before buying anything, measure the available area and think about how the item will be used every day.
 
 ## 16. Add a Soft Rug
 
@@ -131,8 +123,6 @@ Choose washable or easy-care materials in high-use areas.
 
 A small tray with a kettle, mugs, and a selection of teas or hot chocolate creates a cozy ritual and adds a styled element to the kitchen or living area.
 
-Before buying anything, measure the available area and think about how the item will be used every day.
-
 ## 20. Use Curtains to Make Rooms Feel Softer
 
 Heavy linen or velvet curtains add warmth, reduce drafts, and make a room feel more enclosed and cozy. Choose a color that works with your existing palette.
@@ -143,8 +133,6 @@ Choose washable or easy-care materials in high-use areas.
 
 Winter decor that is not specifically Christmas-themed works through January and February without looking out of place. Focus on texture, warmth, and natural materials rather than seasonal motifs.
 
-Before buying anything, measure the available area and think about how the item will be used every day.
-
 ## Final Thoughts
 
-The strongest cozy winter home decor ideas are the ones that make the home feel warm and inviting through the whole season, not just December. Start with texture and lighting, add natural materials, and keep the palette calm and neutral. Small, deliberate improvements are usually more successful than changing everything at once.
+The strongest cozy winter home decor ideas are the ones that make the home feel warm and inviting through the whole season, not just December. Start with texture and lighting, add natural materials, and keep the palette calm and neutral.

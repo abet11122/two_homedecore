@@ -16,8 +16,6 @@ keyTakeaways:
 
 If you are looking for bathroom over the toilet storage ideas, the best place to start is with function rather than decoration. A room feels better when the layout is easy to use, storage has a clear purpose, and the styling supports everyday life instead of getting in the way.
 
-The ideas below are designed to be practical for real homes. You do not need to use every idea. Choose the changes that solve the biggest problem in your space first, then build from there.
-
 ## 1. Install Two Shallow Floating Shelves
 
 Two shallow floating shelves above the toilet create a clean, open look and provide useful storage for towels, plants, and bathroom accessories. Keep the lower shelf at a comfortable height.
@@ -27,8 +25,6 @@ Measure the wall before drilling or ordering storage, and check that doors, cabi
 ## 2. Use a Freestanding Over-Toilet Unit
 
 A freestanding over-toilet unit requires no drilling and can be moved if needed. It is a good option for rentals or bathrooms where wall drilling is not permitted.
-
-Before buying anything, measure the available area and think about how the item will be used every day.
 
 ## 3. Add a Closed Wall Cabinet
 
@@ -76,13 +72,9 @@ Measure the wall before drilling or ordering storage.
 
 Drawer dividers prevent small items from mixing together and make it faster to find what you need.
 
-Before buying anything, measure the available area and think about how the item will be used every day.
-
 ## 11. Keep Only Daily Essentials on the Counter
 
 A clear counter makes a small bathroom feel larger and easier to clean. Keep only the items you use every day on the surface.
-
-Group a small number of items together and leave visible empty space so the surface can still do its real job.
 
 ## 12. Use a Tray to Contain Small Items
 
@@ -100,14 +92,10 @@ Measure the wall before drilling or ordering storage.
 
 An over-door organizer on the bathroom door holds small items, cleaning supplies, or hair tools without using any wall or floor space.
 
-Before buying anything, measure the available area and think about how the item will be used every day.
-
 ## 15. Add a Lazy Susan for Bottles
 
 A lazy Susan inside a cabinet or on a shelf lets you reach items at the back without moving everything in front.
 
-Before buying anything, measure the available area and think about how the item will be used every day.
-
 ## Final Thoughts
 
-The strongest bathroom over the toilet storage ideas are the ones that make the room easier to use, not simply more decorated. Start with the wall above the toilet, choose between open shelves and a closed cabinet based on what you need to store, and keep the display tidy with baskets and trays. Small, deliberate improvements are usually more successful than changing everything at once.
+The strongest bathroom over the toilet storage ideas are the ones that make the room easier to use, not simply more decorated. Start with the wall above the toilet, choose between open shelves and a closed cabinet based on what you need to store, and keep the display tidy with baskets and trays.
