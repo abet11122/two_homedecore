@@ -4,11 +4,12 @@ export const trailingSlash = 'ignore';
 import type { APIRoute } from 'astro';
 import { writeFile, access } from 'node:fs/promises';
 import { resolve } from 'node:path';
-import { isVercelDeployment, validatePostContent } from '../../../lib/admin';
+import { isVercelDeployment, normalizePostContent, validatePostContent } from '../../../lib/admin';
 
 export const POST: APIRoute = async ({ request }) => {
   try {
-    const { slug, content } = await request.json();
+    const { slug, content: rawContent } = await request.json();
+    const content = normalizePostContent(rawContent);
 
     if (!slug || !content) {
       return new Response(JSON.stringify({ error: 'Missing slug or content.' }), {
@@ -21,12 +22,6 @@ export const POST: APIRoute = async ({ request }) => {
     if (!/^[a-z0-9]+(?:[a-z0-9-]*[a-z0-9])?$/.test(safeSlug) || safeSlug.length < 2) {
       return new Response(JSON.stringify({ error: 'Invalid slug.' }), {
         status: 400, headers: { 'Content-Type': 'application/json' },
-      });
-    }
-
-    if (isVercelDeployment()) {
-      return new Response(JSON.stringify({ error: 'Publishing is disabled on Vercel. Copy the generated Markdown and commit it through Git.' }), {
-        status: 403, headers: { 'Content-Type': 'application/json' },
       });
     }
 
@@ -44,6 +39,15 @@ export const POST: APIRoute = async ({ request }) => {
       return new Response(JSON.stringify({ error: validationError }), {
         status: 400, headers: { 'Content-Type': 'application/json' },
       });
+    }
+
+    if (isVercelDeployment()) {
+      return new Response(JSON.stringify({
+        download: true,
+        filename: `${safeSlug}.md`,
+        content,
+        message: 'Downloaded the validated Markdown file. Commit it to src/content/posts/ and push to publish.',
+      }), { status: 200, headers: { 'Content-Type': 'application/json' } });
     }
 
     const isNew = await access(dest).then(() => false).catch(() => true);

@@ -419,7 +419,17 @@ textarea{resize:vertical;line-height:1.6;font-family:'Courier New',monospace;fon
         body: JSON.stringify({ slug, content }),
       });
       const data = await res.json();
-      if (data.ok) {
+      if (data.download) {
+        const blob = new Blob([data.content], { type: 'text/markdown;charset=utf-8' });
+        const link = document.createElement('a');
+        link.href = URL.createObjectURL(blob);
+        link.download = data.filename;
+        link.click();
+        URL.revokeObjectURL(link.href);
+        saveStatus.textContent = `Downloaded ${data.filename}. Add it to src/content/posts/ and push to publish.`;
+        saveStatus.style.color = '#16a34a';
+        dirty = false;
+      } else if (data.ok) {
         dirty = false;
         saveStatus.textContent = '\u2713 Published! Redirecting\u2026';
         saveStatus.style.color = '#16a34a';

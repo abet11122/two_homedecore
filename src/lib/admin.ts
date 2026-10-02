@@ -1,16 +1,23 @@
 import { createHmac, timingSafeEqual } from 'node:crypto';
-import { getSecret } from 'astro:env/server';
 import { parseDocument } from 'yaml';
+import { ADMIN_PASSWORD, ADMIN_USERNAME } from '../config/admin-credentials';
 
 const CATEGORIES = new Set([
   'living-room', 'bedroom', 'kitchen', 'small-spaces', 'diy-decor', 'seasonal',
   'entryway', 'home-office', 'bathroom', 'outdoor', 'renter',
 ]);
 
+const CATEGORY_ALIASES: Record<string, string> = {
+  christmas: 'seasonal',
+  'christmas-decor': 'seasonal',
+  'christmas-entryway': 'seasonal',
+  holiday: 'seasonal',
+  'holiday-decor': 'seasonal',
+  'entryway-decor': 'entryway',
+};
+
 function credentials() {
-  const username = getSecret('ADMIN_USERNAME');
-  const password = getSecret('ADMIN_PASSWORD');
-  return username && password ? { username, password } : null;
+  return ADMIN_USERNAME && ADMIN_PASSWORD ? { username: ADMIN_USERNAME, password: ADMIN_PASSWORD } : null;
 }
 
 export function hasAdminCredentials() {
@@ -59,12 +66,49 @@ export function isVercelDeployment() {
   return process.env.VERCEL === '1';
 }
 
+export function normalizePostContent(content: unknown) {
+  if (!isString(content)) return content;
+  const normalizedCategory = content.replace(/^(category:\s*)(["']?)([^"'\r\n]+)\2(\s*)$/im, (line, prefix, quote, value, trailing) => {
+    const categorySlug = value
+      .trim()
+      .toLowerCase()
+      .replace(/[_\s]+/g, '-')
+      .replace(/[^a-z0-9-]/g, '')
+      .replace(/-+/g, '-')
+      .replace(/^-|-$/g, '');
+    const canonicalCategory = CATEGORIES.has(categorySlug)
+      ? categorySlug
+      : CATEGORY_ALIASES[categorySlug];
+    return canonicalCategory ? `${prefix}${quote}${canonicalCategory}${quote}${trailing}` : line;
+  });
+
+  return normalizedCategory.replace(/^(publishDate|updatedDate):(\s*)(["']?)([^"'\r\n]+)\3(\s*)$/gim, (line, field, spacing, quote, value, trailing) => {
+    const normalizedDate = dateToIso(value);
+    return normalizedDate ? `${field}:${spacing}${quote}${normalizedDate}${quote}${trailing}` : line;
+  });
+}
+
 function isString(value: unknown): value is string {
   return typeof value === 'string';
 }
 
+function dateToIso(value: unknown): string | null {
+  if (!isString(value)) return null;
+  const input = value.trim();
+  const isoPrefix = input.match(/^(\d{4}-\d{2}-\d{2})(?:[T\s]|$)/)?.[1];
+  if (isoPrefix && isDate(isoPrefix)) return isoPrefix;
+
+  const timestamp = Date.parse(input);
+  return Number.isNaN(timestamp) ? null : new Date(timestamp).toISOString().slice(0, 10);
+}
+
 function isDate(value: unknown) {
-  return isString(value) && /^\d{4}-\d{2}-\d{2}$/.test(value) && !Number.isNaN(Date.parse(`${value}T00:00:00Z`));
+  if (!isString(value) || !/^\d{4}-\d{2}-\d{2}$/.test(value)) return false;
+  const [year, month, day] = value.split('-').map(Number);
+  const date = new Date(Date.UTC(year, month - 1, day));
+  return date.getUTCFullYear() === year
+    && date.getUTCMonth() === month - 1
+    && date.getUTCDate() === day;
 }
 
 /** Validates the same frontmatter requirements enforced by the content collection. */
@@ -84,9 +128,11 @@ export function validatePostContent(content: unknown): string | null {
   const post = data as Record<string, unknown>;
   if (!isString(post.title) || post.title.length < 1 || post.title.length > 90) return 'Title must be between 1 and 90 characters.';
   if (!isString(post.description) || post.description.length < 50 || post.description.length > 200) return 'Description must be between 50 and 200 characters.';
-  if (!isString(post.category) || !CATEGORIES.has(post.category)) return 'Category is invalid.';
-  if (!isDate(post.publishDate)) return 'Publish date is invalid.';
-  if (post.updatedDate !== undefined && !isDate(post.updatedDate)) return 'Updated date is invalid.';
+  if (!isString(post.category) || !CATEGORIES.has(post.category)) {
+    return `Category is invalid. Use one of: ${[...CATEGORIES].join(', ')}.`;
+  }
+  if (!isDate(post.publishDate)) return `Publish date is invalid (${String(post.publishDate ?? 'missing')}). Use YYYY-MM-DD.`;
+  if (post.updatedDate !== undefined && !isDate(post.updatedDate)) return `Updated date is invalid (${String(post.updatedDate)}). Use YYYY-MM-DD.`;
   if (!isString(post.heroImage) || !post.heroImage.trim()) return 'Hero image is required.';
   if (!isString(post.pinImage) || !post.pinImage.trim()) return 'Pin image is required.';
   if (post.featured !== undefined && typeof post.featured !== 'boolean') return 'Featured must be true or false.';
