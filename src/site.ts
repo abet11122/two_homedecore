@@ -176,8 +176,8 @@ export function formatDate(date: Date): string {
 }
 
 /** Keep scheduled articles out of every public archive until their publish date. */
-export function isPublishedPost(post: { data: { publishDate: Date } }, now = new Date()): boolean {
-  return post.data.publishDate.getTime() <= now.getTime();
+export function isPublishedPost(post: { data: { publishDate: Date } }): boolean {
+  return post.data.publishDate.getTime() <= Date.now();
 }
 
 export function formatDateShort(date: Date): string {
