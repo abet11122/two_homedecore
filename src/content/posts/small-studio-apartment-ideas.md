@@ -36,7 +36,7 @@ Measure the furniture footprint and the path around it before buying.
 
 Using one calm color palette throughout a studio apartment makes the space feel larger and more cohesive. Choose a warm neutral base and repeat one or two accent colors.
 
-A common mistake is introducing a different strong color in every object. In a small room, a limited palette usually feels larger, calmer, and easier to update later.
+For keep One Consistent Color Palette, repeat one or two accent colors across textiles and accessories to keep the palette connected. In a small room, a limited palette usually feels larger, calmer, and easier to update later.
 
 ## 5. Create Clear Zones in One Room
 

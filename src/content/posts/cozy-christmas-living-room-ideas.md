@@ -42,7 +42,7 @@ Use labels only where they genuinely help.
 
 Red and green, gold and cream, or silver and white are classic combinations. Choose one and repeat it through the whole room rather than mixing multiple holiday color schemes.
 
-A common mistake is introducing a different strong color in every object.
+For choose a Simple Holiday Color Palette, repeat one or two accent colors across textiles and accessories to keep the palette connected.
 
 ## 6. Start With Warm String Lights
 

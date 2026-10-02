@@ -40,7 +40,7 @@ The main prep area should remain completely clear of seasonal decorations. Decor
 
 Red and cream, gold and white, or green and natural wood are classic combinations. Choose one and repeat it through the whole kitchen.
 
-A common mistake is introducing a different strong color in every object.
+For choose a Simple Holiday Color Palette, repeat one or two accent colors across textiles and accessories to keep the palette connected.
 
 ## 6. Start With Warm String Lights
 

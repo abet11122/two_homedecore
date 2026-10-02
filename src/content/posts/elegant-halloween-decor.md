@@ -23,7 +23,7 @@ Build the look around a restrained palette and a few deliberate focal points; le
 
 A palette of black, cream, and muted orange reads as Halloween without the garish brightness of primary colors. Repeat these three tones through candles, pumpkins, textiles, and small accessories.
 
-A common mistake is introducing a different strong color in every object. A limited palette usually feels larger, calmer, and easier to update later.
+For use Black, Cream, and Muted Orange, repeat one or two accent colors across textiles and accessories to keep the palette connected. A limited palette usually feels larger, calmer, and easier to update later.
 
 ## 2. Choose Matte Pumpkins
 

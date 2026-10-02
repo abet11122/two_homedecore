@@ -20,7 +20,7 @@ If you are looking for neutral bedroom ideas, the best place to start is with fu
 
 Warm white — with a slight yellow, pink, or beige undertone — feels softer and more inviting than stark white. It also works better with natural wood and linen textures.
 
-A common mistake is introducing a different strong color in every object. In a small room, a limited palette usually feels larger, calmer, and easier to update later.
+For choose a Warm White Base, repeat one or two accent colors across textiles and accessories to keep the palette connected. In a small room, a limited palette usually feels larger, calmer, and easier to update later.
 
 ## 2. Layer Three or Four Neutral Tones
 

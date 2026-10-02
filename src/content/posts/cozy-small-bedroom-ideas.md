@@ -38,7 +38,7 @@ Choose washable or easy-care materials in high-use areas.
 
 Warm white, soft beige, pale grey, muted sage, or dusty blue help a compact room feel calmer and visually larger. Add stronger colors through bedding, artwork, and smaller accessories.
 
-A common mistake is introducing a different strong color in every object. In a small room, a limited palette usually feels larger, calmer, and easier to update later.
+For keep the Palette Calm, repeat one or two accent colors across textiles and accessories to keep the palette connected. In a small room, a limited palette usually feels larger, calmer, and easier to update later.
 
 ## 5. Start With a Simple Furniture Layout
 

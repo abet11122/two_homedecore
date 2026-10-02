@@ -40,7 +40,7 @@ Leave at least half the coffee table surface free for drinks, books, and everyda
 
 Red and cream, gold and white, or green and natural wood are classic combinations. Choose one and repeat it through the whole display.
 
-A common mistake is introducing a different strong color in every object.
+For choose a Simple Holiday Color Palette, repeat one or two accent colors across textiles and accessories to keep the palette connected.
 
 ## 6. Start With Warm String Lights
 

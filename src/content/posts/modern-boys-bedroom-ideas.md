@@ -26,7 +26,7 @@ Measure the furniture footprint and the path around it before buying.
 
 These four colors form the foundation of most modern boys bedrooms. Use one as the dominant wall or bedding color and repeat one or two others through accessories.
 
-A common mistake is introducing a different strong color in every object. In a small room, a limited palette usually feels larger, calmer, and easier to update later.
+For choose Navy, Charcoal, Sage, or Warm White, repeat one or two accent colors across textiles and accessories to keep the palette connected. In a small room, a limited palette usually feels larger, calmer, and easier to update later.
 
 ## 3. Add Graphic Art Instead of Character Bedding
 

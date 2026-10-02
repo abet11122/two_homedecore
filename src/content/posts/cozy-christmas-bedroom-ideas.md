@@ -38,7 +38,7 @@ A sprig of eucalyptus, a small garland, or a few branches on the dresser or beds
 
 Cream, warm white, natural wood, and one accent color — deep red, forest green, or gold — create a festive palette that still feels calm and restful.
 
-A common mistake is introducing a different strong color in every object. In a small room, a limited palette usually feels larger, calmer, and easier to update later.
+For choose a Small Neutral Holiday Palette, repeat one or two accent colors across textiles and accessories to keep the palette connected. In a small room, a limited palette usually feels larger, calmer, and easier to update later.
 
 ## 5. Choose a Simple Holiday Color Palette
 

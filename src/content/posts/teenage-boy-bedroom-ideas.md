@@ -26,7 +26,7 @@ Measure the furniture footprint and the path around it before buying.
 
 Navy, charcoal, sage, warm white, and forest green suit a teenage bedroom better than primary colors. Use one calm base and repeat one or two accent colors through bedding, art, and accessories.
 
-A common mistake is introducing a different strong color in every object. In a small room, a limited palette usually feels larger, calmer, and easier to update later.
+For use a More Grown-Up Color Palette, repeat one or two accent colors across textiles and accessories to keep the palette connected. In a small room, a limited palette usually feels larger, calmer, and easier to update later.
 
 ## 3. Add Closed Storage for Tech
 

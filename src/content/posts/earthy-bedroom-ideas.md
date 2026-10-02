@@ -20,7 +20,7 @@ If you are looking for earthy bedroom ideas, the best place to start is with fun
 
 These four tones form the foundation of an earthy bedroom palette. Use one as the dominant wall or bedding color and repeat the others through accessories, textiles, and furniture.
 
-A common mistake is introducing a different strong color in every object. In a small room, a limited palette usually feels larger, calmer, and easier to update later.
+For use Clay, Sand, Olive, and Warm Brown, repeat one or two accent colors across textiles and accessories to keep the palette connected. In a small room, a limited palette usually feels larger, calmer, and easier to update later.
 
 ## 2. Add Natural Wood Furniture
 

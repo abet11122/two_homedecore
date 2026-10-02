@@ -56,7 +56,7 @@ Measure width, depth, and height before choosing, especially around bed frames.
 
 Start with one calm base color on the walls and repeat one or two accent colors through smaller items such as cushions, art, or accessories.
 
-A common mistake is introducing a different strong color in every object.
+For choose a Calm Base Color, repeat one or two accent colors across textiles and accessories to keep the palette connected.
 
 ## 8. Add One Deeper Accent Color
 

@@ -75,7 +75,7 @@ For add Wool, Boucle, or Knit Texture, choose a surface that can be wiped or lau
 
 Cream, oatmeal, warm grey, and camel create a calm, cozy palette that works through the whole winter season.
 
-A common mistake is introducing a different strong color in every object.
+For use a Warm Neutral Color Palette, repeat one or two accent colors across textiles and accessories to keep the palette connected.
 
 ## 11. Create a Reading Corner
 

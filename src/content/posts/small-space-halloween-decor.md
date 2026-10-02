@@ -46,7 +46,7 @@ A tray is useful because the whole group can be moved at once.
 
 Black, cream, and muted orange read as Halloween without the garish brightness of primary colors. Repeat these tones through candles, pumpkins, and small accessories.
 
-A common mistake is introducing a different strong color in every object. In a small room, a limited palette usually feels larger, calmer, and easier to update later.
+For choose a Restrained Color Palette, repeat one or two accent colors across textiles and accessories to keep the palette connected. In a small room, a limited palette usually feels larger, calmer, and easier to update later.
 
 ## 6. Use Pumpkins in Different Sizes
 
