@@ -234,15 +234,16 @@ export interface TagSummary {
   count: number;
 }
 
+export const MIN_INDEXABLE_ARCHIVE_POSTS = 4;
+
 /**
  * Every distinct tag across the archive, most-used first.
- * `minCount` drops one-off tags that would only ever build a single-post
- * page — thin pages Google reads as low value, so they are left unbuilt
- * and simply render as plain text on the post.
+ * `minCount` keeps small clusters from creating thin archive pages; those
+ * tags remain plain text on posts until enough related content exists.
  */
 export function collectTags(
   posts: Array<{ data: { tags?: string[] } }>,
-  minCount = 2
+  minCount = MIN_INDEXABLE_ARCHIVE_POSTS
 ): TagSummary[] {
   const counts = new Map<string, number>();
   for (const post of posts) {

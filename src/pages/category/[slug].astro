@@ -6,7 +6,7 @@ import Img from '../../components/Img.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import AdSlot from '../../components/AdSlot.astro';
 import Newsletter from '../../components/Newsletter.astro';
-import { SITE, CATEGORIES, categoryBySlug, collectTags, isPublishedPost } from '../../site';
+import { SITE, CATEGORIES, MIN_INDEXABLE_ARCHIVE_POSTS, categoryBySlug, collectTags, isPublishedPost } from '../../site';
 
 export const prerender = true;
 
@@ -67,6 +67,7 @@ const listSchema = {
   description={category.blurb}
   image={lead?.data.pinImage}
   imageWide={lead?.data.heroImage ?? category.image}
+  noindex={posts.length < MIN_INDEXABLE_ARCHIVE_POSTS}
   schemas={[listSchema]}
 >
   <header class="room-header">

@@ -1,5 +1,6 @@
 ---
 title: "K-Pop Demon Hunters Rumi Halloween Costume Ideas"
+noindex: true
 description: "Recreate Rumi's iconic look from K-Pop Demon Hunters with dragon braids, pink argyle, and bold accessories in this 2026 breakout Halloween costume guide."
 category: seasonal
 tags: ["halloween costume", "kpop", "costume ideas", "seasonal", "halloween 2026"]

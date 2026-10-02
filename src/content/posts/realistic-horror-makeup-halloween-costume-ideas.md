@@ -1,5 +1,6 @@
 ---
 title: "15 Realistic Horror Makeup Halloween Costume Ideas"
+noindex: true
 description: "Create a terrifying Halloween look with 15 realistic horror makeup ideas covering wounds, zombie effects, creature transformations, and SFX techniques for 2026."
 category: seasonal
 tags: ["halloween makeup", "horror makeup", "sfx makeup", "halloween costume", "halloween 2026"]

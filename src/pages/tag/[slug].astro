@@ -5,7 +5,7 @@ import PostCard from '../../components/PostCard.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import AdSlot from '../../components/AdSlot.astro';
 import Newsletter from '../../components/Newsletter.astro';
-import { SITE, CATEGORIES, categoryName, collectTags, isPublishedPost, postHasTag, tagSlug } from '../../site';
+import { SITE, CATEGORIES, MIN_INDEXABLE_ARCHIVE_POSTS, categoryName, collectTags, isPublishedPost, postHasTag, tagSlug } from '../../site';
 
 export const prerender = true;
 
@@ -84,6 +84,7 @@ const listSchema = {
   description={description}
   image={lead?.data.pinImage}
   imageWide={lead?.data.heroImage}
+  noindex={posts.length < MIN_INDEXABLE_ARCHIVE_POSTS}
   schemas={[listSchema]}
 >
   <header class="border-b border-rule bg-sand/40">

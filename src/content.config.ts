@@ -20,6 +20,7 @@ const posts = defineCollection({
       'renter',
     ]),
     tags: z.array(z.string()).default([]),
+    noindex: z.boolean().default(false),
     publishDate: z.date(),
     updatedDate: z.date().optional(),
     /** Unsplash photo id ("photo-1600210…") or an absolute URL. Horizontal. */

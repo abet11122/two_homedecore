@@ -1,5 +1,6 @@
 ---
 title: "17 Robotic & Cyborg Halloween Costume Ideas — Trending Sci-Fi Look"
+noindex: true
 description: "Build a standout robotic or cyborg Halloween costume with 17 sci-fi ideas using metallic makeup, LED accents, silver clothing, and DIY mechanical details."
 category: seasonal
 tags: ["halloween costume", "cyborg costume", "sci-fi halloween", "costume ideas", "halloween 2026"]

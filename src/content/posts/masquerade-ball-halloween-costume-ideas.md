@@ -1,5 +1,6 @@
 ---
 title: "15 Masquerade Ball Halloween Costume Ideas — Elegant & Mysterious"
+noindex: true
 description: "Create a stunning masquerade ball Halloween costume with 15 elegant ideas covering masks, gowns, suits, makeup, and accessories for a sophisticated seasonal look."
 category: seasonal
 tags: ["halloween costume", "masquerade costume", "elegant halloween", "costume ideas", "halloween 2026"]
