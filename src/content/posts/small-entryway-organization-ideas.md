@@ -14,7 +14,7 @@ keyTakeaways:
   - "Limit shoes to the current rotation and store the rest elsewhere."
 ---
 
-If you are looking for small entryway organization ideas, the best place to start is with function rather than decoration. A room feels better when the layout is easy to use, storage has a clear purpose, and the styling supports everyday life instead of getting in the way.
+If you are looking for small entryway organization ideas, the best place to start is with function rather than decoration. A compact entry works when the daily drop zone is sized for the people who use it and does not narrow the doorway or walking path.
 
 ## 1. Choose a Console No Deeper Than You Need
 

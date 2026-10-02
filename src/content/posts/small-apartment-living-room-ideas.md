@@ -14,7 +14,7 @@ keyTakeaways:
   - "Use one large rug instead of several small ones to anchor the seating area."
 ---
 
-If you are looking for small apartment living room ideas, the best place to start is with function rather than decoration. A room feels better when the layout is easy to use, storage has a clear purpose, and the styling supports everyday life instead of getting in the way.
+If you are looking for small apartment living room ideas, the best place to start is with function rather than decoration. Start by mapping the room?s walking route and seating needs; in a small apartment, furniture placement has to serve both conversation and circulation.
 
 ## 1. Choose a Sofa That Fits the Wall
 
@@ -90,7 +90,7 @@ Over-door organizers and hooks turn the back of every door into useful storage.
 
 A storage ottoman in the living area holds blankets, magazines, or remote controls while doubling as a coffee table or extra seating.
 
-Measure the furniture footprint and the path around it before buying.
+For try a Storage Ottoman, mark the furniture outline on the floor and test the route to the door, closet, and other daily-use areas.
 
 ## 15. Add a Tall Bookcase
 

@@ -14,7 +14,7 @@ keyTakeaways:
   - "Add one small plant or herb pot for life and color without clutter."
 ---
 
-If you are looking for kitchen countertop decor ideas, the best place to start is with function rather than decoration. A room feels better when the layout is easy to use, storage has a clear purpose, and the styling supports everyday life instead of getting in the way.
+If you are looking for kitchen countertop decor ideas, the best place to start is with function rather than decoration. Counter styling should leave the main prep area open and group display objects away from the sink, stove, and frequently used appliances.
 
 ## 1. Keep Decor to One or Two Zones
 
@@ -52,13 +52,13 @@ Drawer dividers prevent utensils from mixing together and make it faster to find
 
 Shelf risers double the usable height inside a cabinet, allowing you to store more items off the counter.
 
-Measure the wall before drilling or ordering storage.
+For add Shelf Risers Inside Cabinets, check nearby doors, mirrors, and trim before settling on the shelf position.
 
 ## 9. Use Vertical Pan and Tray Storage
 
 A vertical divider for baking trays, chopping boards, and pan lids keeps these awkward items off the counter and easy to access.
 
-Measure the wall before drilling or ordering storage.
+For use Vertical Pan and Tray Storage, check nearby doors, mirrors, and trim before settling on the shelf position.
 
 ## 10. Add a Lazy Susan for Oils and Sauces
 
@@ -82,7 +82,7 @@ Keep the items you use every day at the front of cabinets and closest to where y
 
 Adhesive hooks, small racks, or mounted organizers on the inside of cabinet doors add storage without using any counter space.
 
-Use labels only where they genuinely help.
+For use the Inside of Cabinet Doors, keep frequently used items near the front and group occasional supplies together behind them.
 
 ## 15. Add Hooks for Lightweight Tools
 

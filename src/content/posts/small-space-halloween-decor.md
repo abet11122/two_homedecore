@@ -16,7 +16,7 @@ keyTakeaways:
 
 If you are looking for small space Halloween decor ideas, the best place to start is with function rather than decoration. A space feels better when the layout is easy to use and the styling supports everyday life instead of getting in the way.
 
-The ideas below are designed to be practical for real homes. You do not need to use every idea. Choose the changes that suit your space and your normal decor first, then build from there.
+Choose decorations that use wall or tabletop space, pack flat, and can be grouped in one box; preserve clear floor space and everyday storage.
 
 ## 1. Use One Wall for Removable Bats
 
@@ -60,7 +60,7 @@ Black candles are one of the simplest ways to signal the season without adding t
 
 Rather than decorating every surface, choose one area and make it the seasonal focal point. Keep the rest of the apartment calm.
 
-Repeat a few materials and colors instead of using many unrelated decorations.
+For create One Spooky Focal Point, group pieces by height and leave a little space around the display so each shape reads clearly.
 
 ## 9. Use Dried Branches in a Tall Vase
 
@@ -84,7 +84,7 @@ Choose washable or easy-care materials in high-use areas.
 
 A tray containing a candle, a small pumpkin, and one or two dark objects keeps the seasonal display contained and easy to move.
 
-A tray is useful because the whole group can be moved at once.
+For style a Coffee Table Tray, leave one part of the surface open so the display stays useful for everyday tasks.
 
 ## 14. Add Subtle Skeleton Details
 

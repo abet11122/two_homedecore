@@ -14,7 +14,7 @@ keyTakeaways:
   - "Create a school-bag drop zone near the door to prevent bags on the floor."
 ---
 
-If you are looking for boys bedroom storage ideas, the best place to start is with function rather than decoration. A room feels better when the layout is easy to use, storage has a clear purpose, and the styling supports everyday life instead of getting in the way.
+If you are looking for boys bedroom storage ideas, the best place to start is with function rather than decoration. Plan storage around what the child uses each day: clothes, school supplies, toys, sports gear, and a clear place to put each back.
 
 ## 1. Use Under-Bed Drawers
 
@@ -72,7 +72,7 @@ Keep backup items in one dedicated area rather than scattered through the room.
 
 Clear bins let you see what is inside without opening every container. Use them for small toys, accessories, or items that tend to get lost.
 
-Use labels only where they genuinely help.
+For use Clear Bins for Small Items, keep frequently used items near the front and group occasional supplies together behind them.
 
 ## 12. Use Baskets for Visual Calm
 

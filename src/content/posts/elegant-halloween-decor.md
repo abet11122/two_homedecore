@@ -17,7 +17,7 @@ keyTakeaways:
 
 Elegant Halloween decor is about restraint. A few well-chosen pieces in a limited palette create more atmosphere than a room covered in themed products. The goal is to bring in the season without making the space feel like a temporary display.
 
-The ideas below are designed to be practical for real homes. You do not need to use every idea. Choose the changes that suit your space and your normal decor first, then build from there.
+Build the look around a restrained palette and a few deliberate focal points; leave some surfaces bare so the details remain visible.
 
 ## 1. Use Black, Cream, and Muted Orange
 
@@ -63,7 +63,7 @@ Dark dahlias, dried grasses, black-dyed stems, or deep burgundy flowers in a cer
 
 ## 5. Choose a Restrained Color Palette
 
-Start with one calm base and repeat one or two accent colors through smaller items such as cushions, art, candles, or accessories. A common mistake is introducing a different strong color in every object.
+Start with one calm base and repeat one or two accent colors through smaller items such as cushions, art, candles, or accessories. For choose a Restrained Color Palette, repeat one or two accent colors across textiles and accessories so the scheme feels connected.
 
 In a small room, a limited palette usually feels larger, calmer, and easier to update later.
 

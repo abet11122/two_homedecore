@@ -44,7 +44,7 @@ Even in a single room, grouping activities together reduces clutter. Keep work i
 
 A dining table that folds against the wall, a bench that opens for storage, or a desk that doubles as a console all help a small apartment work harder.
 
-Measure the furniture footprint and the path around it before buying.
+For use Furniture With More Than One Job, mark the furniture outline on the floor and test the route to the door, closet, and other daily-use areas.
 
 ## 7. Choose Storage That Goes Up, Not Out
 
@@ -60,7 +60,7 @@ Measure width, depth, and height before choosing containers.
 
 A shelf above every interior door adds useful storage without taking any floor space. Use it for books, baskets, or items you reach for only occasionally.
 
-Measure the wall before drilling or ordering storage.
+For add Storage Above Doors, check nearby doors, mirrors, and trim before settling on the shelf position.
 
 ## 10. Use Baskets on Open Shelves
 
@@ -88,7 +88,7 @@ Over-door organizers and hooks turn the back of every door into useful storage f
 
 A storage ottoman in the living area holds blankets, magazines, or remote controls while doubling as a coffee table or extra seating.
 
-Measure the furniture footprint and the path around it before buying.
+For try a Storage Ottoman, mark the furniture outline on the floor and test the route to the door, closet, and other daily-use areas.
 
 ## 15. Add a Tall Bookcase
 

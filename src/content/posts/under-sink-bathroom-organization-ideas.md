@@ -14,7 +14,7 @@ keyTakeaways:
   - "Declutter before organizing — remove expired and unused products first."
 ---
 
-If you are looking for under sink bathroom organization ideas, the best place to start is with function rather than decoration. A room feels better when the layout is easy to use, storage has a clear purpose, and the styling supports everyday life instead of getting in the way.
+If you are looking for under sink bathroom organization ideas, the best place to start is with function rather than decoration. The plumbing determines what fits under a sink, so measure around the trap and shutoff valves before choosing bins or drawers.
 
 ## 1. Measure Around Pipes First
 
@@ -54,19 +54,19 @@ Measure width, depth, and height before choosing containers.
 
 Clear bins let you see what is inside without opening every container. Use them for makeup, hair accessories, or small items that tend to get lost.
 
-Use labels only where they genuinely help.
+For use Clear or Labeled Bins, keep frequently used items near the front and group occasional supplies together behind them.
 
 ## 8. Add Stackable Drawers
 
 Stackable plastic or acrylic drawers make efficient use of vertical space inside the cabinet. Use them for makeup, skincare, or small bathroom accessories.
 
-Measure width, depth, and height before choosing containers.
+At add Stackable Drawers, make a quick paper template of the available footprint so the organizer will not collide with plumbing or hinges.
 
 ## 9. Install Storage Above the Toilet
 
 The wall above the toilet is almost always unused. A shelf, cabinet, or freestanding over-toilet unit there can hold towels, toilet paper, and bathroom supplies.
 
-Measure the wall before drilling or ordering storage.
+For install Storage Above the Toilet, check nearby doors, mirrors, and trim before settling on the shelf position.
 
 ## 10. Use Drawer Dividers
 
@@ -86,7 +86,7 @@ A tray is useful because the whole group can be moved at once.
 
 Hooks on the wall or back of the door hold towels, robes, and bags without using any floor space.
 
-Measure the wall before drilling or ordering storage.
+For add Hooks Instead of More Furniture, check nearby doors, mirrors, and trim before settling on the shelf position.
 
 ## 14. Use the Back of the Door
 

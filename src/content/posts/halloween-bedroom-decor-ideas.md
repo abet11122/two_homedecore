@@ -21,7 +21,7 @@ faqs:
 
 Halloween bedroom decor works best when it leans into what a bedroom already does well — warmth, texture, and low light. The goal is not to turn the room into a haunted house. It is to make it feel a little moodier, a little darker, and a little more atmospheric than usual.
 
-The ideas below are designed to be practical for real bedrooms. You do not need to use every idea. Choose the changes that suit your space and your normal decor first, then build from there.
+Keep decorations removable and away from sleeping surfaces, lamps, closet doors, and the route to the bedroom exit. A pillow cover, a small garland, or a shaded accent light can add a seasonal note without making the room harder to use.
 
 ## 1. Swap Cushion Covers for Dark Velvet
 

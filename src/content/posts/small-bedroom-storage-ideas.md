@@ -14,7 +14,7 @@ keyTakeaways:
   - "Measure before buying and keep daily items at an easy height."
 ---
 
-If you are looking for small bedroom storage ideas, the best place to start is with function rather than decoration. A room feels better when the layout is easy to use, storage has a clear purpose, and the styling supports everyday life instead of getting in the way.
+If you are looking for small bedroom storage ideas, the best place to start is with function rather than decoration. Choose bedroom storage by category and frequency of use: daily clothes should stay reachable, while seasonal items can go higher or under the bed.
 
 ## 1. Use Under-Bed Storage First
 
@@ -80,7 +80,7 @@ Use labels only where they genuinely help.
 
 Woven or fabric baskets on open shelves hide small items while keeping the room looking tidy. Use a consistent size and style so the storage looks intentional.
 
-Matching baskets can make open storage look calmer, while clear bins are better when you need to see quantities and backups.
+For use Baskets for Visual Calm, reserve opaque containers for visual calm and transparent ones for supplies that need frequent restocking.
 
 ## 13. Create One Home for Every Item
 

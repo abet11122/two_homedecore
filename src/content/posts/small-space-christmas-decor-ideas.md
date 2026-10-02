@@ -16,7 +16,7 @@ keyTakeaways:
 
 If you are looking for small space Christmas decor ideas, the best place to start is with function rather than decoration. A space feels better when the layout is easy to use and the styling supports everyday life instead of getting in the way.
 
-The ideas below are designed to be practical for real homes. You do not need to use every idea. Choose the changes that suit your space and your normal decor first, then build from there.
+Scale the display to one useful surface or corner, and check that lights, doors, and seating remain accessible once the decorations are in place.
 
 ## 1. Choose a Tabletop or Pencil Tree
 
@@ -76,7 +76,7 @@ Choose one surface — the coffee table, console, or windowsill — and style it
 
 Wood trays, woven baskets, and natural fiber textiles add warmth and texture without looking overtly themed.
 
-Choose washable or easy-care materials in high-use areas.
+For use Natural Wood and Woven Texture, choose a surface that can be wiped or laundered when it picks up dust, spills, or everyday wear.
 
 ## 13. Add Candles or Flameless Candles
 
