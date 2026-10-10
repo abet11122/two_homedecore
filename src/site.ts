@@ -23,7 +23,7 @@ export const SITE = {
   /** Paste your Pinterest domain-verification code here (Settings → Claim). */
   pinterestVerification: '',
   /** Paste your Google Search Console verification code here. */
-  googleVerification: '',
+  googleVerification: 'ZtIbCUoxgl0O7sXwcRjCEO-6a2PBnsdhgGXnFHOVOgA',
   /** Slug for the author hub page at /author/<slug>/. */
   authorSlug: 'sophie-lane',
   /** Public profiles for the author — feeds Person.sameAs (E-E-A-T). */
