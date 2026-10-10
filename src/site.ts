@@ -14,7 +14,7 @@ export const SITE = {
   author: 'Sophie Lane',
   authorRole: 'Editor & Home Stylist',
   authorBio:
-    'Sophie has spent a decade turning compact apartments and small houses into warm, intentional homes. She believes a cozy room is never about size — it is about the choices you make inside it.',
+    'Sophie edits practical ideas for compact apartments and small homes, with a focus on thoughtful layouts, useful storage, and rooms that feel comfortable to live in.',
   authorAvatar:
     'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=160&h=160&fit=crop&auto=format&q=70',
   pinterest: 'https://pinterest.com/smallcozyhome',
@@ -175,6 +175,11 @@ export function formatDate(date: Date): string {
   });
 }
 
+/** Keep scheduled articles out of every public archive until their publish date. */
+export function isPublishedPost(post: { data: { publishDate: Date } }): boolean {
+  return post.data.publishDate.getTime() <= Date.now();
+}
+
 export function formatDateShort(date: Date): string {
   return date.toLocaleDateString('en-US', {
     month: 'short',
@@ -229,15 +234,16 @@ export interface TagSummary {
   count: number;
 }
 
+export const MIN_INDEXABLE_ARCHIVE_POSTS = 4;
+
 /**
  * Every distinct tag across the archive, most-used first.
- * `minCount` drops one-off tags that would only ever build a single-post
- * page — thin pages Google reads as low value, so they are left unbuilt
- * and simply render as plain text on the post.
+ * `minCount` keeps small clusters from creating thin archive pages; those
+ * tags remain plain text on posts until enough related content exists.
  */
 export function collectTags(
   posts: Array<{ data: { tags?: string[] } }>,
-  minCount = 2
+  minCount = MIN_INDEXABLE_ARCHIVE_POSTS
 ): TagSummary[] {
   const counts = new Map<string, number>();
   for (const post of posts) {

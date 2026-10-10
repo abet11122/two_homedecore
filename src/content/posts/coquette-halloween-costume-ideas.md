@@ -1,5 +1,6 @@
 ---
 title: "15 Coquette Halloween Costume Ideas — Soft & Aesthetic for 2026"
+noindex: true
 description: "Build a coquette Halloween costume with 15 soft aesthetic ideas using bows, ballet pink, lace, dark florals, and the trending coquette styling of 2026."
 category: seasonal
 tags: ["halloween costume", "coquette aesthetic", "soft halloween", "costume ideas", "halloween 2026"]

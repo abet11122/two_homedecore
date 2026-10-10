@@ -1,5 +1,6 @@
 ---
 title: "17 Toy Story 5 & Inside Out 2 Group Halloween Costume Ideas"
+noindex: true
 description: "Plan the perfect group Halloween costume with 17 Toy Story 5 and Inside Out 2 ideas for families and friend groups, including budget tips and character assignments."
 category: seasonal
 tags: ["halloween costume", "group costume", "toy story", "inside out", "family halloween", "halloween 2026"]

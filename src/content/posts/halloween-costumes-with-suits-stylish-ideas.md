@@ -1,5 +1,6 @@
 ---
 title: "15 Halloween Costumes With Suits — Sharp & Stylish Ideas"
+noindex: true
 description: "Turn a suit into a Halloween costume with 15 sharp and stylish ideas covering classic characters, villains, and creative concepts that work with suits you already own."
 category: seasonal
 tags: ["halloween costume", "suit costume", "stylish halloween", "costume ideas", "halloween 2026"]

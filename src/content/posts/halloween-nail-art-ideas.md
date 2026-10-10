@@ -1,5 +1,6 @@
 ---
 title: "15 Halloween Nail Art Ideas — Trending Designs for 2026"
+noindex: true
 description: "Get Halloween-ready nails with 15 trending nail art ideas covering spooky minimalist designs, dark florals, chrome effects, coquette nails, and easy DIY techniques."
 category: seasonal
 tags: ["halloween nails", "nail art", "halloween costume", "halloween 2026", "seasonal beauty"]

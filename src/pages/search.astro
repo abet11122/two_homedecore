@@ -2,9 +2,9 @@
 import { getCollection } from 'astro:content';
 import Layout from '../layouts/Layout.astro';
 import Img from '../components/Img.astro';
-import { CATEGORIES, categoryName, formatDateShort } from '../site';
+import { CATEGORIES, categoryName, formatDateShort, isPublishedPost } from '../site';
 
-const posts = (await getCollection('posts')).sort(
+const posts = (await getCollection('posts')).filter(isPublishedPost).sort(
   (a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime()
 );
 

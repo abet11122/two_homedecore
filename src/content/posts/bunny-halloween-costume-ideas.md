@@ -1,5 +1,6 @@
 ---
 title: "15 Bunny Halloween Costume Ideas — Cute & Trendy for 2026"
+noindex: true
 description: "Put together the perfect bunny Halloween costume with 15 cute and trendy ideas covering ears, outfits, makeup, colour variations, and styling tips for 2026."
 category: seasonal
 tags: ["halloween costume", "bunny costume", "cute halloween", "costume ideas", "halloween 2026"]

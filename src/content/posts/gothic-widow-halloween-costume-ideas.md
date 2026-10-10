@@ -1,5 +1,6 @@
 ---
 title: "15 Gothic Widow Halloween Costume Ideas — Dark & Elegant"
+noindex: true
 description: "Create a striking gothic widow Halloween costume with 15 ideas covering black lace, veils, dark makeup, Victorian accessories, and elegant styling for 2026."
 category: seasonal
 tags: ["halloween costume", "gothic costume", "widow costume", "costume ideas", "halloween 2026"]

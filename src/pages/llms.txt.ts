@@ -1,5 +1,5 @@
 import { getCollection } from 'astro:content';
-import { SITE, CATEGORIES, categoryName, collectTags } from '../site';
+import { SITE, CATEGORIES, categoryName, collectTags, isPublishedPost } from '../site';
 import type { APIContext } from 'astro';
 
 /**
@@ -15,7 +15,7 @@ export async function GET(context: APIContext) {
   const origin = (context.site ?? new URL(SITE.url)).origin;
   const url = (path: string) => new URL(path, origin).href;
 
-  const posts = (await getCollection('posts')).sort(
+  const posts = (await getCollection('posts')).filter(isPublishedPost).sort(
     (a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime()
   );
 
