@@ -10,7 +10,7 @@ export const SITE = {
     'Small Cozy Home is your guide to making every square foot count — room styling, storage ideas, DIY projects and cozy decor for real homes of every size.',
   // Interim: swap for your real domain once purchased — this is the only
   // place it needs to change (astro.config.mjs reads it from here).
-  url: 'https://smallcozyhome.store',
+  url: 'https://www.smallcozyhome.store',
   author: 'Sophie Lane',
   authorRole: 'Editor & Home Stylist',
   authorBio:

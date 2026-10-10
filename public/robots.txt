@@ -26,5 +26,5 @@ Allow: /
 User-agent: Applebot-Extended
 Allow: /
 
-# Update the domain here and in src/site.ts once you buy one.
-Sitemap: https://smallcozyhome.store/sitemap-index.xml
+# Keep the sitemap host aligned with SITE_URL in astro.config.mjs.
+Sitemap: https://www.smallcozyhome.store/sitemap-index.xml
