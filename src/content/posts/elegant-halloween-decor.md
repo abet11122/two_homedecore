@@ -23,7 +23,6 @@ Build the look around a restrained palette and a few deliberate focal points; le
 
 A palette of black, cream, and muted orange reads as Halloween without the garish brightness of primary colors. Repeat these three tones through candles, pumpkins, textiles, and small accessories.
 
-For use Black, Cream, and Muted Orange, repeat one or two accent colors across textiles and accessories to keep the palette connected. A limited palette usually feels larger, calmer, and easier to update later.
 
 ## 2. Choose Matte Pumpkins
 
@@ -63,7 +62,7 @@ Dark dahlias, dried grasses, black-dyed stems, or deep burgundy flowers in a cer
 
 ## 5. Choose a Restrained Color Palette
 
-Start with one calm base and repeat one or two accent colors through smaller items such as cushions, art, candles, or accessories. For choose a Restrained Color Palette, repeat one or two accent colors across textiles and accessories so the scheme feels connected.
+Start with one calm base and repeat one or two accent colors through smaller items such as cushions, art, candles, or accessories so the scheme feels connected.
 
 In a small room, a limited palette usually feels larger, calmer, and easier to update later.
 

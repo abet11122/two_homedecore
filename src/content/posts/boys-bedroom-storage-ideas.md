@@ -72,7 +72,6 @@ Keep backup items in one dedicated area rather than scattered through the room.
 
 Clear bins let you see what is inside without opening every container. Use them for small toys, accessories, or items that tend to get lost.
 
-For use Clear Bins for Small Items, keep frequently used items near the front and group occasional supplies together behind them.
 
 ## 12. Use Baskets for Visual Calm
 

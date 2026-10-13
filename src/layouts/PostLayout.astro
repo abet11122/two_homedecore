@@ -17,7 +17,7 @@ import AdSlot from '../components/AdSlot.astro';
 import ReadingTools from '../components/ReadingTools.astro';
 import '../styles/reading.css';
 import { articleImage } from '../lib/articleImages';
-import { SITE, categoryName, formatDate, collectTags, isPublishedPost, tagSlug, wordCount } from '../site';
+import { SITE, categoryName, formatDate, collectTags, isVisiblePost, tagSlug, wordCount } from '../site';
 
 interface Props {
   post: any;
@@ -29,7 +29,7 @@ const { post, headings, minutes } = Astro.props;
 const d = post.data;
 const heroPhoto = articleImage(d.heroImage);
 
-const all = (await getCollection('posts')).filter(isPublishedPost).sort(
+const all = (await getCollection('posts')).filter(isVisiblePost).sort(
   (a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime()
 );
 
@@ -98,6 +98,7 @@ const faqSchema = d.faqs?.length
   words={words}
   minutes={minutes}
   schemas={faqSchema ? [faqSchema] : []}
+  allowAds={!d.noindex}
 >
   <div id="progress" aria-hidden="true"></div>
 
@@ -122,9 +123,9 @@ const faqSchema = d.faqs?.length
         <h1 id="post-title">{d.title}</h1>
         <p class="post-deck">{d.description}</p>
         <div class="post-byline">
-          <img src={SITE.authorAvatar} alt="" width="42" height="42" class="post-avatar" />
+          {SITE.authorAvatar && <img src={SITE.authorAvatar} alt="" width="42" height="42" class="post-avatar" />}
           <div>
-            <a href={`/author/${SITE.authorSlug}/`}>By {SITE.author}</a>
+            <a href={`/author/${SITE.authorSlug}/`}>Published by {SITE.author}</a>
             <p>{d.updatedDate ? 'Updated ' : ''}<time datetime={(d.updatedDate ?? d.publishDate).toISOString()}>{formatDate(d.updatedDate ?? d.publishDate)}</time><span aria-hidden="true"> · </span>{SITE.authorRole}</p>
           </div>
         </div>
@@ -172,7 +173,7 @@ const faqSchema = d.faqs?.length
         {/* The rail carries the contents from xl up; below that it sits inline. */}
         <div id="article-contents" class="xl:hidden"><TableOfContents headings={headings} /></div>
 
-        <AdSlot placement="in-article-top" class="my-10" />
+          <AdSlot placement="in-article-top" class="my-10" enabled={!d.noindex} />
 
         <ReadingTools minutes={minutes} />
 
@@ -195,7 +196,7 @@ const faqSchema = d.faqs?.length
           </div>
         )}
 
-        <AdSlot placement="in-article-mid" class="my-12" />
+          <AdSlot placement="in-article-mid" class="my-12" enabled={!d.noindex} />
 
         <Faq items={d.faqs ?? []} />
 
@@ -220,13 +221,13 @@ const faqSchema = d.faqs?.length
       {/* A configured sidebar ad gets a separate rail only on wide screens. */}
       <aside class="post-aside hidden 2xl:block">
         <div class="sticky top-28">
-          <AdSlot placement="sidebar" />
+          <AdSlot placement="sidebar" enabled={!d.noindex} />
         </div>
       </aside>
     </div>
 
     <div class="mx-auto max-w-[72rem]">
-      <AdSlot placement="before-related" class="mt-14" />
+      <AdSlot placement="before-related" class="mt-14" enabled={!d.noindex} />
       <RelatedPosts category={d.category} currentId={post.id} />
     </div>
   </article>
@@ -237,7 +238,7 @@ const faqSchema = d.faqs?.length
 
   {/* Reserve space for a configured mobile anchor ad. */}
   <div class="anchor-ad" slot="after-footer">
-    <AdSlot placement="anchor" />
+    <AdSlot placement="anchor" enabled={!d.noindex} />
   </div>
 </Layout>
 

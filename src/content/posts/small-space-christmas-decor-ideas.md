@@ -42,7 +42,6 @@ Use labels only where they genuinely help.
 
 Red and green, gold and cream, or silver and white are classic combinations. Choose one and repeat it through the whole space rather than mixing multiple holiday color schemes.
 
-For choose a Simple Holiday Color Palette, repeat one or two accent colors across textiles and accessories to keep the palette connected.
 
 ## 6. Start With Warm String Lights
 
@@ -76,7 +75,6 @@ Choose one surface — the coffee table, console, or windowsill — and style it
 
 Wood trays, woven baskets, and natural fiber textiles add warmth and texture without looking overtly themed.
 
-For use Natural Wood and Woven Texture, choose a surface that can be wiped or laundered when it picks up dust, spills, or everyday wear.
 
 ## 13. Add Candles or Flameless Candles
 

@@ -4,7 +4,6 @@ import { SITE } from '../site';
 
 export const prerender = true;
 
-const domain = SITE.email.split('@')[1];
 ---
 
 <PageLayout
@@ -12,12 +11,12 @@ const domain = SITE.email.split('@')[1];
   eyebrow="Legal"
   description={`How ${SITE.name} collects, uses and protects your information.`}
   lede="What we collect, why we collect it, and how to tell us to stop."
-  updated="October 2, 2026"
+  updated="October 13, 2026"
 >
   <p>
     This policy explains how {SITE.name} ("we", "us") handles information when you visit
     <strong>{SITE.url}</strong>. We have tried to write it in plain language. If anything is
-    unclear, email <a href={`mailto:privacy@${domain}`}>privacy@{domain}</a> and we will explain.
+    unclear, email <a href={`mailto:${SITE.email}`}>{SITE.email}</a> and we will explain.
   </p>
 
   <h2>Information and browser storage</h2>
@@ -25,8 +24,8 @@ const domain = SITE.email.split('@')[1];
   <ul>
     <li>
       <strong>Messages you send.</strong> If you email us directly, we receive your email address
-      and the information in your message. The contact form currently shown on the site is a demo
-      and does not send or store submissions.
+      and the information in your message. This website does not collect messages through a contact
+      form.
     </li>
     <li>
       <strong>Saved ideas and reading preferences.</strong> The save buttons and text-size control
@@ -39,21 +38,25 @@ const domain = SITE.email.split('@')[1];
       own retention and security practices also apply.
     </li>
     <li>
-      <strong>Third-party technologies.</strong> If advertising is enabled, Google and its partners
-      may use cookies or similar technologies as described below. The site also loads Pinterest's
-      sharing script; Pinterest may process information under its own privacy policy.
+      <strong>Third-party technologies.</strong> The site loads a Google Analytics 4 tag with
+      analytics storage defaulted to denied. Google may still receive limited consent-mode signals.
+      If advertising is enabled, Google and its partners may use cookies or similar technologies as
+      described below. The site also loads Pinterest's sharing script; Pinterest may process
+      information under its own privacy policy.
     </li>
   </ul>
   <p>The site does not currently offer an email newsletter signup or collect payment details.</p>
 <h2>How we use it</h2>
   <ul>
     <li>To operate, maintain, and protect the site.</li>
+    <li>To understand site usage through Google Analytics, subject to the consent settings in use.</li>
     <li>To reply to messages you send us directly.</li>
     <li>To display advertising if Google AdSense is enabled for the site.</li>
   </ul>
 <h2>Advertising and Google AdSense</h2>
   <p>
-    If Google AdSense is enabled on this site, Google and its advertising partners may use cookies,
+    Google AdSense code stays disabled unless advertising and consent management have been configured.
+    If enabled, Google and its advertising partners may use cookies,
     web beacons, IP addresses, or similar identifiers to serve, measure, and personalize ads. These
     technologies may use information about your visits to this and other sites. Google explains
     <a href="https://policies.google.com/technologies/partner-sites" rel="nofollow noopener" target="_blank">how it uses data on partner sites</a>.
@@ -67,10 +70,10 @@ const domain = SITE.email.split('@')[1];
 
   <h2>Consent in the EEA, UK and Switzerland</h2>
   <p>
-    Where consent is required, Google AdSense is enabled only after a Google-certified Consent
-    Management Platform has been configured to collect and respect your choices. When active, the
-    message and available settings depend on your location. If you have a question about a consent
-    message, contact <a href={`mailto:privacy@${domain}`}>privacy@{domain}</a>.
+    The site defaults Google consent signals to denied. AdSense remains disabled until a Google-certified
+    Consent Management Platform integrated with the IAB Transparency and Consent Framework is
+    configured. If enabled, the message and available settings depend on your location. For a
+    question about consent, contact <a href={`mailto:${SITE.email}`}>{SITE.email}</a>.
   </p>
 
   <h2>Who we share it with</h2>
@@ -89,8 +92,8 @@ const domain = SITE.email.split('@')[1];
     the CCPA/CPRA, including the right not to be discriminated against for exercising them.
   </p>
   <p>
-    To make a request, email <a href={`mailto:privacy@${domain}`}>privacy@{domain}</a>. We will
-    respond within 30 days.
+    To make a request, email <a href={`mailto:${SITE.email}`}>{SITE.email}</a>. We will respond
+    within any period required by applicable law and handle other requests as promptly as practical.
   </p>
 
   <h2>Retention and security</h2>
@@ -108,7 +111,7 @@ const domain = SITE.email.split('@')[1];
 
   <h2>Contact</h2>
   <p>
-    Questions about this policy: <a href={`mailto:privacy@${domain}`}>privacy@{domain}</a>.
+    Questions about this policy: <a href={`mailto:${SITE.email}`}>{SITE.email}</a>.
   </p>
 
   <hr />

@@ -44,7 +44,6 @@ For cozy rooms, warm-white bulbs around 2700K are a useful starting point.
 
 Red and cream, gold and white, or green and natural wood are classic combinations. Choose one and repeat it through the whole room.
 
-For choose a Simple Holiday Color Palette, repeat one or two accent colors across textiles and accessories to keep the palette connected.
 
 ## 6. Start With Warm String Lights
 
@@ -78,7 +77,6 @@ Choose one surface — the dresser, bedside table, or windowsill — and style i
 
 Wood trays, woven baskets, and natural fiber textiles add warmth and texture without looking overtly themed.
 
-For use Natural Wood and Woven Texture, choose a surface that can be wiped or laundered when it picks up dust, spills, or everyday wear.
 
 ## 13. Add Candles or Flameless Candles
 

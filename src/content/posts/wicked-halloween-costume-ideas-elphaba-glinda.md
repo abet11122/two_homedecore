@@ -1,6 +1,7 @@
 ---
 title: "Wicked Movie Halloween Costumes — Elphaba & Glinda Duo Ideas"
 noindex: true
+excludeFromListings: true
 description: "Build the perfect Wicked Halloween costume for Elphaba or Glinda with this duo guide covering outfits, makeup, wigs, and budget options for 2026."
 category: seasonal
 tags: ["halloween costume", "wicked", "duo costume", "costume ideas", "halloween 2026"]

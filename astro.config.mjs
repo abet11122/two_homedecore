@@ -42,15 +42,18 @@ const posts = listMarkdownFiles(postsDirectory).map((path) => {
 const publishedPosts = posts.filter(
   (post) => new Date(post.data.publishDate).getTime() <= Date.now()
 );
+const discoverablePosts = publishedPosts.filter(
+  (post) => !post.data.excludeFromListings && !post.data.noindex
+);
 const noindexPostPaths = new Set(
   publishedPosts.filter((post) => post.data.noindex).map((post) => `/post/${post.id}/`)
 );
 const indexableCategories = new Set(
   CATEGORIES
-    .filter((category) => publishedPosts.filter((post) => post.data.category === category.slug).length >= MIN_INDEXABLE_ARCHIVE_POSTS)
+    .filter((category) => discoverablePosts.filter((post) => post.data.category === category.slug).length >= MIN_INDEXABLE_ARCHIVE_POSTS)
     .map((category) => category.slug)
 );
-const indexableTags = new Set(collectTags(publishedPosts).map((tag) => tag.slug));
+const indexableTags = new Set(collectTags(discoverablePosts).map((tag) => tag.slug));
 
 function includeInSitemap(page) {
   const pathname = new URL(page).pathname;
@@ -77,6 +80,9 @@ export default defineConfig({
   output: 'server',
   adapter: vercel(),
   trailingSlash: 'always',
+  redirects: {
+    '/author/sophie-lane/': '/about/',
+  },
   integrations: [sitemap({ filter: includeInSitemap })],
   build: {
     inlineStylesheets: 'auto',

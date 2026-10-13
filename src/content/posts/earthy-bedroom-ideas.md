@@ -20,7 +20,6 @@ If you are looking for earthy bedroom ideas, the best place to start is with fun
 
 These four tones form the foundation of an earthy bedroom palette. Use one as the dominant wall or bedding color and repeat the others through accessories, textiles, and furniture.
 
-For use Clay, Sand, Olive, and Warm Brown, repeat one or two accent colors across textiles and accessories to keep the palette connected. In a small room, a limited palette usually feels larger, calmer, and easier to update later.
 
 ## 2. Add Natural Wood Furniture
 
@@ -54,13 +53,11 @@ Measure width, depth, and height before choosing, especially around bed frames.
 
 Start with one calm base color on the walls — warm white, sand, or clay — and repeat one or two accent colors through smaller items.
 
-For choose a Calm Base Color, repeat one or two accent colors across textiles and accessories so the scheme feels connected.
 
 ## 8. Add One Deeper Accent Color
 
 A deeper accent color — terracotta, olive, or warm brown — adds depth without overwhelming a small room. Use it in one or two places rather than everywhere.
 
-For add One Deeper Accent Color, repeat one or two accent colors across textiles and accessories so the scheme feels connected.
 
 ## 9. Use Floating Shelves
 
@@ -82,7 +79,6 @@ Keep frequently used items at an easy height and reserve higher storage for ligh
 
 A pegboard or wall rail is flexible because hooks and small shelves can move as needs change.
 
-For add a Pegboard or Wall Rail, check nearby doors, mirrors, and trim before settling on the shelf position.
 
 ## 13. Use Baskets to Hide Small Items
 

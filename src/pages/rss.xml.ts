@@ -1,6 +1,6 @@
 import rss from '@astrojs/rss';
 import { getCollection } from 'astro:content';
-import { SITE, categoryName, isPublishedPost } from '../site';
+import { SITE, categoryName, isVisiblePost } from '../site';
 import type { APIContext } from 'astro';
 
 /**
@@ -11,7 +11,7 @@ import type { APIContext } from 'astro';
  * every page head points here.
  */
 export async function GET(context: APIContext) {
-  const posts = (await getCollection('posts')).filter(isPublishedPost).sort(
+  const posts = (await getCollection('posts')).filter(isVisiblePost).sort(
     (a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime()
   );
 

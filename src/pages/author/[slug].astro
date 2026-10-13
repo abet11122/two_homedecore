@@ -5,7 +5,7 @@ import PostCard from '../../components/PostCard.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import SectionHead from '../../components/SectionHead.astro';
 import Newsletter from '../../components/Newsletter.astro';
-import { SITE, CATEGORIES, categoryName, formatDateShort, isPublishedPost } from '../../site';
+import { SITE, CATEGORIES, categoryName, formatDateShort, isVisiblePost } from '../../site';
 
 export const prerender = true;
 
@@ -21,7 +21,7 @@ export async function getStaticPaths() {
   return [{ params: { slug: SITE.authorSlug } }];
 }
 
-const posts = (await getCollection('posts')).filter(isPublishedPost).sort(
+const posts = (await getCollection('posts')).filter(isVisiblePost).sort(
   (a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime()
 );
 
@@ -42,13 +42,11 @@ const description = `${SITE.author}, ${SITE.authorRole.toLowerCase()} at ${SITE.
 const origin = (Astro.site ?? new URL(SITE.url)).origin;
 
 const profileSchema = {
-  '@type': 'ProfilePage',
-  '@id': `${origin}/author/${SITE.authorSlug}/#profile`,
+  '@type': 'CollectionPage',
+  '@id': `${origin}/author/${SITE.authorSlug}/#archive`,
   isPartOf: { '@id': `${origin}/#website` },
-  mainEntity: { '@id': `${origin}/author/${SITE.authorSlug}/#person` },
-  // The byline count is the signal that separates a real author page from a
-  // placeholder, so state it explicitly rather than leaving it implied.
-  mainEntityOfPage: {
+  about: { '@id': `${origin}/#organization` },
+  mainEntity: {
     '@type': 'ItemList',
     numberOfItems: posts.length,
     itemListElement: posts.slice(0, 20).map((post, i) => ({
@@ -72,7 +70,7 @@ const profileSchema = {
       <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: SITE.author }]} />
 
       <div class="mt-8 grid gap-9 lg:grid-cols-12 lg:items-center lg:gap-14">
-        <div class="lg:col-span-2">
+        {SITE.authorAvatar && <div class="lg:col-span-2">
           <img
             src={SITE.authorAvatar}
             alt={SITE.author}
@@ -81,7 +79,7 @@ const profileSchema = {
             loading="eager"
             class="h-[7.5rem] w-[7.5rem] rounded-full object-cover lg:h-[10rem] lg:w-[10rem]"
           />
-        </div>
+        </div>}
 
         <div class="lg:col-span-10">
           <p class="eyebrow">{SITE.authorRole}</p>
@@ -153,7 +151,7 @@ const profileSchema = {
       <SectionHead
         id="author-archive"
         kicker="The back catalogue"
-        title="More from Sophie"
+        title="More from Small Cozy Home"
         href="/tags/"
         hrefLabel="Browse all"
       />

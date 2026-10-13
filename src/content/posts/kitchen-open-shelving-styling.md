@@ -157,4 +157,4 @@ If you hit all five, your open shelving is functional *and* beautiful.
 
 ---
 
-**Do you have open shelving at home? Show us your setup in the comments—styling inspo (and honest maintenance tips) welcome!**
+**Before choosing open shelves, compare the display space with your everyday storage needs and cleaning routine.**

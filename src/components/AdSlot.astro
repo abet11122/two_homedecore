@@ -6,9 +6,8 @@
  * so filling (or failing to fill) the slot can never shift the page — that is
  * what keeps CLS at 0.
  *
- * Slot IDs come from env vars so the markup can ship before the account is
- * approved. Until PUBLIC_ADSENSE_CLIENT_ID is set you see a labelled
- * placeholder of the identical size.
+ * Slot IDs come from env vars. The slot is omitted unless ad delivery is
+ * enabled and the client ID, unit ID, and CMP configuration exist.
  */
 interface Props {
   /** Which configured slot to render. */
@@ -18,6 +17,7 @@ interface Props {
   /** Reserved box on screens >= 768px. */
   desktop?: { w: number; h: number };
   class?: string;
+  enabled?: boolean;
 }
 
 const SIZES: Record<string, { mobile: { w: number; h: number }; desktop: { w: number; h: number } }> = {
@@ -33,7 +33,7 @@ const SIZES: Record<string, { mobile: { w: number; h: number }; desktop: { w: nu
   sidebar: { mobile: { w: 300, h: 600 }, desktop: { w: 300, h: 600 } },
 };
 
-const { placement, mobile, desktop, class: className = '' } = Astro.props;
+const { placement, mobile, desktop, class: className = '', enabled = true } = Astro.props;
 
 const m = mobile ?? SIZES[placement].mobile;
 const dsk = desktop ?? SIZES[placement].desktop;
@@ -41,13 +41,14 @@ const dsk = desktop ?? SIZES[placement].desktop;
 const clientId =
   import.meta.env.PUBLIC_ADSENSE_CLIENT_ID ||
   import.meta.env.ADSENSE_CLIENT_ID ||
-  'ca-pub-8497285724891966';
+  '';
+const consentManagementConfigured = import.meta.env.PUBLIC_ADSENSE_CMP_CONFIGURED === 'true';
 
 // Optional per-placement slot IDs, e.g. PUBLIC_ADSENSE_SLOT_IN_ARTICLE_TOP=1234567890
 const envKey = `PUBLIC_ADSENSE_SLOT_${placement.toUpperCase().replace(/-/g, '_')}`;
 const slotId = (import.meta.env as Record<string, string | undefined>)[envKey] || '';
 
-const showAd = Boolean(clientId && slotId);
+const showAd = Boolean(enabled && clientId && slotId && consentManagementConfigured);
 const uid = `ad-${placement}`;
 ---
 

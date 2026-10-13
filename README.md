@@ -1,6 +1,6 @@
-# Hearth & Grain — a Pinterest-first home decor blog
+# Small Cozy Home
 
-A static, editorial-styled interiors blog built with **Astro 7** and **Tailwind CSS 3**, tuned for the two numbers that decide AdSense income: **page speed** and **pageviews per session**.
+A static interiors publication built with **Astro 7** and **Tailwind CSS 3**. The project includes room guides, archive and search pages, and browser-based saved ideas.
 
 Ships **zero JavaScript bundles** — the only scripts on the page are a handful of inline snippets totalling well under 2KB, plus the deferred AdSense and Pinterest tags.
 
@@ -20,7 +20,7 @@ cp .env.example .env
 npm run dev
 ```
 
-Open the URL it prints (usually `http://localhost:4321`). Ads render as labelled placeholders until you add your AdSense ID — at the exact same size, so the layout you see in dev is the layout you get in production.
+Open the URL it prints (usually `http://localhost:4321`). Ads stay hidden unless the required advertising, placement, and consent settings are configured.
 
 | Command | What it does |
 |---|---|
@@ -30,15 +30,16 @@ Open the URL it prints (usually `http://localhost:4321`). Ads render as labelled
 
 ---
 
-## Where to paste your AdSense ID
+## AdSense configuration
 
 **One place: `.env`.**
 
 ```
-PUBLIC_ADSENSE_CLIENT_ID=ca-pub-1234567890123456
+PUBLIC_ADSENSE_CLIENT_ID=
+PUBLIC_ADSENSE_CMP_CONFIGURED=false
 ```
 
-That's it. The ID flows into the deferred `adsbygoogle.js` tag in `src/layouts/Layout.astro` and into every `<AdSlot>` on the site. The `PUBLIC_` prefix is required — Astro only exposes prefixed vars to the browser.
+Ads are off unless the client ID, a content-surface permission, and the CMP flag are configured. Set `PUBLIC_ADSENSE_CMP_CONFIGURED=true` only after publishing and verifying a Google-certified consent message integrated with the IAB TCF where required. The code flag alone does not create user consent.
 
 Optionally add the per-unit slot IDs (`PUBLIC_ADSENSE_SLOT_IN_ARTICLE_TOP` and friends) so each placement reports separately in AdSense.
 
@@ -63,13 +64,13 @@ import AdSlot from '../components/AdSlot.astro';
 <AdSlot placement="in-article-mid" class="my-12" />
 ```
 
-### AdSense will reject you without these
+### Publisher and policy pages
 
-All four already exist and are linked in the footer — **read them and edit them to match your actual business** before applying:
+These pages are linked in the footer. Keep them accurate to the publisher's actual business, data practices, and content:
 
 - `/about/` · `/contact/` · `/privacy-policy/` · `/disclosure/`
 
-The privacy and disclosure pages are templates, not legal advice. Have someone qualified review them for your jurisdiction.
+These pages need publisher review and may need jurisdiction-specific legal review.
 
 ---
 
@@ -165,7 +166,7 @@ Nav, footer, tiles, category page and sitemap all pick it up automatically.
 
 ## Rebranding
 
-Nearly everything lives in **`src/site.ts`** — site name, tagline, author, bio, social URLs, the six categories and their tile images. Change it there and it propagates through the header, footer, schema, author box and about page.
+Nearly everything lives in **`src/site.ts`** — site name, tagline, publisher details, verified social URLs, categories and their tile images. Change it there and it propagates through the header, footer, schema, publisher archive and about page.
 
 Colours and type are in `tailwind.config.mjs`:
 
@@ -194,21 +195,21 @@ Fonts are Playfair Display (display) and Inter (body), loaded in `Layout.astro`.
 
 ### Structured data
 
-Every page emits one JSON-LD `@graph` with stable `@id`s, so `Organization`, `WebSite`, the author `Person` and the page node cross-reference each other rather than repeating. That is what lets a search engine resolve them into a single entity instead of four unrelated blobs.
+Every page emits a JSON-LD `@graph` with stable `@id`s. Article pages identify the publisher organization; the site does not invent an individual author identity.
 
 | Page type | Nodes emitted |
 |---|---|
-| Any page | `Organization` (with logo), `WebSite`, `Person`, `BreadcrumbList` |
+| Any page | `Organization` (with logo), `WebSite`, `BreadcrumbList` |
 | Post | `BlogPosting` with `wordCount`, `articleSection`, `keywords`, `timeRequired`, `inLanguage` |
 | Post with `faqs` | `FAQPage` |
 | Category / tag / topic index | `CollectionPage` + `ItemList` |
-| Author hub | `ProfilePage` |
+| Publisher archive | `CollectionPage` + `ItemList` |
 
 ### Discovery surfaces
 
 | Path | What it is |
 |---|---|
-| `/sitemap-index.xml` | Generated, includes tag and author pages |
+| `/sitemap-index.xml` | Generated, includes eligible tag, category, and publisher archive pages |
 | `/rss.xml` | Full archive feed, linked from every page head |
 | `/llms.txt` | Plain-text site map for AI answer engines, generated from the collection |
 | `/robots.txt` | Explicitly allows GPTBot, PerplexityBot, ClaudeBot, OAI-SearchBot and Google-Extended |
@@ -229,15 +230,15 @@ Tag slugs are normalised, so `small spaces`, `Small Spaces` and `small-spaces` c
 - Set `SITE_URL` in `.env` **and** the `Sitemap:` line in `public/robots.txt`
 - Add your Search Console code to `googleVerification` in `src/site.ts`
 - Submit `https://yourdomain.com/sitemap-index.xml` to Search Console
-- Fill in `authorLinks` in `src/site.ts` with real profiles — `Person.sameAs` is an E-E-A-T signal, and an empty author page is worse than none
+- Add only verified publisher profiles to `authorLinks` in `src/site.ts`
 
 ---
 
-## GDPR consent
+## Consent and advertising
 
-`Layout.astro` sets **Google Consent Mode v2** defaults to `denied` for all ad and analytics storage, with `wait_for_update: 500`. Nothing is stored until a choice is made.
+`Layout.astro` sets Google Consent Mode defaults to denied for ad and analytics storage. The GA4 tag is still loaded and may send limited consent-mode signals.
 
-To switch on the banner: in AdSense go to **Privacy & messaging → GDPR**, create a message, publish it, and Google serves the certified CMP to EEA/UK/Swiss visitors automatically through the AdSense tag already on the page. No code change needed.
+Configure and publish a Google-certified CMP through AdSense Privacy & messaging and verify the applicable regional settings. Only then set `PUBLIC_ADSENSE_CMP_CONFIGURED=true` in the deployment environment. The flag is a deployment switch; it does not itself provide a consent interface or establish that a CMP is configured correctly. Keep it false until that setup is complete.
 
 ---
 
@@ -252,6 +253,7 @@ Set these Environment Variables in **Project Settings → Environment Variables*
 - `SITE_URL`
 - `ADMIN_USERNAME`
 - `ADMIN_PASSWORD` (use a long, unique password)
+- `PUBLIC_ADSENSE_CLIENT_ID` and `PUBLIC_ADSENSE_CMP_CONFIGURED` only after advertising and consent management are configured
 
 The admin uses browser password authentication. On Vercel it is intentionally read-only: generate Markdown in the admin, then commit the content change through Git. Vercel functions cannot persist edits to the deployed filesystem.
 
@@ -261,7 +263,7 @@ Push to GitHub, then New site from Git:
 
 - Build command: `npm run build`
 - Publish directory: `dist`
-- Environment variables: `SITE_URL`, `PUBLIC_ADSENSE_CLIENT_ID`
+- Environment variables: `SITE_URL`, `PUBLIC_ADSENSE_CLIENT_ID`, `PUBLIC_ADSENSE_CMP_CONFIGURED`
 
 ### Cloudflare Pages
 
@@ -275,19 +277,15 @@ Both free tiers serve this comfortably — it is pure static output with no serv
 
 ---
 
-## Connecting the demo forms
+## Contact and saved ideas
 
-The newsletter and contact forms are **not wired up**; they show a note saying so.
-
-**Netlify Forms** — add `netlify` and `name="contact"` to the `<form>` in `src/pages/contact.astro`, plus a hidden `form-name` input, and remove the inline `submit` handler at the bottom of the file.
-
-**Formspree / ConvertKit / Buttondown** — set the form's `action` to your endpoint and `method="POST"`, and delete the inline handler.
+The contact page uses email links and does not collect form submissions. The saved-ideas feature stores selected post IDs in the visitor's browser; it is not an email newsletter signup.
 
 ---
 
 ## Performance notes
 
-Current build: **26 pages, no JS bundles, ~26KB of CSS** (roughly 6KB gzipped, and inlined automatically when small enough).
+The route and asset counts depend on the published content collection and production build. Use the production build output for current size and route counts.
 
 What keeps it fast, and what to preserve if you edit:
 
@@ -336,7 +334,7 @@ src/
 │  ├─ tags.astro              Topic index, sized by frequency
 │  ├─ rss.xml.ts              Full archive feed
 │  ├─ llms.txt.ts             Generated site map for AI answer engines
-│  ├─ author/[slug].astro     Author hub — the target of Person.sameAs
+│  ├─ author/[slug].astro     Publisher archive
 │  ├─ category/[slug].astro
 │  ├─ tag/[slug].astro        Built for any tag used by 2+ posts
 │  └─ post/[slug].astro
@@ -360,4 +358,4 @@ src/
 
 ## Licence
 
-Template code is free to use and modify. The sample posts are placeholder editorial content — replace them with your own. Photography is from [Unsplash](https://unsplash.com/license) under the Unsplash License.
+Template code is free to use and modify. Review all sample editorial content and image credits before publishing. Images have individual sources and licenses; check each asset and its attribution rather than assuming every image is from Unsplash.

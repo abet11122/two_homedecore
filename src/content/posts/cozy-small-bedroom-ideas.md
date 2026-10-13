@@ -38,7 +38,6 @@ Choose washable or easy-care materials in high-use areas.
 
 Warm white, soft beige, pale grey, muted sage, or dusty blue help a compact room feel calmer and visually larger. Add stronger colors through bedding, artwork, and smaller accessories.
 
-For keep the Palette Calm, repeat one or two accent colors across textiles and accessories to keep the palette connected. In a small room, a limited palette usually feels larger, calmer, and easier to update later.
 
 ## 5. Start With a Simple Furniture Layout
 
@@ -56,13 +55,11 @@ Measure width, depth, and height before choosing, especially around bed frames.
 
 Start with one calm base color on the walls and repeat one or two accent colors through smaller items such as cushions, art, or accessories.
 
-For choose a Calm Base Color, repeat one or two accent colors across textiles and accessories so the room feels connected as interests change.
 
 ## 8. Add One Deeper Accent Color
 
 A deeper accent color — dusty rose, sage green, warm terracotta, or navy — adds depth without overwhelming a small room. Use it in one or two places rather than everywhere.
 
-For add One Deeper Accent Color, repeat one or two accent colors across textiles and accessories so the scheme feels connected.
 
 ## 9. Use Floating Shelves
 
@@ -106,13 +103,11 @@ In rentals, over-door hooks are a no-drill option.
 
 In a small bedroom, every large piece should ideally do more than one job. A storage bench offers seating and storage; a bedside cabinet provides both a surface and drawers.
 
-For choose Multi-Purpose Furniture, mark the furniture outline on the floor and test the route to the door, closet, and other daily-use areas.
 
 ## 17. Keep Bedding Visually Simple
 
 A neutral duvet with one patterned throw or a couple of accent pillows gives the room personality without overwhelming it. You do not need to avoid color; the goal is simply to repeat a limited palette.
 
-For keep Bedding Visually Simple, choose a surface that can be wiped or laundered when it picks up dust, spills, or everyday wear.
 
 ## Final Thoughts
 

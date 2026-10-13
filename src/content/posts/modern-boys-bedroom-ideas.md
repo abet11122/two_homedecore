@@ -26,7 +26,6 @@ Measure the furniture footprint and the path around it before buying.
 
 These four colors form the foundation of most modern boys bedrooms. Use one as the dominant wall or bedding color and repeat one or two others through accessories.
 
-For choose Navy, Charcoal, Sage, or Warm White, repeat one or two accent colors across textiles and accessories to keep the palette connected. In a small room, a limited palette usually feels larger, calmer, and easier to update later.
 
 ## 3. Add Graphic Art Instead of Character Bedding
 
@@ -54,13 +53,11 @@ Measure width, depth, and height before choosing, especially around bed frames.
 
 Start with one calm base color on the walls and repeat one or two accent colors through smaller items such as cushions, art, or accessories.
 
-For choose a Calm Base Color, repeat one or two accent colors across textiles and accessories so the scheme feels connected.
 
 ## 8. Add One Deeper Accent Color
 
 A deeper accent color — navy, forest green, charcoal, or warm terracotta — adds depth without overwhelming a small room. Use it in one or two places rather than everywhere.
 
-For add One Deeper Accent Color, repeat one or two accent colors across textiles and accessories so the scheme feels connected.
 
 ## 9. Use Floating Shelves
 
@@ -82,7 +79,6 @@ Keep frequently used items at an easy height and reserve higher storage for ligh
 
 A pegboard or wall rail is flexible because hooks and small shelves can move as needs change. It can hold headphones, caps, cables, or sports items without using any floor space.
 
-For add a Pegboard or Wall Rail, check nearby doors, mirrors, and trim before settling on the shelf position.
 
 ## 13. Use Baskets to Hide Small Items
 

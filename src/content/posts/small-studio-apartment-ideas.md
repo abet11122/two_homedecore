@@ -36,7 +36,6 @@ Measure the furniture footprint and the path around it before buying.
 
 Using one calm color palette throughout a studio apartment makes the space feel larger and more cohesive. Choose a warm neutral base and repeat one or two accent colors.
 
-For keep One Consistent Color Palette, repeat one or two accent colors across textiles and accessories to keep the palette connected. In a small room, a limited palette usually feels larger, calmer, and easier to update later.
 
 ## 5. Create Clear Zones in One Room
 
@@ -46,7 +45,6 @@ Even in a single room, grouping activities together reduces clutter. Keep work i
 
 A dining table that folds against the wall, a bench that opens for storage, or a desk that doubles as a console all help a studio apartment work harder.
 
-For use Furniture With More Than One Job, mark the furniture outline on the floor and test the route to the door, closet, and other daily-use areas.
 
 ## 7. Choose Storage That Goes Up, Not Out
 
@@ -74,7 +72,6 @@ Matching baskets can make open storage look calmer.
 
 A narrow console table near the entrance gives you a surface for keys, mail, and everyday items without blocking the walkway.
 
-For choose a Slim Console, test the setup with doors and drawers fully open before deciding where each item belongs.
 
 ## 12. Create a Drop Zone Near the Door
 
@@ -90,7 +87,6 @@ Over-door organizers and hooks turn the back of every door into useful storage.
 
 A storage ottoman in the living area holds blankets, magazines, or remote controls while doubling as a coffee table or extra seating.
 
-For try a Storage Ottoman, mark the furniture outline on the floor and test the route to the door, closet, and other daily-use areas.
 
 ## 15. Add a Tall Bookcase
 

@@ -90,7 +90,6 @@ Over-door organizers and hooks turn the back of every door into useful storage.
 
 A storage ottoman in the living area holds blankets, magazines, or remote controls while doubling as a coffee table or extra seating.
 
-For try a Storage Ottoman, mark the furniture outline on the floor and test the route to the door, closet, and other daily-use areas.
 
 ## 15. Add a Tall Bookcase
 

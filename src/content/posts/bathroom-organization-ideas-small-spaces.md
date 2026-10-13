@@ -3,6 +3,8 @@ title: "17 Bathroom Organization Ideas for Small Spaces"
 description: "Maximize every inch of a compact bathroom with 17 bathroom organization ideas for small spaces covering under-sink storage, vertical shelving, and decluttering."
 category: bathroom
 tags: ["bathroom organization", "small spaces", "bathroom storage", "small bathroom", "organization"]
+noindex: true
+excludeFromListings: true
 publishDate: 2026-10-04
 heroImage: "photo-1552321554-5fefe8c9ef14"
 pinImage: "photo-1584622650111-993a426fbf0a"
@@ -86,7 +88,6 @@ A tray is useful because the whole group can be moved at once.
 
 Hooks on the wall or back of the door hold towels, robes, and bags without using any floor space. This is often more practical than adding another piece of furniture.
 
-For add Hooks Instead of More Furniture, check nearby doors, mirrors, and trim before settling on the shelf position.
 
 ## 14. Use the Back of the Door
 

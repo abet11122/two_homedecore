@@ -15,7 +15,7 @@ affiliateDisclosure: false
 
 Minimalism isn't about having nothing. It's about having *only what serves you*. A minimalist living room is a space stripped of excess, where every piece has purpose and intentionality. The result? A room that feels calm, spacious, and paradoxically, more inviting.
 
-Recent studies show that visual clutter increases cortisol (stress hormone) production. By embracing minimalism, you're literally designing for better mental health.
+Reducing visible clutter can make a room feel calmer for some people, but preferences vary. Treat minimalism as a styling choice rather than a mental-health treatment; keep the objects and comforts you use.
 
 ### The Three Pillars of Minimalist Design
 

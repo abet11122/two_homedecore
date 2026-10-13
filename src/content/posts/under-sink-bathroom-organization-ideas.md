@@ -54,7 +54,6 @@ Measure width, depth, and height before choosing containers.
 
 Clear bins let you see what is inside without opening every container. Use them for makeup, hair accessories, or small items that tend to get lost.
 
-For use Clear or Labeled Bins, keep frequently used items near the front and group occasional supplies together behind them.
 
 ## 8. Add Stackable Drawers
 
@@ -66,7 +65,6 @@ At add Stackable Drawers, make a quick paper template of the available footprint
 
 The wall above the toilet is almost always unused. A shelf, cabinet, or freestanding over-toilet unit there can hold towels, toilet paper, and bathroom supplies.
 
-For install Storage Above the Toilet, check nearby doors, mirrors, and trim before settling on the shelf position.
 
 ## 10. Use Drawer Dividers
 
@@ -86,7 +84,6 @@ A tray is useful because the whole group can be moved at once.
 
 Hooks on the wall or back of the door hold towels, robes, and bags without using any floor space.
 
-For add Hooks Instead of More Furniture, check nearby doors, mirrors, and trim before settling on the shelf position.
 
 ## 14. Use the Back of the Door
 

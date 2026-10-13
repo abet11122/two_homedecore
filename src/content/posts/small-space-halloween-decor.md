@@ -46,7 +46,6 @@ A tray is useful because the whole group can be moved at once.
 
 Black, cream, and muted orange read as Halloween without the garish brightness of primary colors. Repeat these tones through candles, pumpkins, and small accessories.
 
-For choose a Restrained Color Palette, repeat one or two accent colors across textiles and accessories to keep the palette connected. In a small room, a limited palette usually feels larger, calmer, and easier to update later.
 
 ## 6. Use Pumpkins in Different Sizes
 
@@ -60,7 +59,6 @@ Black candles are one of the simplest ways to signal the season without adding t
 
 Rather than decorating every surface, choose one area and make it the seasonal focal point. Keep the rest of the apartment calm.
 
-For create One Spooky Focal Point, group pieces by height and leave a little space around the display so each shape reads clearly.
 
 ## 9. Use Dried Branches in a Tall Vase
 

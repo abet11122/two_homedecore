@@ -80,7 +80,6 @@ Use labels only where they genuinely help.
 
 Woven or fabric baskets on open shelves hide small items while keeping the room looking tidy. Use a consistent size and style so the storage looks intentional.
 
-For use Baskets for Visual Calm, reserve opaque containers for visual calm and transparent ones for supplies that need frequent restocking.
 
 ## 13. Create One Home for Every Item
 

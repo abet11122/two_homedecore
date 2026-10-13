@@ -38,13 +38,11 @@ A sprig of eucalyptus, a small garland, or a few branches on the dresser or beds
 
 Cream, warm white, natural wood, and one accent color — deep red, forest green, or gold — create a festive palette that still feels calm and restful.
 
-For choose a Small Neutral Holiday Palette, repeat one or two accent colors across textiles and accessories to keep the palette connected. In a small room, a limited palette usually feels larger, calmer, and easier to update later.
 
 ## 5. Choose a Simple Holiday Color Palette
 
 Start with one calm base and repeat one or two accent colors through smaller items such as cushions, art, or accessories.
 
-For choose a Simple Holiday Color Palette, repeat one or two accent colors across textiles and accessories so the scheme feels connected.
 
 ## 6. Start With Warm String Lights
 
@@ -78,7 +76,6 @@ Choose one surface — the dresser, bedside table, or windowsill — and style i
 
 Wood trays, woven baskets, and natural fiber textiles add warmth and texture without looking overtly themed.
 
-For use Natural Wood and Woven Texture, choose a surface that can be wiped or laundered when it picks up dust, spills, or everyday wear.
 
 ## 13. Add Candles or Flameless Candles
 

@@ -141,3 +141,13 @@ For more ways to use awkward corners, explore our [small bathroom storage guide]
 ## Final Thoughts
 
 Small bathroom organization works best when it reduces daily friction. Start with decluttering and measurements, then improve one problem area at a time. A clear counter, a practical under-sink setup, and a few well-placed hooks or shelves can make a small bathroom feel much easier to use without a renovation.
+
+## A Fit Check Before You Buy
+
+Measure the usable width, depth, and height of the cabinet or wall area, including the space lost to pipes, hinges, handles, and drawer hardware. For an over-door organizer or cart, check both the product dimensions and the door's full swing or the remaining passage width. Leave shutoff valves, electrical outlets, ventilation, and plumbing access reachable. Follow the organizer and adhesive maker's surface, moisture, and weight instructions; do not assume a bathroom wall can support a loaded shelf.
+
+Sort items into daily use, occasional use, and backup supplies. Put daily items closest to the sink or shower where they are used, and keep backups together outside the wettest area when possible. Follow product labels for medicines and personal care products, and store cleaning products securely away from children and pets. Keep the counter and sink edge clear enough to wipe down.
+
+For an illustrative under-sink setup, sketch the cabinet footprint and mark the pipe route before selecting bins. Compare the bin's outside dimensions with the clear area around the plumbing and check that it can slide out through the cabinet opening. A removable tray or a reused box can be a low-cost way to test the layout before purchasing a fitted organizer. The actual clearances vary by vanity, so use your own measurements.
+
+After a few days of normal use, notice what is repeatedly left on the counter. Give those items a reachable home or reduce the number of products kept in the room. Revisit the layout after replacing a product or changing household routines; an organization system should remain easy to clean and use.

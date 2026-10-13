@@ -9,18 +9,18 @@ interface Props {
 const { publishDate, updatedDate } = Astro.props;
 ---
 
-<aside class="author-note mt-14 border-y border-rule py-8" aria-label="About the author">
+<aside class="author-note mt-14 border-y border-rule py-8" aria-label="About the publisher">
   <div class="flex flex-col gap-5 sm:flex-row sm:gap-7">
-    <img
+    {SITE.authorAvatar && <img
       src={SITE.authorAvatar}
       alt=""
       width="72"
       height="72"
       loading="lazy"
       class="h-[72px] w-[72px] shrink-0 rounded-full object-cover ring-1 ring-rule"
-    />
+    />}
     <div class="author-copy">
-      <p class="eyebrow-muted">Written by</p>
+      <p class="eyebrow-muted">Published by</p>
       <p class="mt-2 font-display text-title-lg text-ink"><a href={`/author/${SITE.authorSlug}/`}>{SITE.author}</a></p>
       <p class="mt-0.5 text-xs uppercase tracking-[0.1em] text-ink-40">{SITE.authorRole}</p>
       <p class="mt-3 max-w-xl text-[0.9375rem] leading-relaxed text-ink-60">{SITE.authorBio}</p>
@@ -32,7 +32,7 @@ const { publishDate, updatedDate } = Astro.props;
           </>
         )}
       </p>
-      <a class="author-stories" href={`/author/${SITE.authorSlug}/`}>More stories from {SITE.author.split(' ')[0]} <span aria-hidden="true">↗</span></a>
+      <a class="author-stories" href={`/author/${SITE.authorSlug}/`}>Browse the editorial archive <span aria-hidden="true">↗</span></a>
     </div>
   </div>
 </aside>

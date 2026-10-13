@@ -26,7 +26,6 @@ Measure the furniture footprint and the path around it before buying.
 
 Navy, charcoal, sage, warm white, and forest green suit a teenage bedroom better than primary colors. Use one calm base and repeat one or two accent colors through bedding, art, and accessories.
 
-For use a More Grown-Up Color Palette, repeat one or two accent colors across textiles and accessories to keep the palette connected. In a small room, a limited palette usually feels larger, calmer, and easier to update later.
 
 ## 3. Add Closed Storage for Tech
 
@@ -54,19 +53,16 @@ Measure width, depth, and height before choosing, especially around bed frames.
 
 Start with one calm base color on the walls and repeat one or two accent colors through smaller items such as cushions, art, or accessories.
 
-For choose a Calm Base Color, repeat one or two accent colors across textiles and accessories so the scheme feels connected.
 
 ## 8. Add One Deeper Accent Color
 
 A deeper accent color — navy, forest green, charcoal, or warm terracotta — adds depth without overwhelming a small room. Use it in one or two places rather than everywhere.
 
-For add One Deeper Accent Color, repeat one or two accent colors across textiles and accessories so the scheme feels connected.
 
 ## 9. Use Floating Shelves
 
 Floating shelves keep books, trophies, and small objects off the floor without adding the visual weight of a full bookcase. Use them above a desk, beside the bed, or on a short empty wall.
 
-For use Floating Shelves, check nearby doors, mirrors, and trim before settling on the shelf position.
 
 ## 10. Create a Small Work Zone
 
@@ -82,7 +78,6 @@ Keep frequently used items at an easy height and reserve higher storage for ligh
 
 A pegboard or wall rail is flexible because hooks and small shelves can move as needs change. It can hold headphones, caps, cables, or sports items without using any floor space.
 
-For add a Pegboard or Wall Rail, check nearby doors, mirrors, and trim before settling on the shelf position.
 
 ## 13. Use Baskets to Hide Small Items
 
@@ -104,7 +99,6 @@ In rentals, over-door hooks are a no-drill option.
 
 In a small bedroom, every large piece should ideally do more than one job. A storage bench offers seating and storage; a bedside cabinet provides both a surface and drawers.
 
-For choose Multi-Purpose Furniture, mark the furniture outline on the floor and test the route to the door, closet, and other daily-use areas.
 
 ## 17. Keep Bedding Visually Simple
 

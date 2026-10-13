@@ -1,5 +1,5 @@
 import { getCollection } from 'astro:content';
-import { SITE, CATEGORIES, categoryName, collectTags, isPublishedPost } from '../site';
+import { SITE, CATEGORIES, categoryName, collectTags, isVisiblePost } from '../site';
 import type { APIContext } from 'astro';
 
 /**
@@ -15,7 +15,7 @@ export async function GET(context: APIContext) {
   const origin = (context.site ?? new URL(SITE.url)).origin;
   const url = (path: string) => new URL(path, origin).href;
 
-  const posts = (await getCollection('posts')).filter(isPublishedPost).sort(
+  const posts = (await getCollection('posts')).filter(isVisiblePost).sort(
     (a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime()
   );
 
@@ -56,7 +56,7 @@ export async function GET(context: APIContext) {
     '## About',
     '',
     `- [About ${SITE.name}](${url('/about/')}): editorial standards and how the site is funded`,
-    `- [${SITE.author}](${url(`/author/${SITE.authorSlug}/`)}): author profile and full byline list`,
+    `- [${SITE.author}](${url(`/author/${SITE.authorSlug}/`)}): publisher archive`,
     `- [Disclosure](${url('/disclosure/')}): affiliate and advertising policy`,
     ''
   );

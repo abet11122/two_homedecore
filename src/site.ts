@@ -8,32 +8,28 @@ export const SITE = {
   tagline: 'Big ideas for small, cozy spaces',
   description:
     'Small Cozy Home is your guide to making every square foot count — room styling, storage ideas, DIY projects and cozy decor for real homes of every size.',
-  // Interim: swap for your real domain once purchased — this is the only
-  // place it needs to change (astro.config.mjs reads it from here).
   url: 'https://www.smallcozyhome.store',
-  author: 'Sophie Lane',
-  authorRole: 'Editor & Home Stylist',
+  author: 'Small Cozy Home',
+  authorRole: 'Publisher',
   authorBio:
-    'Sophie edits practical ideas for compact apartments and small homes, with a focus on thoughtful layouts, useful storage, and rooms that feel comfortable to live in.',
-  authorAvatar:
-    'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=160&h=160&fit=crop&auto=format&q=70',
-  pinterest: 'https://pinterest.com/smallcozyhome',
-  instagram: 'https://instagram.com/smallcozyhome',
+    'Small Cozy Home publishes practical interior styling and organization guides for compact homes.',
+  authorAvatar: '',
+  pinterest: '',
+  instagram: '',
+  twitter: '',
   email: 'hello@smallcozyhome.store',
   /** Paste your Pinterest domain-verification code here (Settings → Claim). */
   pinterestVerification: '',
   /** Paste your Google Search Console verification code here. */
   googleVerification: 'ZtIbCUoxgl0O7sXwcRjCEO-6a2PBnsdhgGXnFHOVOgA',
   /** Slug for the author hub page at /author/<slug>/. */
-  authorSlug: 'sophie-lane',
-  /** Public profiles for the author — feeds Person.sameAs (E-E-A-T). */
+  authorSlug: 'editorial-team',
+  /** Verified public profiles for the publisher. */
   authorLinks: [] as string[],
   locale: 'en_US',
   lang: 'en',
   /** Square mark used for Organization.logo in structured data. */
   logo: '/favicon.svg',
-  /** Twitter/X handle including the @, e.g. '@smallcozyhome'. Optional. */
-  twitter: '@smallcozyhome',
 } as const;
 
 export type CategorySlug =
@@ -178,6 +174,11 @@ export function formatDate(date: Date): string {
 /** Keep scheduled articles out of every public archive until their publish date. */
 export function isPublishedPost(post: { data: { publishDate: Date } }): boolean {
   return post.data.publishDate.getTime() <= Date.now();
+}
+
+/** Posts that belong in site-wide discovery surfaces such as archives and search. */
+export function isVisiblePost(post: { data: { publishDate: Date; excludeFromListings?: boolean } }): boolean {
+  return isPublishedPost(post) && !post.data.excludeFromListings;
 }
 
 export function formatDateShort(date: Date): string {

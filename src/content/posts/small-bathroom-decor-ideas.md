@@ -30,7 +30,6 @@ For cozy rooms, warm-white bulbs around 2700K are a useful starting point.
 
 A white, cream, or linen-colored shower curtain keeps the bathroom feeling open. Avoid heavy patterns or dark colors that can make a small space feel smaller.
 
-For keep the Shower Curtain Light and Simple, use a lower lamp or shaded light source if overhead lighting feels harsh, and keep the light away from the main walking route.
 
 ## 4. Add One Small Plant or Branch
 
@@ -84,7 +83,6 @@ A tray is useful because the whole group can be moved at once.
 
 Hooks on the wall or back of the door hold towels, robes, and bags without using any floor space.
 
-For add Hooks Instead of More Furniture, check nearby doors, mirrors, and trim before settling on the shelf position.
 
 ## 14. Use the Back of the Door
 

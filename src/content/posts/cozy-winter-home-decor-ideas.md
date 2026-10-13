@@ -53,7 +53,6 @@ For layer Throws Where You Actually Sit, choose a surface that can be wiped or l
 
 Swapping lightweight summer cushion covers for heavier wool, velvet, or boucle versions adds seasonal warmth without buying new cushions.
 
-For add Heavier Cushion Covers, choose a surface that can be wiped or laundered when it picks up dust, spills, or everyday wear.
 
 ## 7. Use Warm Table and Floor Lamps
 
@@ -69,13 +68,11 @@ A wood tray, side table, picture frame, bowl, or stool adds visual warmth. You d
 
 These three materials are the foundation of a cozy winter room. Use them in cushions, throws, and rugs for maximum warmth and texture.
 
-For add Wool, Boucle, or Knit Texture, choose a surface that can be wiped or laundered when it picks up dust, spills, or everyday wear.
 
 ## 10. Use a Warm Neutral Color Palette
 
 Cream, oatmeal, warm grey, and camel create a calm, cozy palette that works through the whole winter season.
 
-For use a Warm Neutral Color Palette, repeat one or two accent colors across textiles and accessories to keep the palette connected.
 
 ## 11. Create a Reading Corner
 
@@ -85,7 +82,6 @@ An unused corner can become a cozy winter feature with a comfortable chair, a sm
 
 A basket of extra blankets in the living room or bedroom keeps them accessible and adds natural texture to the room.
 
-For keep Extra Blankets in a Basket, keep frequently used items near the front and group occasional supplies together behind them.
 
 ## 13. Add Candles or Flameless Candles
 
@@ -105,13 +101,11 @@ Changing a single framed print to a moody landscape, abstract, or botanical can 
 
 A rug adds warmth underfoot and makes a room feel finished. In a small room, a rug that fits under the front legs of the main seating is usually enough.
 
-For add a Soft Rug, choose a surface that can be wiped or laundered when it picks up dust, spills, or everyday wear.
 
 ## 17. Use Warm Metallic Accents
 
 Brass, bronze, and copper accents add warmth and a subtle glow to a winter room. Use them in lamp bases, picture frames, or small accessories.
 
-For use Warm Metallic Accents, repeat one or two accent colors across textiles and accessories so the scheme feels connected.
 
 ## 18. Bring in Ceramic and Stone Texture
 
@@ -127,7 +121,6 @@ A small tray with a kettle, mugs, and a selection of teas or hot chocolate creat
 
 Heavy linen or velvet curtains add warmth, reduce drafts, and make a room feel more enclosed and cozy. Choose a color that works with your existing palette.
 
-For use Curtains to Make Rooms Feel Softer, choose a surface that can be wiped or laundered when it picks up dust, spills, or everyday wear.
 
 ## 21. Keep Winter Decor Less Themed
 

@@ -6,7 +6,7 @@ import Img from '../../components/Img.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import AdSlot from '../../components/AdSlot.astro';
 import Newsletter from '../../components/Newsletter.astro';
-import { SITE, CATEGORIES, MIN_INDEXABLE_ARCHIVE_POSTS, categoryBySlug, collectTags, isPublishedPost } from '../../site';
+import { SITE, CATEGORIES, MIN_INDEXABLE_ARCHIVE_POSTS, categoryBySlug, collectTags, isVisiblePost } from '../../site';
 
 export const prerender = true;
 
@@ -17,7 +17,7 @@ export async function getStaticPaths() {
 const { slug } = Astro.params;
 const category = categoryBySlug(slug!)!;
 
-const posts = (await getCollection('posts')).filter(isPublishedPost)
+const posts = (await getCollection('posts')).filter(isVisiblePost)
   .filter((p) => p.data.category === slug)
   .sort((a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime());
 
@@ -35,7 +35,7 @@ const gridClass =
 // Topic hubs that actually have posts in this room. Rooms and topics are the
 // site's two axes; linking them here is what turns a flat archive into a
 // graph a crawler can traverse in either direction.
-const allPosts = (await getCollection('posts')).filter(isPublishedPost);
+const allPosts = (await getCollection('posts')).filter(isVisiblePost);
 const hubs = new Set(collectTags(allPosts).map((t) => t.slug));
 const topics = collectTags(posts, 1)
   .filter((t) => hubs.has(t.slug) && t.slug !== slug)
@@ -68,6 +68,7 @@ const listSchema = {
   image={lead?.data.pinImage}
   imageWide={lead?.data.heroImage ?? category.image}
   noindex={posts.length < MIN_INDEXABLE_ARCHIVE_POSTS}
+  allowAds={posts.length >= MIN_INDEXABLE_ARCHIVE_POSTS}
   schemas={[listSchema]}
 >
   <header class="room-header">
@@ -159,7 +160,7 @@ const listSchema = {
 
       {others.length > 0 && (
         <div class="wrap">
-          <AdSlot placement="feed" class="mb-12 lg:mb-16" />
+          <AdSlot placement="feed" class="mb-12 lg:mb-16" enabled={posts.length >= MIN_INDEXABLE_ARCHIVE_POSTS} />
         </div>
       )}
     </>

@@ -10,18 +10,18 @@ export const prerender = true;
 const values = [
   {
     n: '01',
-    title: 'Buy less, choose better',
-    body: 'One well-made chair beats four disposable ones. We cost projects honestly and tell you when the cheap version is genuinely fine.',
+    title: 'Start with the room',
+    body: 'We aim to explain where a lower-cost choice can work and where durability, fit, or maintenance may change the decision.',
   },
   {
     n: '02',
-    title: 'Rooms are for living in',
-    body: 'Every room we feature has to survive Tuesday night — homework, muddy shoes, a dog. Styling that only works for a photograph is not styling.',
+    title: 'Explain the trade-offs',
+    body: 'Guides should consider daily routines, circulation, cleaning, and room constraints alongside appearance.',
   },
   {
     n: '03',
-    title: 'Show the method',
-    body: 'Not just what a room looks like, but the ratio, the spacing, the reason it works. Principles travel between homes; shopping lists do not.',
+    title: 'Make sourcing clear',
+    body: 'Where relevant, guides identify what to measure, what may not fit, and which trade-offs readers should consider in their own home.',
   },
 ];
 ---
@@ -68,49 +68,46 @@ const values = [
     <div class="grid gap-10 lg:grid-cols-12 lg:gap-14">
       <div class="lg:col-span-7">
         <div class="article no-dropcap">
-          <h2>Why we started</h2>
+          <h2>What this publication covers</h2>
           <p>
-            Most interiors writing falls into one of two traps. It is either a catalogue — a grid of
-            products with affiliate links and no argument — or it is aspirational to the point of
-            uselessness, photographed in a house nobody actually lives in.
+            {SITE.name} publishes guides about decorating and organizing compact homes. The
+            archive covers room layouts, storage, renter constraints, seasonal styling, and selected
+            DIY projects.
           </p>
           <p>
-            We wanted a third thing: writing that explains <em>why</em> a room works. The ratio of
-            colour to neutral. The eight inches of wall you should leave empty. The reason your
-            shelves look cluttered even though you own less than your neighbour.
+            The editorial aim is to explain the decision behind an idea as well as describe its appearance:
+            what to measure, what may not fit, and what a solution gives up in return.
           </p>
           <p>
-            Principles travel. Once you understand why a grouping of three reads as intentional and a
-            grouping of seven reads as clutter, you can apply that in any room, in any house, at any
-            budget. That is what we are trying to teach.
+            Most photographs on the site illustrate a style or setup and are not documentation of a
+            project completed by the publication. Credits and source information are provided where
+            available.
           </p>
 
           <h2>How we work</h2>
           <p>
-            Our guides bring together decorating principles, practical constraints, and ideas for
-            adapting a room to the way you use it. Project times, prices, and product details can
-            change, so check current materials and instructions before starting work. We will make
-            clear when a recommendation is sponsored or uses an affiliate link.
+            Articles are general guidance. Room dimensions, installation requirements, prices, and
+            product availability vary, so check the relevant manufacturer instructions and measure
+            your own space before buying or installing anything.
           </p>
           <p>
-            We accept affiliate commissions and display advertising, and we are transparent about
-            both. Nothing is recommended because it pays better. Read our
-            <a href="/disclosure/">full disclosure policy</a> for the details.
+            Some pages may include affiliate links or advertising. Read the
+            <a href="/disclosure/">disclosure policy</a> for details.
           </p>
         </div>
       </div>
 
       <aside class="lg:col-span-5">
         <div class="border border-rule p-7">
-          <img
+          {SITE.authorAvatar && <img
             src={SITE.authorAvatar}
             alt=""
             width="80"
             height="80"
             loading="lazy"
             class="h-20 w-20 rounded-full object-cover"
-          />
-          <p class="eyebrow-muted mt-5">Editor</p>
+          />}
+          <p class="eyebrow-muted mt-5">Publisher</p>
           <p class="mt-2 font-display text-2xl text-ink">{SITE.author}</p>
           <p class="mt-1 text-xs uppercase tracking-[0.1em] text-ink-40">{SITE.authorRole}</p>
           <p class="mt-4 text-[0.9375rem] leading-relaxed text-ink-60">{SITE.authorBio}</p>

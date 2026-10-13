@@ -92,7 +92,6 @@ Over-door organizers and hooks turn the back of every door into useful storage f
 
 A storage ottoman in the living area holds extra blankets and seasonal cushion covers while doubling as a coffee table or extra seating.
 
-For try a Storage Ottoman, mark the furniture outline on the floor and test the route to the door, closet, and other daily-use areas.
 
 ## 15. Add a Tall Bookcase
 

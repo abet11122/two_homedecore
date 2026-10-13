@@ -40,7 +40,6 @@ Leave at least half the coffee table surface free for drinks, books, and everyda
 
 Red and cream, gold and white, or green and natural wood are classic combinations. Choose one and repeat it through the whole display.
 
-For choose a Simple Holiday Color Palette, repeat one or two accent colors across textiles and accessories to keep the palette connected.
 
 ## 6. Start With Warm String Lights
 
@@ -74,7 +73,6 @@ The coffee table is one surface. Style it as the seasonal focal point and keep t
 
 A wood tray, a woven coaster set, or a natural fiber mat adds warmth and texture to the coffee table display.
 
-For use Natural Wood and Woven Texture, choose a surface that can be wiped or laundered when it picks up dust, spills, or everyday wear.
 
 ## 13. Add Candles or Flameless Candles
 
@@ -90,7 +88,6 @@ A length of velvet or satin ribbon tied around a vase or candle holder adds a se
 
 A tray containing a candle, a small ornament, and a sprig of greenery keeps the seasonal display contained and easy to move.
 
-For create a Small Holiday Tray, leave one part of the surface open so the display stays useful for everyday tasks.
 
 ## Final Thoughts
 
