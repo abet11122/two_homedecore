@@ -6,6 +6,7 @@ description: "Decorate a compact home for Halloween with 17 small space Hallowee
 category: seasonal
 tags: ["halloween decor", "small spaces", "seasonal decorating", "apartment decor", "renter friendly"]
 publishDate: 2026-09-27
+updatedDate: 2026-10-13
 heroImage: "photo-1508193638397-1c4234db14d8"
 pinImage: "photo-1572635196237-14b3f281503f"
 featured: false
@@ -104,7 +105,7 @@ The entryway is the first thing guests see. A wreath, a pumpkin, and one candle 
 
 Cut-paper bats arranged on one wall add a playful seasonal note that is easy to remove and costs almost nothing. Keep the arrangement loose and asymmetric for a more editorial look.
 
-In rentals, removable adhesive strips mean no damage to walls.
+In rentals, check the lease, wall finish, and adhesive instructions before attaching bats. A display on an existing shelf avoids wall adhesive.
 
 ## Final Thoughts
 

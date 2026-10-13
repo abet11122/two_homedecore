@@ -75,7 +75,7 @@ export const CATEGORIES: Category[] = [
     slug: 'kitchen',
     name: 'Kitchen',
     blurb:
-      'Hard-working rooms that still deserve to be beautiful. Open shelving, islands, surfaces and storage that survives real cooking.',
+      'Kitchen organization and styling for compact homes: open shelves, clearer countertops, and ideas that fit around everyday cooking.',
     image: 'photo-1600489000022-c2086d79f9d4',
     primary: true,
   },
@@ -83,7 +83,7 @@ export const CATEGORIES: Category[] = [
     slug: 'bathroom',
     name: 'Bathroom',
     blurb:
-      'The smallest room and the hardest to get right. Storage that fits, lighting that flatters, and changes that work even when you rent.',
+      'Small bathroom storage and organization for daily-use surfaces, awkward gaps, and the items that need to stay within reach.',
     image: 'photo-1763485956235-0f9a1217f58c',
     primary: true,
   },
@@ -91,7 +91,7 @@ export const CATEGORIES: Category[] = [
     slug: 'entryway',
     name: 'Entryway',
     blurb:
-      'The first three feet of the house and the hardest-working. Storage, layout and styling for entries, hallways and mudrooms of every size.',
+      'Entryway table styling and seasonal door decor for compact entrances and hallways.',
     image: 'photo-1765766599670-a625d0fef258',
     primary: true,
   },
@@ -114,14 +114,14 @@ export const CATEGORIES: Category[] = [
     slug: 'diy-decor',
     name: 'DIY Decor',
     blurb:
-      'Projects worth the weekend. Handmade pieces that look considered, not crafty — with honest costs and realistic timelines.',
+      'Plan a small home project before buying or drilling: measure the space, check the wall, and follow the product instructions.',
     image: 'photo-1595351298020-038700609878',
   },
   {
     slug: 'outdoor',
     name: 'Outdoor',
     blurb:
-      'Balconies, patios and back gardens. The dimensions, bases and lighting that turn leftover outdoor space into somewhere you actually sit.',
+      'Balcony styling for compact spaces and seasonal outdoor decor suited to small yards.',
     image: 'photo-1693643449872-67f203f99560',
   },
   {
@@ -135,7 +135,7 @@ export const CATEGORIES: Category[] = [
     slug: 'renter',
     name: 'Renter',
     blurb:
-      'Everything that comes off the wall again. Reversible upgrades, deposit-safe fixes and the changes that move house with you.',
+      'Budget apartment decor and removable seasonal updates for renters working within their lease terms.',
     image: 'photo-1631510390389-c1e4fb20ff31',
   },
 ];

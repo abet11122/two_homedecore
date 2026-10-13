@@ -4,6 +4,7 @@ description: "Style your kitchen for Halloween with 20 ideas using pumpkin displ
 category: kitchen
 tags: ["halloween decor", "kitchen decor", "seasonal decorating", "halloween 2026", "autumn kitchen"]
 publishDate: 2026-09-07
+updatedDate: 2026-10-13
 heroImage: "photo-1600489000022-c2086d79f9d4"
 pinImage: "photo-1572635196237-14b3f281503f"
 featured: false
@@ -67,7 +68,7 @@ A wooden board or tray under the pumpkins protects the table surface and makes t
 
 A Halloween-print tea towel hung from an oven handle or a hook on the wall adds a seasonal note that is visible from across the kitchen. Choose a towel with a print that works as a small piece of art — a vintage-style black cat or a botanical skull illustration.
 
-This is one of the most renter-friendly kitchen decor changes — no nails, no adhesive, no damage.
+This uses an existing handle or hook, so it may work in a rental without adding a wall attachment. Keep the towel away from burners and follow any appliance instructions.
 
 ## 9. Add a Spooky Mug to the Mug Tree
 

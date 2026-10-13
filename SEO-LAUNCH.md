@@ -8,7 +8,7 @@ The homepage now offers room filters, a progressively revealed guide archive, an
 - Confirm that `hello@smallcozyhome.store` receives mail. Add social profile URLs to `src/site.ts` only after verifying that they belong to the publication. Keep the publisher name and About, Contact, Disclosure, and Privacy pages aligned with actual operations.
 - Claim the domain on Pinterest using `pinterestVerification`, and set `googleVerification` for Search Console. Submit `/sitemap-index.xml` to Search Console.
 - Configure `PUBLIC_ADSENSE_CLIENT_ID` and each intended `PUBLIC_ADSENSE_SLOT_*` from the AdSense account. Manual units stay hidden until the client, the placement slot, and the consent gate are configured. Confirm that the public `ads.txt` entry matches the actual account; do not use an invented publisher ID.
-- Finish the consent-provider integration described in README before serving ads where required. Confirm placements and account approval in AdSense before launch.
+- Finish the consent-provider integration described in README before serving ads where required. Confirm placements and account approval in AdSense before enabling ads.
 
 ## Content and measurement
 
