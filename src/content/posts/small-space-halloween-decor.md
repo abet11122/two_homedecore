@@ -1,5 +1,7 @@
 ---
 title: "17 Small Space Halloween Decor Ideas for Apartments"
+noindex: true
+excludeFromListings: true
 description: "Decorate a compact home for Halloween with 17 small space Halloween decor ideas using wall decor, tabletop displays, removable options, and a restrained palette."
 category: seasonal
 tags: ["halloween decor", "small spaces", "seasonal decorating", "apartment decor", "renter friendly"]

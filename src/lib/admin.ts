@@ -1,6 +1,5 @@
-import { createHmac, timingSafeEqual } from 'node:crypto';
+import { timingSafeEqual } from 'node:crypto';
 import { parseDocument } from 'yaml';
-import { ADMIN_PASSWORD, ADMIN_USERNAME } from '../config/admin-credentials';
 
 const CATEGORIES = new Set([
   'living-room', 'bedroom', 'kitchen', 'small-spaces', 'diy-decor', 'seasonal',
@@ -17,7 +16,9 @@ const CATEGORY_ALIASES: Record<string, string> = {
 };
 
 function credentials() {
-  return ADMIN_USERNAME && ADMIN_PASSWORD ? { username: ADMIN_USERNAME, password: ADMIN_PASSWORD } : null;
+  const username = process.env.ADMIN_USERNAME || import.meta.env.ADMIN_USERNAME;
+  const password = process.env.ADMIN_PASSWORD || import.meta.env.ADMIN_PASSWORD;
+  return username && password ? { username, password } : null;
 }
 
 export function hasAdminCredentials() {
@@ -33,33 +34,18 @@ function secureEquals(supplied: string, expected: string) {
 export function hasValidAdminCredentials(username: string, password: string) {
   const configuredCredentials = credentials();
   if (!configuredCredentials) return false;
-  return secureEquals(username, configuredCredentials.username) && secureEquals(password, configuredCredentials.password);
+  const usernameMatches = secureEquals(username, configuredCredentials.username);
+  const passwordMatches = secureEquals(password, configuredCredentials.password);
+  return usernameMatches && passwordMatches;
 }
 
-function sessionSignature(expiresAt: string) {
-  const configuredCredentials = credentials();
-  if (!configuredCredentials) return '';
-  return createHmac('sha256', configuredCredentials.password)
-    .update(`${configuredCredentials.username}:${expiresAt}`)
-    .digest('base64url');
-}
-
-export function createAdminSession() {
-  const expiresAt = String(Date.now() + 1000 * 60 * 60 * 12);
-  return `${expiresAt}.${sessionSignature(expiresAt)}`;
-}
-
-export function hasAdminSession(request: Request) {
-  const session = request.headers.get('cookie')
-    ?.split(';')
-    .map((cookie) => cookie.trim())
-    .find((cookie) => cookie.startsWith('admin_session='))
-    ?.slice('admin_session='.length);
-  if (!session) return false;
-
-  const [expiresAt, signature] = session.split('.');
-  if (!expiresAt || !signature || Number(expiresAt) <= Date.now()) return false;
-  return secureEquals(signature, sessionSignature(expiresAt));
+export function hasValidAdminBasicAuth(authorization: string | null) {
+  if (!authorization?.startsWith('Basic ')) return false;
+  const encoded = authorization.slice('Basic '.length).trim();
+  if (!encoded || !/^[A-Za-z0-9+/]+={0,2}$/.test(encoded)) return false;
+  const pair = Buffer.from(encoded, 'base64').toString('utf8');
+  const separator = pair.indexOf(':');
+  return separator >= 0 && hasValidAdminCredentials(pair.slice(0, separator), pair.slice(separator + 1));
 }
 
 export function isVercelDeployment() {

@@ -10,13 +10,13 @@ export const prerender = true;
   title="Privacy Policy"
   eyebrow="Legal"
   description={`How ${SITE.name} collects, uses and protects your information.`}
-  lede="What we collect, why we collect it, and how to tell us to stop."
+  lede="What this site stores in your browser and what outside services may receive."
   updated="October 13, 2026"
 >
   <p>
     This policy explains how {SITE.name} ("we", "us") handles information when you visit
     <strong>{SITE.url}</strong>. We have tried to write it in plain language. If anything is
-    unclear, email <a href={`mailto:${SITE.email}`}>{SITE.email}</a> and we will explain.
+    unclear, email <a href={`mailto:${SITE.email}`}>{SITE.email}</a>.
   </p>
 
   <h2>Information and browser storage</h2>
@@ -38,27 +38,28 @@ export const prerender = true;
       own retention and security practices also apply.
     </li>
     <li>
-      <strong>Third-party technologies.</strong> The site loads a Google Analytics 4 tag with
-      analytics storage defaulted to denied. Google may still receive limited consent-mode signals.
-      If advertising is enabled, Google and its partners may use cookies or similar technologies as
-      described below. The site also loads Pinterest's sharing script; Pinterest may process
-      information under its own privacy policy.
+      <strong>Outside services.</strong> The site loads a Google Analytics 4 tag with analytics
+      storage set to denied by default. Google may still receive limited signals without setting
+      analytics cookies. If advertising is enabled, Google and its partners may use cookies or
+      similar technologies as described below. The site also loads Pinterest's sharing script;
+      Pinterest may process information under its own
+      <a href="https://policy.pinterest.com/privacy-policy" rel="nofollow noopener" target="_blank">privacy policy</a>.
     </li>
   </ul>
   <p>The site does not currently offer an email newsletter signup or collect payment details.</p>
-<h2>How we use it</h2>
+  <h2>How we use it</h2>
   <ul>
     <li>To operate, maintain, and protect the site.</li>
     <li>To understand site usage through Google Analytics, subject to the consent settings in use.</li>
     <li>To reply to messages you send us directly.</li>
     <li>To display advertising if Google AdSense is enabled for the site.</li>
   </ul>
-<h2>Advertising and Google AdSense</h2>
+  <h2>Advertising and Google AdSense</h2>
   <p>
-    Google AdSense code stays disabled unless advertising and consent management have been configured.
-    If enabled, Google and its advertising partners may use cookies,
-    web beacons, IP addresses, or similar identifiers to serve, measure, and personalize ads. These
-    technologies may use information about your visits to this and other sites. Google explains
+    The site's standard configuration does not load AdSense ad-serving scripts. If advertising is enabled,
+    Google and its advertising partners may use cookies, web beacons, IP addresses, or similar
+    identifiers to serve, measure, and personalize ads. Third-party vendors and ad networks may
+    use cookies to collect information about visits to this and other sites. Google explains
     <a href="https://policies.google.com/technologies/partner-sites" rel="nofollow noopener" target="_blank">how it uses data on partner sites</a>.
   </p>
   <p>
@@ -70,26 +71,25 @@ export const prerender = true;
 
   <h2>Consent in the EEA, UK and Switzerland</h2>
   <p>
-    The site defaults Google consent signals to denied. AdSense remains disabled until a Google-certified
-    Consent Management Platform integrated with the IAB Transparency and Consent Framework is
-    configured. If enabled, the message and available settings depend on your location. For a
-    question about consent, contact <a href={`mailto:${SITE.email}`}>{SITE.email}</a>.
+    Google consent signals on this site start at denied. The current site does not provide a
+    preference control to change that setting. Before serving AdSense ads to visitors in these
+    regions, Google requires a certified consent management platform integrated with the IAB
+    Transparency and Consent Framework. For a question about consent, contact
+    <a href={`mailto:${SITE.email}`}>{SITE.email}</a>.
   </p>
 
   <h2>Who we share it with</h2>
   <p>We do not sell your personal information. Information may be processed by:</p>
   <ul>
-    <li><strong>Google</strong> — advertising delivery and measurement, if AdSense is enabled.</li>
+    <li><strong>Google</strong> — analytics signals, and advertising delivery and measurement if AdSense is enabled.</li>
     <li><strong>Our hosting provider</strong> — to serve and protect the site.</li>
     <li><strong>Pinterest</strong> — when its sharing script is loaded or you use a Pinterest link.</li>
     <li><strong>Legal authorities</strong> — where we are legally required to.</li>
   </ul>
-<h2>Your rights</h2>
+  <h2>Your rights</h2>
   <p>
-    Depending on where you live, you may have the right to access, correct, export or delete the
-    personal information we hold about you, and to object to certain processing. Residents of the
-    EEA and UK have these rights under the GDPR; California residents have comparable rights under
-    the CCPA/CPRA, including the right not to be discriminated against for exercising them.
+    Depending on where you live, privacy laws may give you rights to access, correct, or delete
+    personal information we hold about you, or to object to certain uses of it.
   </p>
   <p>
     To make a request, email <a href={`mailto:${SITE.email}`}>{SITE.email}</a>. We will respond
@@ -103,10 +103,10 @@ export const prerender = true;
     its local storage. The site is served over HTTPS. No method of transmission over the internet
     is completely secure, and we cannot guarantee absolute security.
   </p>
-<h2>Changes</h2>
+  <h2>Changes</h2>
   <p>
-    We will update this page when our practices change, and we will move the "last updated" date at
-    the top. Material changes will be noted on the homepage.
+    We will update this page when our practices change. The date at the top shows when this page
+    was last revised.
   </p>
 
   <h2>Contact</h2>
@@ -114,11 +114,4 @@ export const prerender = true;
     Questions about this policy: <a href={`mailto:${SITE.email}`}>{SITE.email}</a>.
   </p>
 
-  <hr />
-  <p>
-    <em>
-      This template is a starting point, not legal advice. Have a solicitor or attorney review it
-      against your jurisdiction and your actual data practices before you launch.
-    </em>
-  </p>
 </PageLayout>

@@ -7,19 +7,16 @@ export const prerender = true;
 
 const reasons = [
   {
-    title: 'Editorial & pitches',
-    body: 'Story ideas, corrections, or a room of yours you would like us to feature.',
-    email: SITE.email,
+    title: 'Editorial and corrections',
+    body: 'A factual correction, broken link, or useful question about a guide.',
   },
   {
     title: 'Partnerships',
-    body: 'Sponsorships, brand collaborations and press samples. We disclose every paid placement.',
-    email: SITE.email,
+    body: 'Questions about a commercial relationship or a proposed collaboration.',
   },
   {
-    title: 'Privacy & data',
-    body: 'Requests to access or delete your data, and questions about our cookie consent.',
-    email: SITE.email,
+    title: 'Privacy and data',
+    body: 'Questions about site data or requests concerning information in a message you sent.',
   },
 ];
 ---
@@ -34,7 +31,7 @@ const reasons = [
       <p class="eyebrow mt-7">Say hello</p>
       <h1 class="mt-4 font-display text-[2.5rem] leading-[1.05] text-ink sm:text-5xl">Contact Us</h1>
       <p class="mt-5 max-w-2xl text-lg leading-relaxed text-ink-60">
-        Email the address that best matches your message. Reply times may vary.
+        Send editorial, partnership, or privacy questions to our contact address. Reply times may vary.
       </p>
     </div>
   </header>
@@ -50,29 +47,23 @@ const reasons = [
       </div>
 
       <aside class="lg:col-span-5">
-        <h2 class="font-display text-2xl text-ink">Direct</h2>
+        <h2 class="font-display text-2xl text-ink">What to write about</h2>
         <div class="mt-7 divide-y divide-rule border-y border-rule">
           {reasons.map((r) => (
             <div class="py-6">
               <h3 class="font-display text-lg text-ink">{r.title}</h3>
               <p class="mt-2 text-[0.9375rem] leading-relaxed text-ink-60">{r.body}</p>
-              <a
-                href={`mailto:${r.email}`}
-                class="mt-3 inline-block text-sm text-ink underline decoration-clay underline-offset-4"
-              >
-                {r.email}
-              </a>
             </div>
           ))}
         </div>
 
-        <div class="mt-10">
+        {(SITE.pinterest || SITE.instagram) && <div class="mt-10">
           <p class="eyebrow-muted">Elsewhere</p>
           <div class="mt-4 flex flex-wrap gap-x-6 gap-y-2">
             {SITE.pinterest && <a href={SITE.pinterest} target="_blank" rel="noopener noreferrer nofollow" class="text-ink-60 hover:text-clay">Pinterest</a>}
             {SITE.instagram && <a href={SITE.instagram} target="_blank" rel="noopener noreferrer nofollow" class="text-ink-60 hover:text-clay">Instagram</a>}
           </div>
-        </div>
+        </div>}
       </aside>
     </div>
   </div>

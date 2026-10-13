@@ -7,7 +7,7 @@ publishDate: 2026-08-27
 heroImage: "photo-1513694203232-719a280e022f"
 pinImage: "photo-1550581190-9c1c48d21d6c"
 featured: true
-affiliateDisclosure: true
+affiliateDisclosure: false
 ---
 
 Autumn decorating has a bad reputation, and it has earned it. The default is orange plastic, glitter, and a cardboard banner spelling out a sentiment nobody has ever said aloud. But the season itself — dried seed heads, russet, wax, low light — is genuinely beautiful, and a mantel is the easiest place in the house to mark it.

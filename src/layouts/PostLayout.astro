@@ -27,6 +27,7 @@ interface Props {
 
 const { post, headings, minutes } = Astro.props;
 const d = post.data;
+const isNoindex = Boolean(d.noindex || d.excludeFromListings);
 const heroPhoto = articleImage(d.heroImage);
 
 const all = (await getCollection('posts')).filter(isVisiblePost).sort(
@@ -90,7 +91,7 @@ const faqSchema = d.faqs?.length
   image={d.pinImage}
   imageWide={d.heroImage}
   type="article"
-  noindex={d.noindex}
+  noindex={isNoindex}
   publishDate={d.publishDate.toISOString()}
   updatedDate={d.updatedDate?.toISOString()}
   section={categoryName(d.category)}
@@ -98,7 +99,7 @@ const faqSchema = d.faqs?.length
   words={words}
   minutes={minutes}
   schemas={faqSchema ? [faqSchema] : []}
-  allowAds={!d.noindex}
+  allowAds={!isNoindex}
 >
   <div id="progress" aria-hidden="true"></div>
 
@@ -173,7 +174,7 @@ const faqSchema = d.faqs?.length
         {/* The rail carries the contents from xl up; below that it sits inline. */}
         <div id="article-contents" class="xl:hidden"><TableOfContents headings={headings} /></div>
 
-          <AdSlot placement="in-article-top" class="my-10" enabled={!d.noindex} />
+          <AdSlot placement="in-article-top" class="my-10" enabled={!isNoindex} />
 
         <ReadingTools minutes={minutes} />
 
@@ -196,7 +197,7 @@ const faqSchema = d.faqs?.length
           </div>
         )}
 
-          <AdSlot placement="in-article-mid" class="my-12" enabled={!d.noindex} />
+          <AdSlot placement="in-article-mid" class="my-12" enabled={!isNoindex} />
 
         <Faq items={d.faqs ?? []} />
 
@@ -221,13 +222,13 @@ const faqSchema = d.faqs?.length
       {/* A configured sidebar ad gets a separate rail only on wide screens. */}
       <aside class="post-aside hidden 2xl:block">
         <div class="sticky top-28">
-          <AdSlot placement="sidebar" enabled={!d.noindex} />
+          <AdSlot placement="sidebar" enabled={!isNoindex} />
         </div>
       </aside>
     </div>
 
     <div class="mx-auto max-w-[72rem]">
-      <AdSlot placement="before-related" class="mt-14" enabled={!d.noindex} />
+      <AdSlot placement="before-related" class="mt-14" enabled={!isNoindex} />
       <RelatedPosts category={d.category} currentId={post.id} />
     </div>
   </article>
@@ -238,7 +239,7 @@ const faqSchema = d.faqs?.length
 
   {/* Reserve space for a configured mobile anchor ad. */}
   <div class="anchor-ad" slot="after-footer">
-    <AdSlot placement="anchor" enabled={!d.noindex} />
+    <AdSlot placement="anchor" enabled={!isNoindex} />
   </div>
 </Layout>
 

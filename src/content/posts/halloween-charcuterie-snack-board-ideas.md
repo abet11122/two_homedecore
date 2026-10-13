@@ -1,5 +1,7 @@
 ---
 title: "17 Halloween Charcuterie & Snack Board Ideas for Spooky Entertaining"
+noindex: true
+excludeFromListings: true
 description: "Build a show-stopping Halloween snack board with 17 charcuterie and grazing ideas using spooky shapes, dark fruits, themed dips, and seasonal styling for 2026."
 category: seasonal
 tags: ["halloween food", "charcuterie board", "halloween entertaining", "snack board", "halloween party"]

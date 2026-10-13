@@ -1,5 +1,7 @@
 ---
 title: "15 Halloween Trick-or-Treat Bag & Bucket Ideas for Kids"
+noindex: true
+excludeFromListings: true
 description: "Find the perfect trick-or-treat bag or bucket with 15 ideas covering classic pumpkin pails, personalised bags, DIY options, and practical tips for Halloween 2026."
 category: seasonal
 tags: ["halloween", "trick or treat", "kids halloween", "halloween costume", "family halloween"]

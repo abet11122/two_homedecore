@@ -177,8 +177,8 @@ export function isPublishedPost(post: { data: { publishDate: Date } }): boolean 
 }
 
 /** Posts that belong in site-wide discovery surfaces such as archives and search. */
-export function isVisiblePost(post: { data: { publishDate: Date; excludeFromListings?: boolean } }): boolean {
-  return isPublishedPost(post) && !post.data.excludeFromListings;
+export function isVisiblePost(post: { data: { publishDate: Date; excludeFromListings?: boolean; noindex?: boolean } }): boolean {
+  return isPublishedPost(post) && !post.data.excludeFromListings && !post.data.noindex;
 }
 
 export function formatDateShort(date: Date): string {

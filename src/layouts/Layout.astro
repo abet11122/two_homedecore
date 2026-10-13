@@ -218,6 +218,7 @@ const jsonLd = { '@context': 'https://schema.org', '@graph': graph };
     {SITE.googleVerification && (
       <meta name="google-site-verification" content={SITE.googleVerification} />
     )}
+    {adsenseId && <meta name="google-adsense-account" content={adsenseId} />}
 
     <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
 
@@ -321,7 +322,7 @@ const jsonLd = { '@context': 'https://schema.org', '@graph': graph };
             © {new Date().getFullYear()} {SITE.name}. All rights reserved.
           </p>
           <p class="text-xs text-paper/45">
-            As an Amazon Associate we earn from qualifying purchases.
+            Some links may earn a commission. <a href="/disclosure/" class="underline underline-offset-2 hover:text-clay-soft">Read our disclosure</a>.
           </p>
         </div>
       </div>

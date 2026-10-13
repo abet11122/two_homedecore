@@ -10,9 +10,12 @@ import { CATEGORIES, PRIMARY_CATEGORIES, categoryName, isVisiblePost } from '../
 export const prerender = true;
 
 const posts = (await getCollection('posts')).filter(isVisiblePost).sort((a,b) => b.data.publishDate.getTime()-a.data.publishDate.getTime());
-const featured = posts.find(p => p.data.featured) ?? posts[0];
-const weekend = posts.find(p => p.id === 'diy-floating-shelves');
-const picks = posts.filter(p => ['small-bedroom-ideas-that-look-expensive','apartment-decor-ideas-budget','diy-floating-shelves'].includes(p.id));
+const featured = posts.find(p => p.id === 'small-apartment-organization-ideas')
+  ?? posts.find(p => p.data.featured && p.data.category !== 'seasonal')
+  ?? posts[0];
+const gridPosts = posts.filter((post) => post.id !== featured?.id);
+const shelfGuide = posts.find(p => p.id === 'diy-floating-shelves');
+const picks = posts.filter(p => ['small-bedroom-ideas-that-look-expensive','apartment-decor-ideas-budget','small-entryway-organization-ideas'].includes(p.id));
 ---
 <Layout title="Home Decor Ideas for Beautiful, Livable Spaces" description="Find home decor ideas for small bedrooms, living rooms, rentals and more. Explore practical styling guides, save your favorites and plan your next room refresh." allowAds>
   <div class="home-note"><span>A little inspiration. A home that feels like you.</span><a href="/category/small-spaces/">Small spaces, beautiful possibilities <span aria-hidden="true">↗</span></a></div>
@@ -42,13 +45,13 @@ const picks = posts.filter(p => ['small-bedroom-ideas-that-look-expensive','apar
     <div class="wrap">
       <div class="home-section-head"><div><p class="eyebrow">The inspiration library</p><h2 id="ideas-title">A little spark for your next refresh.</h2></div><p class="section-intro">Beautiful rooms, clever details, and ideas worth saving. Find something that feels like you.</p></div>
       <div class="idea-filters" aria-label="Filter ideas by room"><button data-room="all" aria-pressed="true">All ideas</button>{CATEGORIES.map(c => <button data-room={c.slug} aria-pressed="false">{c.name}</button>)}</div>
-      <p id="idea-count" class="idea-count" aria-live="polite">Explore {posts.length} decorating guides.</p>
-      <div class="ideas-grid">{posts.filter((post) => post.id !== featured?.id).map(post => <div data-idea-room={post.data.category}><PostCard post={post} /></div>)}</div>
+      <p id="idea-count" class="idea-count" aria-live="polite">Explore {gridPosts.length} decorating guides.</p>
+      <div class="ideas-grid">{gridPosts.map(post => <div data-idea-room={post.data.category}><PostCard post={post} /></div>)}</div>
       <button id="more-ideas" class="btn btn-primary more-ideas" hidden>Discover more ideas ↓</button>
     </div>
   </section>
   <div class="wrap"><AdSlot placement="feed" class="my-12" /></div>
-  {weekend && <section class="wrap weekend-section" aria-labelledby="weekend-title"><a class="weekend-photo frame" href={`/post/${weekend.id}/`}><Img src={weekend.data.heroImage} alt={weekend.data.title} width={900} height={680} sizes="(min-width: 900px) 48vw, 100vw" /></a><div class="weekend-copy"><p class="eyebrow">The weekend project</p><span class="weekend-number" aria-hidden="true">Made by you.</span><h2 id="weekend-title">A small project.<br />A lovely difference.</h2><p>A quiet afternoon, a few simple materials, and a corner that feels a little more yours. Start with our guide to floating shelves.</p><a class="link-arrow" href={`/post/${weekend.id}/`}>Make something lovely <span aria-hidden="true">↗</span></a></div></section>}
+  {shelfGuide && <section class="wrap weekend-section" aria-labelledby="weekend-title"><a class="weekend-photo frame" href={`/post/${shelfGuide.id}/`}><Img src={shelfGuide.data.heroImage} alt={shelfGuide.data.title} width={900} height={680} sizes="(min-width: 900px) 48vw, 100vw" /></a><div class="weekend-copy"><p class="eyebrow">The project planner</p><span class="weekend-number" aria-hidden="true">Plan before you drill.</span><h2 id="weekend-title">Make space for<br />the right shelf.</h2><p>Check the wall type, clearances, and the shelf maker's mounting instructions before choosing where to install floating shelves.</p><a class="link-arrow" href={`/post/${shelfGuide.id}/`}>Review the checklist <span aria-hidden="true">↗</span></a></div></section>}
   <section class="wrap budget-section" aria-labelledby="budget-title"><div class="home-section-head"><div><p class="eyebrow">Little changes, lovely results</p><h2 id="budget-title">Big on style. Kind to your budget.</h2></div><a class="quiet-link" href="/category/renter/">Explore renter-friendly ideas ↗</a></div><div class="grid gap-8 md:grid-cols-3">{picks.map(post => <PostCard post={post} />)}</div></section>
   <div class="wrap my-16"><Newsletter /></div>
 </Layout>

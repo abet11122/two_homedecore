@@ -1,5 +1,7 @@
 ---
 title: "15 Spooky Halloween Drink & Cocktail Ideas for Your Party"
+noindex: true
+excludeFromListings: true
 description: "Impress guests with 15 spooky Halloween drink and cocktail ideas using dry ice effects, dark colours, themed garnishes, and non-alcoholic options for 2026."
 category: seasonal
 tags: ["halloween drinks", "halloween cocktails", "halloween party", "spooky drinks", "halloween entertaining"]

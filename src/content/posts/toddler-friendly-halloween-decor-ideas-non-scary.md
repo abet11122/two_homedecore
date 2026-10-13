@@ -1,5 +1,7 @@
 ---
 title: "18 Toddler-Friendly Halloween Decor Ideas — Non-Scary & Playful"
+noindex: true
+excludeFromListings: true
 description: "Decorate for Halloween with toddlers in the house using 18 non-scary ideas with friendly pumpkins, soft textures, warm lighting, and playful seasonal styling."
 category: seasonal
 tags: ["halloween decor", "toddler friendly", "kids halloween", "non-scary halloween", "family halloween"]

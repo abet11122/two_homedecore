@@ -55,21 +55,14 @@ const uid = `ad-${placement}`;
 {showAd && <div class={`ad ${className}`} data-placement={placement}>
   <span class="ad-label">Advertisement</span>
   <div class="ad-box" id={uid}>
-    {showAd ? (
-      <ins
-        class="adsbygoogle"
-        style="display:block;width:100%;height:100%"
-        data-ad-client={clientId}
-        data-ad-slot={slotId}
-        data-ad-format={placement === 'anchor' ? 'horizontal' : 'auto'}
-        data-full-width-responsive="false"
-      />
-    ) : (
-      <span class="ad-placeholder">
-        <span class="md:hidden">{m.w}×{m.h}</span>
-        <span class="hidden md:inline">{dsk.w}×{dsk.h}</span> ad slot
-      </span>
-    )}
+    <ins
+      class="adsbygoogle"
+      style="display:block;width:100%;height:100%"
+      data-ad-client={clientId}
+      data-ad-slot={slotId}
+      data-ad-format={placement === 'anchor' ? 'horizontal' : 'auto'}
+      data-full-width-responsive="false"
+    />
   </div>
 </div>}
 

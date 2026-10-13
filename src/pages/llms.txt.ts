@@ -24,9 +24,9 @@ export async function GET(context: APIContext) {
     '',
     `> ${SITE.description}`,
     '',
-    `Written and edited by ${SITE.author}, ${SITE.authorRole}. ${SITE.authorBio}`,
+    `Published by ${SITE.author}. ${SITE.authorBio}`,
     '',
-    `${posts.length} articles across ${CATEGORIES.length} rooms. Every article is free to read, carries a published and last-updated date, and states its measurements and costs explicitly.`,
+    `${posts.length} free articles across ${CATEGORIES.length} rooms. Each article shows a publication date and an update date when one is provided.`,
     '',
   ];
 

@@ -45,8 +45,10 @@ const publishedPosts = posts.filter(
 const discoverablePosts = publishedPosts.filter(
   (post) => !post.data.excludeFromListings && !post.data.noindex
 );
-const noindexPostPaths = new Set(
-  publishedPosts.filter((post) => post.data.noindex).map((post) => `/post/${post.id}/`)
+const excludedPostPaths = new Set(
+  publishedPosts
+    .filter((post) => post.data.noindex || post.data.excludeFromListings)
+    .map((post) => `/post/${post.id}/`)
 );
 const indexableCategories = new Set(
   CATEGORIES
@@ -60,7 +62,8 @@ function includeInSitemap(page) {
   if (
     /^\/admin(?:\/|$)/.test(pathname) ||
     /^\/(?:search|saved|404)\/?$/.test(pathname) ||
-    noindexPostPaths.has(pathname)
+    pathname === '/author/sophie-lane/' ||
+    excludedPostPaths.has(pathname)
   ) {
     return false;
   }
