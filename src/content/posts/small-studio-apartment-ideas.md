@@ -6,7 +6,7 @@ tags: ["studio apartment", "small spaces", "apartment living", "small apartment"
 publishDate: 2026-10-25
 heroImage: "photo-1555041469-a586c61ea9bc"
 pinImage: "photo-1484101403633-562f891dc89a"
-featured: false
+featured: false 
 keyTakeaways:
   - "Define sleeping and living zones before buying any furniture or storage."
   - "Use an open shelf as a light room divider to separate zones without blocking light."
