@@ -27,23 +27,23 @@ const values = [
 ---
 
 <Layout
-  title="About Us"
-  description={`${SITE.name} is an editorial guide to interiors — room-by-room design ideas, DIY projects and styling tips you can actually use.`}
+  title="About"
+  description={`${SITE.name} is an independent guide to decorating and organizing small homes — layouts, storage, renter-friendly ideas and cozy styling, measured for real rooms.`}
 >
   <header class="border-b border-rule">
     <div class="wrap py-10 lg:py-14">
       <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'About' }]} />
       <div class="mt-8 grid gap-8 lg:grid-cols-12 lg:items-end lg:gap-14">
         <div class="lg:col-span-7">
-          <p class="eyebrow">About us</p>
+          <p class="eyebrow">About</p>
           <h1 class="mt-4 font-display text-[2.5rem] leading-[1.05] text-ink sm:text-5xl lg:text-[3.5rem]">
             Good rooms are built slowly.
           </h1>
         </div>
         <div class="lg:col-span-5">
           <p class="text-lg leading-relaxed text-ink-60">
-            {SITE.name} is a small independent publication about interiors — written for people
-            decorating real homes on real budgets, one decision at a time.
+            {SITE.name} is a one-person site about making small homes work — written for people
+            decorating real rooms on real budgets, one decision at a time.
           </p>
         </div>
       </div>
@@ -68,49 +68,69 @@ const values = [
     <div class="grid gap-10 lg:grid-cols-12 lg:gap-14">
       <div class="lg:col-span-7">
         <div class="article no-dropcap">
-          <h2>What this publication covers</h2>
+          <h2>Who runs {SITE.name}</h2>
           <p>
-            {SITE.name} publishes guides about decorating and organizing compact homes. The
-            archive covers room layouts, storage, renter constraints, seasonal styling, and selected
-            DIY projects.
+            Hi, I'm {SITE.person.name}. [YOUR STORY: two or three sentences about where you live and
+            the home you're working with — size, layout, whether you rent or own, who shares it with
+            you. Readers trust specifics: "a 48 m² second-floor flat with one north-facing window"
+            beats "a small apartment".]
           </p>
           <p>
-            The editorial aim is to explain the decision behind an idea as well as describe its appearance:
-            what to measure, what may not fit, and what a solution gives up in return.
+            I started this site because [YOUR REASON: the moment small-space living frustrated you —
+            a closet that wouldn't close, a living room that also had to be an office, a move into
+            a place half the size of the last one]. Most decorating advice I found assumed a big
+            house and a big budget. I wanted guides that start with a tape measure and the room you
+            actually have.
           </p>
           <p>
-            Most photographs on the site illustrate a style or setup and are not documentation of a
-            project completed by the publication. Credits and source information are provided where
-            available.
+            [YOUR EXPERIENCE: anything that makes your advice credible — years of renting small
+            places, a design or trades background, number of homes you've set up, projects you've
+            done yourself. Only include what is true.]
           </p>
 
-          <h2>How we work</h2>
+          <h2>What you'll find here</h2>
           <p>
-            Articles are general guidance. Room dimensions, installation requirements, prices, and
-            product availability vary, so check the relevant manufacturer instructions and measure
-            your own space before buying or installing anything.
+            Practical guides to decorating and organizing compact homes: room layouts, storage that
+            fits awkward corners, renter-friendly changes that come off without damage, and seasonal
+            styling that doesn't swallow a small room. Each guide aims to explain the decision behind
+            an idea — what to measure, what may not fit, and what a solution gives up in return —
+            rather than just what it looks like.
+          </p>
+
+          <h2>How I work</h2>
+          <p>
+            Photos marked as my own are from my home. Other images are licensed stock photos used to
+            illustrate a style, and they are credited where the source is known. [OPTIONAL: say which
+            guides are based on projects you have done yourself.]
           </p>
           <p>
-            Some pages may include affiliate links or advertising. Read the
-            <a href="/disclosure/">disclosure policy</a> for details.
+            Guides are updated when I learn something new or a reader points out a mistake — the
+            "Updated" date on each article shows the last revision. Room dimensions, installation
+            requirements, prices and product availability vary, so measure your own space and follow
+            manufacturer instructions before buying or installing anything.
+          </p>
+          <p>
+            The site is supported by advertising and, on some pages, affiliate links. That never
+            decides what I recommend. Read the <a href="/disclosure/">disclosure policy</a> for
+            details, and <a href="/contact/">get in touch</a> if something in a guide is wrong.
           </p>
         </div>
       </div>
 
       <aside class="lg:col-span-5">
         <div class="border border-rule p-7">
-          {SITE.authorAvatar && <img
-            src={SITE.authorAvatar}
-            alt=""
+          {SITE.person.photo ? <img
+            src={SITE.person.photo}
+            alt={`Portrait of ${SITE.person.name}`}
             width="80"
             height="80"
             loading="lazy"
             class="h-20 w-20 rounded-full object-cover"
-          />}
-          <p class="eyebrow-muted mt-5">Publisher</p>
-          <p class="mt-2 font-display text-2xl text-ink">{SITE.author}</p>
-          <p class="mt-1 text-xs uppercase tracking-[0.1em] text-ink-40">{SITE.authorRole}</p>
-          <p class="mt-4 text-[0.9375rem] leading-relaxed text-ink-60">{SITE.authorBio}</p>
+          /> : <p class="text-sm text-ink-40">[ADD YOUR PHOTO: a clear, friendly headshot — set person.photo in src/site.ts]</p>}
+          <p class="eyebrow-muted mt-5">The person behind the site</p>
+          <p class="mt-2 font-display text-2xl text-ink">{SITE.person.name}</p>
+          <p class="mt-1 text-xs uppercase tracking-[0.1em] text-ink-40">{SITE.person.role}</p>
+          <p class="mt-4 text-[0.9375rem] leading-relaxed text-ink-60">{SITE.person.bio}</p>
           <a href="/contact/" class="link-arrow mt-6">
             Get in touch
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true">

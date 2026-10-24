@@ -3,6 +3,8 @@ import Layout from '../layouts/Layout.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import { SITE } from '../site';
 
+const hasEndpoint = Boolean(SITE.contactFormEndpoint);
+
 export const prerender = true;
 
 const reasons = [
@@ -31,7 +33,7 @@ const reasons = [
       <p class="eyebrow mt-7">Say hello</p>
       <h1 class="mt-4 font-display text-[2.5rem] leading-[1.05] text-ink sm:text-5xl">Contact Us</h1>
       <p class="mt-5 max-w-2xl text-lg leading-relaxed text-ink-60">
-        Send editorial, partnership, or privacy questions to our contact address. Reply times may vary.
+        Questions about a guide, a correction, a partnership idea or a privacy request — I read every message.
       </p>
     </div>
   </header>
@@ -39,11 +41,46 @@ const reasons = [
   <div class="wrap py-12 lg:py-16">
     <div class="grid gap-12 lg:grid-cols-12 lg:gap-16">
       <div class="lg:col-span-7">
-        <h2 class="font-display text-2xl text-ink">Contact by email</h2>
+        <h2 class="font-display text-2xl text-ink">Send a message</h2>
         <p class="mt-4 max-w-xl text-[0.9375rem] leading-relaxed text-ink-60">
-          Email opens in your mail application. This website does not collect messages through a form.
+          {hasEndpoint
+            ? 'Fill in the form and your message comes straight to my inbox. I usually reply within a few days.'
+            : 'The form opens your email app with the message ready to send. I usually reply within a few days.'}
         </p>
-        <a href={'mailto:' + SITE.email} class="link-arrow mt-6">{SITE.email}</a>
+        <form
+          class="contact-form mt-8 grid max-w-xl gap-5"
+          action={hasEndpoint ? SITE.contactFormEndpoint : `mailto:${SITE.email}`}
+          method="post"
+          enctype={hasEndpoint ? undefined : 'text/plain'}
+        >
+          <label>
+            <span>Your name</span>
+            <input type="text" name="name" autocomplete="name" required maxlength="100" />
+          </label>
+          <label>
+            <span>Your email</span>
+            <input type="email" name="email" autocomplete="email" required maxlength="200" />
+          </label>
+          <label>
+            <span>Topic</span>
+            <select name="topic">
+              {reasons.map((r) => <option>{r.title}</option>)}
+              <option>Something else</option>
+            </select>
+          </label>
+          <label>
+            <span>Message</span>
+            <textarea name="message" rows="6" required maxlength="5000"></textarea>
+          </label>
+          {hasEndpoint && <input type="text" name="_gotcha" class="hidden" tabindex="-1" autocomplete="off" aria-hidden="true" />}
+          <p class="text-xs leading-relaxed text-ink-40">
+            I use your details only to reply. See the <a href="/privacy-policy/" class="underline">Privacy Policy</a>.
+          </p>
+          <button type="submit" class="contact-submit">Send message</button>
+        </form>
+        <p class="mt-8 text-[0.9375rem] text-ink-60">
+          Prefer email? Write to <a href={'mailto:' + SITE.email} class="underline underline-offset-2 hover:text-clay">{SITE.email}</a>.
+        </p>
       </div>
 
       <aside class="lg:col-span-5">
@@ -68,3 +105,33 @@ const reasons = [
     </div>
   </div>
 </Layout>
+
+<style>
+  .contact-form label { display: grid; gap: 6px; font-size: 0.875rem; font-weight: 500; color: #2b2a26; }
+  .contact-form input,
+  .contact-form select,
+  .contact-form textarea {
+    width: 100%;
+    border: 1px solid #d8d4c8;
+    background: #fff;
+    padding: 12px 14px;
+    font: inherit;
+    font-weight: 400;
+    color: inherit;
+    border-radius: 2px;
+  }
+  .contact-form input:focus,
+  .contact-form select:focus,
+  .contact-form textarea:focus { outline: 2px solid #555c43; outline-offset: 1px; }
+  .contact-submit {
+    justify-self: start;
+    min-height: 44px;
+    padding: 0 28px;
+    background: #2b2a26;
+    color: #fbf8f4;
+    font-size: 0.875rem;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+  }
+  .contact-submit:hover { background: #555c43; }
+</style>

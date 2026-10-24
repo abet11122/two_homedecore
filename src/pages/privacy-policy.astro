@@ -11,7 +11,7 @@ export const prerender = true;
   eyebrow="Legal"
   description={`How ${SITE.name} collects, uses and protects your information.`}
   lede="What this site stores in your browser and what outside services may receive."
-  updated="October 13, 2026"
+  updated="October 24, 2026"
 >
   <p>
     This policy explains how {SITE.name} ("we", "us") handles information when you visit
@@ -23,9 +23,10 @@ export const prerender = true;
   <p>There is no account system or login on this site.</p>
   <ul>
     <li>
-      <strong>Messages you send.</strong> If you email us directly, we receive your email address
-      and the information in your message. This website does not collect messages through a contact
-      form.
+      <strong>Messages you send.</strong> If you use the contact form or email us directly, we
+      receive your name, email address and the information in your message. If the form is handled
+      by a form-delivery service, that service processes the message on our behalf only to deliver
+      it to us.
     </li>
     <li>
       <strong>Saved ideas and reading preferences.</strong> The save buttons and text-size control
@@ -69,6 +70,22 @@ export const prerender = true;
     <a href="https://www.aboutads.info/choices/" rel="nofollow noopener" target="_blank">aboutads.info</a>.
   </p>
 
+  <h2>Cookies and similar technologies</h2>
+  <p>
+    Cookies are small files a website or a third party stores in your browser. This site and the
+    services it uses may set the following:
+  </p>
+  <ul>
+    <li><strong>Strictly necessary / local storage</strong> — your saved ideas and text-size choice, kept only in your browser.</li>
+    <li><strong>Analytics (Google Analytics 4)</strong> — cookies such as <code>_ga</code> that measure visits and page views, only where analytics storage is permitted.</li>
+    <li><strong>Advertising (Google AdSense and its partners)</strong> — cookies such as <code>__gads</code>, <code>__gpi</code> and <code>IDE</code> used to serve, cap, measure and, where permitted, personalise ads.</li>
+    <li><strong>Pinterest</strong> — cookies set by Pinterest's save-button script.</li>
+  </ul>
+  <p>
+    You can block or delete cookies in your browser settings. Blocking advertising cookies does not
+    stop ads from showing, but they will be less relevant to you.
+  </p>
+
   <h2>Consent in the EEA, UK and Switzerland</h2>
   <p>
     Google consent signals on this site start at denied. The current site does not provide a
@@ -82,15 +99,39 @@ export const prerender = true;
   <p>We do not sell your personal information. Information may be processed by:</p>
   <ul>
     <li><strong>Google</strong> — analytics signals, and advertising delivery and measurement if AdSense is enabled.</li>
-    <li><strong>Our hosting provider</strong> — to serve and protect the site.</li>
+    <li><strong>Our hosting provider (Vercel)</strong> — to serve and protect the site.</li>
+    <li><strong>Google advertising partners</strong> — third-party ad vendors that Google certifies, if AdSense is enabled. Google lists them in its <a href="https://support.google.com/admanager/answer/9012903" rel="nofollow noopener" target="_blank">ad technology providers list</a>.</li>
     <li><strong>Pinterest</strong> — when its sharing script is loaded or you use a Pinterest link.</li>
     <li><strong>Legal authorities</strong> — where we are legally required to.</li>
   </ul>
+  <h2>Legal bases (GDPR and UK GDPR)</h2>
+  <p>If you are in the European Economic Area or the United Kingdom, we rely on:</p>
+  <ul>
+    <li><strong>Consent</strong> — for analytics and advertising cookies, and for personalised ads. You can withdraw consent at any time.</li>
+    <li><strong>Legitimate interests</strong> — to operate, secure and improve the site, and to reply to messages you send.</li>
+    <li><strong>Legal obligation</strong> — where we must keep or disclose information by law.</li>
+  </ul>
+  <p>
+    Some providers, including Google, may process data outside your country. Where they do, they
+    rely on safeguards such as the EU Standard Contractual Clauses or the EU–US Data Privacy Framework.
+  </p>
+
   <h2>Your rights</h2>
   <p>
     Depending on where you live, privacy laws may give you rights to access, correct, or delete
     personal information we hold about you, or to object to certain uses of it.
   </p>
+  <ul>
+    <li><strong>EEA and UK residents</strong> have the right to access, rectify, erase, restrict or port their data, to object to processing, to withdraw consent, and to complain to their local data protection authority.</li>
+    <li>
+      <strong>California residents (CCPA/CPRA)</strong> have the right to know what personal
+      information is collected, to delete it, to correct it, and to opt out of its "sale" or
+      "sharing" for cross-context behavioural advertising. We do not sell personal information for
+      money. Advertising cookies may count as "sharing" under California law; you can opt out using
+      the browser controls above, a Global Privacy Control signal, or by emailing us. We will not
+      treat you differently for exercising these rights.
+    </li>
+  </ul>
   <p>
     To make a request, email <a href={`mailto:${SITE.email}`}>{SITE.email}</a>. We will respond
     within any period required by applicable law and handle other requests as promptly as practical.
@@ -103,6 +144,13 @@ export const prerender = true;
     its local storage. The site is served over HTTPS. No method of transmission over the internet
     is completely secure, and we cannot guarantee absolute security.
   </p>
+  <h2>Children</h2>
+  <p>
+    This site is written for adults and is not directed at children under 13 (or under 16 in the
+    EEA and UK). We do not knowingly collect personal information from children. If you believe a
+    child has sent us information, contact us and we will delete it.
+  </p>
+
   <h2>Changes</h2>
   <p>
     We will update this page when our practices change. The date at the top shows when this page

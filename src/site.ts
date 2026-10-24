@@ -18,6 +18,25 @@ export const SITE = {
   instagram: '',
   twitter: '',
   email: 'hello@smallcozyhome.store',
+  /**
+   * The real person behind the site. Shown in the author box, on the About
+   * page and as the article author in structured data. Replace every
+   * [PLACEHOLDER] before deploying — reviewers look for a named human.
+   */
+  person: {
+    name: '[YOUR NAME]',
+    role: 'Founder & editor',
+    /** Path to your own headshot, e.g. '/images/about/me.webp'. Leave '' to hide. */
+    photo: '',
+    bio: '[ONE OR TWO SENTENCES: who you are, where you live, and what kind of small home you decorate — e.g. "I live in a 550 sq ft one-bedroom with a partner and a cat, and I write about making small rooms work."]',
+  },
+  /** AdSense publisher ID (matches public/ads.txt). Used for the site-verification meta tag. */
+  adsenseClient: 'ca-pub-8497285724891966',
+  /**
+   * Optional form endpoint (e.g. a Formspree URL) for the contact form.
+   * When empty, the form opens the visitor's email app instead.
+   */
+  contactFormEndpoint: '',
   /** Paste your Pinterest domain-verification code here (Settings → Claim). */
   pinterestVerification: '',
   /** Paste your Google Search Console verification code here. */

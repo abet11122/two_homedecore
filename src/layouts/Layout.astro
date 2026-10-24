@@ -75,6 +75,7 @@ const twitterImage = imageWide ? photo(imageWide, 1200, 630) : ogImage;
 const adsenseId =
   import.meta.env.PUBLIC_ADSENSE_CLIENT_ID ||
   import.meta.env.ADSENSE_CLIENT_ID ||
+  SITE.adsenseClient ||
   '';
 const consentManagementConfigured = import.meta.env.PUBLIC_ADSENSE_CMP_CONFIGURED === 'true';
 const loadAdsense = Boolean(allowAds && !noindex && adsenseId && consentManagementConfigured);
@@ -100,6 +101,8 @@ const currentCategory =
    single entity instead of four loose blobs.
 ------------------------------------------------------------------- */
 const ORG_ID = `${origin}/#organization`;
+// Until the placeholder name is filled in, attribute articles to the publisher.
+const hasPerson = !SITE.person.name.startsWith('[');
 const SITE_ID = `${origin}/#website`;
 
 const orgNode = {
@@ -139,7 +142,9 @@ const articleNode =
         image: [ogImage, twitterImage].filter((v, i, a) => a.indexOf(v) === i),
         datePublished: publishDate,
         dateModified: updatedDate || publishDate,
-        author: { '@id': ORG_ID },
+        author: hasPerson
+          ? { '@type': 'Person', name: SITE.person.name, url: `${origin}/about/` }
+          : { '@id': ORG_ID },
         publisher: { '@id': ORG_ID },
         isPartOf: { '@id': SITE_ID },
         mainEntityOfPage: { '@type': 'WebPage', '@id': canonical },
@@ -198,7 +203,7 @@ const jsonLd = { '@context': 'https://schema.org', '@graph': graph };
     {type === 'article' && updatedDate && (
       <meta property="article:modified_time" content={updatedDate} />
     )}
-    {type === 'article' && <meta property="article:author" content={SITE.author} />}
+    {type === 'article' && <meta property="article:author" content={hasPerson ? SITE.person.name : SITE.author} />}
     {type === 'article' && section && <meta property="article:section" content={section} />}
     {type === 'article' && keywords.map((k) => <meta property="article:tag" content={k} />)}
 
