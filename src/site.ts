@@ -24,10 +24,10 @@ export const SITE = {
    * [PLACEHOLDER] before deploying — reviewers look for a named human.
    */
   person: {
-    name: '[YOUR NAME]',
+    name: 'M Mubashar Shahzad',
     role: 'Founder & editor',
     /** Path to your own headshot, e.g. '/images/about/me.webp'. Leave '' to hide. */
-    photo: '',
+    photo: '/images/about/mubashar.webp',
     bio: '[ONE OR TWO SENTENCES: who you are, where you live, and what kind of small home you decorate — e.g. "I live in a 550 sq ft one-bedroom with a partner and a cat, and I write about making small rooms work."]',
     /**
      * Paragraphs for "Who runs this site" on the About page. Any entry still

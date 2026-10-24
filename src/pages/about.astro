@@ -77,25 +77,18 @@ const values = [
       <div class="lg:col-span-7">
         <div class="article no-dropcap">
           <h2>Who runs {SITE.name}</h2>
-          {hasPerson ? (
-            <>
-              <p>Hi, I'm {SITE.person.name}.{story.length === 0 && ` I write the guides on ${SITE.name}.`}</p>
-              {story.map((para) => <p>{para}</p>)}
-            </>
-          ) : (
-            <>
-              <p>
-                {SITE.name} is a small independent site about decorating and organizing compact homes.
-                The guides are written for people living in apartments, rentals and small houses, where
-                every piece of furniture has to earn its floor space.
-              </p>
-              <p>
-                Most decorating advice assumes a big house and a big budget. These guides start with a
-                tape measure and the room you actually have: what fits, what to measure first, and what a
-                solution gives up in return.
-              </p>
-            </>
-          )}
+          {hasPerson && <p>Hi, I'm {SITE.person.name}, and I run {SITE.name}.</p>}
+          {story.map((para) => <p>{para}</p>)}
+          <p>
+            {SITE.name} is a small independent site about decorating and organizing compact homes.
+            The guides are written for people living in apartments, rentals and small houses, where
+            every piece of furniture has to earn its floor space.
+          </p>
+          <p>
+            Most decorating advice assumes a big house and a big budget. These guides start with a
+            tape measure and the room you actually have: what fits, what to measure first, and what a
+            solution gives up in return.
+          </p>
 
           <h2>What you'll find here</h2>
           <p>
@@ -106,20 +99,20 @@ const values = [
             rather than just what it looks like.
           </p>
 
-          <h2>How the guides are made</h2>
+          <h2>How I work</h2>
           <p>
-            Photos marked as our own were taken in our home. Other images are licensed stock photos used to
+            Photos credited to me were taken in my home. Other images are licensed stock photos used to
             illustrate a style, and they are credited where the source is known.
           </p>
           <p>
-            Guides are updated when we learn something new or a reader points out a mistake — the
+            Guides are updated when I learn something new or a reader points out a mistake — the
             "Updated" date on each article shows the last revision. Room dimensions, installation
             requirements, prices and product availability vary, so measure your own space and follow
             manufacturer instructions before buying or installing anything.
           </p>
           <p>
             The site is supported by advertising and, on some pages, affiliate links. That never
-            decides what we recommend. Read the <a href="/disclosure/">disclosure policy</a> for
+            decides what I recommend. Read the <a href="/disclosure/">disclosure policy</a> for
             details, and <a href="/contact/">get in touch</a> if something in a guide is wrong.
           </p>
         </div>
