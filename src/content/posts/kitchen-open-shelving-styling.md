@@ -72,6 +72,8 @@ Never dot items across the entire shelf. Group things in clusters of 3-5, leavin
 - Center gap: 12 inches of empty shelf
 - Right cluster: 4 coffee mugs on hooks, one glass pitcher
 
+<!-- [ADD YOUR PHOTO: your open shelves, straight on, styled with the 70-30 rule] {file: photo-1} -->
+
 ## Styling by Category
 
 ### Ceramics & Dishware
@@ -85,7 +87,7 @@ Group drinking glasses together in one area. Let them breathe—no need to cram 
 Drink-ware should be your most neutral zone. No patterned drinking glasses on view shelves; save those for the cabinet.
 
 ### Cookbooks
-Display 2-4 books standing upright (spines out if they're beautiful, or facing out if the cover is stunning). Lay one flat if it's oversized. This adds visual depth.
+Display 2-4 books standing upright (spines out if they're beautiful, or facing out if the cover is the best part). Lay one flat if it's oversized. This adds visual depth.
 
 ### Small Appliances
 A sleek coffee maker or stand mixer is fine on open shelves *if* it's an appliance you actually use and love the look of. A cluttered toaster oven? Cabinet time.
@@ -95,6 +97,8 @@ Fold neatly (thirds or quarters) and stack 2-3 cloths in the corner of a shelf. 
 
 ### Plants
 A single small potted plant per shelf, never more. Trailing plants (pothos, string of pearls) add lovely visual movement. Tall plants steal height real estate.
+
+<!-- [ADD YOUR PHOTO: a close-up of one shelf showing grouped ceramics or glassware] {file: photo-2} -->
 
 ## The Maintenance Reality
 

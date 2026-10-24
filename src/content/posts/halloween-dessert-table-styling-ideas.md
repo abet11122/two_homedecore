@@ -1,6 +1,6 @@
 ---
 title: "15 Halloween Dessert Table Styling Ideas for a Spooky Sweet Spread"
-description: "Style a stunning Halloween dessert table with 15 ideas covering backdrops, tiered stands, themed treats, colour palettes, and display techniques for 2026."
+description: "Style a Halloween dessert table with 15 ideas covering backdrops, tiered stands, themed treats, colour palettes, and display techniques for 2026."
 category: seasonal
 tags: ["halloween food", "dessert table", "halloween party", "halloween entertaining", "seasonal decorating"]
 publishDate: 2026-09-30
@@ -111,10 +111,8 @@ A dessert table is at its most photogenic before the party starts and before gue
 
 Good lighting — natural light from a window or a ring light — creates the most accurate colour representation. Share the photos before the party so guests know what to expect.
 
-## Final Thoughts
-
 A Halloween dessert table is built on three principles: a backdrop, a colour palette, and varying heights. Start with the backdrop and the tablecloth, set up the heights with stands and risers, and fill in with treats in the colour palette. Label everything, add a few decorative objects, and photograph it before the party starts.
 
 ## More Halloween ideas
 
-If you liked these, try [Halloween tablescape ideas](/post/halloween-dining-room-tablescape-ideas/), [neon Y2K Halloween party decor](/post/neon-y2k-apocalypse-halloween-party-decor-ideas/) or [Halloween kitchen decor ideas](/post/halloween-kitchen-decor-ideas/). When the season turns, [the autumn mantel](/post/autumn-mantel-styling/) carries the same warm palette into November.
+Hosting a full dinner? The [Halloween tablescape guide](/post/halloween-dining-room-tablescape-ideas/) covers place settings and centerpieces. For a party with neon instead of candlelight, see [neon Y2K party decor](/post/neon-y2k-apocalypse-halloween-party-decor-ideas/), and the [Halloween kitchen ideas](/post/halloween-kitchen-decor-ideas/) dress the room behind the table. The three-height trick for cake stands comes from [the autumn mantel](/post/autumn-mantel-styling/).

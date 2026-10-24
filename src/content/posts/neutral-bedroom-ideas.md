@@ -28,7 +28,7 @@ faqs:
 
 A neutral bedroom feels calm rather than flat when you choose whites that suit the room's light, layer several shades of the same color, lean on texture, and add one point of dark contrast. The result is restful without looking like a hotel room — and it's the easiest scheme to update later with a single new throw or print.
 
-<!-- [ADD YOUR PHOTO: your bedroom in daylight before restyling] -->
+<!-- [ADD YOUR PHOTO: your bedroom in daylight before restyling] {file: photo-1} -->
 
 ## Choose the Right White for Your Light
 
@@ -78,7 +78,7 @@ Light oak, ash or birch furniture; a rattan headboard; a jute or wool rug; a sto
 
 Limewash, a plaster-effect paint, or a subtle grasscloth wallpaper on the wall behind the bed adds depth without color.
 
-<!-- [ADD YOUR PHOTO: a close-up of your bed showing the layered textures] -->
+<!-- [ADD YOUR PHOTO: a close-up of your bed showing the layered textures] {file: photo-2} -->
 
 ## Add One Point of Contrast
 
@@ -128,27 +128,13 @@ A stoneware vase, a glass carafe on the nightstand and a ceramic dish for jewelr
 
 A neutral base makes seasonal updates easy: a rust throw in autumn, a red plaid in December, a pale green in spring. Swap one textile and the room feels new.
 
-## Mistakes to Avoid
-
+## When Neutral Goes Flat
 - **One flat shade of beige.** Layer light, mid and dark.
 - **Choosing white from a small chip.** Test large samples in your light.
 - **No contrast.** Add one dark accent.
 - **No texture.** Mix linen, wool, wood and ceramics.
 - **Cool bulbs.** They make neutrals look grey.
 
-## What It Costs
-
-| Item | Typical cost |
-| --- | --- |
-| Paint for walls and woodwork | $60–$140 |
-| Linen duvet cover set | $80–$200 |
-| Bouclé or knit throw | $30–$90 |
-| Wool or jute rug | $100–$300 |
-| Linen curtains with blackout lining | $60–$180 |
-| Black or oak picture frames (2) | $30–$80 |
-
-Prices vary by region and store.
-
-<!-- [ADD YOUR PHOTO: your finished neutral bedroom in the evening with lamps on] -->
+<!-- [ADD YOUR PHOTO: your finished neutral bedroom in the evening with lamps on] {file: photo-3} -->
 
 For a warmer, more colorful take on natural style, see [earthy bedroom ideas](/post/earthy-bedroom-ideas/). The [cozy small bedroom guide](/post/cozy-small-bedroom-ideas/) covers lighting and textiles in more depth, and [small bedroom ideas that look expensive](/post/small-bedroom-ideas-that-look-expensive/) shows how neutral rooms can look high-end on a budget.

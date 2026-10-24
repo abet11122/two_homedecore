@@ -30,7 +30,7 @@ A small entryway works when people can open the door, step in, put down what the
 
 That's true whether your "entryway" is a proper hall or a 60 cm strip of wall beside the front door of a studio. The plan below works for both.
 
-<!-- [ADD YOUR PHOTO: your entry as it looks now, from just inside the front door] -->
+<!-- [ADD YOUR PHOTO: your entry as it looks now, from just inside the front door] {file: photo-1} -->
 
 ## 1. Measure the Route First
 
@@ -87,7 +87,7 @@ A hook rail screwed into studs or with proper wall anchors is much stronger than
 
 Tip-out cabinets are the most space-efficient option for a narrow hall. Always fit the anti-tip bracket — a top-heavy cabinet with open drawers can fall forward.
 
-<!-- [ADD YOUR PHOTO: your shoe storage solution, open, showing how many pairs it holds] -->
+<!-- [ADD YOUR PHOTO: your shoe storage solution, open, showing how many pairs it holds] {file: photo-2} -->
 
 ## 6. Add a Bench Only If Someone Sits on It
 
@@ -101,23 +101,12 @@ A shelf above a hook rail (at about 180–190 cm) holds hats, gloves and scarves
 
 A mirror, a runner or a small lamp makes the entry feel welcoming — but add them after the route and drop zones work. A mirror opposite or beside the door bounces light into a dark hall and gives you a last check before you leave. For styling ideas once it's organized, see [entryway table decor ideas](/post/entryway-table-decor-ideas/).
 
-## Mistakes to Avoid
-
+## What Clutters an Entry
 - **Buying a bench for a hall that's too narrow.** Measure the remaining width first.
 - **Storing every pair of shoes by the door.** Set a limit per person.
 - **Skipping the anti-tip bracket.** Slim cabinets are top-heavy by design.
 - **Adhesive hooks for heavy coats.** Screw a rail into the wall instead.
 - **No home for mail.** It ends up on every flat surface in the flat.
-
-## What It Costs
-
-| Level | What's included | Typical cost |
-| --- | --- | --- |
-| Starter | Hook rail, boot tray, key hook or dish | $30–$60 |
-| Mid | Add a slim tip-out shoe cabinet and a wall file | $120–$250 |
-| Full | Add a mirror, a runner and an overhead shelf with baskets | $250–$450 |
-
-Prices vary by region and store.
 
 ## Review After a Week
 

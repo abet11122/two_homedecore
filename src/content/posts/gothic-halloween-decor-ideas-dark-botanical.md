@@ -123,10 +123,8 @@ The most important rule for gothic Halloween decor is restraint. One strong foca
 
 Gothic decor works through atmosphere, not quantity. A few well-chosen pieces in a limited palette create more impact than a room covered in dark objects.
 
-## Final Thoughts
-
 Gothic Halloween decor is the most enduring seasonal style because it draws on aesthetics that work year-round — dark botanicals, candlelight, dried flowers, and jewel tones. Start with a dark floral arrangement and black taper candles, add a skull planter and a botanical print, and keep the palette consistent. The atmosphere builds itself.
 
 ## More Halloween ideas
 
-If you liked these, try [elegant Halloween decor](/post/elegant-halloween-decor/), [Halloween mantel decor ideas](/post/halloween-mantel-decor-ideas/) or [DIY haunted house decor](/post/haunted-house-decor-ideas-diy-spooky-setup/). When the season turns, [the autumn mantel](/post/autumn-mantel-styling/) carries the same warm palette into November.
+For a softer, candlelit version, see [elegant Halloween decor](/post/elegant-halloween-decor/). The [Halloween mantel ideas](/post/halloween-mantel-decor-ideas/) work well with dried black florals, and if you want real scares rather than mood, try the [DIY haunted house setup](/post/haunted-house-decor-ideas-diy-spooky-setup/). Dried stems from this look carry straight into [the autumn mantel](/post/autumn-mantel-styling/) in November.

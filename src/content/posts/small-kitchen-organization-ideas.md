@@ -30,7 +30,7 @@ Small kitchen organization works best when you group things by where they're use
 
 The ideas below work in a galley kitchen, a studio kitchenette, or an L-shaped kitchen with only a few base cabinets.
 
-<!-- [ADD YOUR PHOTO: your kitchen counters and open cabinets before organizing] -->
+<!-- [ADD YOUR PHOTO: your kitchen counters and open cabinets before organizing] {file: photo-1} -->
 
 ## Before You Start: Clear and Measure
 
@@ -64,7 +64,7 @@ Boards, baking sheets, muffin tins and cooling racks stack badly. Use a vertical
 
 Adjustable drawer dividers keep spatulas, whisks and peelers separate. Measure the drawer's interior height under the counter lip — often 2–3 cm less than the drawer box — before buying an insert.
 
-<!-- [ADD YOUR PHOTO: your utensil drawer with dividers] -->
+<!-- [ADD YOUR PHOTO: your utensil drawer with dividers] {file: photo-2} -->
 
 ## Zone 2: Cooking
 
@@ -130,33 +130,17 @@ A 12–20 cm wide rolling cart fits between the fridge and the wall or beside th
 
 Decide how many things can stay on the counter — two or three is a good target. Usually the kettle or coffee maker, a utensil crock and maybe a fruit bowl. The toaster, blender and mixer go into a base cabinet or onto a shelf. A clear counter is more usable for cooking and quicker to wipe.
 
-## Mistakes to Avoid
-
+## Why Kitchen Organizers Fail
 - **Buying organizers before decluttering.** You'll organize things you don't use.
 - **Measuring the interior but not the opening.**
 - **Deep bins at the back of deep cabinets.** Use pull-outs or turntables instead.
 - **Storing spices above the hob.** Heat dulls them.
 - **Every appliance on the counter.** Set a limit.
 
-## What It Costs
-
-| Upgrade | Typical cost |
-| --- | --- |
-| Shelf risers (2) | $15–$30 |
-| Pan organizer rack | $20–$40 |
-| Drawer dividers | $15–$35 |
-| Turntables (2) | $15–$30 |
-| Clear pantry containers (set of 6–8) | $30–$60 |
-| Rolling slim cart | $20–$40 |
-| Wall rail with hooks | $15–$40 |
-| Pull-out cabinet basket | $40–$100 each |
-
-Prices vary by region and store.
-
-## Review After a Week
+## Give It a Week
 
 Notice what you keep leaving out. If it's used daily, give it a home within a step of where you use it. If it's an appliance you rarely use, store it further away. If a cabinet is still a mess, the organizer doesn't fit what you're storing — try a different one.
 
-<!-- [ADD YOUR PHOTO: your kitchen after organizing, from the same angle as the before photo] -->
+<!-- [ADD YOUR PHOTO: your kitchen after organizing, from the same angle as the before photo] {file: photo-3} -->
 
 Have open shelves? [Open shelving styling](/post/kitchen-open-shelving-styling/) covers what to keep on them. For mounting shelves or rails, see the [floating shelf checklist](/post/diy-floating-shelves/), and for the rest of the flat, [small apartment organization ideas](/post/small-apartment-organization-ideas/).

@@ -29,7 +29,7 @@ faqs:
 
 To style an entryway table, use three objects at three heights grouped in a triangle — a lamp or tall vase, a stack of books, and a tray for keys — with a mirror two-thirds the table's width above and a third of the surface left clear. It looks finished and still works as a drop zone.
 
-<!-- [ADD YOUR PHOTO: your entryway table before styling] -->
+<!-- [ADD YOUR PHOTO: your entryway table before styling] {file: photo-1} -->
 
 An entryway table is the first surface anyone sees in your home, and it's also where keys, post and receipts go to die. Styling one is really about balancing those two jobs.
 
@@ -90,7 +90,7 @@ A large vase with tall dried stems — pampas, eucalyptus, cherry blossom branch
 
 This is the most Pinterest-friendly look and the easiest to swap seasonally. Change the stems, change the season.
 
-<!-- [ADD YOUR PHOTO: your styled table using one of the three layouts] -->
+<!-- [ADD YOUR PHOTO: your styled table using one of the three layouts] {file: photo-2} -->
 
 ## What to put in the tray
 
@@ -150,18 +150,6 @@ Just keep it visually calm — one or two large items, not five small ones.
 A wall-mounted shelf styled the same way gives you the look without the floor space. Everything above applies: three heights, a tray, one-third clear.
 
 The bonus is the clear floor underneath, which makes a small entry feel bigger.
-
-## What it costs
-
-| Item | Typical cost |
-| --- | --- |
-| Tray or shallow bowl | $10–$35 |
-| Table lamp with a linen shade | $30–$90 |
-| Mirror, about 24 × 36 in | $40–$120 |
-| Dried stems or branches | $10–$25 |
-| Two baskets for underneath | $25–$60 |
-
-Prices vary by region and store.
 
 ## The weekly reset
 

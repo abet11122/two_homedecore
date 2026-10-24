@@ -47,7 +47,7 @@ Place the group to one side of the door rather than centred, which looks more in
 
 ## 5. Add a Garland Along the Door Frame
 
-A garland of dried leaves, faux bats, or dark eucalyptus draped along the door frame adds a seasonal note that is visible from the street. Use removable adhesive strips to attach it without nails.
+A garland of dried leaves, faux bats, or dark eucalyptus draped along the door frame can be seen from the street. Use removable adhesive strips to attach it without nails.
 
 A garland along the door frame frames the entrance and makes the whole door look more decorated than it is.
 
@@ -65,7 +65,7 @@ Height is important in a small entryway — a tall element draws the eye up and 
 
 ## 8. Hang a Bat Garland Across the Ceiling
 
-In a covered porch or small foyer, a bat garland hung across the ceiling adds a seasonal note that uses overhead space rather than floor space. Use removable adhesive strips to attach it without nails.
+In a covered porch or small foyer, a bat garland hung across the ceiling uses overhead space rather than floor space. Use removable adhesive strips to attach it without nails.
 
 A ceiling garland is one of the most renter-friendly entryway decor ideas — it uses space that is otherwise empty and comes down without damage.
 
@@ -89,7 +89,7 @@ A tall vase in the corner of an entryway uses space that is otherwise empty and 
 
 ## 12. Add a Spiderweb to the Door Corner
 
-A small faux spiderweb stretched across one corner of the door frame — with a plastic spider in the centre — adds a Halloween detail that is easy to remove. Use a cotton stretch web rather than a plastic one for a more realistic look.
+A small faux spiderweb stretched across one corner of the door frame — with a plastic spider in the centre — adds a Halloween detail that is easy to remove. Stretchy cotton webbing pulled thin looks far more real than the plastic kind.
 
 Keep it to one corner rather than covering the whole door frame.
 
@@ -111,10 +111,8 @@ The most important rule for Halloween entryway decor is to keep the walkway clea
 
 A clear, well-lit path with a few well-chosen seasonal details is always more welcoming than a path blocked by decorations.
 
-## Final Thoughts
-
 The strongest Halloween entryway decor is the kind that creates an impression without blocking the entrance. Start with a wreath on the door, a pumpkin to one side, and a lantern for light. Add a garland or a console table display if the space allows.
 
 ## More Halloween ideas
 
-If you liked these, try [Halloween wreath ideas](/post/halloween-wreath-ideas-front-door-styling/), [outdoor Halloween decor for small yards and balconies](/post/outdoor-halloween-decor-ideas-small-yards-balconies/) or [renter-friendly small apartment Halloween decor](/post/small-apartment-halloween-decor-renter-friendly/). When the season turns, [fall apartment decor](/post/fall-apartment-decor-ideas/) carries the same warm palette into November.
+The door itself gets its own guide in [Halloween wreath ideas](/post/halloween-wreath-ideas-front-door-styling/). If you have a step or balcony, add [outdoor decor for small spaces](/post/outdoor-halloween-decor-ideas-small-yards-balconies/), and renters should read [renter-friendly Halloween decor](/post/small-apartment-halloween-decor-renter-friendly/) before using adhesive hooks. For the season after, see [fall apartment decor](/post/fall-apartment-decor-ideas/).

@@ -41,7 +41,7 @@ Flameless pink taper candles are available and work well in rooms where open fla
 
 ## 4. Choose Rose Gold Accents
 
-Rose gold candlesticks, frames, and small accessories add a warm metallic note that suits the Pink-o-ween palette. Rose gold reads as more seasonal than silver and warmer than gold.
+Rose gold candlesticks, frames, and small accessories add warm metallic contrast that suits the Pink-o-ween palette. Rose gold reads as more seasonal than silver and warmer than gold.
 
 Look for rose gold accessories at home stores and on Amazon. They are widely available and inexpensive.
 
@@ -97,7 +97,7 @@ Keep the tableware simple — white or cream plates let the pink and black acces
 
 ## 14. Use Pink and Black Wrapping Paper as a Backdrop
 
-A sheet of pink and black wrapping paper or craft paper pinned to a wall creates an instant backdrop for a Halloween party photo area. Use removable adhesive strips so there is no wall damage.
+A sheet of pink and black wrapping paper or craft paper pinned to a wall makes a quick backdrop for a Halloween party photo area. Use removable adhesive strips so there is no wall damage.
 
 This is the most inexpensive way to create a large visual element for a party.
 
@@ -107,10 +107,8 @@ The most important rule for Pink-o-ween decor is to keep black as the anchor. Ev
 
 Without the black, the display reads as a birthday party. With it, the display reads as Halloween.
 
-## Final Thoughts
-
 Pink-o-ween works because it takes the seasonal palette in an unexpected direction while keeping the core Halloween symbols — bats, skulls, pumpkins, candles — intact. Start with blush pumpkins and black bats, add pink candles and rose gold accents, and keep the black as the anchor throughout.
 
 ## More Halloween ideas
 
-If you liked these, try [non-scary Halloween decor for toddler rooms](/post/non-scary-halloween-decor-toddler-rooms/), [Halloween bedroom decor ideas](/post/halloween-bedroom-decor-ideas/) or [neon Y2K Halloween party decor](/post/neon-y2k-apocalypse-halloween-party-decor-ideas/). When the season turns, [fall apartment decor](/post/fall-apartment-decor-ideas/) carries the same warm palette into November.
+Pink works well in children's rooms too — see [non-scary toddler room ideas](/post/non-scary-halloween-decor-toddler-rooms/). For a bedroom version, the [Halloween bedroom guide](/post/halloween-bedroom-decor-ideas/) has more textile swaps, and if you want brighter still, try [neon Y2K party decor](/post/neon-y2k-apocalypse-halloween-party-decor-ideas/). Most of the blush and cream pieces fit into [fall apartment decor](/post/fall-apartment-decor-ideas/) afterwards.

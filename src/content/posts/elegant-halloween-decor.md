@@ -24,13 +24,12 @@ Build the look around a restrained palette and a few deliberate focal points; le
 
 A palette of black, cream, and muted orange reads as Halloween without the garish brightness of primary colors. Repeat these three tones through candles, pumpkins, textiles, and small accessories.
 
-
 ## 2. Choose Matte Pumpkins
 
 Matte-finish pumpkins in cream, sage, charcoal, or terracotta suit a neutral interior far better than shiny orange ones. Group two or three together rather than spreading them across every surface.
 
 <aside class="product-callout">
-  <span class="product-callout__label">Curated find</span>
+  <span class="product-callout__label">Product idea</span>
   <div class="product-callout__content">
     <div>
       <p class="product-callout__name">Matte black pumpkins</p>
@@ -47,7 +46,7 @@ Black or cream taper candles in simple candlesticks add height and drama without
 Flameless LED tapers are a good alternative when open flames are not practical.
 
 <aside class="product-callout">
-  <span class="product-callout__label">Curated find</span>
+  <span class="product-callout__label">Product idea</span>
   <div class="product-callout__content">
     <div>
       <p class="product-callout__name">Black taper candles</p>
@@ -100,11 +99,11 @@ Swapping a cushion cover or throw for a dark linen, velvet, or jacquard version 
 Choose washable or easy-care materials in high-use areas.
 
 <aside class="product-callout">
-  <span class="product-callout__label">Curated find</span>
+  <span class="product-callout__label">Product idea</span>
   <div class="product-callout__content">
     <div>
       <p class="product-callout__name">Velvet table runners</p>
-      <p class="product-callout__note">Soft texture that makes a table feel instantly more considered.</p>
+      <p class="product-callout__note">Soft texture that makes a table look more considered.</p>
     </div>
     <a class="product-callout__button" href="https://amzn.to/4dm8Q6I" target="_blank" rel="sponsored noopener noreferrer" aria-label="Shop velvet table runners on Amazon"><span>Shop on Amazon</span><span class="product-callout__arrow" aria-hidden="true">→</span></a>
   </div>
@@ -118,10 +117,10 @@ A tray is useful because the whole group can be moved at once.
 
 ## 14. Add Subtle Skeleton Details
 
-A small ceramic skull, a skeleton hand holding a candle, or a single skeleton figurine adds a touch of Halloween without dominating the room. Use one or two pieces rather than a collection.
+A small ceramic skull, a skeleton hand holding a candle, or a single skeleton figurine hints at Halloween without dominating the room. Use one or two pieces rather than a collection.
 
 <aside class="product-callout">
-  <span class="product-callout__label">Curated find</span>
+  <span class="product-callout__label">Product idea</span>
   <div class="product-callout__content">
     <div>
       <p class="product-callout__name">Gold-rimmed skull decor</p>
@@ -143,14 +142,12 @@ The entryway is the first thing guests see and the last thing you see when you l
 
 ## 17. Add a Few Paper Bats to One Wall
 
-Cut-paper or card bats arranged on one wall add a playful seasonal note that is easy to remove and costs almost nothing. Keep the arrangement loose and asymmetric for a more editorial look.
+Cut-paper or card bats arranged on one wall are playful, easy to take down and cost almost nothing. Keep the arrangement loose and asymmetric for a more editorial look.
 
 In rentals, check the lease, wall finish, and adhesive instructions before attaching bats. A paper display on an existing shelf avoids wall adhesive.
-
-## Final Thoughts
 
 The strongest elegant Halloween decor is the kind that makes the room feel atmospheric rather than themed. Start with a restrained palette, choose one focal point, and add a few well-chosen pieces that work with your existing decor. Small, deliberate choices are usually more successful than covering every surface.
 
 ## More Halloween ideas
 
-If you liked these, try [gothic dark-botanical Halloween decor](/post/gothic-halloween-decor-ideas-dark-botanical/), [Halloween mantel decor ideas](/post/halloween-mantel-decor-ideas/) or [Halloween tablescape ideas](/post/halloween-dining-room-tablescape-ideas/). When the season turns, [the autumn mantel](/post/autumn-mantel-styling/) carries the same warm palette into November.
+If you want to go darker, the [gothic dark-botanical guide](/post/gothic-halloween-decor-ideas-dark-botanical/) uses the same restraint with blacker florals. The [Halloween mantel ideas](/post/halloween-mantel-decor-ideas/) and [tablescape ideas](/post/halloween-dining-room-tablescape-ideas/) show how to keep one surface the star. After the 31st, most of these candles and dried stems can stay out for [the autumn mantel](/post/autumn-mantel-styling/).

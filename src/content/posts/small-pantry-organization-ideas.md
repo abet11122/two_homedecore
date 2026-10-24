@@ -28,7 +28,7 @@ faqs:
 
 A small pantry works when each shelf has a job: daily foods at eye level, heavy items low, backups high, and the deep corners fitted with a turntable or pull-out bin so nothing gets lost. Take an inventory before buying anything, measure every shelf, and only add organizers that solve a real access problem.
 
-<!-- [ADD YOUR PHOTO: your pantry before organizing] -->
+<!-- [ADD YOUR PHOTO: your pantry before organizing] {file: photo-1} -->
 
 A small pantry is easier to use when each shelf has a job. Start by finding out what must fit, then decide which storage aid solves a real access problem. A turntable, riser, or matching jar is only useful if the food remains easy to find and replace.
 
@@ -61,20 +61,7 @@ For a turntable, compare its full diameter with the shelf's clear depth and widt
 
 **Door storage for lightweight items.** Before adding a rack, close the door on a paper template of the proposed rack's depth. Check that it clears shelves and that the hinges and mounting method can take the intended load.
 
-<!-- [ADD YOUR PHOTO: one shelf after organizing, with labels facing forward] -->
-
-## What it costs
-
-| Organizer | Typical cost |
-| --- | --- |
-| Three-tier can riser | $12–$25 |
-| Turntable | $8–$20 |
-| Clear pull-out bins (4) | $25–$50 |
-| Door rack | $20–$45 |
-| Food storage containers (set of 6) | $25–$50 |
-| Label maker or labels | $10–$30 |
-
-Prices vary by region and store.
+<!-- [ADD YOUR PHOTO: one shelf after organizing, with labels facing forward] {file: photo-2} -->
 
 ## Decide whether decanting helps
 
@@ -84,8 +71,7 @@ Keep foods in their original packaging when it already closes well and makes dat
 
 Put each group back according to the shelf map. During a normal shopping and cooking week, notice three things: what gets moved to reach another item, what is returned to the wrong shelf, and what runs out without anyone noticing. Move a zone or change a bin only where one of those problems appears. A short weekly check of dates and duplicates is more useful than repeatedly buying organizers.
 
-## Mistakes to avoid
-
+## Pantry Pitfalls
 - **Buying matching jars first.** Inventory and measure first.
 - **Decanting without labels.** You'll lose dates and allergen information.
 - **Heavy items on high shelves.** Keep tins and bottles low.

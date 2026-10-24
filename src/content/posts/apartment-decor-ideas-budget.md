@@ -1,6 +1,6 @@
 ---
 title: "Apartment Decor Ideas on a Budget"
-description: "Budget apartment decor ideas in order of impact — the cheap changes that transform a rental, what's worth spending on, and what to skip entirely."
+description: "Budget apartment decor ideas in order of impact — the cheap changes that make a rental feel like home, what's worth spending on, and what to skip entirely."
 category: "renter"
 tags: ["renter-friendly", "budget", "apartment", "lighting", "textiles"]
 publishDate: 2026-08-29
@@ -16,7 +16,7 @@ keyTakeaways:
   - "Spend on the mattress, bedding and one good lamp; save on side tables, decor and art."
 faqs:
   - q: "How can I make my apartment look nice on a budget?"
-    a: "Change every bulb to 2700K warm white, add lamps and stop using the overhead light, rehang curtains high and wide, and get a rug big enough for the room. Those four changes cost little and transform a rental more than buying decorative objects."
+    a: "Change every bulb to 2700K warm white, add lamps and stop using the overhead light, rehang curtains high and wide, and get a rug big enough for the room. Those four changes cost little and do more for a rental than any number of decorative objects."
   - q: "What can I change in a rental apartment without losing my deposit?"
     a: "Bulbs, lamps, curtains (on tension rods or existing hardware), rugs, textiles, plants, freestanding furniture, and hardware like cabinet knobs and shower heads — keep the originals to reinstall. Peel-and-stick products can work, but test on a hidden patch first and check your lease."
   - q: "What size rug do I need for a living room?"
@@ -29,7 +29,7 @@ faqs:
 
 The best budget apartment decor ideas aren't objects at all: warm light, curtains hung properly, a rug that fits, and textiles you can take with you. Do the free steps first, then spend in order of impact — the list below is ranked that way.
 
-<!-- [ADD YOUR PHOTO: your living room before any changes] -->
+<!-- [ADD YOUR PHOTO: your living room before any changes] {file: photo-1} -->
 
 Most budget decorating advice is a list of thrifted objects. But an apartment doesn't look better because of more objects — it looks better because of light, textiles and a few structural fixes.
 
@@ -39,7 +39,7 @@ Here's the list in order of impact per pound spent.
 
 **2700K warm white**, everywhere.
 
-Rental apartments come with cool white bulbs because they're cheap in bulk. They're also what makes a flat feel institutional. Swapping them costs very little and changes every room instantly.
+Rental apartments come with cool white bulbs because they're cheap in bulk. They're also what makes a flat feel institutional. Swapping them costs very little, and you notice the difference the same evening.
 
 If you do one thing on this list, do this one.
 
@@ -130,7 +130,7 @@ Keep the originals in a box for move-out.
 
 Keep a labeled box with everything you've swapped out: original bulbs, cabinet knobs, the shower head, curtain rods, toilet seat. Add a small tub of wall filler, a putty knife and a little touch-up paint, if your landlord can tell you the color. Moving out then takes an hour, not a weekend.
 
-<!-- [ADD YOUR PHOTO: a room after your lighting, curtain and rug changes] -->
+<!-- [ADD YOUR PHOTO: a room after your lighting, curtain and rug changes] {file: photo-2} -->
 
 ## Where to spend rather than save
 
@@ -180,8 +180,7 @@ Those five take an afternoon, cost nothing, and often make more difference than 
 
 The pattern behind all of it: **light, soft things, and fewer objects arranged better.** Almost nothing on this list is a decoration, and that's the point.
 
-## Mistakes to avoid
-
+## Where budget rentals go wrong
 - **A tiny rug.** It makes the room look smaller. Go bigger and cheaper.
 - **Art hung too high.** Center it at about 57 inches.
 - **Peel-and-stick without testing.** It can pull paint off when you leave.

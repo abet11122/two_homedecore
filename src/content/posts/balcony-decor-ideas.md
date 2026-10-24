@@ -29,7 +29,7 @@ faqs:
 
 The best small balcony decor uses the railing and the walls instead of the floor: a hook-over bar table, railing planters, a folding chair, deck tiles underfoot and solar string lights. Measure the depth first — it decides what furniture fits — and keep 24 inches clear to the door.
 
-<!-- [ADD YOUR PHOTO: your balcony as it is now, shot from the doorway] -->
+<!-- [ADD YOUR PHOTO: your balcony as it is now, shot from the doorway] {file: photo-1} -->
 
 A balcony is often narrower than a hallway — sometimes 3 or 4 feet deep. That rules out most outdoor furniture and means nearly everything has to use the railing, the walls, or fold away.
 
@@ -52,7 +52,7 @@ On a narrow balcony the railing is your most valuable surface.
 
 **Rail-mounted bar table** — a narrow shelf that hooks over the railing, 8–12 inches deep. Somewhere to put a coffee or a laptop, using zero floor space. The single best purchase for a tiny balcony.
 
-**Railing planters** — hook-over boxes that sit either inside or outside the rail. Instant greenery, no floor used.
+**Railing planters** — hook-over boxes that sit either inside or outside the rail. Greenery without giving up any floor.
 
 **Privacy screening** attached to the rail — reed, bamboo, or fabric.
 
@@ -100,7 +100,7 @@ More important on a balcony than anywhere, because it's the thing that makes you
 
 Warm white. String lights along the top of a railing are the classic balcony look and they cost very little.
 
-<!-- [ADD YOUR PHOTO: your rail table or folding seating set up] -->
+<!-- [ADD YOUR PHOTO: your rail table or folding seating set up] {file: photo-2} -->
 
 ## Weight and building rules
 
@@ -141,7 +141,7 @@ Balconies are windier and drier than gardens, and everything is in a pot.
 
 ## Styling touches
 
-- **An outdoor rug** — defines the space instantly
+- **An outdoor rug** — marks out the seating area
 - **Cushions and a throw** in weather-resistant fabric
 - **A lantern** or two on the floor
 - **A small side table** or a stool
@@ -168,7 +168,7 @@ Everything soft has to be protected.
 
 **Check your sun** before buying anything green. Note how many hours of direct sun the balcony gets and at what time. A north-facing balcony in the northern hemisphere is a shade garden, and buying lavender for it is money wasted.
 
-## What it costs
+## Shopping list and prices
 
 | Item | Typical cost |
 | --- | --- |
@@ -180,7 +180,7 @@ Everything soft has to be protected.
 | Solar string lights | $15–$35 |
 | Herbs and plants | $20–$60 |
 
-Prices vary by region and store.
+Nothing on this list is fixed in place, so all of it comes with you when you move.
 
 ---
 
@@ -190,6 +190,6 @@ Deck tiles over the concrete, a rail-mounted table, one folding chair, railing p
 
 Nothing permanent, nothing drilled, and it fits on 4 x 8 feet.
 
-<!-- [ADD YOUR PHOTO: your finished balcony at dusk with the lights on] -->
+<!-- [ADD YOUR PHOTO: your finished balcony at dusk with the lights on] {file: photo-3} -->
 
 For more renter-friendly upgrades indoors, see [apartment decor ideas on a budget](/post/apartment-decor-ideas-budget/). In autumn, the [fall apartment decor guide](/post/fall-apartment-decor-ideas/) covers balcony and window styling, and if your balcony opens off a studio, [zoning a studio](/post/studio-apartment-zoning/) shows how to make it feel like a separate room.

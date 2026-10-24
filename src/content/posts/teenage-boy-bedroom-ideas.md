@@ -30,7 +30,7 @@ A teenage boy's bedroom has to do three jobs: sleep, study or gaming, and storin
 
 This guide assumes a room of around 3 × 3.3 m (10 × 11 ft). The zone approach still works in a smaller box room — the zones just overlap more.
 
-<!-- [ADD YOUR PHOTO: the room before, with furniture in its current positions] -->
+<!-- [ADD YOUR PHOTO: the room before, with furniture in its current positions] {file: photo-1} -->
 
 ## Plan the Three Zones
 
@@ -56,7 +56,7 @@ Teenagers can spend hours at a desk. Get the basics right:
 
 **Short on space?** A loft bed with a desk below works well — check you have 75–90 cm between mattress and ceiling. Or use a wall-mounted desk 40–50 cm deep with a laptop and a monitor arm.
 
-<!-- [ADD YOUR PHOTO: the finished desk setup] -->
+<!-- [ADD YOUR PHOTO: the finished desk setup] {file: photo-2} -->
 
 ## Plan Power and Cables First
 
@@ -116,15 +116,14 @@ A teen needs some control over his space. Let him choose the color accent, the a
 
 Teen rooms can get stuffy, especially with a gaming PC running. Open the window daily, keep a laundry hamper with a lid in the room, and put sports kit somewhere it can air. A small fan helps in summer.
 
-## Mistakes to Avoid
-
+## What Usually Goes Wrong
 - **A desk with no room for the chair.** Leave 75–90 cm behind it.
 - **Daisy-chained extension leads.** Use one surge-protected strip.
 - **Enclosing a PC in a cabinet.** It needs airflow.
 - **Cool-white LED strips at night.** Choose warm white for the evening.
 - **Not anchoring tall furniture.**
 
-## What It Costs
+## Where the Money Goes
 
 | Upgrade | Typical cost |
 | --- | --- |
@@ -135,6 +134,6 @@ Teen rooms can get stuffy, especially with a gaming PC running. Open the window 
 | Wardrobe organizers and under-bed storage | $50–$150 |
 | Loft bed with desk space | $400–$900 |
 
-Prices vary by region and store.
+If he games or studies for hours, the chair is the piece most worth stretching the budget for.
 
 If he's not quite a teenager yet, [modern boys bedroom ideas](/post/modern-boys-bedroom-ideas/) covers the in-between years. For desk setups in other rooms, see [small home office ideas](/post/small-home-office-ideas/), and [small bedroom ideas that look expensive](/post/small-bedroom-ideas-that-look-expensive/) shows how to keep a functional room looking polished.

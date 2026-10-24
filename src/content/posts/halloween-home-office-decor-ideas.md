@@ -29,7 +29,7 @@ Keep it to one side of the desk so it does not interfere with the working surfac
 
 ## 2. Use a Dark Candle on the Shelf
 
-A dark candle — black, deep red, or dark green — on the shelf behind the desk adds a seasonal note that is visible in video call backgrounds. Use a flameless version if you prefer not to burn candles while working.
+A dark candle — black, deep red, or dark green — on the shelf behind the desk shows up nicely in video call backgrounds. Use a flameless version if you prefer not to burn candles while working.
 
 A candle on the shelf is visible in the background of video calls and creates a seasonal atmosphere without cluttering the desk.
 
@@ -111,10 +111,8 @@ The most important rule for Halloween home office decor is to keep the desk surf
 
 A clear desk with one or two small seasonal objects reads as intentional. A desk covered in Halloween props reads as a display, not a workspace.
 
-## Final Thoughts
-
 Halloween home office decor works best when it is subtle and atmospheric rather than themed. Start with a small pumpkin on the shelf and a dark candle in the background. Add a seasonal mug and a dark desk mat. Keep the desk clear and the background styled. The atmosphere builds without disrupting the work.
 
 ## More Halloween ideas
 
-If you liked these, try [renter-friendly small apartment Halloween decor](/post/small-apartment-halloween-decor-renter-friendly/), [vintage Halloween decor](/post/vintage-halloween-decor-ideas/) or [elegant Halloween decor](/post/elegant-halloween-decor/). When the season turns, [fall apartment decor](/post/fall-apartment-decor-ideas/) carries the same warm palette into November.
+If the office is in a shared flat, [renter-friendly Halloween decor](/post/small-apartment-halloween-decor-renter-friendly/) has more damage-free options. For video-call backdrops with a softer feel, look at [vintage Halloween decor](/post/vintage-halloween-decor-ideas/) or [elegant Halloween decor](/post/elegant-halloween-decor/). Once November starts, [fall apartment decor](/post/fall-apartment-decor-ideas/) keeps the desk warm without the skeletons.

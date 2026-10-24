@@ -29,7 +29,7 @@ faqs:
 
 A good autumn mantel uses three clearly different heights, a palette of browns rather than orange, and natural materials that look better as they dry — with about 40% of the shelf left empty. It takes twenty minutes and mostly uses what's already in the house.
 
-<!-- [ADD YOUR PHOTO: your mantel or shelf cleared and empty, before styling] -->
+<!-- [ADD YOUR PHOTO: your mantel or shelf cleared and empty, before styling] {file: photo-1} -->
 
 Autumn decorating has a bad reputation, and it has earned it. The default is orange plastic, glitter, and a cardboard banner spelling out a sentiment nobody has ever said aloud. But the season itself — dried seed heads, russet, wax, low light — is genuinely beautiful, and a mantel is the easiest place in the house to mark it.
 
@@ -53,7 +53,7 @@ Every mantel arrangement needs objects at three distinct heights, and the differ
 
 > Group in odd numbers, cluster rather than spread, and leave the third of the mantel furthest from your anchor almost bare. That emptiness is what stops it looking like a shop display.
 
-<!-- [ADD YOUR PHOTO: your finished arrangement showing the three heights] -->
+<!-- [ADD YOUR PHOTO: your finished arrangement showing the three heights] {file: photo-2} -->
 
 ## The palette: three colours, no orange
 
@@ -121,18 +121,6 @@ A TV over the fireplace changes the rules: nothing can block the screen.
 - Put any tall pieces, like a branch arrangement or candlesticks, at the **far ends**.
 - Run a low line of dried wheat, olive branches or a slim garland along the front edge.
 - Remember that **heat** from a working fireplace rises; dried flowers and candles directly below a TV aren't a good mix.
-
-## What it costs
-
-| Item | Typical cost |
-| --- | --- |
-| Bunch of dried wheat or oats | $8–$15 |
-| Dried hydrangea or pampas | $10–$25 |
-| Foraged branches and seed heads | Free |
-| Three beeswax or LED tapers | $15–$35 |
-| Heavy ceramic jug or vase (lasts years) | $25–$60 |
-
-Prices vary by region and season.
 
 ## No fireplace? Use the same rules elsewhere
 

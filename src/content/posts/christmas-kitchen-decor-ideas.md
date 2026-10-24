@@ -30,7 +30,7 @@ The best Christmas kitchen decor goes above and around the work surfaces, not on
 
 The kitchen is a working room in December — probably the busiest of the year — so every idea here leaves the prep area clear.
 
-<!-- [ADD YOUR PHOTO: your kitchen before decorating, showing counters and window] -->
+<!-- [ADD YOUR PHOTO: your kitchen before decorating, showing counters and window] {file: photo-1} -->
 
 ## Rules for a Working Kitchen
 
@@ -61,13 +61,13 @@ Small wreaths (20–30 cm) on two or three upper cabinet doors look festive at e
 
 ### 5. Run garland along the top of upper cabinets
 
-The space above upper cabinets is perfect for a garland and lights — out of the way and visible from across the room. Keep it to the cabinets away from the cooker. Faux garland is easier to dust off in January.
+The space above upper cabinets suits a garland and lights well — out of the way and visible from across the room. Keep it to the cabinets away from the cooker. Faux garland is easier to dust off in January.
 
 ### 6. Tie ribbon on handles
 
 Velvet ribbon bows on a few cabinet handles or the oven door handle are cheap and come off in seconds. Keep them off the oven itself if the handle gets hot.
 
-<!-- [ADD YOUR PHOTO: your cabinet doors with wreaths or ribbon] -->
+<!-- [ADD YOUR PHOTO: your cabinet doors with wreaths or ribbon] {file: photo-2} -->
 
 ## Shelves
 
@@ -126,27 +126,13 @@ A pot of rosemary trimmed into a little tree shape, or eucalyptus and fir sprigs
 
 A small pan of water with orange peel, cinnamon sticks, cloves and a little rosemary on a low heat makes the whole home smell like Christmas. Never leave it unattended, and top up the water so the pan doesn't boil dry.
 
-## Mistakes to Avoid
-
+## Kitchen Hazards to Watch
 - **Decorating the prep counter.** Keep it clear for cooking.
 - **Garland above the cooker.** Heat and steam rise.
 - **Felt and paper decorations near the sink.** They won't survive.
 - **Real candles near tea towels or paper.** Use LED candles.
 - **Cables trailing across the counter.** Use battery lights.
 
-## What It Costs
-
-| Item | Typical cost |
-| --- | --- |
-| Battery window lights with timer | $10–$25 |
-| Small faux wreaths (3) | $25–$50 |
-| Faux garland for cabinet tops | $20–$40 |
-| Ribbon roll | $5–$10 |
-| Festive tea towels (2) | $10–$20 |
-| Clementines, cinnamon and oranges | $10–$20 |
-
-Prices vary by region and store.
-
-<!-- [ADD YOUR PHOTO: your kitchen fully decorated] -->
+<!-- [ADD YOUR PHOTO: your kitchen fully decorated] {file: photo-3} -->
 
 For other rooms, see [cozy Christmas living room ideas](/post/cozy-christmas-living-room-ideas/) and [Christmas bedroom ideas](/post/christmas-bedroom-ideas/). If your kitchen is tiny, [small-space Christmas decor ideas](/post/small-space-christmas-decor-ideas/) shows how to pick one spot per room, and [small kitchen organization ideas](/post/small-kitchen-organization-ideas/) frees up the space to begin with.

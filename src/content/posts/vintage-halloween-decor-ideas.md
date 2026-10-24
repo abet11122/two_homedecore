@@ -79,7 +79,7 @@ Cheesecloth is inexpensive and available at fabric stores and online. It stores 
 
 A mantel styled with antique candlesticks, a vintage print, a black cat figurine, and a few aged pumpkins creates a complete vintage Halloween display in one place. Keep the palette to amber, black, and cream.
 
-Repeat the same two or three materials across the mantel rather than using many unrelated objects.
+Stick to two or three materials — paper, glass and wood, say — so the display looks collected rather than random.
 
 ## 11. Add a Vintage Apothecary Display
 
@@ -89,13 +89,13 @@ Old glass bottles are common at antique shops and thrift stores. Print or handwr
 
 ## 12. Use a Vintage-Style Tablecloth
 
-A tablecloth in a vintage Halloween print — black cats, pumpkins, or bats on a cream or amber background — transforms a dining table or console table into a seasonal display surface. Vintage-style tablecloths are available on Etsy and at antique fairs.
+A tablecloth in a vintage Halloween print — black cats, pumpkins, or bats on a cream or amber background — turns a dining table or console table into a seasonal display surface. Vintage-style tablecloths are available on Etsy and at antique fairs.
 
 A tablecloth is one of the most impactful single changes you can make to a room for any seasonal display.
 
 ## 13. Hang a Vintage-Style Wreath
 
-A wreath made from dried materials — seed pods, dried orange slices, dark eucalyptus, and small gourds — in a vintage colour palette suits the aesthetic far better than a modern foam wreath. Make one yourself or buy from an Etsy seller who works in dried materials.
+A wreath made from dried materials — seed pods, dried orange slices, dark eucalyptus, and small gourds — in a vintage colour palette suits the aesthetic far better than a modern foam wreath. You can make one in an evening or find a maker selling dried-material pieces online.
 
 Dried wreaths last the entire season and often look better as they age.
 
@@ -113,9 +113,9 @@ These are among the most collectible vintage Halloween items and are widely repr
 
 ## 16. Add a Vintage Moon or Celestial Element
 
-A large moon print, a celestial map, or a vintage astronomy illustration adds a slightly mystical quality that suits vintage Halloween decor. Frame it and hang it as a focal point, or prop it on a shelf.
+A large moon print, a celestial map, or a vintage astronomy illustration adds a slightly mystical quality that suits vintage Halloween decor. Put it in a simple frame above the console, or lean it on a shelf.
 
-Vintage celestial prints are available as free downloads from public domain archives and cost nothing to print and frame.
+Many museum archives offer old Halloween postcards and prints as free public-domain downloads, so the only cost is printing and frame.
 
 ## 17. Keep the Palette Warm and Faded
 
@@ -123,10 +123,8 @@ The most important rule for vintage Halloween decor is the palette. Warm amber, 
 
 A single bright modern orange pumpkin in a vintage display will pull the eye away from everything else. Keep the palette consistent and the display will read as intentional.
 
-## Final Thoughts
-
 Vintage Halloween decor works because it draws on a visual language that is genuinely old — the prints, the colours, and the objects all have a history. Start with a few reproduction prints, a pair of antique candlesticks, and a matte pumpkin. The palette does the rest.
 
 ## More Halloween ideas
 
-If you liked these, try [Halloween mantel decor ideas](/post/halloween-mantel-decor-ideas/), [Halloween wreath ideas](/post/halloween-wreath-ideas-front-door-styling/) or [elegant Halloween decor](/post/elegant-halloween-decor/). When the season turns, [the autumn mantel](/post/autumn-mantel-styling/) carries the same warm palette into November.
+Printed vintage art looks great above a fireplace — see [Halloween mantel decor](/post/halloween-mantel-decor-ideas/). Crepe and paper also suit [Halloween wreaths](/post/halloween-wreath-ideas-front-door-styling/), and [elegant Halloween decor](/post/elegant-halloween-decor/) is the candlelit cousin of this look. The amber and cream palette carries straight into [the autumn mantel](/post/autumn-mantel-styling/).

@@ -30,7 +30,7 @@ The best small studio apartment ideas start with the bed: it's the biggest piece
 
 For how to build boundaries between zones, see [zoning a studio](/post/studio-apartment-zoning/). This guide is about choosing the furniture and layout.
 
-<!-- [ADD YOUR PHOTO: your studio from the front door] -->
+<!-- [ADD YOUR PHOTO: your studio from the front door] {file: photo-1} -->
 
 ## Start With the Bed
 
@@ -89,7 +89,7 @@ For more space-finding ideas, see [small apartment organization ideas](/post/sma
 
 **45 m² (485 sq ft):** Queen bed behind a ceiling-track curtain. A full sofa and armchair around a coffee table. A small desk in an alcove or at the end of the bed. Separate rugs and lighting for each zone.
 
-<!-- [ADD YOUR PHOTO: your studio layout from a high corner] -->
+<!-- [ADD YOUR PHOTO: your studio layout from a high corner] {file: photo-2} -->
 
 ## Keep Walkways and the Window Clear
 
@@ -116,15 +116,14 @@ Warm white (2700K) bulbs throughout. At night, turn off the overhead and switch 
 - A large mirror opposite or beside the window.
 - Fewer, larger pieces of art instead of many small frames.
 
-## Mistakes to Avoid
-
+## Studio Layout Mistakes
 - **Buying a sofa before deciding where the bed goes.**
 - **Tall furniture against the window.**
 - **Too many small pieces.** Fewer, better-scaled pieces feel calmer.
 - **Only one ceiling light.**
 - **No closed storage.** Everything you own is on view.
 
-## What It Costs
+## Ballpark Prices
 
 | Item | Typical cost |
 | --- | --- |
@@ -136,6 +135,6 @@ Warm white (2700K) bulbs throughout. At night, turn off the overhead and switch 
 | Open bookcase divider | $60–$200 |
 | Ceiling-track curtain kit | $40–$120 |
 
-Prices vary by region and store.
+A wall bed is the outlier. Most studios get further with a daybed and a drop-leaf table for a fraction of the price.
 
 For the next step, [zoning a studio](/post/studio-apartment-zoning/) covers dividers and circulation in detail. [Apartment decor ideas on a budget](/post/apartment-decor-ideas-budget/) shows the cheapest upgrades for a rental, and if you work from home, [small home office ideas](/post/small-home-office-ideas/) covers fitting a desk into a corner.

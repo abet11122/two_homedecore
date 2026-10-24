@@ -30,7 +30,7 @@ A budget small bedroom makeover works best in a fixed order: clear and rearrange
 
 This plan is for a typical small bedroom of about 3 × 3 m (10 × 10 ft). Each step includes what it costs, so you can stop when the budget does.
 
-<!-- [ADD YOUR PHOTO: the room before the makeover, from the doorway] -->
+<!-- [ADD YOUR PHOTO: the room before the makeover, from the doorway] {file: photo-1} -->
 
 ## Friday Evening: Clear and Plan (Free)
 
@@ -70,7 +70,7 @@ Decide what the room actually lacks: light, storage, softness, or color. Buy for
 
 Fill holes, sand, and wipe down the walls. Tape the edges. Cut in around the edges with a brush, then roll the walls. Wait the drying time on the tin before the second coat. Open a window and leave the room to air overnight.
 
-<!-- [ADD YOUR PHOTO: the room mid-paint or with the finished color] -->
+<!-- [ADD YOUR PHOTO: the room mid-paint or with the finished color] {file: photo-2} -->
 
 ## Sunday: Textiles and Light ($100–$300)
 
@@ -122,15 +122,14 @@ New knobs or handles on a dresser or wardrobe cost a few dollars each and make o
 
 A large mirror opposite or beside the window doubles the daylight. Lean a full-length mirror against a wall (and secure it with an anti-tip strap), or mount one on the back of the door.
 
-## Mistakes to Avoid
-
+## Where Makeovers Go Over Budget
 - **Buying furniture first.** Do the free and cheap steps first.
 - **Too many small decorative items.** One big print beats ten tiny frames.
 - **Curtain rods on the window frame.** Go higher and wider.
 - **Skipping wall prep.** Paint shows every hole you didn't fill.
 - **Cool-white bulbs.** They undo all the warmth of new bedding.
 
-## What It Costs
+## Budget by Stage
 
 | Stage | What's included | Typical cost |
 | --- | --- | --- |
@@ -139,6 +138,6 @@ A large mirror opposite or beside the window doubles the daylight. Lean a full-l
 | Textiles and light | Bedding, curtains, bulbs, one lamp | $150–$300 |
 | Storage and finishing | Hooks, under-bed drawers, a shelf, handles, a mirror | $100–$300 |
 
-Prices vary by region and store.
+These are typical ranges from mainstream stores. Second-hand lamps and curtains can easily halve the textiles stage.
 
 For the finishing layers, see [cozy small bedroom ideas](/post/cozy-small-bedroom-ideas/) and [small bedroom ideas that look expensive](/post/small-bedroom-ideas-that-look-expensive/). If you're renting and can't paint, [apartment decor ideas on a budget](/post/apartment-decor-ideas-budget/) covers removable alternatives.

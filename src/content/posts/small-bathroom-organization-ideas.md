@@ -18,7 +18,7 @@ faqs:
   - q: "How deep should over-toilet shelving be?"
     a: "Most over-toilet shelves work at 15–20 cm (6–8 in) deep. Anything deeper tends to hit your head when you stand up and makes the cistern lid hard to lift. Measure from the wall to the front of the cistern, then outline the shelf on the wall with painter's tape before buying."
   - q: "What bathroom storage works without drilling?"
-    a: "An over-door rack, a slim rolling cart, a tension-pole shower caddy and freestanding over-toilet frames all work without screws. Check each product's load rating, and note that tall freestanding units usually still need an anti-tip strap, especially in homes with children."
+    a: "An over-door rack, a slim rolling cart, a tension-pole shower caddy and freestanding over-toilet frames all work without screws. Check each product's load rating. Tall freestanding units usually still need an anti-tip strap, especially in homes with children."
   - q: "Are hooks or towel rails better in a small bathroom?"
     a: "Hooks need less wall length and suit robes and hand towels. Bath towels dry faster spread out on a rail, so a short rail plus two hooks is a good compromise. If towels stay damp and smell musty on hooks, switch to a rail or a ladder rack."
   - q: "Can I add a recessed niche for more storage?"
@@ -33,7 +33,7 @@ Small bathroom organization works when every item has a home within reach of whe
 
 A typical small bathroom — around 1.5 × 2 m (5 × 7 ft) — has three hard-working zones: the vanity and under-sink cabinet, the wall above the toilet, and the back of the door. Most clutter problems come from one of them being underused while the counter takes the overflow. The 17 ideas below are grouped by zone so you can fix the worst one first.
 
-<!-- [ADD YOUR PHOTO: your own bathroom before organizing — counter and open cabinet] -->
+<!-- [ADD YOUR PHOTO: your own bathroom before organizing — counter and open cabinet] {file: photo-1} -->
 
 ## Start Here: Declutter and Measure
 
@@ -146,7 +146,7 @@ Rolled hand towels and washcloths fit neatly in baskets and show at a glance how
 
 Keep only the product in use in the shower and one backup bin elsewhere — a hall cupboard or the top of a wardrobe. A simple rule keeps it under control: don't buy another backup until the last one is opened. Steam and heat also shorten the shelf life of many products, so this protects them too.
 
-## What It Costs: A Simple Budget Plan
+## A Budget Plan in Three Levels
 
 | Level | What to buy | Typical cost |
 | --- | --- | --- |
@@ -156,8 +156,7 @@ Keep only the product in use in the shower and one backup bin elsewhere — a ha
 
 Prices are rough ranges from mainstream homeware stores and vary by region. Reused boxes and jars cost nothing and are a good way to test a layout before buying fitted organizers.
 
-## Mistakes to Avoid
-
+## Five Common Mistakes
 - **Buying by overall cabinet size.** Pipes, hinges and the front lip shrink usable space. Measure each zone separately.
 - **Deep shelves above the toilet.** Anything over about 20 cm becomes a head hazard and blocks the cistern lid.
 - **Heavy or breakable items overhead.** Glass jars and full bottles on a high shelf can fall into the toilet or onto someone.
@@ -168,6 +167,6 @@ Prices are rough ranges from mainstream homeware stores and vary by region. Reus
 
 After you organize, live with it for a week. Notice what still ends up on the counter every day. That item needs a reachable home closer to where it's used, or there are simply too many of it in the room. Adjust that one spot first. More containers only help when they make putting things away as easy as leaving them out.
 
-<!-- [ADD YOUR PHOTO: the same bathroom after organizing, from the same angle as the before photo] -->
+<!-- [ADD YOUR PHOTO: the same bathroom after organizing, from the same angle as the before photo] {file: photo-2} -->
 
 If your bathroom is also your only storage for cleaning supplies, the [small apartment organization guide](/post/small-apartment-organization-ideas/) covers whole-home zones. Renters can find more no-drill options in [apartment decor ideas on a budget](/post/apartment-decor-ideas-budget/), and the [floating shelf checklist](/post/diy-floating-shelves/) explains how to check a wall before mounting anything heavier than a hook.

@@ -27,6 +27,8 @@ Then rank them by hours used per week. The zone with the most hours gets the bes
 
 If you work from home eight hours a day, the desk gets the window. The bed can go in the darkest corner, where it will sleep better anyway.
 
+<!-- [ADD YOUR PHOTO: your studio from the front door, showing the zones you set up] {file: photo-1} -->
+
 ## The five tools for building a boundary
 
 **1. Rugs — the cheapest walls you can buy**
@@ -102,6 +104,8 @@ For a compact sleeping area, our [small bedroom ideas](/post/small-bedroom-ideas
 - **Circulation:** a clear 90cm run from the front door past the sofa to the kitchen; 60cm around three sides of the bed.
 
 Four zones, no walls, no divider bought.
+
+<!-- [ADD YOUR PHOTO: your own layout from a high corner, so the walkways and zones are visible] {file: photo-2} -->
 
 ## The one habit that matters
 

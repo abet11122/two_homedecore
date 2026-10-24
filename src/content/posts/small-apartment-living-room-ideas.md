@@ -30,7 +30,7 @@ A small apartment living room works when the furniture is scaled to the room, th
 
 These ideas suit living rooms of roughly 9–15 m² (100–160 sq ft) — common in one-bedroom apartments.
 
-<!-- [ADD YOUR PHOTO: your living room before rearranging] -->
+<!-- [ADD YOUR PHOTO: your living room before rearranging] {file: photo-1} -->
 
 ## Measure Before You Move Anything
 
@@ -66,7 +66,7 @@ Slim arms make a big difference: a sofa with 25 cm arms on each side is 50 cm lo
 
 **4. Two chairs and a loveseat.** A loveseat of 130–150 cm plus two small chairs around a round coffee table. Good for conversation and flexible for odd-shaped rooms.
 
-<!-- [ADD YOUR PHOTO: your chosen layout from the doorway] -->
+<!-- [ADD YOUR PHOTO: your chosen layout from the doorway] {file: photo-2} -->
 
 ## Keep the Clearances
 
@@ -111,15 +111,14 @@ Warm-white 2700K bulbs. Turn off the overhead in the evening and the room immedi
 - Choose a consistent palette of three colors.
 - Keep the coffee table and console mostly clear.
 
-## Mistakes to Avoid
-
+## Layout Errors
 - **A sofa that's too deep.** Over 100 cm deep eats the room.
 - **A tiny rug.** Size up.
 - **Furniture against every wall.** Pull at least one piece in.
 - **Blocking the radiator.** Leave space for heat to circulate.
 - **Only one ceiling light.**
 
-## What It Costs
+## Price Guide
 
 | Item | Typical cost |
 | --- | --- |
@@ -130,6 +129,6 @@ Warm-white 2700K bulbs. Turn off the overhead in the evening and the room immedi
 | Storage ottoman | $40–$120 |
 | Floor lamp and table lamp | $60–$200 |
 
-Prices vary by region and store.
+The sofa and armchair take most of the budget. Put any savings into a rug that is big enough.
 
 For a calmer look, see the [minimalist living room guide](/post/minimalist-living-room-guide/). If your living room is also a bedroom, [zoning a studio](/post/studio-apartment-zoning/) and [small studio apartment ideas](/post/small-studio-apartment-ideas/) show how to divide it, and [apartment decor ideas on a budget](/post/apartment-decor-ideas-budget/) covers cheap upgrades.

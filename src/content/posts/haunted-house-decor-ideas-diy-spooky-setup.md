@@ -1,6 +1,6 @@
 ---
 title: "17 Haunted House Decor Ideas — DIY Spooky Setup for Halloween"
-description: "Transform your home into a haunted house with 17 DIY spooky setup ideas using cobwebs, fog machines, eerie lighting, props, and room-by-room styling for Halloween."
+description: "Turn your home into a haunted house with 17 DIY spooky setup ideas using cobwebs, fog machines, eerie lighting, props, and room-by-room styling for Halloween."
 category: seasonal
 tags: ["halloween decor", "haunted house", "diy halloween", "spooky decor", "halloween 2026"]
 publishDate: 2026-09-22
@@ -8,22 +8,22 @@ heroImage: "photo-1508193638397-1c4234db14d8"
 pinImage: "photo-1572635196237-14b3f281503f"
 featured: false
 keyTakeaways:
-  - "Lighting is the most important element of a haunted house — green, purple, and red bulbs transform any room instantly."
+  - "Lighting is the most important element of a haunted house — green, purple and red bulbs change a room the moment you switch them on."
   - "Cobwebs, fog, and sound effects create atmosphere for almost no cost."
   - "Work room by room rather than covering everything at once — a few strong moments are more effective than a house covered in props."
   - "The entryway and the main living area are the two highest-impact rooms to focus on."
 faqs:
   - q: "How do I make my house look haunted for Halloween?"
-    a: "Start with the lighting — swap standard bulbs for green, purple, or red ones in the rooms you want to transform. Add cobwebs to corners and furniture, a fog machine for atmosphere, and a few well-placed props (a skeleton, a cauldron, a mirror with a ghostly effect). Sound effects playing quietly in the background complete the transformation."
+    a: "Start with the lighting — swap standard bulbs for green, purple, or red ones in the rooms you want to make spooky. Add cobwebs to corners and furniture, a fog machine for atmosphere, and a few well-placed props (a skeleton, a cauldron, a mirror with a ghostly effect). Sound effects playing quietly in the background complete the transformation."
   - q: "What are the most effective cheap haunted house props?"
-    a: "Cotton stretch cobwebs ($3–$5 a bag) are the most effective cheap prop — they cover a large area and create an immediate haunted effect. Coloured light bulbs ($2–$4 each) transform the atmosphere of any room. A fog machine ($20–$30) adds the most dramatic atmospheric effect per dollar spent."
+    a: "Cotton stretch cobwebs ($3–$5 a bag) are the most effective cheap prop — they cover a large area and create an immediate haunted effect. Coloured light bulbs ($2–$4 each) change the atmosphere of any room. A fog machine ($20–$30) adds the most dramatic atmospheric effect per dollar spent."
 ---
 
-A DIY haunted house works because the atmosphere is created by lighting, sound, and a few well-placed props rather than expensive decorations. This guide covers 17 ways to transform a real home into a haunted house for Halloween, room by room.
+A DIY haunted house works because the atmosphere is created by lighting, sound, and a few well-placed props rather than expensive decorations. This guide covers 17 ways to turn a real home into a haunted house for Halloween, room by room.
 
 ## 1. Start With the Lighting
 
-Lighting is the single most important element of a haunted house. Swap standard bulbs for coloured ones — green, purple, red, or amber — in the rooms you want to transform. The colour shift alone changes the atmosphere of any room dramatically.
+Lighting is the single most important element of a haunted house. Swap standard bulbs for coloured ones — green, purple, red, or amber — in the rooms you want to make spooky. The colour shift alone changes the atmosphere of any room dramatically.
 
 Smart bulbs that can be controlled by phone allow you to shift the colour throughout the night.
 
@@ -121,12 +121,10 @@ Label the jars with handwritten tags: "bat wings," "eye of newt," "spider silk."
 
 The most important rule for a DIY haunted house is to work room by room rather than covering everything at once. A few strong moments — a dramatic entryway, a spooky living room, a haunted hallway — are more effective than a house covered in props.
 
-Choose two or three rooms to transform fully and leave the rest relatively normal. The contrast between the haunted rooms and the normal ones adds to the effect.
-
-## Final Thoughts
+Choose two or three rooms to go all-in on and leave the rest relatively normal. The contrast between the haunted rooms and the normal ones adds to the effect.
 
 A DIY haunted house is built on atmosphere rather than expensive props. Start with the lighting and the cobwebs — they create the foundation of the effect. Add a fog machine, a skeleton, and sound effects. Work room by room and commit to a few strong moments rather than covering everything.
 
 ## More Halloween ideas
 
-If you liked these, try [outdoor Halloween decor for small yards and balconies](/post/outdoor-halloween-decor-ideas-small-yards-balconies/), [gothic dark-botanical Halloween decor](/post/gothic-halloween-decor-ideas-dark-botanical/) or [neon Y2K Halloween party decor](/post/neon-y2k-apocalypse-halloween-party-decor-ideas/). When the season turns, [cozy fall living room decor](/post/fall-living-room-decor-ideas/) carries the same warm palette into November.
+Take the scare outside with [outdoor decor for small yards](/post/outdoor-halloween-decor-ideas-small-yards-balconies/), or go moody instead of scary with [gothic dark-botanical decor](/post/gothic-halloween-decor-ideas-dark-botanical/). Throwing a party? [Neon Y2K party decor](/post/neon-y2k-apocalypse-halloween-party-decor-ideas/) uses the same colored bulbs. When the house goes back to normal, [cozy fall living room decor](/post/fall-living-room-decor-ideas/) is a gentler next step.

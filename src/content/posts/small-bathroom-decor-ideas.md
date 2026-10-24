@@ -30,7 +30,7 @@ Small bathroom decor works best when it makes the room feel bigger and survives 
 
 For storage and organization, see [small bathroom organization ideas](/post/small-bathroom-organization-ideas/). This guide is about how the room looks.
 
-<!-- [ADD YOUR PHOTO: your bathroom before decorating] -->
+<!-- [ADD YOUR PHOTO: your bathroom before decorating] {file: photo-1} -->
 
 ## Make It Feel Bigger
 
@@ -68,7 +68,7 @@ Peel-and-stick wallpaper works best on a wall away from the shower, in a well-ve
 
 Two or three towel colors that match the walls or shower curtain look calmer than a mixed collection. White, grey, sage, terracotta and navy all work.
 
-<!-- [ADD YOUR PHOTO: your towels and shower curtain] -->
+<!-- [ADD YOUR PHOTO: your towels and shower curtain] {file: photo-2} -->
 
 ## Lighting
 
@@ -118,27 +118,13 @@ A small framed print in a frame with a glass front, hung away from the shower. M
 
 A cotton or chenille bath mat in your accent color is soft underfoot and adds warmth. Wash it weekly.
 
-## Mistakes to Avoid
-
+## Decor That Doesn't Survive a Bathroom
 - **A small mirror.** Go wide.
 - **Ordinary paint in a steamy room.** Use bathroom-rated paint.
 - **A curtain rod at door height.** Hang it near the ceiling.
 - **Too many patterns.** Choose one.
 - **Decor that hates moisture.** Paper, unsealed wood and fabric suffer.
 
-## What It Costs
-
-| Item | Typical cost |
-| --- | --- |
-| Large mirror | $60–$200 |
-| Bathroom paint (2.5 L) | $30–$70 |
-| Extra-long shower curtain and rod | $30–$80 |
-| Matching towel set | $40–$100 |
-| Plants (2) | $15–$50 |
-| New hardware | $20–$60 |
-
-Prices vary by region and store.
-
-<!-- [ADD YOUR PHOTO: your finished bathroom] -->
+<!-- [ADD YOUR PHOTO: your finished bathroom] {file: photo-3} -->
 
 For the practical side, see [small bathroom organization ideas](/post/small-bathroom-organization-ideas/), [over-toilet storage](/post/bathroom-over-toilet-storage-ideas/) and [under-sink organization](/post/under-sink-bathroom-organization-ideas/). Renters can find more damage-free upgrades in [apartment decor ideas on a budget](/post/apartment-decor-ideas-budget/).

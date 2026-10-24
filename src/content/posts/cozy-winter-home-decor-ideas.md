@@ -28,7 +28,7 @@ faqs:
 
 Cozy winter decor after the holidays keeps the warm, wintry parts of Christmas — lights, plain greenery, candles, throws — and packs away the obviously festive ones. Then add textiles you can feel, warm evening light, and draft-proofing, so the home feels warm as well as looking it. Winter is long; the goal is a home that's a pleasure to be in until spring.
 
-<!-- [ADD YOUR PHOTO: your living room in January, after Christmas has been packed away] -->
+<!-- [ADD YOUR PHOTO: your living room in January, after Christmas has been packed away] {file: photo-1} -->
 
 ## Edit the Christmas Decor
 
@@ -70,7 +70,7 @@ Thermal-lined curtains that reach the floor or sill keep heat in. Close them at 
 
 Velvet, wool, bouclé and corduroy covers in winter colors — cream, camel, charcoal, forest green, oxblood — make the sofa feel warmer.
 
-<!-- [ADD YOUR PHOTO: your sofa with winter throws and cushions] -->
+<!-- [ADD YOUR PHOTO: your sofa with winter throws and cushions] {file: photo-2} -->
 
 ## Light the Dark Evenings
 
@@ -143,25 +143,11 @@ A bowl of citrus, a pot of soup or stew, and a jar of winter branches on the tab
 
 A boot tray, a basket of hats and gloves, and a warm lamp for coming home in the dark. See [small entryway organization](/post/small-entryway-organization-ideas/).
 
-## Mistakes to Avoid
-
+## Easy to Get Wrong in January
 - **Keeping all the Christmas decor up.** Edit to wintry pieces only.
 - **Ignoring drafts.** Fix them before buying decor.
 - **Blocking radiators** with furniture or curtains.
 - **Bright overhead light in the evening.** Use lamps.
 - **Toxic bulbs where pets can reach.**
-
-## What It Costs
-
-| Item | Typical cost |
-| --- | --- |
-| Wool or knit throw | $30–$90 |
-| Flannel sheet set | $40–$100 |
-| Sheepskin or thick wool rug | $50–$200 |
-| Thermal curtains | $40–$120 |
-| Draft excluder and foam strips | $15–$35 |
-| Forced bulbs and branches | $15–$40 |
-
-Prices vary by region and store.
 
 For more warmth and texture ideas, see [cozy Christmas living room ideas](/post/cozy-christmas-living-room-ideas/) — most of the textiles carry straight into January. The [minimalist living room guide](/post/minimalist-living-room-guide/) is a good reset after the holidays, and [apartment decor ideas on a budget](/post/apartment-decor-ideas-budget/) covers lighting changes that make winter evenings better.

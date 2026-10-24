@@ -134,7 +134,7 @@ Warm white, soft grey, muted blue, sage or sand on the walls makes a small room 
 
 Space, dinosaurs, football, cars, gaming — choose one theme and use it in three places: bedding, one poster or print, and one lamp or rug. When he moves on, you swap three cheap things, not a whole room.
 
-<!-- [ADD YOUR PHOTO: your son's room with its theme items] -->
+<!-- [ADD YOUR PHOTO: your son's room with its theme items] {file: photo-1} -->
 
 ### 16. Leave One Wall Mostly Empty
 
@@ -146,15 +146,14 @@ A wall with nothing on it gives the eye somewhere to rest and makes the things y
 
 Every evening: clothes in the hamper, bag on its hook, one toy bin filled. Every few months: take out what's outgrown or forgotten. If one category keeps landing on the floor, its bin is too small, too high or too far from where it's used. Move the bin before buying more storage.
 
-## Mistakes to Avoid
-
+## Safety and Storage Mistakes
 - **Not anchoring tall furniture.** It's essential in a child's room.
 - **A top bunk for a child under 6.**
 - **High, lidded storage for everyday toys.**
 - **Adhesive hooks for heavy school bags.**
 - **Theme everything.** It dates fast and costs more to change.
 
-## What It Costs
+## Typical Prices
 
 | Upgrade | Typical cost |
 | --- | --- |
@@ -164,6 +163,6 @@ Every evening: clothes in the hamper, bag on its hook, one toy bin filled. Every
 | Narrow desk and lamp | $80–$200 |
 | Drawer or cabin bed (single) | $250–$600 |
 
-Prices vary by region and store.
+Cube shelves are easy to find second-hand. Buy the bed new, so you get the safety instructions and the right fixings.
 
 As he gets older, see [modern boys bedroom ideas](/post/modern-boys-bedroom-ideas/) for a more grown-up look and [teenage boy bedroom ideas](/post/teenage-boy-bedroom-ideas/) for study and gaming zones. For general storage measurements, see [small bedroom storage](/post/small-bedroom-storage-ideas/), and the [floating shelf checklist](/post/diy-floating-shelves/) covers wall fixings.

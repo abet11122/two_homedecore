@@ -30,7 +30,7 @@ A cozy small bedroom feels warm, soft and quiet — and the biggest levers are l
 
 A small bedroom has an advantage here: it's easier to make a small room feel enveloping than a big one.
 
-<!-- [ADD YOUR PHOTO: your bedroom in the evening with lamps on] -->
+<!-- [ADD YOUR PHOTO: your bedroom in the evening with lamps on] {file: photo-1} -->
 
 ## Light
 
@@ -114,27 +114,13 @@ If there's a corner, add a small armchair or floor cushion, a reading lamp and a
 
 A framed photo, a favorite print or a plant on the windowsill makes the room feel like yours. One or two personal objects are cozier than a shelf of decorative accessories.
 
-<!-- [ADD YOUR PHOTO: your bed styled with layered textiles] -->
+<!-- [ADD YOUR PHOTO: your bed styled with layered textiles] {file: photo-2} -->
 
-## Mistakes to Avoid
-
+## What Makes a Bedroom Feel Less Cozy
 - **Cool-white bulbs.** They make a bedroom feel like an office.
 - **Too many cushions.** More texture, not more cushions.
 - **A hot room.** Cozy isn't the same as warm; aim cool.
 - **Curtains hung on the window frame.** Hang them higher and wider.
 - **A visible work desk.** Hide it at night.
-
-## What It Costs
-
-| Upgrade | Typical cost |
-| --- | --- |
-| Warm-white dimmable bulbs (3) | $15–$30 |
-| Plug-in wall sconces (pair) | $40–$100 |
-| Knit or waffle throw | $30–$80 |
-| Wool runner or small rug | $50–$150 |
-| Lined curtains and rod | $60–$150 |
-| Linen or brushed-cotton sheet set | $60–$200 |
-
-Prices vary by region and store.
 
 For a complete refresh, see the [small bedroom makeover guide](/post/small-bedroom-makeover-ideas/). Want the room to look more polished as well as cozy? [Small bedroom ideas that look expensive](/post/small-bedroom-ideas-that-look-expensive/) has the details. In December, [Christmas bedroom ideas](/post/christmas-bedroom-ideas/) builds on this same warm, layered base.

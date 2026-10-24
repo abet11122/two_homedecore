@@ -29,7 +29,7 @@ faqs:
 
 Before installing floating shelves, work out exactly what they'll hold, find out what the wall is made of, and choose a shelf system whose maker rates it for that wall and load. Get any of those three wrong and a shelf that looks fine on day one can sag or pull out months later.
 
-<!-- [ADD YOUR PHOTO: the wall where you plan to put the shelf, with the outline taped on] -->
+<!-- [ADD YOUR PHOTO: the wall where you plan to put the shelf, with the outline taped on] {file: photo-1} -->
 
 A floating shelf hides its supports, which makes its real capacity difficult to judge by appearance. The safe choice depends on the shelf, bracket, fixings, wall construction, and the weight and position of what you put on it. This checklist helps you decide whether a proposed shelf fits the space and what information you need before installing it. It does not assign a universal weight rating to a wall or fixing.
 
@@ -95,31 +95,18 @@ Follow the product's instructions for fixing locations, drill sizes, fasteners, 
 
 Before placing objects on the shelf, check that the assembly sits as intended and that all required fixings are installed. Add items only within the documented rating, distribute them as the manufacturer instructs, and periodically check for movement, sagging, cracks, or loose fixings. Remove the load and seek advice if any of those appear.
 
-## Mistakes to Avoid
-
+## Common Shelf Failures
 - **Judging by the bracket rating alone.** The wall and fixings matter just as much.
 - **Deep shelves on plasterboard.** Leverage pulls anchors out over time.
 - **Drilling above a socket or switch.** Cables usually run straight up or down from them.
 - **Overloading the front edge.** Put heavier items near the wall and spread them along the shelf.
 - **Testing by hanging on it.** It can damage the wall even if the shelf holds.
 
-## What It Costs
-
-| Item | Typical cost |
-| --- | --- |
-| Ready-made floating shelf with hidden bracket, 60–90 cm | $20–$60 |
-| Heavy-duty concealed bracket for a DIY wooden shelf | $15–$40 |
-| Solid wood board, 20 × 3 cm, per meter | $15–$40 |
-| Stud and cable detector | $20–$50 |
-| Fixings (wall plugs, anchors, screws) | $5–$15 |
-
-Prices vary by region and store.
-
 ## When a Freestanding Shelf Is the Better Choice
 
 If the wall type is unknown, the manufacturer's support points do not align with safe fixing locations, or the intended load exceeds a documented rating, a freestanding unit is usually easier to assess and move. Check its own assembly and anchoring instructions, especially where children can reach it. The aim is usable storage that remains appropriate for the actual room and wall.
 
-<!-- [ADD YOUR PHOTO: your installed shelf, styled] -->
+<!-- [ADD YOUR PHOTO: your installed shelf, styled] {file: photo-2} -->
 
 ## Where to Use Floating Shelves
 

@@ -50,7 +50,7 @@ Keep the arrangement loose and asymmetric for a more editorial look. A tight gri
 
 Removable window clings can add a display to suitable glass without drilling. Check the product's surface and removal instructions, especially on coated or tinted glass, and test a small area first.
 
-Choose clings in black or translucent rather than bright colours for a more grown-up look.
+Black or frosted clings look more grown-up than bright cartoon ones.
 
 ## 6. Hang a Garland Along a Shelf
 
@@ -66,7 +66,7 @@ Ceramic pumpkins last indefinitely and store in a small box. Real pumpkins last 
 
 Flameless LED candles in dark vessels — black, terracotta, or dark ceramic — add atmosphere without any fire risk. Use them on shelves, windowsills, and the coffee table tray.
 
-Flameless candles with a flicker effect look more realistic than static ones. Most run on AA batteries and last the whole season.
+Pick LED candles that flicker; steady ones look fake from across the room. Most run on AA batteries and last the whole season.
 
 ## 9. Add a Seasonal Throw to the Sofa
 
@@ -102,7 +102,7 @@ They come down in seconds and store flat. This is one of the most renter-friendl
 
 Swapping two or three cushion covers for dark velvet or jacquard versions adds seasonal depth without any wall attachment.
 
-Cushion covers store flat and are easy to swap back after Halloween.
+Covers fold into a drawer on November 1st, and the sofa is back to normal.
 
 ## 15. Style the Entryway With One Pumpkin and One Candle
 
@@ -122,10 +122,8 @@ The most practical rule for small apartment Halloween decor is to keep everythin
 
 A single well-chosen display is always more effective than a room covered in seasonal products.
 
-## Final Thoughts
-
 Start with one focal point, keep walkways and exits clear, and favor pieces that store flat. Before attaching anything to a wall or window, check the lease and the product's surface instructions. A tabletop display is a useful fallback when the wall finish is uncertain.
 
 ## More Halloween ideas
 
-If you liked these, try [Halloween entryway decor ideas](/post/halloween-entryway-decor-ideas/), [outdoor Halloween decor for small yards and balconies](/post/outdoor-halloween-decor-ideas-small-yards-balconies/) or [15 Halloween bathroom decor ideas](/post/halloween-bathroom-decor-ideas/). When the season turns, [fall apartment decor](/post/fall-apartment-decor-ideas/) carries the same warm palette into November.
+Your front door gets more attention in [Halloween entryway decor](/post/halloween-entryway-decor-ideas/), and a balcony can join in with [outdoor decor for small spaces](/post/outdoor-halloween-decor-ideas-small-yards-balconies/). The [Halloween bathroom guide](/post/halloween-bathroom-decor-ideas/) is full of peel-off ideas for rentals. When it's all packed away, [fall apartment decor](/post/fall-apartment-decor-ideas/) uses the same damage-free hooks.

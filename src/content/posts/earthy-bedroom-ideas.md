@@ -28,7 +28,7 @@ faqs:
 
 An earthy bedroom feels calm because it borrows from nature: warm, muted colors like clay, sand and olive, natural materials like linen, wood and wool, and a few plants. Start with a three-color palette, choose textiles with visible texture, and add handmade or imperfect pieces. It works in a small room, and most of it moves with you if you rent.
 
-<!-- [ADD YOUR PHOTO: your bedroom as it is now] -->
+<!-- [ADD YOUR PHOTO: your bedroom as it is now] {file: photo-1} -->
 
 ## Build an Earthy Palette
 
@@ -77,7 +77,7 @@ A jute or sisal rug has strong texture but can feel rough barefoot; a wool rug, 
 
 Handmade pottery, a stoneware lamp base, a terracotta pot or a stone tray on the dresser add weight and a handmade quality. A few pieces is enough.
 
-<!-- [ADD YOUR PHOTO: a close-up of your bedside table with natural materials] -->
+<!-- [ADD YOUR PHOTO: a close-up of your bedside table with natural materials] {file: photo-2} -->
 
 ## Bring the Outside In
 
@@ -134,25 +134,11 @@ Without painting:
 
 These five or six things change the whole room — and move with you.
 
-## Mistakes to Avoid
-
+## Pitfalls With Earthy Palettes
 - **Too many browns in the same shade.** Mix light, mid and dark tones.
 - **Cool-white light.** It turns warm colors muddy.
 - **Lots of small plants.** Go for two or three larger ones.
 - **Shiny finishes.** Matte, natural and textured surfaces suit the look.
 - **Rough jute where you step barefoot.** Choose wool or a blend by the bed.
-
-## What It Costs
-
-| Item | Typical cost |
-| --- | --- |
-| Paint for a small bedroom (5 L) | $50–$120 |
-| Washed linen duvet cover and pillowcases | $80–$200 |
-| Wool or jute rug, 160 × 230 cm | $120–$350 |
-| Rattan or ceramic lamp | $40–$120 |
-| Two large plants | $40–$120 |
-| Linen curtains | $50–$150 |
-
-Prices vary by region and store.
 
 For more warmth, see [cozy small bedroom ideas](/post/cozy-small-bedroom-ideas/). The [small bedroom makeover plan](/post/small-bedroom-makeover-ideas/) explains how much paint you need and what order to work in, and [small bedroom ideas that look expensive](/post/small-bedroom-ideas-that-look-expensive/) covers the finishing details.

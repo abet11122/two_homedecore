@@ -30,7 +30,7 @@ The best Christmas coffee table decor fits on one tray, stays low, and leaves at
 
 The coffee table is the most used surface in a living room in December. It has to look festive and still work.
 
-<!-- [ADD YOUR PHOTO: your coffee table before decorating] -->
+<!-- [ADD YOUR PHOTO: your coffee table before decorating] {file: photo-1} -->
 
 ## Start With the Tray
 
@@ -79,13 +79,13 @@ Use two or three colors from the rest of your Christmas decor. If the tree is re
 
 **5. Book stack:** two Christmas-themed or red-covered books stacked flat, a small brass bell or reindeer on top, and a sprig of greenery beside them.
 
-<!-- [ADD YOUR PHOTO: your finished coffee table tray] -->
+<!-- [ADD YOUR PHOTO: your finished coffee table tray] {file: photo-2} -->
 
 ## Other Ideas
 
 ### 6. Lay a small wreath flat
 
-A 30–40 cm wreath laid flat with a lantern or pillar candle in the center makes an instant centerpiece, especially on a round table.
+A 30–40 cm wreath laid flat with a lantern or pillar candle in the center makes an easy centerpiece, especially on a round table.
 
 ### 7. Fill a glass bowl or hurricane
 
@@ -129,24 +129,11 @@ Festive coasters — cork, felt or wood — protect the table and add a small se
 
 A small box or a basket under the table keeps remotes and chargers off the festive tray.
 
-## Mistakes to Avoid
-
+## What Gets in the Way
 - **A centerpiece that blocks the TV or faces.** Keep it under about 30 cm.
 - **Decorations across the whole table.** Contain them on one tray.
 - **Real candles beside dried greenery.**
 - **Fragile glass ornaments** where children or pets can reach them.
 - **Too many colors.** Match the rest of the room.
-
-## What It Costs
-
-| Item | Typical cost |
-| --- | --- |
-| Tray | $15–$45 |
-| Mini faux tree or lantern | $15–$35 |
-| LED candles (3) | $15–$30 |
-| Pinecones, greenery and ornaments | $10–$25 |
-| Festive coasters | $10–$20 |
-
-Prices vary by region and store.
 
 For the rest of the room, see [cozy Christmas living room ideas](/post/cozy-christmas-living-room-ideas/). The three-height method is explained in more detail in [the autumn mantel](/post/autumn-mantel-styling/), and [small-space Christmas decor ideas](/post/small-space-christmas-decor-ideas/) shows how to decorate one spot per room.

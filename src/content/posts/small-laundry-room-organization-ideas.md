@@ -30,7 +30,7 @@ A small laundry area works when one load can move from dirty to put away without
 
 Your "laundry room" might be a closet with stacked machines, a corner of the kitchen, or a utility room. The tasks are the same; only the space changes.
 
-<!-- [ADD YOUR PHOTO: your laundry area as it looks now, with the machine door open] -->
+<!-- [ADD YOUR PHOTO: your laundry area as it looks now, with the machine door open] {file: photo-1} -->
 
 ## Step 1: Walk Through One Load
 
@@ -92,7 +92,7 @@ Drying is where most small laundry spaces fail.
 
 Damp laundry indoors adds a lot of moisture to the air. Open a window, run an extractor fan or use a dehumidifier to avoid condensation and mold on cold walls.
 
-<!-- [ADD YOUR PHOTO: your drying setup in use] -->
+<!-- [ADD YOUR PHOTO: your drying setup in use] {file: photo-2} -->
 
 ## Step 6: Add a Folding Surface That's Safe
 
@@ -104,27 +104,14 @@ For a top-loader or a tight closet, use a nearby table, the top of a dryer, or a
 
 Give each person a basket that clean clothes go straight into, and have them carry it to their room. Keep spare hangers on a rail or hook in the laundry area so shirts can be hung while they're still warm. The less handling between machine and wardrobe, the less likely a pile forms.
 
-## Mistakes to Avoid
-
+## Laundry Room Problems
 - **Blocking the top-loader lid** with a shelf or cabinet.
 - **Resting a worktop on the machines.** Support it independently.
 - **Low, open storage for pods and detergent** in a home with children or pets.
 - **Three hampers in a closet** that only fits one basket.
 - **Ignoring airflow.** Damp clothes without ventilation lead to mold.
 
-## What It Costs
-
-| Upgrade | Typical cost |
-| --- | --- |
-| Slim rolling cart | $20–$40 |
-| Over-door rack | $15–$35 |
-| Wall shelf above machines (DIY) | $30–$80 |
-| Fold-down drying rack | $40–$120 |
-| Worktop over front-loaders with battens | $80–$200 |
-
-Prices vary by region and store.
-
-## Review After a Week
+## After the First Few Loads
 
 If dirty clothes still pile up, move the hamper closer to where clothes come off. If supplies are still out on top of the machine, the shelf is too high or too far. If clean clothes sit unfolded, the problem is the surface or the baskets, not storage.
 

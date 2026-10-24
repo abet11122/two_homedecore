@@ -30,7 +30,7 @@ A modern boys bedroom comes down to four choices: a restrained palette, clean-li
 
 This is a style guide. For layouts and storage in a tight room, start with [small boys bedroom ideas](/post/small-boys-bedroom-ideas/).
 
-<!-- [ADD YOUR PHOTO: the room's starting point, before restyling] -->
+<!-- [ADD YOUR PHOTO: the room's starting point, before restyling] {file: photo-1} -->
 
 ## 1. Build the Palette With 60-30-10
 
@@ -85,7 +85,7 @@ Three medium prints (A3 or 30 × 40 cm) in matching frames look more modern than
 
 A 60–90 cm picture ledge lets him change art, add a model, or display a trophy without making new holes. Ledges about 8–10 cm deep hold frames safely. Two ledges stacked 30–35 cm apart make a neat gallery wall.
 
-<!-- [ADD YOUR PHOTO: the art wall or picture ledge you set up] -->
+<!-- [ADD YOUR PHOTO: the art wall or picture ledge you set up] {file: photo-2} -->
 
 ## 7. Choose a Rug That Defines the Room
 
@@ -133,22 +133,11 @@ Let him pick the accent color, one print and the rug. A room he helped choose is
 
 You don't need to buy everything at once. Paint and bedding first; art and lighting next; furniture last. Each stage makes a visible difference.
 
-## Mistakes to Avoid
-
+## Style Traps
 - **Too many strong colors.** Stick to 60-30-10.
 - **Matching everything from one set.** Mix wood and metal for a more designed look.
 - **Character-heavy decor.** It dates fast.
 - **Glossy paint on uneven walls.** It shows every flaw; use eggshell or matte.
 - **Only an overhead light.** It makes bedtime harsh.
-
-## What It Costs
-
-| Stage | What's included | Typical cost |
-| --- | --- | --- |
-| Refresh | Paint, bedding, three framed prints | $150–$300 |
-| Upgrade | Add a rug, a desk lamp, a picture ledge, matching bins | $300–$550 |
-| Full room | Add a bed frame, a desk and chair | $600–$1,200 |
-
-Prices vary by region and store.
 
 When he outgrows this look, [teenage boy bedroom ideas](/post/teenage-boy-bedroom-ideas/) covers study and gaming setups. For a quieter, grown-up take on the same principles, see [small bedroom ideas that look expensive](/post/small-bedroom-ideas-that-look-expensive/), and the [minimalist living room guide](/post/minimalist-living-room-guide/) explains how to keep a modern space from feeling cold.

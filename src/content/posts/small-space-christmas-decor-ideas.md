@@ -30,7 +30,7 @@ Christmas decor for a small apartment works best when you pick the right tree fo
 
 This guide covers the whole apartment. For room-specific ideas, see [Christmas bedroom ideas](/post/christmas-bedroom-ideas/) and [cozy Christmas living room ideas](/post/cozy-christmas-living-room-ideas/).
 
-<!-- [ADD YOUR PHOTO: your apartment decorated for Christmas, wide shot] -->
+<!-- [ADD YOUR PHOTO: your apartment decorated for Christmas, wide shot] {file: photo-1} -->
 
 ## Choose a Tree That Fits
 
@@ -84,7 +84,7 @@ One display per room feels festive. Decorations on every surface in a small flat
 
 Wipe walls with rubbing alcohol before using adhesive, wait an hour before loading hooks, and remove them by pulling the tab straight down.
 
-<!-- [ADD YOUR PHOTO: your stockings or wreath hung without a mantel] -->
+<!-- [ADD YOUR PHOTO: your stockings or wreath hung without a mantel] {file: photo-2} -->
 
 ## Pick a Simple Palette
 
@@ -117,26 +117,11 @@ Before buying any new decoration, ask where it will live in January.
 
 A small apartment's whole Christmas should fit into one or two boxes on top of a wardrobe or under a bed. If it won't, buy less next year.
 
-## Mistakes to Avoid
-
+## Small-Space Christmas Mistakes
 - **A full-width tree in a tiny room.** Choose a pencil or tabletop tree.
 - **A tree next to a radiator.** Keep it 1 m away.
 - **Decorating every surface.** One spot per room.
 - **Overloading adhesive hooks.** Check the rating.
 - **Buying decorations with nowhere to store them.**
-
-## What It Costs
-
-| Item | Typical cost |
-| --- | --- |
-| Slim faux pencil tree (180 cm) | $60–$150 |
-| Tabletop tree or potted living tree | $20–$50 |
-| Warm-white LED lights (2 sets) | $20–$40 |
-| Faux wreath | $25–$60 |
-| Over-door wreath hanger and adhesive hooks | $10–$20 |
-| Fresh greenery and dried oranges | $15–$30 |
-| Two storage boxes | $20–$40 |
-
-Prices vary by region and store.
 
 For bedroom ideas, see [Christmas bedroom ideas](/post/christmas-bedroom-ideas/). If you have a mantel or a bigger living room, [cozy Christmas living room ideas](/post/cozy-christmas-living-room-ideas/) goes further. The year-round basics in [small apartment organization](/post/small-apartment-organization-ideas/) make it much easier to find space for holiday boxes.

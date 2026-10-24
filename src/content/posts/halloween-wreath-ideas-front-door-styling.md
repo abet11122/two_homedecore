@@ -95,7 +95,7 @@ The ribbon is the most important element of this wreath. Choose a wide ribbon (a
 
 ## 13. The Glow-in-the-Dark Wreath
 
-A wreath with UV-reactive or glow-in-the-dark elements — painted pumpkins, glow-in-the-dark spiders, or UV-reactive ribbon — creates a Halloween wreath that transforms after dark. Under normal light, it reads as a standard Halloween wreath. In the dark, it glows.
+A wreath with UV-reactive or glow-in-the-dark elements — painted pumpkins, glow-in-the-dark spiders, or UV-reactive ribbon — makes a wreath that looks completely different after dark. Under normal light, it reads as a standard Halloween wreath. In the dark, it glows.
 
 UV-reactive spray paint is available at craft stores. Apply it to any wreath element for a glow effect.
 
@@ -111,10 +111,8 @@ The most important rule for choosing a Halloween wreath is to match it to the st
 
 Choose a wreath that suits the exterior colour, the architectural style, and the interior decor. The wreath is the first impression — it should feel like it belongs.
 
-## Final Thoughts
-
 A Halloween wreath is the highest-impact single change you can make to the exterior of your home. Choose a style that suits the house, use dried materials for durability, and hang it with an over-the-door hook for a renter-friendly installation. The wreath sets the tone for everything else.
 
 ## More Halloween ideas
 
-If you liked these, try [Halloween entryway decor ideas](/post/halloween-entryway-decor-ideas/), [outdoor Halloween decor for small yards and balconies](/post/outdoor-halloween-decor-ideas-small-yards-balconies/) or [vintage Halloween decor](/post/vintage-halloween-decor-ideas/). When the season turns, [the autumn mantel](/post/autumn-mantel-styling/) carries the same warm palette into November.
+To dress the space around the door, see [Halloween entryway decor](/post/halloween-entryway-decor-ideas/) and [outdoor decor for small yards and balconies](/post/outdoor-halloween-decor-ideas-small-yards-balconies/). For an old-fashioned look, [vintage Halloween decor](/post/vintage-halloween-decor-ideas/) has paper and crepe ideas. A wheat or dried-leaf wreath can stay up through November; [the autumn mantel](/post/autumn-mantel-styling/) explains which materials last.

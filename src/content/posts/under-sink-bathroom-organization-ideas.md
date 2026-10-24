@@ -28,7 +28,7 @@ faqs:
 
 To organize under a bathroom sink, measure each side of the pipes separately, choose small removable bins or narrow pull-outs that fit those spaces, and keep the shutoff valves and pipes reachable. Daily things go at the front, backups behind or elsewhere, and cleaning products go behind a lock if there are children in the house.
 
-<!-- [ADD YOUR PHOTO: your under-sink cabinet emptied, showing the pipes] -->
+<!-- [ADD YOUR PHOTO: your under-sink cabinet emptied, showing the pipes] {file: photo-1} -->
 
 The difficult part of under-sink bathroom storage is the space you cannot use. Pipes split the cabinet into irregular shapes, and a neat-looking organizer may block the shutoff valves or hide a leak. Begin with a cabinet map rather than a product list.
 
@@ -72,16 +72,15 @@ Avoid permanent shelving that traps the shutoff valves behind it. If a flexible 
 | Turntable | 20–25 cm across | Bottles in a deep corner | Needs room to rotate |
 | Waterproof liner | Cut to fit | Protecting the base | Lift it to check for leaks |
 
-Typical costs: bins $5–$15 each, pull-out drawers $20–$45, U-shaped units $25–$50, door racks $10–$25. Prices vary by region and store.
+Typical costs: bins $5–$15 each, pull-out drawers $20–$45, U-shaped units $25–$50, door racks $10–$25 at mainstream stores.
 
-<!-- [ADD YOUR PHOTO: your finished under-sink layout] -->
+<!-- [ADD YOUR PHOTO: your finished under-sink layout] {file: photo-2} -->
 
 ## Set up a simple retrieval order
 
 Put the products used every day where they can be reached without moving another container. Put occasional supplies behind or above them, and store bulk backups elsewhere if this cabinet is too small. After a week, note any item that has to be moved twice to reach something else. That is the point to change the layout, not a reason to buy another organizer.
 
-## Mistakes to avoid
-
+## Under-Sink Mistakes
 - **Measuring the cabinet but not the pipes.** Measure each side zone.
 - **Blocking the shutoff valves.** You may need them in a hurry.
 - **Ignoring damp or swelling.** Fix the leak first.

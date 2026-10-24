@@ -164,6 +164,4 @@ Leaving empty space makes seasonal details more noticeable and keeps the living 
 
 Keep the room feeling calm with the principles in our [minimalist living room guide](/post/minimalist-living-room-guide/).
 
-## Final Thoughts
-
 A warm fall living room is mostly about atmosphere. Layer textiles, soften the lighting, introduce a few natural materials, and then add seasonal details only where they improve the room. The most successful fall decor still feels like your home - just a little warmer and more inviting.

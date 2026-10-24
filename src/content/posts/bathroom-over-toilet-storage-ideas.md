@@ -30,7 +30,7 @@ Over-toilet storage works when it's shallow, mounted high enough to lift the cis
 
 The wall above a toilet is often the biggest unused surface in a small bathroom. It's also where bad measurements show up fastest: a shelf that blocks the lid, a cabinet you bump every morning, a frame that makes cleaning around the base impossible.
 
-<!-- [ADD YOUR PHOTO: the wall above your toilet before you added storage, with a tape measure visible] -->
+<!-- [ADD YOUR PHOTO: the wall above your toilet before you added storage, with a tape measure visible] {file: photo-1} -->
 
 ## Step 1: Take Five Measurements
 
@@ -92,8 +92,7 @@ Keep these elsewhere:
 - Cleaning products — store them securely and out of reach
 - Anything you use every morning, if the shelf is hard to reach
 
-## Mistakes to Avoid
-
+## Where Over-Toilet Storage Goes Wrong
 - **Measuring the toilet but not your head.** The shelf fits the wall but not the person using it.
 - **Blocking the cistern lid.** One day you'll need to fix the flush mechanism.
 - **Skipping the anti-tip strap on a frame.** It's in the box for a reason.
@@ -104,6 +103,6 @@ Keep these elsewhere:
 
 Lift the cistern lid, flush, clean around the base, and take an item off the top shelf. If any of those is awkward, adjust now. Every few months, check that fixings are still tight and that steam hasn't warped the shelves or loosened adhesive.
 
-<!-- [ADD YOUR PHOTO: your finished over-toilet storage] -->
+<!-- [ADD YOUR PHOTO: your finished over-toilet storage] {file: photo-2} -->
 
 For the rest of the room, [small bathroom organization ideas](/post/small-bathroom-organization-ideas/) covers the vanity, door and shower zones. The [floating shelf checklist](/post/diy-floating-shelves/) goes deeper on wall types and fixings, and renters can find more no-drill options in [apartment decor ideas on a budget](/post/apartment-decor-ideas-budget/).

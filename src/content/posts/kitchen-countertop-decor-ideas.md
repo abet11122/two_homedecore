@@ -30,7 +30,7 @@ Practical kitchen countertop decor keeps the main prep area clear and lives in t
 
 A counter is a work surface first. Decor that has to be moved every time you cook won't last a week.
 
-<!-- [ADD YOUR PHOTO: your counters before styling] -->
+<!-- [ADD YOUR PHOTO: your counters before styling] {file: photo-1} -->
 
 ## Start With What Stays Out
 
@@ -60,7 +60,7 @@ Corners are awkward for prep and good for display:
 
 Oil, vinegar, salt and pepper by the hob look tidy on a small wooden, marble or metal tray (about 20 × 30 cm), and you can lift them all at once to wipe the counter.
 
-<!-- [ADD YOUR PHOTO: your styled corner or hob tray] -->
+<!-- [ADD YOUR PHOTO: your styled corner or hob tray] {file: photo-2} -->
 
 ## Useful Decor
 
@@ -108,27 +108,13 @@ Glass, glazed ceramic, stone, metal and sealed wood clean easily. Unsealed wood,
 
 Swap one or two items each season: a bowl of clementines in December, a jug of tulips in spring, a pumpkin in autumn. Keep the base — crock, tray, boards — all year.
 
-## Mistakes to Avoid
-
+## Counter Habits That Backfire
 - **Decor on the prep stretch.** Keep it clear.
 - **Every appliance on the counter.** Store what you don't use daily.
 - **Lots of small objects.** Group them on a tray.
 - **Plants beside the hob.** Heat and splashes damage them.
 - **Hard-to-clean materials.** Choose wipeable ones.
 
-## What It Costs
-
-| Item | Typical cost |
-| --- | --- |
-| Utensil crock | $15–$35 |
-| Small tray for oils | $15–$40 |
-| Wooden chopping boards (2) | $25–$60 |
-| Magnetic knife strip | $15–$35 |
-| Herb pots (3) | $10–$25 |
-| Glass soap dispenser and brush | $15–$30 |
-
-Prices vary by region and store.
-
-<!-- [ADD YOUR PHOTO: your finished counter, wide shot] -->
+<!-- [ADD YOUR PHOTO: your finished counter, wide shot] {file: photo-3} -->
 
 For storage that clears the counter, see [small kitchen organization ideas](/post/small-kitchen-organization-ideas/). If you have open shelves above the counter, [open shelving styling](/post/kitchen-open-shelving-styling/) covers what to put on them. In December, [Christmas kitchen decor ideas](/post/christmas-kitchen-decor-ideas/) shows how to decorate without losing workspace.

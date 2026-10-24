@@ -85,7 +85,7 @@ Holographic streamers are available at party supply stores and on Amazon. They a
 
 Silver or chrome skull decorations — ceramic, resin, or spray-painted — add the Halloween element to the Y2K aesthetic. Place them on tables, shelves, and the bar.
 
-Spray paint standard Halloween skull decorations with chrome spray paint for an instant Y2K upgrade.
+Spray paint standard Halloween skull decorations with chrome spray paint for a quick Y2K look.
 
 ## 12. Create a Neon Drink Station
 
@@ -115,7 +115,7 @@ Fog machines are available at Halloween shops and on Amazon. They are inexpensiv
 
 A playlist of Y2K-era music — early 2000s pop, nu-metal, and electronic — with occasional glitch sound effects adds an audio layer to the Y2K aesthetic. Add a few Halloween-appropriate tracks to keep the seasonal theme.
 
-Spotify and Apple Music both have curated Y2K playlists. Add glitch sound effects using a free audio app.
+Spotify and Apple Music both have ready-made Y2K playlists. Add glitch sound effects using a free audio app.
 
 ## 17. Use Neon Face Paint for Guests
 
@@ -141,10 +141,8 @@ The most important rule for Y2K apocalypse decor is to commit to the excess. The
 
 If the room looks like it might be too much, add one more neon light. That is the Y2K approach.
 
-## Final Thoughts
-
 Y2K Apocalypse Halloween decor is the most maximalist seasonal theme of 2026. Start with the neon LED strip lights and the silver tablecloths — they create the foundation of the aesthetic. Add metallic pumpkins, glitch prints, and a fog machine. Commit to the excess and the atmosphere builds itself.
 
 ## More Halloween ideas
 
-If you liked these, try [Halloween dessert table styling](/post/halloween-dessert-table-styling-ideas/), [DIY haunted house decor](/post/haunted-house-decor-ideas-diy-spooky-setup/) or [pink Halloween decor](/post/pink-halloween-decor-ideas-pink-o-ween/). When the season turns, [fall apartment decor](/post/fall-apartment-decor-ideas/) carries the same warm palette into November.
+For the food, see [Halloween dessert table styling](/post/halloween-dessert-table-styling-ideas/). If neon is too much, [pink Halloween decor](/post/pink-halloween-decor-ideas-pink-o-ween/) is playful without the black light, and the [haunted house setup](/post/haunted-house-decor-ideas-diy-spooky-setup/) shares the colored-bulb tricks. After the party, the [fall apartment guide](/post/fall-apartment-decor-ideas/) brings things back to warm white.

@@ -30,7 +30,7 @@ The best Christmas bedroom ideas add warmth without making the room harder to re
 
 This guide works for a typical small bedroom of about 3 × 3 m (10 × 10 ft), where the bed takes up most of the floor and every surface has a job.
 
-<!-- [ADD YOUR PHOTO: your bedroom decorated for Christmas, shot from the doorway] -->
+<!-- [ADD YOUR PHOTO: your bedroom decorated for Christmas, shot from the doorway] {file: photo-1} -->
 
 ## Step 1: Choose One Focal Point
 
@@ -108,15 +108,14 @@ If you have cats or dogs, skip mistletoe, holly berries and lilies, which are to
 
 A 2–3 m roll of velvet ribbon in your palette color costs a few dollars. Tie it around a lamp base, a mirror corner, the wreath, a curtain tieback, or a stack of books on the dresser. When the season ends, the ribbon goes in a drawer and the room is back to normal in a minute.
 
-## Mistakes to Avoid
-
+## A Few Things to Skip
 - **Decorating every surface.** It makes a small bedroom feel crowded and stressful to clean.
 - **Bright or flashing lights.** Use steady warm white in a bedroom. Save the color-changing modes for the living room.
 - **Overloading adhesive hooks.** Check the weight rating and wait the full curing time on the packet — often an hour — before hanging anything.
 - **Real candles near textiles.** Use flameless LEDs.
 - **Blocking a heater or vent.** Keep trees and garlands at least 1 m from radiators and space heaters.
 
-## What It Costs
+## Three Budgets
 
 | Approach | What's included | Typical cost |
 | --- | --- | --- |
@@ -124,12 +123,12 @@ A 2–3 m roll of velvet ribbon in your palette color costs a few dollars. Tie i
 | Mid-range | Add a tabletop or potted tree, a faux wreath, a knit throw | $80–$150 |
 | Full refresh | Add flannel bedding, a slim floor tree and a new lamp | $200+ |
 
-Prices vary by store and region.
+In the "use what you have" budget, most of the money goes on the lights.
 
 ## Packing It Away in January
 
 Store lights wrapped around a piece of cardboard so they don't tangle. Fold cushion covers and throws with a cedar block to keep moths off wool. Bag the tree topper and fragile ornaments separately. If storage is tight, a single under-bed box is enough for a bedroom's worth of decorations — see [small bedroom storage](/post/small-bedroom-storage-ideas/) for how to measure under-bed space.
 
-<!-- [ADD YOUR PHOTO: a close-up of your headboard or bedside display] -->
+<!-- [ADD YOUR PHOTO: a close-up of your headboard or bedside display] {file: photo-2} -->
 
 For the rest of the home, the [small-space Christmas decor guide](/post/small-space-christmas-decor-ideas/) covers apartments room by room, and [cozy Christmas living room ideas](/post/cozy-christmas-living-room-ideas/) shows how to scale these ideas up for the main room. Want the bedroom to feel cozy all winter? Start with the [cozy small bedroom guide](/post/cozy-small-bedroom-ideas/).

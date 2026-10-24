@@ -29,7 +29,7 @@ faqs:
 
 A small home office works when three things are right: a desk deep enough for your setup (20–24 inches), light from the side rather than behind you, and a way to put it all away at the end of the day. About 40 × 54 inches of floor is enough — a corner, a closet, or the end of a bedroom wall.
 
-<!-- [ADD YOUR PHOTO: the corner or alcove you're using for your office] -->
+<!-- [ADD YOUR PHOTO: the corner or alcove you're using for your office] {file: photo-1} -->
 
 Most people working from home don't have a spare room. They have a corner of the bedroom, an alcove under the stairs, or one end of the dining table.
 
@@ -83,7 +83,7 @@ A drop-leaf or murphy-style desk mounted to the wall. Folds flat when closed, op
 
 Best for spaces that have to do two jobs — a guest room, a dining room, a small living room. The office genuinely disappears.
 
-<!-- [ADD YOUR PHOTO: your desk setup from behind the chair] -->
+<!-- [ADD YOUR PHOTO: your desk setup from behind the chair] {file: photo-2} -->
 
 ## Set up the screen and chair properly
 
@@ -104,7 +104,7 @@ What you need:
 - **Natural light from the side**, not in front (glare) or behind (silhouette on video calls)
 - **A warm ambient source** — a lamp elsewhere in the room — so you're not staring at a bright screen in a dark corner
 
-If you're on video calls, put a light *in front of you*, above eye level. A small ring light or a lamp on a shelf facing you solves the "why do I look terrible" problem instantly.
+If you're on video calls, put a light *in front of you*, above eye level. A small ring light or a lamp on a shelf facing you solves the "why do I look terrible" problem straight away.
 
 ## Storage: go up, not out
 
@@ -149,15 +149,14 @@ If the office is in a bedroom or living room, it should look like furniture, not
 
 The goal is that when you're not working, you don't see a workstation sitting in your bedroom.
 
-## Mistakes to avoid
-
+## Setup Mistakes
 - **Forgetting chair clearance.** Measure 30 inches behind the desk.
 - **Facing a window.** Glare all day, and you'll squint at the screen.
 - **A floating desk in plasterboard alone.** Fix it into studs.
 - **A dining chair for full workdays.** Your back will tell you.
 - **Cables everywhere.** Mount the power strip under the desk.
 
-## What it costs
+## Pricing a Corner Office
 
 | Item | Typical cost |
 | --- | --- |
@@ -169,7 +168,7 @@ The goal is that when you're not working, you don't see a workstation sitting in
 | Pegboard or two floating shelves | $25–$70 |
 | Cable tray and under-desk power strip | $20–$50 |
 
-Prices vary by region and store.
+Expect to pay toward the top of each range for anything that adjusts, like chairs, desks and monitor arms.
 
 ## The shut-down habit
 

@@ -10,7 +10,7 @@ pinImage: "photo-1572635196237-14b3f281503f"
 featured: false
 keyTakeaways:
   - "The bathroom is the most overlooked room for Halloween decor — a few small changes create a surprising seasonal moment."
-  - "A dark hand soap, a black candle, and one small pumpkin are enough to transform a bathroom shelf."
+  - "A dark hand soap, a black candle, and one small pumpkin are enough to make a bathroom shelf feel seasonal."
   - "Black towels or dark hand towels are the single most impactful swap — they change the whole mood of the room."
   - "Check the lease and product instructions before adding clings, hooks, or adhesives to rental surfaces."
 faqs:
@@ -54,7 +54,7 @@ Skull bathroom accessories are available at home stores and on Etsy. A single sk
 
 ## 6. Use Removable Window Clings on the Mirror
 
-Removable window clings — bats, spiders, or moons — applied to the bathroom mirror add a seasonal note that peels off cleanly. They work on any glass surface and leave no residue.
+Removable window clings — bats, spiders, or moons — applied to the bathroom mirror peel off cleanly when the season is over. They work on any glass surface and leave no residue.
 
 Choose clings in black or translucent rather than bright colours for a more grown-up look.
 
@@ -78,7 +78,7 @@ This is one of the easiest and most reversible bathroom changes. The mat swaps b
 
 ## 10. Use a Halloween-Print Shower Curtain
 
-A Halloween-print shower curtain — bats, spiders, pumpkins, or a dark pattern — transforms the bathroom's largest surface. Choose a print that suits the bathroom's colour palette rather than a brightly coloured novelty one.
+A Halloween-print shower curtain — bats, spiders, pumpkins, or a dark pattern — changes the bathroom's largest surface for very little money. Choose a print that suits the bathroom's colour palette rather than a brightly coloured novelty one.
 
 Halloween shower curtains are available at home stores and on Amazon in October. They store flat and are easy to swap back after the season.
 
@@ -112,10 +112,8 @@ The most practical rule for Halloween bathroom decor is to keep the seasonal dis
 
 A tray is useful because the whole group can be moved at once when you need the surface. It also prevents the seasonal display from spreading across every surface in a small bathroom.
 
-## Final Thoughts
-
 The Halloween bathroom is the most surprising seasonal moment in the house because guests do not expect it. Start with the hand towel swap and the soap dispenser — they are the two changes with the most impact for the least effort. Add a small pumpkin and a flameless candle, and the bathroom is done.
 
 ## More Halloween ideas
 
-If you liked these, try [renter-friendly small apartment Halloween decor](/post/small-apartment-halloween-decor-renter-friendly/), [elegant Halloween decor](/post/elegant-halloween-decor/) or [Halloween bedroom decor ideas](/post/halloween-bedroom-decor-ideas/). When the season turns, [fall apartment decor](/post/fall-apartment-decor-ideas/) carries the same warm palette into November.
+Renters can borrow more peel-off ideas from [small apartment Halloween decor](/post/small-apartment-halloween-decor-renter-friendly/). If the bathroom is the only room you're decorating, the [bedroom ideas](/post/halloween-bedroom-decor-ideas/) and [elegant Halloween decor](/post/elegant-halloween-decor/) use the same candles and dark textiles. Once October is over, the [fall apartment guide](/post/fall-apartment-decor-ideas/) keeps the warm palette without the bats.

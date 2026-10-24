@@ -30,7 +30,7 @@ Good small bedroom storage reduces what ends up on the floor, the bed and the ch
 
 This guide assumes a typical small bedroom of roughly 2.7 × 3 m (9 × 10 ft) with a double bed, but the measurements apply to any size.
 
-<!-- [ADD YOUR PHOTO: your bedroom from the doorway, showing the bed and wardrobe] -->
+<!-- [ADD YOUR PHOTO: your bedroom from the doorway, showing the bed and wardrobe] {file: photo-1} -->
 
 ## Step 1: Sort by How Often You Use Things
 
@@ -87,7 +87,7 @@ Most wardrobes waste space. Before buying new storage, look at what's wrong with
 
 Use slim, matching hangers. They can free 20–30% more rail space than chunky plastic or wooden ones.
 
-<!-- [ADD YOUR PHOTO: inside your wardrobe after reorganizing] -->
+<!-- [ADD YOUR PHOTO: inside your wardrobe after reorganizing] {file: photo-2} -->
 
 ## Step 5: Use the Bed Wall and Bedside
 
@@ -106,26 +106,12 @@ Floating shelves above a desk or door add display and storage space. See the [fl
 
 Over-door hooks hold a robe and tomorrow's outfit. A slim over-door organizer with pockets can hold accessories, scarves or shoes. Check that it doesn't stop the door closing, and add felt pads to stop rattling.
 
-## Mistakes to Avoid
-
+## Measuring Mistakes
 - **Measuring under the bed at only one point.** The lowest point decides what fits.
 - **A chest of drawers you can't open.** Leave 75–90 cm in front.
 - **Not anchoring tall furniture.** Especially in children's rooms.
 - **Buying storage before decluttering.** You'll organize things you don't need.
 - **Blocking a radiator or vent.** It makes the room colder and can damage furniture.
-
-## What It Costs
-
-| Upgrade | Typical cost |
-| --- | --- |
-| Slim hangers (50) | $20–$40 |
-| Under-bed wheeled drawers (2) | $30–$70 |
-| Wardrobe shelf dividers and bins | $25–$60 |
-| Bed risers | $15–$30 |
-| Wall-mounted bedside shelf | $20–$60 |
-| Ottoman bed (double) | $300–$700 |
-
-Prices vary by region and store.
 
 ## Run a One-Week Reset
 

@@ -1,6 +1,6 @@
 ---
 title: "20 Halloween Bedroom Decor Ideas — Spooky But Still Cozy"
-description: "Transform your bedroom for Halloween without losing the cozy feel with 20 ideas using dark textiles, moody lighting, pumpkins, and restrained seasonal styling."
+description: "Decorate your bedroom for Halloween without losing the cozy feel with 20 ideas using dark textiles, moody lighting, pumpkins, and restrained seasonal styling."
 category: bedroom
 tags: ["halloween decor", "bedroom decor", "seasonal decorating", "cozy bedroom", "halloween 2026"]
 publishDate: 2026-09-02
@@ -73,7 +73,7 @@ A single large candle reads as more intentional than several small ones.
 
 ## 9. Hang a Wreath on the Bedroom Door
 
-A dried or faux wreath in dark tones — black feathers, dried seed pods, dark eucalyptus, or deep burgundy flowers — on the bedroom door adds a seasonal note that is visible from the hallway.
+A dried or faux wreath in dark tones — black feathers, dried seed pods, dark eucalyptus, or deep burgundy flowers — on the bedroom door is the first thing you see from the hallway.
 
 Wreaths hang on a single nail and come down in minutes. They are one of the most impactful and least permanent seasonal changes you can make.
 
@@ -97,7 +97,7 @@ Amber bulbs are available at any hardware store and cost almost nothing. Swap ba
 
 ## 13. Add a Moon Phase Print or Tapestry
 
-A moon phase print or small tapestry adds a celestial, slightly witchy note that suits Halloween without being overtly themed. It works year-round in a bedroom with a dark or neutral palette.
+A moon phase print or small tapestry feels celestial and slightly witchy, which suits Halloween without being overtly themed. It works year-round in a bedroom with a dark or neutral palette.
 
 Tapestries hang with a single nail or adhesive strip. They are one of the most renter-friendly ways to add a large visual element to a wall.
 
@@ -143,10 +143,8 @@ The most important rule for Halloween bedroom decor is to keep the bed itself co
 
 A cozy, well-made bed with one or two dark accent cushions reads as intentional. A bed covered in Halloween props reads as a display, not a place to sleep.
 
-## Final Thoughts
-
 The strongest Halloween bedroom decor is the kind that makes the room feel atmospheric rather than themed. Start with lighting and textiles, add one or two seasonal objects, and keep the bed itself calm.
 
 ## More Halloween ideas
 
-If you liked these, try [non-scary Halloween decor for toddler rooms](/post/non-scary-halloween-decor-toddler-rooms/), [gothic dark-botanical Halloween decor](/post/gothic-halloween-decor-ideas-dark-botanical/) or [15 Halloween bathroom decor ideas](/post/halloween-bathroom-decor-ideas/). When the season turns, [fall apartment decor](/post/fall-apartment-decor-ideas/) carries the same warm palette into November.
+Decorating a little one's room? [Non-scary toddler room ideas](/post/non-scary-halloween-decor-toddler-rooms/) keep things friendly. For a moodier adult room, [gothic dark-botanical decor](/post/gothic-halloween-decor-ideas-dark-botanical/) is the next step, and the [bathroom ideas](/post/halloween-bathroom-decor-ideas/) finish the look next door. In November, swap the cobwebs for the textiles in [fall apartment decor](/post/fall-apartment-decor-ideas/).

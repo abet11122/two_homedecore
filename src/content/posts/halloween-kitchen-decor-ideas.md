@@ -44,7 +44,7 @@ Choose towels with a print that suits your kitchen's colour palette. A dark-back
 
 A hand soap in a dark vessel or with a Halloween label adds a seasonal note to the sink area without any additional decor. Many brands release Halloween-themed soaps in October.
 
-Alternatively, decant your regular soap into a dark glass or ceramic dispenser and add a handwritten label.
+Or pour your usual dish soap into an amber glass bottle with a hand-lettered tag.
 
 ## 5. Style the Open Shelving
 
@@ -60,13 +60,13 @@ Keep it to one candle rather than a full display. The counter needs to stay func
 
 ## 7. Add a Pumpkin to the Kitchen Table
 
-A small pumpkin or a group of three pumpkins in different sizes on the kitchen table creates a seasonal centrepiece. Use real pumpkins for the most natural look, or ceramic ones for a display that lasts the whole season.
+A small pumpkin or a group of three pumpkins in different sizes on the kitchen table creates a seasonal centrepiece. Real pumpkins look best for a week or two; ceramic ones last until November without going soft.
 
 A wooden board or tray under the pumpkins protects the table surface and makes the display look more intentional.
 
 ## 8. Hang a Halloween Tea Towel as a Display
 
-A Halloween-print tea towel hung from an oven handle or a hook on the wall adds a seasonal note that is visible from across the kitchen. Choose a towel with a print that works as a small piece of art — a vintage-style black cat or a botanical skull illustration.
+A Halloween-print tea towel hung from an oven handle or a hook on the wall can be seen from across the kitchen. Choose a towel with a print that works as a small piece of art — a vintage-style black cat or a botanical skull illustration.
 
 This uses an existing handle or hook, so it may work in a rental without adding a wall attachment. Keep the towel away from burners and follow any appliance instructions.
 
@@ -142,10 +142,8 @@ The most important rule for Halloween kitchen decor is to keep the counter funct
 
 A kitchen that looks good and works well is always more successful than one that looks seasonal but is difficult to use.
 
-## Final Thoughts
-
 The strongest Halloween kitchen decor is the kind that adds atmosphere without getting in the way. Start with a dish towel swap and a pumpkin on the counter, add a black cat to the shelf, and keep the rest of the counter clear.
 
 ## More Halloween ideas
 
-If you liked these, try [Halloween tablescape ideas](/post/halloween-dining-room-tablescape-ideas/), [Halloween dessert table styling](/post/halloween-dessert-table-styling-ideas/) or [vintage Halloween decor](/post/vintage-halloween-decor-ideas/). When the season turns, [cozy fall living room decor](/post/fall-living-room-decor-ideas/) carries the same warm palette into November.
+Eating in the kitchen? Combine this with the [Halloween tablescape guide](/post/halloween-dining-room-tablescape-ideas/) or a [dessert table](/post/halloween-dessert-table-styling-ideas/). For printable labels and old-style signs, see [vintage Halloween decor](/post/vintage-halloween-decor-ideas/). The pumpkins and dried oranges work all autumn — [cozy fall living room decor](/post/fall-living-room-decor-ideas/) shows where to move them.

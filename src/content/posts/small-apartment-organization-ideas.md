@@ -30,7 +30,7 @@ Small apartment organization works when every activity has a zone, every zone ha
 
 These ideas suit a studio or one-bedroom apartment of around 35–55 m² (375–600 sq ft), where storage is short and every surface has a job.
 
-<!-- [ADD YOUR PHOTO: your main living space before organizing] -->
+<!-- [ADD YOUR PHOTO: your main living space before organizing] {file: photo-1} -->
 
 ## Set Up Zones
 
@@ -72,7 +72,7 @@ Over-door racks and hooks turn the back of every door into storage: shoes, clean
 
 Gaps of 12–25 cm appear beside the fridge, between the sofa and the wall, beside the washing machine and next to the bed. A slim rolling cart or a narrow shelf unit fits most of them. Measure at the narrowest point, including skirting and any hoses or cables.
 
-<!-- [ADD YOUR PHOTO: a narrow gap or above-door shelf you turned into storage] -->
+<!-- [ADD YOUR PHOTO: a narrow gap or above-door shelf you turned into storage] {file: photo-2} -->
 
 ## Choose Furniture That Stores Things
 
@@ -102,15 +102,14 @@ The kitchen counter, dining table and coffee table are what you see most. Keep e
 
 Every evening, spend ten minutes putting things back in their zones: dishes in the sink or dishwasher, mail sorted, shoes on the rack, surfaces cleared. And when something new comes in, something old leaves. In a small space, that rule matters more than any organizer.
 
-## Mistakes to Avoid
-
+## Why Systems Fall Apart
 - **Buying storage before decluttering.** Clear first, then measure what's left.
 - **Not measuring gaps at the narrowest point.** Skirting boards and hoses steal centimeters.
 - **Unanchored tall furniture.** Use the anti-tip kit.
 - **Unlabeled high boxes.** You'll never remember what's in them.
 - **No drop zone.** Clutter spreads from the front door.
 
-## What It Costs
+## Rough Costs
 
 | Upgrade | Typical cost |
 | --- | --- |
@@ -122,12 +121,12 @@ Every evening, spend ten minutes putting things back in their zones: dishes in t
 | Tall narrow bookcase | $60–$180 |
 | Slim tip-out shoe cabinet | $60–$150 |
 
-Prices vary by region and store.
+Over-door racks and lidded boxes give the most storage per dollar; the bookcase and shoe cabinet are the only real purchases here.
 
 ## Start With One Problem Area
 
 Pick the spot that annoys you most — usually the entry, the kitchen counter or the bedroom chair. Empty it, sort what's there into keep, move and let go, measure the space, and choose one storage solution. Live with it for a week before moving to the next spot.
 
-<!-- [ADD YOUR PHOTO: the same space after organizing] -->
+<!-- [ADD YOUR PHOTO: the same space after organizing] {file: photo-3} -->
 
 For room-by-room detail, see [small kitchen organization ideas](/post/small-kitchen-organization-ideas/), [small bedroom storage](/post/small-bedroom-storage-ideas/) and [small bathroom organization ideas](/post/small-bathroom-organization-ideas/). Renters can find damage-free ideas in [apartment decor ideas on a budget](/post/apartment-decor-ideas-budget/).

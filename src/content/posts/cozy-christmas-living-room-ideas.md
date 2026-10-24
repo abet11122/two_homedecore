@@ -30,7 +30,7 @@ A cozy Christmas living room comes down to warm light, soft textiles and restrai
 
 This guide is for the main living room. For a whole small apartment, see [small-space Christmas decor ideas](/post/small-space-christmas-decor-ideas/).
 
-<!-- [ADD YOUR PHOTO: your living room decorated, shot from the sofa] -->
+<!-- [ADD YOUR PHOTO: your living room decorated, shot from the sofa] {file: photo-1} -->
 
 ## The Tree
 
@@ -66,7 +66,7 @@ Two or three colors look more considered than every ornament you own. Put your s
 
 Cut 2–3 cm off the trunk before putting it in the stand, fill it with water straight away, and check every day. A fresh tree can drink a liter or more a day in the first week. When needles fall at a touch, it's time to take it down.
 
-<!-- [ADD YOUR PHOTO: your tree close up, showing the lights and ornaments] -->
+<!-- [ADD YOUR PHOTO: your tree close up, showing the lights and ornaments] {file: photo-2} -->
 
 ## Light the Whole Room Warmly
 
@@ -147,27 +147,6 @@ Borrow or store folding chairs, clear a coffee table for food and drinks, and ma
 - Never leave candles burning unattended; use LED candles near greenery.
 - Water a real tree every day.
 - Don't run cables under rugs.
-
-## Mistakes to Avoid
-
-- **A tree in the walkway.** Measure before buying.
-- **Too few lights.** Aim for about 100 per 30 cm.
-- **Decorating every surface.** One main display.
-- **Bright overhead light.** Lamps only in the evening.
-- **A dry tree.** Check the water every day.
-
-## What It Costs
-
-| Item | Typical cost |
-| --- | --- |
-| Real tree (180 cm) | $50–$120 |
-| Faux tree (180 cm) | $100–$300 |
-| Warm-white LED lights for a 180 cm tree | $30–$60 |
-| Garland with lights | $30–$80 |
-| Cushion covers and a throw | $40–$100 |
-| Fresh greenery and dried oranges | $15–$30 |
-| Plug-in timers or smart plugs | $10–$30 |
-
-Prices vary by region and store.
+- Keep the tree out of the walkway, and measure the spot before buying.
 
 For the rest of the home, see [Christmas bedroom ideas](/post/christmas-bedroom-ideas/) and [small-space Christmas decor ideas](/post/small-space-christmas-decor-ideas/). The same three-height styling used on the [autumn mantel](/post/autumn-mantel-styling/) works for a Christmas mantel too, and [fall living room decor ideas](/post/fall-living-room-decor-ideas/) covers the textiles you can keep out all winter.

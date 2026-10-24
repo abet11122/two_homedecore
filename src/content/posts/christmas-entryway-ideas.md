@@ -30,7 +30,7 @@ A welcoming Christmas entryway needs a well-sized wreath on the door, one decora
 
 These ideas suit a small hall, a shared-building front door, or a studio where the "entry" is a strip of wall.
 
-<!-- [ADD YOUR PHOTO: your front door and entry before decorating] -->
+<!-- [ADD YOUR PHOTO: your front door and entry before decorating] {file: photo-1} -->
 
 ## The Front Door
 
@@ -71,7 +71,7 @@ Pick a console, a shelf, a radiator cover or the top of a shoe cabinet. Add a sh
 
 A tall piece (a small tree or branches in a vase), a medium one (a lantern or candlesticks), and a low one (a bowl for keys, now filled with ornaments or clementines). See [entryway table decor ideas](/post/entryway-table-decor-ideas/) for the full formula.
 
-<!-- [ADD YOUR PHOTO: your decorated console or shelf] -->
+<!-- [ADD YOUR PHOTO: your decorated console or shelf] {file: photo-2} -->
 
 ### 7. Hang a garland on the stairs
 
@@ -123,25 +123,11 @@ A bundle of fresh fir, eucalyptus or cedar in a jar on the console smells like C
 
 Check that the door opens fully, the walkway is at least 75–90 cm wide, keys still have a home, and nothing blocks a light switch.
 
-## Mistakes to Avoid
-
+## Common Front-Door Slip-Ups
 - **A tiny wreath on a big door.** Aim for a third to half the door's width.
 - **Indoor lights outside.** Use outdoor-rated ones.
 - **Garland on the part of the banister people hold.**
 - **Decorating every surface.** The entry needs space for guests.
 - **Cords across the step or walkway.**
-
-## What It Costs
-
-| Item | Typical cost |
-| --- | --- |
-| Wreath, 50–60 cm | $30–$80 (faux), $25–$60 (fresh) |
-| Over-door wreath hanger | $8–$20 |
-| Garland for a console or stair rail | $20–$60 |
-| Outdoor-rated lights or solar lights | $15–$40 |
-| Layered doormats | $30–$70 |
-| Boot tray and extra hooks | $20–$40 |
-
-Prices vary by region and store.
 
 For year-round entry storage, see [small entryway organization](/post/small-entryway-organization-ideas/). The rest of the home is covered in [small-space Christmas decor ideas](/post/small-space-christmas-decor-ideas/) and [cozy Christmas living room ideas](/post/cozy-christmas-living-room-ideas/).

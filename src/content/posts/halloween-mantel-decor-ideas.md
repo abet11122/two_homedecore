@@ -1,6 +1,6 @@
 ---
 title: "15 Halloween Mantel Decor Ideas — Elegant Seasonal Styling"
-description: "Style a stunning Halloween mantel with 15 elegant ideas using candles, pumpkins, garlands, dark florals, and restrained seasonal styling for every fireplace."
+description: "Style a grown-up Halloween mantel with 15 elegant ideas using candles, pumpkins, garlands, dark florals, and restrained seasonal styling for every fireplace."
 category: seasonal
 tags: ["halloween decor", "mantel decor", "fireplace decor", "seasonal decorating", "halloween 2026"]
 publishDate: 2026-09-23
@@ -83,7 +83,7 @@ A velvet runner is available at fabric stores and home stores. Cut it to the len
 
 ## 11. Add Dried Branches
 
-A few bare or dark-painted branches in a tall vase at one end of the mantel add height and a slightly eerie quality. Hang small dark ornaments, dried flowers, or paper bats from the branches.
+A few bare or dark-painted branches in a tall vase at one end of the mantel add height and a slightly eerie quality. Tie on a few paper bats or tiny black ornaments with thread.
 
 Dried branches are free from any garden or park.
 
@@ -111,10 +111,8 @@ The mantel display should be lit — by the candles on the shelf, the fairy ligh
 
 The combination of candlelight, fairy lights, and the warm glow of a lantern creates the most atmospheric Halloween mantel lighting.
 
-## Final Thoughts
-
 A well-styled Halloween mantel is the most impactful single change you can make to a living room for the season. Start with a garland and tall candles, add a pumpkin and a dark floral arrangement, and keep the palette consistent. The mantel does the rest.
 
 ## More Halloween ideas
 
-If you liked these, try [elegant Halloween decor](/post/elegant-halloween-decor/), [gothic dark-botanical Halloween decor](/post/gothic-halloween-decor-ideas-dark-botanical/) or [vintage Halloween decor](/post/vintage-halloween-decor-ideas/). When the season turns, [the autumn mantel](/post/autumn-mantel-styling/) carries the same warm palette into November.
+Want the mantel to match the rest of the room? [Elegant Halloween decor](/post/elegant-halloween-decor/) and [gothic dark-botanical decor](/post/gothic-halloween-decor-ideas-dark-botanical/) use the same palettes, and [vintage Halloween decor](/post/vintage-halloween-decor-ideas/) is good for printed art. The three-height method here is explained in full in [the autumn mantel](/post/autumn-mantel-styling/).
