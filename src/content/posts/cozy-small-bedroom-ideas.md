@@ -30,7 +30,7 @@ A cozy small bedroom feels warm, soft and quiet — and the biggest levers are l
 
 A small bedroom has an advantage here: it's easier to make a small room feel enveloping than a big one.
 
-[ADD YOUR PHOTO: your bedroom in the evening with lamps on]
+<!-- [ADD YOUR PHOTO: your bedroom in the evening with lamps on] -->
 
 ## Light
 
@@ -114,7 +114,7 @@ If there's a corner, add a small armchair or floor cushion, a reading lamp and a
 
 A framed photo, a favorite print or a plant on the windowsill makes the room feel like yours. One or two personal objects are cozier than a shelf of decorative accessories.
 
-[ADD YOUR PHOTO: your bed styled with layered textiles]
+<!-- [ADD YOUR PHOTO: your bed styled with layered textiles] -->
 
 ## Mistakes to Avoid
 

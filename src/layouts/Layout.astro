@@ -3,6 +3,7 @@ import '../styles/global.css';
 import '../styles/editorial.css';
 import SiteHeader from '../components/SiteHeader.astro';
 import { SITE, CATEGORIES } from '../site';
+import { navCategories } from '../lib/navCategories';
 
 interface Props {
   title?: string;
@@ -157,6 +158,8 @@ const articleNode =
       }
     : null;
 
+const footerCategories = await navCategories();
+
 const graph = [orgNode, siteNode, articleNode, ...schemas].filter(Boolean);
 const jsonLd = { '@context': 'https://schema.org', '@graph': graph };
 ---
@@ -287,7 +290,7 @@ const jsonLd = { '@context': 'https://schema.org', '@graph': graph };
             <p class="eyebrow-muted text-paper/50">Rooms</p>
             {/* Two columns so the full category list stays a readable block */}
             <ul class="mt-4 grid grid-cols-2 gap-x-6 gap-y-2.5">
-              {CATEGORIES.map((c) => (
+              {footerCategories.map((c) => (
                 <li>
                   <a href={`/category/${c.slug}/`} class="text-sm text-paper/65 hover:text-clay-soft">{c.name}</a>
                 </li>

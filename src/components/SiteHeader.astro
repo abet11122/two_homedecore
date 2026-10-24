@@ -1,5 +1,9 @@
 ---
-import { SITE, CATEGORIES, PRIMARY_CATEGORIES, SECONDARY_CATEGORIES } from '../site';
+import { SITE } from '../site';
+import { navCategories } from '../lib/navCategories';
+const CATEGORIES = await navCategories();
+const PRIMARY_CATEGORIES = CATEGORIES.filter((c) => c.primary);
+const SECONDARY_CATEGORIES = CATEGORIES.filter((c) => !c.primary);
 const { currentCategory } = Astro.props;
 const isArticle = Astro.url.pathname.startsWith('/post/');
 ---

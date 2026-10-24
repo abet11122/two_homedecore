@@ -29,7 +29,7 @@ faqs:
 
 A good autumn mantel uses three clearly different heights, a palette of browns rather than orange, and natural materials that look better as they dry — with about 40% of the shelf left empty. It takes twenty minutes and mostly uses what's already in the house.
 
-[ADD YOUR PHOTO: your mantel or shelf cleared and empty, before styling]
+<!-- [ADD YOUR PHOTO: your mantel or shelf cleared and empty, before styling] -->
 
 Autumn decorating has a bad reputation, and it has earned it. The default is orange plastic, glitter, and a cardboard banner spelling out a sentiment nobody has ever said aloud. But the season itself — dried seed heads, russet, wax, low light — is genuinely beautiful, and a mantel is the easiest place in the house to mark it.
 
@@ -53,7 +53,7 @@ Every mantel arrangement needs objects at three distinct heights, and the differ
 
 > Group in odd numbers, cluster rather than spread, and leave the third of the mantel furthest from your anchor almost bare. That emptiness is what stops it looking like a shop display.
 
-[ADD YOUR PHOTO: your finished arrangement showing the three heights]
+<!-- [ADD YOUR PHOTO: your finished arrangement showing the three heights] -->
 
 ## The palette: three colours, no orange
 

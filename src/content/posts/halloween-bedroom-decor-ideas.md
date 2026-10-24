@@ -79,7 +79,7 @@ Wreaths hang on a single nail and come down in minutes. They are one of the most
 
 ## 10. Add a Skull or Dark Ceramic Object to the Shelf
 
-A small ceramic skull, a dark ceramic vessel, or a black figurine on a shelf or nightstand adds a Halloween detail without dominating the room. Use one or two pieces rather than a collection.
+A small ceramic skull, a dark ceramic vessel, or a black figurine on a shelf or nightstand adds a Halloween detail without dominating the room.
 
 Choose objects with a finish and scale that match your existing decor. A rough terracotta skull reads differently from a glossy black one — pick the version that fits your room.
 
@@ -109,7 +109,7 @@ Canopies attach to a ceiling hook with a simple loop. They come down easily and 
 
 ## 15. Style a Tray on the Dresser
 
-A tray containing a candle, a small pumpkin, and one or two dark objects keeps the seasonal display contained and easy to move. Leave enough empty surface for everyday use.
+A tray containing a candle, a small pumpkin, and one or two dark objects keeps the seasonal display contained and easy to move.
 
 A tray is useful because the whole group can be moved at once when you need the dresser surface.
 
@@ -133,7 +133,7 @@ Painted black branches are available at craft stores or can be made from garden 
 
 ## 19. Add a Scented Candle in an Autumn Fragrance
 
-A candle in a dark vessel with an autumn fragrance — cedarwood, black amber, smoked oud, or dark fig — adds a sensory layer to the seasonal styling. The scent is as much a part of the atmosphere as the visual changes.
+A candle in a dark vessel with an autumn fragrance — cedarwood, black amber, smoked oud, or dark fig — adds a sensory layer to the seasonal styling.
 
 Use a flameless version if you prefer not to burn candles in the bedroom overnight.
 
@@ -145,4 +145,8 @@ A cozy, well-made bed with one or two dark accent cushions reads as intentional.
 
 ## Final Thoughts
 
-The strongest Halloween bedroom decor is the kind that makes the room feel atmospheric rather than themed. Start with lighting and textiles, add one or two seasonal objects, and keep the bed itself calm. Small, deliberate choices are usually more successful than covering every surface.
+The strongest Halloween bedroom decor is the kind that makes the room feel atmospheric rather than themed. Start with lighting and textiles, add one or two seasonal objects, and keep the bed itself calm.
+
+## More Halloween ideas
+
+If you liked these, try [non-scary Halloween decor for toddler rooms](/post/non-scary-halloween-decor-toddler-rooms/), [gothic dark-botanical Halloween decor](/post/gothic-halloween-decor-ideas-dark-botanical/) or [15 Halloween bathroom decor ideas](/post/halloween-bathroom-decor-ideas/). When the season turns, [fall apartment decor](/post/fall-apartment-decor-ideas/) carries the same warm palette into November.

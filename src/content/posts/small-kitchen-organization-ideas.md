@@ -30,7 +30,7 @@ Small kitchen organization works best when you group things by where they're use
 
 The ideas below work in a galley kitchen, a studio kitchenette, or an L-shaped kitchen with only a few base cabinets.
 
-[ADD YOUR PHOTO: your kitchen counters and open cabinets before organizing]
+<!-- [ADD YOUR PHOTO: your kitchen counters and open cabinets before organizing] -->
 
 ## Before You Start: Clear and Measure
 
@@ -64,7 +64,7 @@ Boards, baking sheets, muffin tins and cooling racks stack badly. Use a vertical
 
 Adjustable drawer dividers keep spatulas, whisks and peelers separate. Measure the drawer's interior height under the counter lip — often 2–3 cm less than the drawer box — before buying an insert.
 
-[ADD YOUR PHOTO: your utensil drawer with dividers]
+<!-- [ADD YOUR PHOTO: your utensil drawer with dividers] -->
 
 ## Zone 2: Cooking
 
@@ -157,6 +157,6 @@ Prices vary by region and store.
 
 Notice what you keep leaving out. If it's used daily, give it a home within a step of where you use it. If it's an appliance you rarely use, store it further away. If a cabinet is still a mess, the organizer doesn't fit what you're storing — try a different one.
 
-[ADD YOUR PHOTO: your kitchen after organizing, from the same angle as the before photo]
+<!-- [ADD YOUR PHOTO: your kitchen after organizing, from the same angle as the before photo] -->
 
 Have open shelves? [Open shelving styling](/post/kitchen-open-shelving-styling/) covers what to keep on them. For mounting shelves or rails, see the [floating shelf checklist](/post/diy-floating-shelves/), and for the rest of the flat, [small apartment organization ideas](/post/small-apartment-organization-ideas/).

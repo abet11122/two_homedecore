@@ -30,7 +30,7 @@ A small entryway works when people can open the door, step in, put down what the
 
 That's true whether your "entryway" is a proper hall or a 60 cm strip of wall beside the front door of a studio. The plan below works for both.
 
-[ADD YOUR PHOTO: your entry as it looks now, from just inside the front door]
+<!-- [ADD YOUR PHOTO: your entry as it looks now, from just inside the front door] -->
 
 ## 1. Measure the Route First
 
@@ -87,7 +87,7 @@ A hook rail screwed into studs or with proper wall anchors is much stronger than
 
 Tip-out cabinets are the most space-efficient option for a narrow hall. Always fit the anti-tip bracket — a top-heavy cabinet with open drawers can fall forward.
 
-[ADD YOUR PHOTO: your shoe storage solution, open, showing how many pairs it holds]
+<!-- [ADD YOUR PHOTO: your shoe storage solution, open, showing how many pairs it holds] -->
 
 ## 6. Add a Bench Only If Someone Sits on It
 

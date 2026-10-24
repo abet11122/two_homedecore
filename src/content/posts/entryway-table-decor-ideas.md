@@ -29,7 +29,7 @@ faqs:
 
 To style an entryway table, use three objects at three heights grouped in a triangle — a lamp or tall vase, a stack of books, and a tray for keys — with a mirror two-thirds the table's width above and a third of the surface left clear. It looks finished and still works as a drop zone.
 
-[ADD YOUR PHOTO: your entryway table before styling]
+<!-- [ADD YOUR PHOTO: your entryway table before styling] -->
 
 An entryway table is the first surface anyone sees in your home, and it's also where keys, post and receipts go to die. Styling one is really about balancing those two jobs.
 
@@ -90,7 +90,7 @@ A large vase with tall dried stems — pampas, eucalyptus, cherry blossom branch
 
 This is the most Pinterest-friendly look and the easiest to swap seasonally. Change the stems, change the season.
 
-[ADD YOUR PHOTO: your styled table using one of the three layouts]
+<!-- [ADD YOUR PHOTO: your styled table using one of the three layouts] -->
 
 ## What to put in the tray
 

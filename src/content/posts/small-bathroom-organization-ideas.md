@@ -33,7 +33,7 @@ Small bathroom organization works when every item has a home within reach of whe
 
 A typical small bathroom — around 1.5 × 2 m (5 × 7 ft) — has three hard-working zones: the vanity and under-sink cabinet, the wall above the toilet, and the back of the door. Most clutter problems come from one of them being underused while the counter takes the overflow. The 17 ideas below are grouped by zone so you can fix the worst one first.
 
-[ADD YOUR PHOTO: your own bathroom before organizing — counter and open cabinet]
+<!-- [ADD YOUR PHOTO: your own bathroom before organizing — counter and open cabinet] -->
 
 ## Start Here: Declutter and Measure
 
@@ -168,6 +168,6 @@ Prices are rough ranges from mainstream homeware stores and vary by region. Reus
 
 After you organize, live with it for a week. Notice what still ends up on the counter every day. That item needs a reachable home closer to where it's used, or there are simply too many of it in the room. Adjust that one spot first. More containers only help when they make putting things away as easy as leaving them out.
 
-[ADD YOUR PHOTO: the same bathroom after organizing, from the same angle as the before photo]
+<!-- [ADD YOUR PHOTO: the same bathroom after organizing, from the same angle as the before photo] -->
 
 If your bathroom is also your only storage for cleaning supplies, the [small apartment organization guide](/post/small-apartment-organization-ideas/) covers whole-home zones. Renters can find more no-drill options in [apartment decor ideas on a budget](/post/apartment-decor-ideas-budget/), and the [floating shelf checklist](/post/diy-floating-shelves/) explains how to check a wall before mounting anything heavier than a hook.

@@ -83,7 +83,7 @@ A table runner is more practical than a full tablecloth for a dining table that 
 
 ## 11. Add a Skull or Dark Ceramic Object
 
-A small ceramic skull, a dark ceramic vessel, or a black figurine placed between the candles adds a Halloween detail to the centrepiece. Use one or two pieces rather than a collection.
+A small ceramic skull, a dark ceramic vessel, or a black figurine placed between the candles adds a Halloween detail to the centrepiece.
 
 A skull placed at the base of the centrepiece arrangement adds a Halloween detail without dominating the display.
 
@@ -126,3 +126,7 @@ A beautiful table that is difficult to eat at is always less successful than a s
 ## Final Thoughts
 
 An elegant Halloween tablescape is built on dark linens, candlelight, and a few well-chosen seasonal details. Start with the tablecloth and the candles — they create the foundation of the atmosphere. Add a pumpkin centrepiece, dark napkins, and one detail at each place setting. The table does the rest.
+
+## More Halloween ideas
+
+If you liked these, try [Halloween dessert table styling](/post/halloween-dessert-table-styling-ideas/), [elegant Halloween decor](/post/elegant-halloween-decor/) or [Halloween kitchen decor ideas](/post/halloween-kitchen-decor-ideas/). When the season turns, [cozy fall living room decor](/post/fall-living-room-decor-ideas/) carries the same warm palette into November.

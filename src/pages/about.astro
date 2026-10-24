@@ -3,9 +3,12 @@ import Layout from '../layouts/Layout.astro';
 import Img from '../components/Img.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import Newsletter from '../components/Newsletter.astro';
-import { SITE, CATEGORIES } from '../site';
+import { SITE } from '../site';
+import { navCategories } from '../lib/navCategories';
 
 export const prerender = true;
+
+const CATEGORIES = await navCategories();
 
 const values = [
   {

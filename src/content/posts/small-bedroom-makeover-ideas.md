@@ -30,7 +30,7 @@ A budget small bedroom makeover works best in a fixed order: clear and rearrange
 
 This plan is for a typical small bedroom of about 3 × 3 m (10 × 10 ft). Each step includes what it costs, so you can stop when the budget does.
 
-[ADD YOUR PHOTO: the room before the makeover, from the doorway]
+<!-- [ADD YOUR PHOTO: the room before the makeover, from the doorway] -->
 
 ## Friday Evening: Clear and Plan (Free)
 
@@ -70,7 +70,7 @@ Decide what the room actually lacks: light, storage, softness, or color. Buy for
 
 Fill holes, sand, and wipe down the walls. Tape the edges. Cut in around the edges with a brush, then roll the walls. Wait the drying time on the tin before the second coat. Open a window and leave the room to air overnight.
 
-[ADD YOUR PHOTO: the room mid-paint or with the finished color]
+<!-- [ADD YOUR PHOTO: the room mid-paint or with the finished color] -->
 
 ## Sunday: Textiles and Light ($100–$300)
 

@@ -36,9 +36,9 @@ A dark wreath works in a small entryway without overwhelming it.
 
 ## 3. Style One Tray on the Coffee Table
 
-A tray containing a candle, a small pumpkin, and one or two dark objects keeps the seasonal display contained and easy to move. Leave enough empty surface for everyday use.
+A tray containing a candle, a small pumpkin, and one or two dark objects keeps the seasonal display contained and easy to move.
 
-A tray is useful because the whole group can be moved at once. It also stops the display from spreading across the whole table.
+It also stops the display from spreading across the whole table.
 
 ## 4. Add Removable Bat Cutouts to One Wall
 
@@ -56,8 +56,6 @@ Choose clings in black or translucent rather than bright colours for a more grow
 
 A black or dark garland of leaves, stars, or geometric shapes draped along a shelf edge adds a seasonal note without using wall space. Tuck the ends behind objects on the shelf to hold it in place without adhesive.
 
-Garlands store flat and take up almost no space in a box.
-
 ## 7. Place Small Pumpkins on Every Shelf
 
 Small ceramic or fabric pumpkins placed on existing shelves add seasonal colour without taking up floor space. Group two or three together rather than spreading one pumpkin across every shelf.
@@ -72,9 +70,9 @@ Flameless candles with a flicker effect look more realistic than static ones. Mo
 
 ## 9. Add a Seasonal Throw to the Sofa
 
-A throw in deep plum, charcoal, or dark burgundy draped over the sofa arm adds seasonal colour without any wall attachment. Choose a textured knit or velvet throw for the most impact.
+A throw in deep plum, charcoal, or dark burgundy draped over the sofa arm adds seasonal colour without any wall attachment.
 
-This is one of the easiest and most reversible changes you can make. The throw works all autumn, not just at Halloween.
+The throw works all autumn, not just at Halloween.
 
 ## 10. Hang a Moon or Botanical Print in an Existing Frame
 
@@ -102,7 +100,7 @@ They come down in seconds and store flat. This is one of the most renter-friendl
 
 ## 14. Use Dark Cushion Covers on the Sofa
 
-Swapping two or three cushion covers for dark velvet or jacquard versions adds seasonal depth without any wall attachment. Choose charcoal, deep plum, or forest green.
+Swapping two or three cushion covers for dark velvet or jacquard versions adds seasonal depth without any wall attachment.
 
 Cushion covers store flat and are easy to swap back after Halloween.
 
@@ -116,7 +114,7 @@ Use a battery-powered lantern rather than a real candle in the entryway — it i
 
 A few bare or dark-painted branches in a tall vase you already own add height and a slightly eerie quality without any obvious Halloween imagery. They also last the entire season.
 
-Dried branches are free from any garden or park. Paint them black with spray paint for a more dramatic effect.
+Dried branches are free from any garden or park.
 
 ## 17. Keep the Display to One Box
 
@@ -127,3 +125,7 @@ A single well-chosen display is always more effective than a room covered in sea
 ## Final Thoughts
 
 Start with one focal point, keep walkways and exits clear, and favor pieces that store flat. Before attaching anything to a wall or window, check the lease and the product's surface instructions. A tabletop display is a useful fallback when the wall finish is uncertain.
+
+## More Halloween ideas
+
+If you liked these, try [Halloween entryway decor ideas](/post/halloween-entryway-decor-ideas/), [outdoor Halloween decor for small yards and balconies](/post/outdoor-halloween-decor-ideas-small-yards-balconies/) or [15 Halloween bathroom decor ideas](/post/halloween-bathroom-decor-ideas/). When the season turns, [fall apartment decor](/post/fall-apartment-decor-ideas/) carries the same warm palette into November.

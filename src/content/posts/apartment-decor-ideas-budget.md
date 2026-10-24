@@ -29,7 +29,7 @@ faqs:
 
 The best budget apartment decor ideas aren't objects at all: warm light, curtains hung properly, a rug that fits, and textiles you can take with you. Do the free steps first, then spend in order of impact — the list below is ranked that way.
 
-[ADD YOUR PHOTO: your living room before any changes]
+<!-- [ADD YOUR PHOTO: your living room before any changes] -->
 
 Most budget decorating advice is a list of thrifted objects. But an apartment doesn't look better because of more objects — it looks better because of light, textiles and a few structural fixes.
 
@@ -130,7 +130,7 @@ Keep the originals in a box for move-out.
 
 Keep a labeled box with everything you've swapped out: original bulbs, cabinet knobs, the shower head, curtain rods, toilet seat. Add a small tub of wall filler, a putty knife and a little touch-up paint, if your landlord can tell you the color. Moving out then takes an hour, not a weekend.
 
-[ADD YOUR PHOTO: a room after your lighting, curtain and rug changes]
+<!-- [ADD YOUR PHOTO: a room after your lighting, curtain and rug changes] -->
 
 ## Where to spend rather than save
 

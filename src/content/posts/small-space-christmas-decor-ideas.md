@@ -1,6 +1,6 @@
 ---
 title: "Small Space Christmas Decor Ideas for Apartments"
-description: "Christmas decor for small apartments: which tree fits, stockings without a mantel, damage-free hanging, one display per room, and decorations that store in one box."
+description: "Christmas decor for small apartments: which tree fits, stockings without a mantel, damage-free hanging and decorations that store in one box."
 category: seasonal
 tags: ["christmas decor", "small spaces", "apartment decor", "seasonal decorating", "holiday decor"]
 publishDate: 2026-10-11
@@ -30,7 +30,7 @@ Christmas decor for a small apartment works best when you pick the right tree fo
 
 This guide covers the whole apartment. For room-specific ideas, see [Christmas bedroom ideas](/post/christmas-bedroom-ideas/) and [cozy Christmas living room ideas](/post/cozy-christmas-living-room-ideas/).
 
-[ADD YOUR PHOTO: your apartment decorated for Christmas, wide shot]
+<!-- [ADD YOUR PHOTO: your apartment decorated for Christmas, wide shot] -->
 
 ## Choose a Tree That Fits
 
@@ -84,7 +84,7 @@ One display per room feels festive. Decorations on every surface in a small flat
 
 Wipe walls with rubbing alcohol before using adhesive, wait an hour before loading hooks, and remove them by pulling the tab straight down.
 
-[ADD YOUR PHOTO: your stockings or wreath hung without a mantel]
+<!-- [ADD YOUR PHOTO: your stockings or wreath hung without a mantel] -->
 
 ## Pick a Simple Palette
 

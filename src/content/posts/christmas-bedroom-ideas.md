@@ -30,7 +30,7 @@ The best Christmas bedroom ideas add warmth without making the room harder to re
 
 This guide works for a typical small bedroom of about 3 × 3 m (10 × 10 ft), where the bed takes up most of the floor and every surface has a job.
 
-[ADD YOUR PHOTO: your bedroom decorated for Christmas, shot from the doorway]
+<!-- [ADD YOUR PHOTO: your bedroom decorated for Christmas, shot from the doorway] -->
 
 ## Step 1: Choose One Focal Point
 
@@ -130,6 +130,6 @@ Prices vary by store and region.
 
 Store lights wrapped around a piece of cardboard so they don't tangle. Fold cushion covers and throws with a cedar block to keep moths off wool. Bag the tree topper and fragile ornaments separately. If storage is tight, a single under-bed box is enough for a bedroom's worth of decorations — see [small bedroom storage](/post/small-bedroom-storage-ideas/) for how to measure under-bed space.
 
-[ADD YOUR PHOTO: a close-up of your headboard or bedside display]
+<!-- [ADD YOUR PHOTO: a close-up of your headboard or bedside display] -->
 
 For the rest of the home, the [small-space Christmas decor guide](/post/small-space-christmas-decor-ideas/) covers apartments room by room, and [cozy Christmas living room ideas](/post/cozy-christmas-living-room-ideas/) shows how to scale these ideas up for the main room. Want the bedroom to feel cozy all winter? Start with the [cozy small bedroom guide](/post/cozy-small-bedroom-ideas/).

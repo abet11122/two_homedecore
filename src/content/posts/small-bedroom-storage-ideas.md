@@ -30,7 +30,7 @@ Good small bedroom storage reduces what ends up on the floor, the bed and the ch
 
 This guide assumes a typical small bedroom of roughly 2.7 × 3 m (9 × 10 ft) with a double bed, but the measurements apply to any size.
 
-[ADD YOUR PHOTO: your bedroom from the doorway, showing the bed and wardrobe]
+<!-- [ADD YOUR PHOTO: your bedroom from the doorway, showing the bed and wardrobe] -->
 
 ## Step 1: Sort by How Often You Use Things
 
@@ -87,7 +87,7 @@ Most wardrobes waste space. Before buying new storage, look at what's wrong with
 
 Use slim, matching hangers. They can free 20–30% more rail space than chunky plastic or wooden ones.
 
-[ADD YOUR PHOTO: inside your wardrobe after reorganizing]
+<!-- [ADD YOUR PHOTO: inside your wardrobe after reorganizing] -->
 
 ## Step 5: Use the Bed Wall and Bedside
 

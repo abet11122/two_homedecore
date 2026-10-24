@@ -150,3 +150,7 @@ In rentals, check the lease, wall finish, and adhesive instructions before attac
 ## Final Thoughts
 
 The strongest elegant Halloween decor is the kind that makes the room feel atmospheric rather than themed. Start with a restrained palette, choose one focal point, and add a few well-chosen pieces that work with your existing decor. Small, deliberate choices are usually more successful than covering every surface.
+
+## More Halloween ideas
+
+If you liked these, try [gothic dark-botanical Halloween decor](/post/gothic-halloween-decor-ideas-dark-botanical/), [Halloween mantel decor ideas](/post/halloween-mantel-decor-ideas/) or [Halloween tablescape ideas](/post/halloween-dining-room-tablescape-ideas/). When the season turns, [the autumn mantel](/post/autumn-mantel-styling/) carries the same warm palette into November.

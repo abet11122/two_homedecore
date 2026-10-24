@@ -126,3 +126,7 @@ Choose two or three rooms to transform fully and leave the rest relatively norma
 ## Final Thoughts
 
 A DIY haunted house is built on atmosphere rather than expensive props. Start with the lighting and the cobwebs — they create the foundation of the effect. Add a fog machine, a skeleton, and sound effects. Work room by room and commit to a few strong moments rather than covering everything.
+
+## More Halloween ideas
+
+If you liked these, try [outdoor Halloween decor for small yards and balconies](/post/outdoor-halloween-decor-ideas-small-yards-balconies/), [gothic dark-botanical Halloween decor](/post/gothic-halloween-decor-ideas-dark-botanical/) or [neon Y2K Halloween party decor](/post/neon-y2k-apocalypse-halloween-party-decor-ideas/). When the season turns, [cozy fall living room decor](/post/fall-living-room-decor-ideas/) carries the same warm palette into November.

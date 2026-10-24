@@ -114,3 +114,7 @@ Good lighting — natural light from a window or a ring light — creates the mo
 ## Final Thoughts
 
 A Halloween dessert table is built on three principles: a backdrop, a colour palette, and varying heights. Start with the backdrop and the tablecloth, set up the heights with stands and risers, and fill in with treats in the colour palette. Label everything, add a few decorative objects, and photograph it before the party starts.
+
+## More Halloween ideas
+
+If you liked these, try [Halloween tablescape ideas](/post/halloween-dining-room-tablescape-ideas/), [neon Y2K Halloween party decor](/post/neon-y2k-apocalypse-halloween-party-decor-ideas/) or [Halloween kitchen decor ideas](/post/halloween-kitchen-decor-ideas/). When the season turns, [the autumn mantel](/post/autumn-mantel-styling/) carries the same warm palette into November.

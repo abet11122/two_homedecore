@@ -30,7 +30,7 @@ A small laundry area works when one load can move from dirty to put away without
 
 Your "laundry room" might be a closet with stacked machines, a corner of the kitchen, or a utility room. The tasks are the same; only the space changes.
 
-[ADD YOUR PHOTO: your laundry area as it looks now, with the machine door open]
+<!-- [ADD YOUR PHOTO: your laundry area as it looks now, with the machine door open] -->
 
 ## Step 1: Walk Through One Load
 
@@ -92,7 +92,7 @@ Drying is where most small laundry spaces fail.
 
 Damp laundry indoors adds a lot of moisture to the air. Open a window, run an extractor fan or use a dehumidifier to avoid condensation and mold on cold walls.
 
-[ADD YOUR PHOTO: your drying setup in use]
+<!-- [ADD YOUR PHOTO: your drying setup in use] -->
 
 ## Step 6: Add a Folding Surface That's Safe
 

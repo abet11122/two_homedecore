@@ -144,3 +144,7 @@ If the room looks like it might be too much, add one more neon light. That is th
 ## Final Thoughts
 
 Y2K Apocalypse Halloween decor is the most maximalist seasonal theme of 2026. Start with the neon LED strip lights and the silver tablecloths — they create the foundation of the aesthetic. Add metallic pumpkins, glitch prints, and a fog machine. Commit to the excess and the atmosphere builds itself.
+
+## More Halloween ideas
+
+If you liked these, try [Halloween dessert table styling](/post/halloween-dessert-table-styling-ideas/), [DIY haunted house decor](/post/haunted-house-decor-ideas-diy-spooky-setup/) or [pink Halloween decor](/post/pink-halloween-decor-ideas-pink-o-ween/). When the season turns, [fall apartment decor](/post/fall-apartment-decor-ideas/) carries the same warm palette into November.

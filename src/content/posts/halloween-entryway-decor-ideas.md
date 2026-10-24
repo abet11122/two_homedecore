@@ -77,7 +77,7 @@ A tray on the console table contains the display and makes it easy to move when 
 
 ## 10. Add a Vintage-Style Sign or Print
 
-A framed vintage Halloween print or a small sign — "Beware," "Haunted," or a vintage illustration — on the entryway wall adds atmosphere without taking up floor space. Swap it into a frame you already own.
+A framed vintage Halloween print or a small sign — "Beware," "Haunted," or a vintage illustration — on the entryway wall adds atmosphere without taking up floor space.
 
 A single framed piece on the entryway wall is often more effective than several small objects on the console table.
 
@@ -113,4 +113,8 @@ A clear, well-lit path with a few well-chosen seasonal details is always more we
 
 ## Final Thoughts
 
-The strongest Halloween entryway decor is the kind that creates an impression without blocking the entrance. Start with a wreath on the door, a pumpkin to one side, and a lantern for light. Add a garland or a console table display if the space allows. Small, deliberate choices are usually more successful than covering every surface.
+The strongest Halloween entryway decor is the kind that creates an impression without blocking the entrance. Start with a wreath on the door, a pumpkin to one side, and a lantern for light. Add a garland or a console table display if the space allows.
+
+## More Halloween ideas
+
+If you liked these, try [Halloween wreath ideas](/post/halloween-wreath-ideas-front-door-styling/), [outdoor Halloween decor for small yards and balconies](/post/outdoor-halloween-decor-ideas-small-yards-balconies/) or [renter-friendly small apartment Halloween decor](/post/small-apartment-halloween-decor-renter-friendly/). When the season turns, [fall apartment decor](/post/fall-apartment-decor-ideas/) carries the same warm palette into November.

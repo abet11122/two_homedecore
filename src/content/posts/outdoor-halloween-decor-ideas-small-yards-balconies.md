@@ -102,3 +102,7 @@ Check the weather forecast before putting out any paper or fabric decorations. B
 ## Final Thoughts
 
 The strongest outdoor Halloween decor is the kind that creates an impression from the street without requiring constant maintenance. Start with string lights, a wreath, and three pumpkins. Add a lantern and a cobweb for drama. Choose weather-resistant materials and the display will last the whole season.
+
+## More Halloween ideas
+
+If you liked these, try [Halloween wreath ideas](/post/halloween-wreath-ideas-front-door-styling/), [DIY haunted house decor](/post/haunted-house-decor-ideas-diy-spooky-setup/) or [Halloween entryway decor ideas](/post/halloween-entryway-decor-ideas/). When the season turns, [fall apartment decor](/post/fall-apartment-decor-ideas/) carries the same warm palette into November.

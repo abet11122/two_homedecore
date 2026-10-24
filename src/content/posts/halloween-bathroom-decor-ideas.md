@@ -115,3 +115,7 @@ A tray is useful because the whole group can be moved at once when you need the 
 ## Final Thoughts
 
 The Halloween bathroom is the most surprising seasonal moment in the house because guests do not expect it. Start with the hand towel swap and the soap dispenser — they are the two changes with the most impact for the least effort. Add a small pumpkin and a flameless candle, and the bathroom is done.
+
+## More Halloween ideas
+
+If you liked these, try [renter-friendly small apartment Halloween decor](/post/small-apartment-halloween-decor-renter-friendly/), [elegant Halloween decor](/post/elegant-halloween-decor/) or [Halloween bedroom decor ideas](/post/halloween-bedroom-decor-ideas/). When the season turns, [fall apartment decor](/post/fall-apartment-decor-ideas/) carries the same warm palette into November.

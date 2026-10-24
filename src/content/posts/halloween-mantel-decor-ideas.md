@@ -35,7 +35,7 @@ The outer candles should be the tallest elements on the mantel. Everything else 
 
 ## 3. Place a Pumpkin at the Centre
 
-A single large pumpkin — real, ceramic, or carved — at the centre of the mantel creates the seasonal focal point. Choose a matte-finish pumpkin in cream, terracotta, or faded orange rather than a shiny bright one.
+A single large pumpkin — real, ceramic, or carved — at the centre of the mantel creates the seasonal focal point.
 
 A carved pumpkin with a candle inside adds light to the display. Use a battery-powered tea light for safety near the garland.
 
@@ -53,7 +53,7 @@ A lantern placed at one end of the mantel balances the height of the candles at 
 
 ## 6. Add a Skull or Dark Ceramic Object
 
-A small ceramic skull, a dark ceramic vessel, or a black figurine adds a Halloween detail without dominating the display. Use one or two pieces rather than a collection.
+A small ceramic skull, a dark ceramic vessel, or a black figurine adds a Halloween detail without dominating the display.
 
 Place the skull at a lower height than the candles and pumpkin so it reads as a supporting detail rather than the focal point.
 
@@ -77,7 +77,7 @@ A flat display — all objects at the same height — reads as a shelf rather th
 
 ## 10. Use a Dark Velvet Runner
 
-A dark velvet runner along the mantel shelf adds a luxurious base for the display. Choose charcoal, deep plum, or forest green. The runner creates a visual boundary between the shelf and the objects on it.
+A dark velvet runner along the mantel shelf adds a luxurious base for the display. The runner creates a visual boundary between the shelf and the objects on it.
 
 A velvet runner is available at fabric stores and home stores. Cut it to the length of the mantel shelf.
 
@@ -85,7 +85,7 @@ A velvet runner is available at fabric stores and home stores. Cut it to the len
 
 A few bare or dark-painted branches in a tall vase at one end of the mantel add height and a slightly eerie quality. Hang small dark ornaments, dried flowers, or paper bats from the branches.
 
-Dried branches are free from any garden or park. Paint them black with spray paint for a more dramatic effect.
+Dried branches are free from any garden or park.
 
 ## 12. Use a Vintage-Style Print as a Backdrop
 
@@ -114,3 +114,7 @@ The combination of candlelight, fairy lights, and the warm glow of a lantern cre
 ## Final Thoughts
 
 A well-styled Halloween mantel is the most impactful single change you can make to a living room for the season. Start with a garland and tall candles, add a pumpkin and a dark floral arrangement, and keep the palette consistent. The mantel does the rest.
+
+## More Halloween ideas
+
+If you liked these, try [elegant Halloween decor](/post/elegant-halloween-decor/), [gothic dark-botanical Halloween decor](/post/gothic-halloween-decor-ideas-dark-botanical/) or [vintage Halloween decor](/post/vintage-halloween-decor-ideas/). When the season turns, [the autumn mantel](/post/autumn-mantel-styling/) carries the same warm palette into November.

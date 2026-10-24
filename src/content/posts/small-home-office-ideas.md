@@ -29,7 +29,7 @@ faqs:
 
 A small home office works when three things are right: a desk deep enough for your setup (20–24 inches), light from the side rather than behind you, and a way to put it all away at the end of the day. About 40 × 54 inches of floor is enough — a corner, a closet, or the end of a bedroom wall.
 
-[ADD YOUR PHOTO: the corner or alcove you're using for your office]
+<!-- [ADD YOUR PHOTO: the corner or alcove you're using for your office] -->
 
 Most people working from home don't have a spare room. They have a corner of the bedroom, an alcove under the stairs, or one end of the dining table.
 
@@ -83,7 +83,7 @@ A drop-leaf or murphy-style desk mounted to the wall. Folds flat when closed, op
 
 Best for spaces that have to do two jobs — a guest room, a dining room, a small living room. The office genuinely disappears.
 
-[ADD YOUR PHOTO: your desk setup from behind the chair]
+<!-- [ADD YOUR PHOTO: your desk setup from behind the chair] -->
 
 ## Set up the screen and chair properly
 

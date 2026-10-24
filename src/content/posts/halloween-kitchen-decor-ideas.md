@@ -24,7 +24,7 @@ The kitchen is one of the easiest rooms to decorate for Halloween because the ch
 
 ## 1. Place a Pumpkin on the Counter
 
-A single pumpkin on the kitchen counter is the simplest and most effective Halloween kitchen decor change. Choose a matte-finish pumpkin in cream, terracotta, or faded orange rather than a shiny bright one.
+A single pumpkin on the kitchen counter is the simplest and most effective Halloween kitchen decor change.
 
 Keep it to one side of the counter so it does not interfere with food prep. A small pumpkin on a wooden board or ceramic plate looks more intentional than one placed directly on the counter.
 
@@ -90,7 +90,7 @@ Tea-stain the labels for an aged look: dip printer paper in cold tea, let it dry
 
 ## 12. Style the Windowsill
 
-A row of small pumpkins along the kitchen windowsill — real, ceramic, or fabric — creates a seasonal display that is visible from outside and inside. Vary the heights and finishes for a more natural look.
+A row of small pumpkins along the kitchen windowsill — real, ceramic, or fabric — creates a seasonal display that is visible from outside and inside.
 
 The windowsill is often the most overlooked surface in a kitchen. A few small objects there add a lot of seasonal atmosphere.
 
@@ -102,7 +102,7 @@ Fold them simply and place them under the cutlery for a clean, intentional look.
 
 ## 14. Add a Seasonal Candle in an Autumn Fragrance
 
-A candle in a dark vessel with an autumn fragrance — cinnamon, clove, smoked wood, or dark amber — adds a sensory layer to the kitchen's seasonal styling. The scent is as much a part of the atmosphere as the visual changes.
+A candle in a dark vessel with an autumn fragrance — cinnamon, clove, smoked wood, or dark amber — adds a sensory layer to the kitchen's seasonal styling.
 
 Keep it away from food prep surfaces and open flames away from curtains or paper.
 
@@ -132,7 +132,7 @@ A diffuser lasts the whole season and requires no maintenance beyond occasional 
 
 ## 19. Add a Seasonal Print to the Kitchen Wall
 
-A framed print of a vintage botanical, a dark kitchen still life, or a Halloween illustration adds a seasonal note to the kitchen wall. Swap it into a frame you already own.
+A framed print of a vintage botanical, a dark kitchen still life, or a Halloween illustration adds a seasonal note to the kitchen wall.
 
 A single framed print on the kitchen wall is often more effective than several small objects on the counter.
 
@@ -144,4 +144,8 @@ A kitchen that looks good and works well is always more successful than one that
 
 ## Final Thoughts
 
-The strongest Halloween kitchen decor is the kind that adds atmosphere without getting in the way. Start with a dish towel swap and a pumpkin on the counter, add a black cat to the shelf, and keep the rest of the counter clear. Small, deliberate choices are usually more successful than covering every surface.
+The strongest Halloween kitchen decor is the kind that adds atmosphere without getting in the way. Start with a dish towel swap and a pumpkin on the counter, add a black cat to the shelf, and keep the rest of the counter clear.
+
+## More Halloween ideas
+
+If you liked these, try [Halloween tablescape ideas](/post/halloween-dining-room-tablescape-ideas/), [Halloween dessert table styling](/post/halloween-dessert-table-styling-ideas/) or [vintage Halloween decor](/post/vintage-halloween-decor-ideas/). When the season turns, [cozy fall living room decor](/post/fall-living-room-decor-ideas/) carries the same warm palette into November.

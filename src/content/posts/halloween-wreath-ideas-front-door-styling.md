@@ -114,3 +114,7 @@ Choose a wreath that suits the exterior colour, the architectural style, and the
 ## Final Thoughts
 
 A Halloween wreath is the highest-impact single change you can make to the exterior of your home. Choose a style that suits the house, use dried materials for durability, and hang it with an over-the-door hook for a renter-friendly installation. The wreath sets the tone for everything else.
+
+## More Halloween ideas
+
+If you liked these, try [Halloween entryway decor ideas](/post/halloween-entryway-decor-ideas/), [outdoor Halloween decor for small yards and balconies](/post/outdoor-halloween-decor-ideas-small-yards-balconies/) or [vintage Halloween decor](/post/vintage-halloween-decor-ideas/). When the season turns, [the autumn mantel](/post/autumn-mantel-styling/) carries the same warm palette into November.

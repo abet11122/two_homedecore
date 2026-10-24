@@ -29,7 +29,7 @@ faqs:
 
 Before installing floating shelves, work out exactly what they'll hold, find out what the wall is made of, and choose a shelf system whose maker rates it for that wall and load. Get any of those three wrong and a shelf that looks fine on day one can sag or pull out months later.
 
-[ADD YOUR PHOTO: the wall where you plan to put the shelf, with the outline taped on]
+<!-- [ADD YOUR PHOTO: the wall where you plan to put the shelf, with the outline taped on] -->
 
 A floating shelf hides its supports, which makes its real capacity difficult to judge by appearance. The safe choice depends on the shelf, bracket, fixings, wall construction, and the weight and position of what you put on it. This checklist helps you decide whether a proposed shelf fits the space and what information you need before installing it. It does not assign a universal weight rating to a wall or fixing.
 
@@ -119,7 +119,7 @@ Prices vary by region and store.
 
 If the wall type is unknown, the manufacturer's support points do not align with safe fixing locations, or the intended load exceeds a documented rating, a freestanding unit is usually easier to assess and move. Check its own assembly and anchoring instructions, especially where children can reach it. The aim is usable storage that remains appropriate for the actual room and wall.
 
-[ADD YOUR PHOTO: your installed shelf, styled]
+<!-- [ADD YOUR PHOTO: your installed shelf, styled] -->
 
 ## Where to Use Floating Shelves
 

@@ -134,7 +134,7 @@ Warm white, soft grey, muted blue, sage or sand on the walls makes a small room 
 
 Space, dinosaurs, football, cars, gaming — choose one theme and use it in three places: bedding, one poster or print, and one lamp or rug. When he moves on, you swap three cheap things, not a whole room.
 
-[ADD YOUR PHOTO: your son's room with its theme items]
+<!-- [ADD YOUR PHOTO: your son's room with its theme items] -->
 
 ### 16. Leave One Wall Mostly Empty
 

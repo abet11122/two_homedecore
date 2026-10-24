@@ -30,7 +30,7 @@ Fall apartment decor works best when it's small and specific: one seasonal focal
 
 These ideas are for a small rental — a studio or one-bedroom — where there's no mantel, no storage room and no permission to drill.
 
-[ADD YOUR PHOTO: your living space as it looks before fall styling]
+<!-- [ADD YOUR PHOTO: your living space as it looks before fall styling] -->
 
 ## Start With One Focal Point
 
@@ -42,7 +42,7 @@ In a small flat, decorating every surface makes it feel crowded. Pick one place 
 
 Style that surface with one tall piece (a jug of dried branches or wheat), two medium pieces (candlesticks, a stack of books), and a few low details (a small bowl of acorns, a gourd, a candle). Group them off-center and leave space around them. The method is explained step by step in [the autumn mantel](/post/autumn-mantel-styling/), and it works on any shelf.
 
-[ADD YOUR PHOTO: your styled focal point]
+<!-- [ADD YOUR PHOTO: your styled focal point] -->
 
 ## Let Textiles Do the Work
 
@@ -136,6 +136,6 @@ At the end of November, everything should fit in one labeled storage bag: cushio
 
 Most apartments can be styled for fall for $50–$100. Prices vary by region and store.
 
-[ADD YOUR PHOTO: your whole room with the fall styling finished, lamps on]
+<!-- [ADD YOUR PHOTO: your whole room with the fall styling finished, lamps on] -->
 
 For a bigger space, see [cozy fall living room decor ideas](/post/fall-living-room-decor-ideas/). The [budget apartment decor guide](/post/apartment-decor-ideas-budget/) covers year-round changes that make seasonal decor look even better, and when November ends, [small-space Christmas decor ideas](/post/small-space-christmas-decor-ideas/) picks up where this leaves off.

@@ -126,3 +126,7 @@ A single bright modern orange pumpkin in a vintage display will pull the eye awa
 ## Final Thoughts
 
 Vintage Halloween decor works because it draws on a visual language that is genuinely old — the prints, the colours, and the objects all have a history. Start with a few reproduction prints, a pair of antique candlesticks, and a matte pumpkin. The palette does the rest.
+
+## More Halloween ideas
+
+If you liked these, try [Halloween mantel decor ideas](/post/halloween-mantel-decor-ideas/), [Halloween wreath ideas](/post/halloween-wreath-ideas-front-door-styling/) or [elegant Halloween decor](/post/elegant-halloween-decor/). When the season turns, [the autumn mantel](/post/autumn-mantel-styling/) carries the same warm palette into November.

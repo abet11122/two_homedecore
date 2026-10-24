@@ -30,7 +30,7 @@ A cozy Christmas living room comes down to warm light, soft textiles and restrai
 
 This guide is for the main living room. For a whole small apartment, see [small-space Christmas decor ideas](/post/small-space-christmas-decor-ideas/).
 
-[ADD YOUR PHOTO: your living room decorated, shot from the sofa]
+<!-- [ADD YOUR PHOTO: your living room decorated, shot from the sofa] -->
 
 ## The Tree
 
@@ -66,7 +66,7 @@ Two or three colors look more considered than every ornament you own. Put your s
 
 Cut 2–3 cm off the trunk before putting it in the stand, fill it with water straight away, and check every day. A fresh tree can drink a liter or more a day in the first week. When needles fall at a touch, it's time to take it down.
 
-[ADD YOUR PHOTO: your tree close up, showing the lights and ornaments]
+<!-- [ADD YOUR PHOTO: your tree close up, showing the lights and ornaments] -->
 
 ## Light the Whole Room Warmly
 

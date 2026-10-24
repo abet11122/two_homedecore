@@ -30,7 +30,7 @@ A modern boys bedroom comes down to four choices: a restrained palette, clean-li
 
 This is a style guide. For layouts and storage in a tight room, start with [small boys bedroom ideas](/post/small-boys-bedroom-ideas/).
 
-[ADD YOUR PHOTO: the room's starting point, before restyling]
+<!-- [ADD YOUR PHOTO: the room's starting point, before restyling] -->
 
 ## 1. Build the Palette With 60-30-10
 
@@ -85,7 +85,7 @@ Three medium prints (A3 or 30 × 40 cm) in matching frames look more modern than
 
 A 60–90 cm picture ledge lets him change art, add a model, or display a trophy without making new holes. Ledges about 8–10 cm deep hold frames safely. Two ledges stacked 30–35 cm apart make a neat gallery wall.
 
-[ADD YOUR PHOTO: the art wall or picture ledge you set up]
+<!-- [ADD YOUR PHOTO: the art wall or picture ledge you set up] -->
 
 ## 7. Choose a Rug That Defines the Room
 

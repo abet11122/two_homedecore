@@ -31,7 +31,7 @@ A minimalist living room keeps only what you use or love, arranged with room to 
 
 Minimalism isn't about owning nothing. It's about having only what serves you. Some people find a less cluttered room calmer to be in; others don't, and that's fine. Treat it as a way of styling a room, not a rule.
 
-[ADD YOUR PHOTO: your living room before decluttering]
+<!-- [ADD YOUR PHOTO: your living room before decluttering] -->
 
 ## The Three Pillars
 
@@ -78,7 +78,7 @@ You need four things: somewhere to sit, somewhere to put things down, somewhere 
 
 Pull the sofa a little off the wall if you can — even 10 cm makes a room feel less like a waiting room. Leave one wall or corner mostly empty.
 
-[ADD YOUR PHOTO: your living room layout from above or from a corner]
+<!-- [ADD YOUR PHOTO: your living room layout from above or from a corner] -->
 
 ## Step 4: Use a Restrained Palette
 
@@ -153,6 +153,6 @@ Minimalism is a habit, not a one-time makeover:
 
 When you're done, the room should pass this test: *"A warm white living room with a linen sofa, an oak coffee table, one large print and two plants."* If it takes three sentences, there's probably too much going on.
 
-[ADD YOUR PHOTO: your finished minimalist living room]
+<!-- [ADD YOUR PHOTO: your finished minimalist living room] -->
 
 For more on lighting and rugs on a budget, see [apartment decor ideas on a budget](/post/apartment-decor-ideas-budget/). If your living room also has to be a bedroom or office, [zoning a studio](/post/studio-apartment-zoning/) shows how to keep it calm. To bring the same approach into the kitchen, read [open shelving styling](/post/kitchen-open-shelving-styling/).

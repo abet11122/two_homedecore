@@ -30,7 +30,7 @@ A teenage boy's bedroom has to do three jobs: sleep, study or gaming, and storin
 
 This guide assumes a room of around 3 × 3.3 m (10 × 11 ft). The zone approach still works in a smaller box room — the zones just overlap more.
 
-[ADD YOUR PHOTO: the room before, with furniture in its current positions]
+<!-- [ADD YOUR PHOTO: the room before, with furniture in its current positions] -->
 
 ## Plan the Three Zones
 
@@ -56,7 +56,7 @@ Teenagers can spend hours at a desk. Get the basics right:
 
 **Short on space?** A loft bed with a desk below works well — check you have 75–90 cm between mattress and ceiling. Or use a wall-mounted desk 40–50 cm deep with a laptop and a monitor arm.
 
-[ADD YOUR PHOTO: the finished desk setup]
+<!-- [ADD YOUR PHOTO: the finished desk setup] -->
 
 ## Plan Power and Cables First
 

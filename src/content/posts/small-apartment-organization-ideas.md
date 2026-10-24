@@ -30,7 +30,7 @@ Small apartment organization works when every activity has a zone, every zone ha
 
 These ideas suit a studio or one-bedroom apartment of around 35–55 m² (375–600 sq ft), where storage is short and every surface has a job.
 
-[ADD YOUR PHOTO: your main living space before organizing]
+<!-- [ADD YOUR PHOTO: your main living space before organizing] -->
 
 ## Set Up Zones
 
@@ -72,7 +72,7 @@ Over-door racks and hooks turn the back of every door into storage: shoes, clean
 
 Gaps of 12–25 cm appear beside the fridge, between the sofa and the wall, beside the washing machine and next to the bed. A slim rolling cart or a narrow shelf unit fits most of them. Measure at the narrowest point, including skirting and any hoses or cables.
 
-[ADD YOUR PHOTO: a narrow gap or above-door shelf you turned into storage]
+<!-- [ADD YOUR PHOTO: a narrow gap or above-door shelf you turned into storage] -->
 
 ## Choose Furniture That Stores Things
 
@@ -128,6 +128,6 @@ Prices vary by region and store.
 
 Pick the spot that annoys you most — usually the entry, the kitchen counter or the bedroom chair. Empty it, sort what's there into keep, move and let go, measure the space, and choose one storage solution. Live with it for a week before moving to the next spot.
 
-[ADD YOUR PHOTO: the same space after organizing]
+<!-- [ADD YOUR PHOTO: the same space after organizing] -->
 
 For room-by-room detail, see [small kitchen organization ideas](/post/small-kitchen-organization-ideas/), [small bedroom storage](/post/small-bedroom-storage-ideas/) and [small bathroom organization ideas](/post/small-bathroom-organization-ideas/). Renters can find damage-free ideas in [apartment decor ideas on a budget](/post/apartment-decor-ideas-budget/).

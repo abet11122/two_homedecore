@@ -93,3 +93,7 @@ A single well-chosen display in one corner is always more effective than seasona
 ## Final Thoughts
 
 Halloween decor in a toddler's bedroom works best when it is friendly and contained. Start with a picture book or one age-appropriate soft object, then keep the rest of the room familiar. Check each product's age guidance, parts, attachment, and placement before use.
+
+## More Halloween ideas
+
+If you liked these, try [pink Halloween decor](/post/pink-halloween-decor-ideas-pink-o-ween/), [Halloween bedroom decor ideas](/post/halloween-bedroom-decor-ideas/) or [renter-friendly small apartment Halloween decor](/post/small-apartment-halloween-decor-renter-friendly/). When the season turns, [cozy fall living room decor](/post/fall-living-room-decor-ideas/) carries the same warm palette into November.

@@ -29,7 +29,7 @@ faqs:
 
 The best small balcony decor uses the railing and the walls instead of the floor: a hook-over bar table, railing planters, a folding chair, deck tiles underfoot and solar string lights. Measure the depth first — it decides what furniture fits — and keep 24 inches clear to the door.
 
-[ADD YOUR PHOTO: your balcony as it is now, shot from the doorway]
+<!-- [ADD YOUR PHOTO: your balcony as it is now, shot from the doorway] -->
 
 A balcony is often narrower than a hallway — sometimes 3 or 4 feet deep. That rules out most outdoor furniture and means nearly everything has to use the railing, the walls, or fold away.
 
@@ -100,7 +100,7 @@ More important on a balcony than anywhere, because it's the thing that makes you
 
 Warm white. String lights along the top of a railing are the classic balcony look and they cost very little.
 
-[ADD YOUR PHOTO: your rail table or folding seating set up]
+<!-- [ADD YOUR PHOTO: your rail table or folding seating set up] -->
 
 ## Weight and building rules
 
@@ -190,6 +190,6 @@ Deck tiles over the concrete, a rail-mounted table, one folding chair, railing p
 
 Nothing permanent, nothing drilled, and it fits on 4 x 8 feet.
 
-[ADD YOUR PHOTO: your finished balcony at dusk with the lights on]
+<!-- [ADD YOUR PHOTO: your finished balcony at dusk with the lights on] -->
 
 For more renter-friendly upgrades indoors, see [apartment decor ideas on a budget](/post/apartment-decor-ideas-budget/). In autumn, the [fall apartment decor guide](/post/fall-apartment-decor-ideas/) covers balcony and window styling, and if your balcony opens off a studio, [zoning a studio](/post/studio-apartment-zoning/) shows how to make it feel like a separate room.

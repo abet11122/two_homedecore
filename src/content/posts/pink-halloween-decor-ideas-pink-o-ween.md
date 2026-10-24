@@ -55,13 +55,9 @@ A single stem arrangement in a blush or cream vase is often more effective than 
 
 A garland alternating pink and black elements — pom-poms, stars, bats, or geometric shapes — adds a seasonal note to a mantel, shelf, or window frame. Make one yourself with craft supplies or buy from an Etsy seller.
 
-Garlands store flat and take up almost no space in a box.
-
 ## 7. Style a Pink Tray Display
 
-A tray in blush or cream containing a pink candle, a blush pumpkin, and one or two black objects creates a contained Pink-o-ween display that is easy to move. Leave enough empty surface for everyday use.
-
-A tray is useful because the whole group can be moved at once.
+A tray in blush or cream containing a pink candle, a blush pumpkin, and one or two black objects creates a contained Pink-o-ween display that is easy to move.
 
 ## 8. Add Pink Fairy Lights
 
@@ -71,9 +67,9 @@ Pink fairy lights are widely available in October and store easily after the sea
 
 ## 9. Use a Blush or Pink Throw
 
-A throw in blush, dusty rose, or pale pink draped over a sofa or chair arm adds seasonal colour without any wall attachment. Choose a textured knit or velvet throw for the most impact.
+A throw in blush, dusty rose, or pale pink draped over a sofa or chair arm adds seasonal colour without any wall attachment.
 
-This is one of the easiest and most reversible changes you can make. The throw works all autumn, not just at Halloween.
+The throw works all autumn, not just at Halloween.
 
 ## 10. Add a Pink Witch Hat
 
@@ -89,7 +85,7 @@ Cushion covers store flat and are easy to swap back after Halloween.
 
 ## 12. Add a Pink Skull or Ceramic Detail
 
-A pink ceramic skull — available at home stores and on Etsy — adds a Halloween detail in the Pink-o-ween palette. Use one or two pieces rather than a collection.
+A pink ceramic skull — available at home stores and on Etsy — adds a Halloween detail in the Pink-o-ween palette.
 
 A pink skull on a shelf or mantel is the most direct expression of the Pink-o-ween aesthetic: unmistakably Halloween, unmistakably pink.
 
@@ -114,3 +110,7 @@ Without the black, the display reads as a birthday party. With it, the display r
 ## Final Thoughts
 
 Pink-o-ween works because it takes the seasonal palette in an unexpected direction while keeping the core Halloween symbols — bats, skulls, pumpkins, candles — intact. Start with blush pumpkins and black bats, add pink candles and rose gold accents, and keep the black as the anchor throughout.
+
+## More Halloween ideas
+
+If you liked these, try [non-scary Halloween decor for toddler rooms](/post/non-scary-halloween-decor-toddler-rooms/), [Halloween bedroom decor ideas](/post/halloween-bedroom-decor-ideas/) or [neon Y2K Halloween party decor](/post/neon-y2k-apocalypse-halloween-party-decor-ideas/). When the season turns, [fall apartment decor](/post/fall-apartment-decor-ideas/) carries the same warm palette into November.

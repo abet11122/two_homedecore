@@ -23,7 +23,7 @@ The home office is the room where Halloween decor needs to work hardest for its 
 
 ## 1. Add a Small Pumpkin to the Desk
 
-A single small ceramic pumpkin on the desk corner adds a seasonal note without taking up much space. Choose a matte-finish pumpkin in cream, terracotta, or faded orange rather than a shiny bright one.
+A single small ceramic pumpkin on the desk corner adds a seasonal note without taking up much space.
 
 Keep it to one side of the desk so it does not interfere with the working surface.
 
@@ -53,7 +53,7 @@ Keep the shelf display balanced and not too cluttered — it will be visible to 
 
 ## 6. Add a Seasonal Print to the Wall
 
-A framed print of a dark botanical, a moon phase illustration, or a vintage Halloween image on the wall behind the desk adds a seasonal note to the video call background. Swap it into a frame you already own.
+A framed print of a dark botanical, a moon phase illustration, or a vintage Halloween image on the wall behind the desk adds a seasonal note to the video call background.
 
 A single framed piece on the wall is often more effective than several small objects on the shelf.
 
@@ -83,7 +83,7 @@ A scented candle on the shelf adds atmosphere without any visual clutter on the 
 
 ## 11. Style the Windowsill
 
-A row of small pumpkins along the home office windowsill creates a seasonal display that is visible from outside and adds atmosphere to the room. Vary the heights and finishes for a more natural look.
+A row of small pumpkins along the home office windowsill creates a seasonal display that is visible from outside and adds atmosphere to the room.
 
 The windowsill is often the most overlooked surface in a home office. A few small objects there add a lot of seasonal atmosphere without cluttering the desk.
 
@@ -114,3 +114,7 @@ A clear desk with one or two small seasonal objects reads as intentional. A desk
 ## Final Thoughts
 
 Halloween home office decor works best when it is subtle and atmospheric rather than themed. Start with a small pumpkin on the shelf and a dark candle in the background. Add a seasonal mug and a dark desk mat. Keep the desk clear and the background styled. The atmosphere builds without disrupting the work.
+
+## More Halloween ideas
+
+If you liked these, try [renter-friendly small apartment Halloween decor](/post/small-apartment-halloween-decor-renter-friendly/), [vintage Halloween decor](/post/vintage-halloween-decor-ideas/) or [elegant Halloween decor](/post/elegant-halloween-decor/). When the season turns, [fall apartment decor](/post/fall-apartment-decor-ideas/) carries the same warm palette into November.
