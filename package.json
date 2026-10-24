@@ -9,7 +9,9 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "photos": "node scripts/process-photos.mjs",
+    "halloween": "node scripts/halloween-noindex.mjs"
   },
   "dependencies": {
     "@astrojs/rss": "^4.0.19",

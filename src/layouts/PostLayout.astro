@@ -141,7 +141,7 @@ const faqSchema = d.faqs?.length
         <div class="frame post-hero-image">
           <Img src={d.heroImage} alt={d.heroImageAlt ?? d.title} width={900} height={1000} loading="eager" fetchpriority="high" sizes="(min-width: 1440px) 580px, (min-width: 900px) 44vw, (min-width: 640px) 85vw, 100vw" />
         </div>
-        <figcaption><span>{categoryName(d.category)} inspiration</span>{heroPhoto ? <a href={heroPhoto.sourceUrl} target="_blank" rel="noopener noreferrer">Photo: {heroPhoto.photographer}</a> : <span>{SITE.name}</span>}</figcaption>
+        <figcaption><span>{categoryName(d.category)} inspiration</span>{heroPhoto ? (heroPhoto.sourceUrl ? <a href={heroPhoto.sourceUrl} target="_blank" rel="noopener noreferrer">Photo: {heroPhoto.photographer}</a> : <span>Photo: {heroPhoto.photographer}</span>) : <span>{SITE.name}</span>}</figcaption>
       </figure>
     </div>
 

@@ -23,3 +23,7 @@ pnpm-debug.log*
 
 # jetbrains setting folder
 .idea/
+
+# your original photos (processed copies go to public/images/posts/)
+photos-inbox/*
+!photos-inbox/README.md
