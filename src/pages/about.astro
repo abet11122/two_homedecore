@@ -10,6 +10,11 @@ export const prerender = true;
 
 const CATEGORIES = await navCategories();
 
+// Personal copy renders only once src/site.ts → person is filled in, so no
+// "[PLACEHOLDER]" text can reach the live page.
+const hasPerson = !SITE.person.name.startsWith('[');
+const story = SITE.person.story.filter((para) => !para.startsWith('['));
+
 const values = [
   {
     n: '01',
@@ -45,7 +50,7 @@ const values = [
         </div>
         <div class="lg:col-span-5">
           <p class="text-lg leading-relaxed text-ink-60">
-            {SITE.name} is a one-person site about making small homes work — written for people
+            {SITE.name} is an independent site about making small homes work — written for people
             decorating real rooms on real budgets, one decision at a time.
           </p>
         </div>
@@ -72,24 +77,25 @@ const values = [
       <div class="lg:col-span-7">
         <div class="article no-dropcap">
           <h2>Who runs {SITE.name}</h2>
-          <p>
-            Hi, I'm {SITE.person.name}. [YOUR STORY: two or three sentences about where you live and
-            the home you're working with — size, layout, whether you rent or own, who shares it with
-            you. Readers trust specifics: "a 48 m² second-floor flat with one north-facing window"
-            beats "a small apartment".]
-          </p>
-          <p>
-            I started this site because [YOUR REASON: the moment small-space living frustrated you —
-            a closet that wouldn't close, a living room that also had to be an office, a move into
-            a place half the size of the last one]. Most decorating advice I found assumed a big
-            house and a big budget. I wanted guides that start with a tape measure and the room you
-            actually have.
-          </p>
-          <p>
-            [YOUR EXPERIENCE: anything that makes your advice credible — years of renting small
-            places, a design or trades background, number of homes you've set up, projects you've
-            done yourself. Only include what is true.]
-          </p>
+          {hasPerson ? (
+            <>
+              <p>Hi, I'm {SITE.person.name}.{story.length === 0 && ` I write the guides on ${SITE.name}.`}</p>
+              {story.map((para) => <p>{para}</p>)}
+            </>
+          ) : (
+            <>
+              <p>
+                {SITE.name} is a small independent site about decorating and organizing compact homes.
+                The guides are written for people living in apartments, rentals and small houses, where
+                every piece of furniture has to earn its floor space.
+              </p>
+              <p>
+                Most decorating advice assumes a big house and a big budget. These guides start with a
+                tape measure and the room you actually have: what fits, what to measure first, and what a
+                solution gives up in return.
+              </p>
+            </>
+          )}
 
           <h2>What you'll find here</h2>
           <p>
@@ -100,21 +106,20 @@ const values = [
             rather than just what it looks like.
           </p>
 
-          <h2>How I work</h2>
+          <h2>How the guides are made</h2>
           <p>
-            Photos marked as my own are from my home. Other images are licensed stock photos used to
-            illustrate a style, and they are credited where the source is known. [OPTIONAL: say which
-            guides are based on projects you have done yourself.]
+            Photos marked as our own were taken in our home. Other images are licensed stock photos used to
+            illustrate a style, and they are credited where the source is known.
           </p>
           <p>
-            Guides are updated when I learn something new or a reader points out a mistake — the
+            Guides are updated when we learn something new or a reader points out a mistake — the
             "Updated" date on each article shows the last revision. Room dimensions, installation
             requirements, prices and product availability vary, so measure your own space and follow
             manufacturer instructions before buying or installing anything.
           </p>
           <p>
             The site is supported by advertising and, on some pages, affiliate links. That never
-            decides what I recommend. Read the <a href="/disclosure/">disclosure policy</a> for
+            decides what we recommend. Read the <a href="/disclosure/">disclosure policy</a> for
             details, and <a href="/contact/">get in touch</a> if something in a guide is wrong.
           </p>
         </div>
@@ -122,18 +127,18 @@ const values = [
 
       <aside class="lg:col-span-5">
         <div class="border border-rule p-7">
-          {SITE.person.photo ? <img
+          {hasPerson && SITE.person.photo ? <img
             src={SITE.person.photo}
             alt={`Portrait of ${SITE.person.name}`}
             width="80"
             height="80"
             loading="lazy"
             class="h-20 w-20 rounded-full object-cover"
-          /> : <p class="text-sm text-ink-40">[ADD YOUR PHOTO: a clear, friendly headshot — set person.photo in src/site.ts]</p>}
-          <p class="eyebrow-muted mt-5">The person behind the site</p>
-          <p class="mt-2 font-display text-2xl text-ink">{SITE.person.name}</p>
-          <p class="mt-1 text-xs uppercase tracking-[0.1em] text-ink-40">{SITE.person.role}</p>
-          <p class="mt-4 text-[0.9375rem] leading-relaxed text-ink-60">{SITE.person.bio}</p>
+          /> : null}
+          <p class="eyebrow-muted mt-5">{hasPerson ? 'The person behind the site' : 'Publisher'}</p>
+          <p class="mt-2 font-display text-2xl text-ink">{hasPerson ? SITE.person.name : SITE.author}</p>
+          <p class="mt-1 text-xs uppercase tracking-[0.1em] text-ink-40">{hasPerson ? SITE.person.role : SITE.authorRole}</p>
+          <p class="mt-4 text-[0.9375rem] leading-relaxed text-ink-60">{hasPerson && !SITE.person.bio.startsWith('[') ? SITE.person.bio : SITE.authorBio}</p>
           <a href="/contact/" class="link-arrow mt-6">
             Get in touch
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true">

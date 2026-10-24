@@ -29,6 +29,15 @@ export const SITE = {
     /** Path to your own headshot, e.g. '/images/about/me.webp'. Leave '' to hide. */
     photo: '',
     bio: '[ONE OR TWO SENTENCES: who you are, where you live, and what kind of small home you decorate — e.g. "I live in a 550 sq ft one-bedroom with a partner and a cat, and I write about making small rooms work."]',
+    /**
+     * Paragraphs for "Who runs this site" on the About page. Any entry still
+     * starting with "[" is treated as unfilled and is not rendered.
+     */
+    story: [
+      '[YOUR STORY: two or three sentences about where you live and the home you are working with — size, layout, rent or own, who shares it with you.]',
+      '[YOUR REASON: why you started the site — the moment small-space living frustrated you.]',
+      '[YOUR EXPERIENCE: anything true that makes your advice credible — years of renting small places, projects you have done yourself, a design or trades background.]',
+    ],
   },
   /** AdSense publisher ID (matches public/ads.txt). Used for the site-verification meta tag. */
   adsenseClient: 'ca-pub-8497285724891966',
