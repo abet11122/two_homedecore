@@ -4,11 +4,32 @@ description: "Budget apartment decor ideas in order of impact — the cheap chan
 category: "renter"
 tags: ["renter-friendly", "budget", "apartment", "lighting", "textiles"]
 publishDate: 2026-08-29
+updatedDate: 2026-10-24
 heroImage: "photo-1665249934445-1de680641f50"
 pinImage: "photo-1650137938625-11576502aecd"
 featured: false
 affiliateDisclosure: false
+keyTakeaways:
+  - "Start with light: 2700K warm bulbs everywhere and two or three lamps per room."
+  - "Rehang curtains near the ceiling and past the window frame — it's free and makes rooms look bigger."
+  - "Buy a rug big enough for all the front sofa legs; size matters more than material."
+  - "Spend on the mattress, bedding and one good lamp; save on side tables, decor and art."
+faqs:
+  - q: "How can I make my apartment look nice on a budget?"
+    a: "Change every bulb to 2700K warm white, add lamps and stop using the overhead light, rehang curtains high and wide, and get a rug big enough for the room. Those four changes cost little and transform a rental more than buying decorative objects."
+  - q: "What can I change in a rental apartment without losing my deposit?"
+    a: "Bulbs, lamps, curtains (on tension rods or existing hardware), rugs, textiles, plants, freestanding furniture, and hardware like cabinet knobs and shower heads — keep the originals to reinstall. Peel-and-stick products can work, but test on a hidden patch first and check your lease."
+  - q: "What size rug do I need for a living room?"
+    a: "Big enough that the front legs of all the seating sit on it — usually 5 × 8 ft (150 × 240 cm) or larger. A rug that floats in the middle of the room makes it look smaller."
+  - q: "Where should I hang art?"
+    a: "Hang art so its center is about 57 inches (145 cm) from the floor, which is roughly eye level. Above a sofa, leave 8–10 inches (20–25 cm) between the sofa back and the frame's bottom edge."
+  - q: "What's worth spending money on in an apartment?"
+    a: "Things you use every day and take with you when you move: a good mattress, bedding and towels, a desk chair if you work from home, a large rug, and one quality lamp. Save on side tables, storage, cushion covers and decor."
 ---
+
+The best budget apartment decor ideas aren't objects at all: warm light, curtains hung properly, a rug that fits, and textiles you can take with you. Do the free steps first, then spend in order of impact — the list below is ranked that way.
+
+[ADD YOUR PHOTO: your living room before any changes]
 
 Most budget decorating advice is a list of thrifted objects. But an apartment doesn't look better because of more objects — it looks better because of light, textiles and a few structural fixes.
 
@@ -105,6 +126,12 @@ Keep the originals in a box for move-out.
 - **Window film over ugly glass**
 - **Baskets over open shelving**
 
+## 11. Make a renter's move-out kit
+
+Keep a labeled box with everything you've swapped out: original bulbs, cabinet knobs, the shower head, curtain rods, toilet seat. Add a small tub of wall filler, a putty knife and a little touch-up paint, if your landlord can tell you the color. Moving out then takes an hour, not a weekend.
+
+[ADD YOUR PHOTO: a room after your lighting, curtain and rug changes]
+
 ## Where to spend rather than save
 
 Some things are worth real money because you use them daily and they last through several flats:
@@ -152,3 +179,15 @@ Those five take an afternoon, cost nothing, and often make more difference than 
 ---
 
 The pattern behind all of it: **light, soft things, and fewer objects arranged better.** Almost nothing on this list is a decoration, and that's the point.
+
+## Mistakes to avoid
+
+- **A tiny rug.** It makes the room look smaller. Go bigger and cheaper.
+- **Art hung too high.** Center it at about 57 inches.
+- **Peel-and-stick without testing.** It can pull paint off when you leave.
+- **Throwing away the original fittings.** You'll need them at move-out.
+- **Buying decor before fixing the light.** Light changes everything else.
+
+## Keep going
+
+For smaller rooms, see [small bedroom makeover on a budget](/post/small-bedroom-makeover-ideas/) and [small apartment organization ideas](/post/small-apartment-organization-ideas/). If your flat is one room, [zoning a studio](/post/studio-apartment-zoning/) shows how to divide it without walls. For a calmer look with fewer things, the [minimalist living room guide](/post/minimalist-living-room-guide/) is a good next read.

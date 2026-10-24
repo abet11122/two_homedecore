@@ -4,11 +4,32 @@ description: "How to style an entryway table so it looks finished and still work
 category: "entryway"
 tags: ["entryway", "console table", "styling", "seasonal decor"]
 publishDate: 2026-08-28
+updatedDate: 2026-10-24
 heroImage: "photo-1752061289543-de2e7720b029"
 pinImage: "photo-1777305293159-70adab4ea6ef"
 featured: false
 affiliateDisclosure: false
+keyTakeaways:
+  - "Style with three objects at three heights, grouped in a triangle, plus a tray for keys."
+  - "Make art or a mirror about two-thirds the table's width, hung 6–10 inches above it."
+  - "Keep one-third of the surface clear so the table still works as a drop zone."
+  - "Swap only the vase contents and one small object each season."
+faqs:
+  - q: "How do you decorate an entryway table?"
+    a: "Use three objects at different heights — something tall like a lamp or vase, something medium like a stack of books, and a low tray for keys — grouped in a loose triangle. Hang a mirror or art about two-thirds the table's width above it, and keep a third of the surface clear."
+  - q: "How high should a mirror be above an entryway table?"
+    a: "Leave 6–10 inches (15–25 cm) between the tabletop and the bottom of the mirror. The mirror's width should be about two-thirds of the table's width."
+  - q: "How deep should an entryway console table be?"
+    a: "Narrow consoles are typically 10–16 inches (25–40 cm) deep. In a tight hall, try to keep about 36 inches (90 cm) of walking space after the table goes in, and choose a slimmer table or a wall-mounted shelf if you can't."
+  - q: "What should I put in an entryway tray?"
+    a: "Only the things you grab on the way out: keys, sunglasses, earbuds. Keep post, receipts and coins elsewhere — a wall file or a drawer — or they'll take over the tray."
+  - q: "How do I style an entryway table for the seasons?"
+    a: "Keep the lamp and tray year-round and swap two things: what's in the vase (blossom in spring, greenery in summer, dried grasses in autumn, evergreen in winter) and one small object."
 ---
+
+To style an entryway table, use three objects at three heights grouped in a triangle — a lamp or tall vase, a stack of books, and a tray for keys — with a mirror two-thirds the table's width above and a third of the surface left clear. It looks finished and still works as a drop zone.
+
+[ADD YOUR PHOTO: your entryway table before styling]
 
 An entryway table is the first surface anyone sees in your home, and it's also where keys, post and receipts go to die. Styling one is really about balancing those two jobs.
 
@@ -38,6 +59,17 @@ This is where most entryway tables go wrong.
 
 **Keep one-third of the surface clear.** This is the rule people skip, and it's the reason some tables look styled and others look cluttered.
 
+## Check the fit first
+
+Before styling, make sure the table suits the space:
+
+- **Depth:** narrow consoles are typically 10–16 inches (25–40 cm). In a small hall, aim to keep about 36 inches (90 cm) of clear walking space.
+- **Height:** most consoles are 28–32 inches (70–80 cm) tall — roughly hip height, so you can drop keys without bending.
+- **Door swing:** open the front door fully and make sure it clears the table and anything on it.
+- **Lamp cord:** check there's a socket nearby, or use a rechargeable cordless lamp.
+
+If a table won't fit, see the floating shelf option below, or the slim storage ideas in [small entryway organization](/post/small-entryway-organization-ideas/).
+
 ## Layout 1: Lamp on one side
 
 The most reliable arrangement. Lamp at one end, a stack of two or three books with a small object on top at the other, a bowl for keys in the middle-front.
@@ -57,6 +89,8 @@ Downside: it leaves less room for the functional stuff, so add a drawer or a bas
 A large vase with tall dried stems — pampas, eucalyptus, cherry blossom branches — set to one side, with a low tray and a small stack of books to the other.
 
 This is the most Pinterest-friendly look and the easiest to swap seasonally. Change the stems, change the season.
+
+[ADD YOUR PHOTO: your styled table using one of the three layouts]
 
 ## What to put in the tray
 
@@ -117,6 +151,18 @@ A wall-mounted shelf styled the same way gives you the look without the floor sp
 
 The bonus is the clear floor underneath, which makes a small entry feel bigger.
 
+## What it costs
+
+| Item | Typical cost |
+| --- | --- |
+| Tray or shallow bowl | $10–$35 |
+| Table lamp with a linen shade | $30–$90 |
+| Mirror, about 24 × 36 in | $40–$120 |
+| Dried stems or branches | $10–$25 |
+| Two baskets for underneath | $25–$60 |
+
+Prices vary by region and store.
+
 ## The weekly reset
 
 Whatever you build, it degrades in about a week without maintenance. Once a week: clear the post, put the strays away, wipe the surface.
@@ -133,3 +179,5 @@ Two minutes, and it's the difference between a styled entry and a dumping ground
 - A tray for keys
 - One-third of the surface left empty
 - A lamp if you can — warm bulb, 2700K
+
+For a seasonal take, the [Halloween entryway ideas](/post/halloween-entryway-decor-ideas/) and the three-height method in [the autumn mantel](/post/autumn-mantel-styling/) both use this same framework. If your entry is mostly a storage problem, start with [small entryway organization](/post/small-entryway-organization-ideas/), and the [floating shelf checklist](/post/diy-floating-shelves/) covers mounting a shelf instead of a table.

@@ -3,7 +3,7 @@ title: "Open Shelving in the Kitchen: Practical Styling Without the Chaos"
 description: "Open kitchen shelves can be beautiful and functional. Learn the color theory, spacing rules, and maintenance tips that make open shelving work in a real kitchen."
 category: "kitchen"
 tags: ["kitchen", "open-shelving", "organization", "design", "styling"]
-publishDate: 2024-08-05
+publishDate: 2026-08-05
 heroImage: "photo-1484154218962-a197022b5858"
 pinImage: "photo-1560185007-cde436f6a4d0"
 featured: false

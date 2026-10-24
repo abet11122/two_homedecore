@@ -1,97 +1,162 @@
 ---
-title: "14 Small Kitchen Organization Ideas That Free Up Counter Space"
-description: "Free counter space with 14 small kitchen organization ideas and a measurement checklist for choosing organizers that fit real cabinets."
+title: "Small Kitchen Organization Ideas That Free Up Counter Space"
+description: "Small kitchen organization by zone: cabinet risers, vertical pan storage, toe-kick drawers, pantry bins and a counter limit — with the measurements to check."
 category: kitchen
 tags: ["kitchen organization", "small kitchen", "kitchen storage", "organization", "small spaces"]
 publishDate: 2026-10-11
+updatedDate: 2026-10-24
 heroImage: "photo-1556909114-f6e7ad7d3136"
 pinImage: "photo-1556909172-54557c7e4fb7"
 featured: false
 keyTakeaways:
-  - "Clear the counter completely before organizing — start from a blank surface."
-  - "Store pans vertically and use shelf risers to double cabinet capacity."
-  - "Create a countertop appliance limit and store everything else in a cabinet."
-  - "Use drawer dividers and zone-based storage to make the kitchen faster to use."
+  - "Organize by zone — prep, cooking, cleaning, food storage — so everything lives where it's used."
+  - "Set a counter limit: one or two daily appliances out, everything else stored."
+  - "Measure the cabinet opening, not just the interior; hinges and face frames shrink it by 2–5 cm."
+  - "Use height inside cabinets: shelf risers, vertical dividers and door racks often double usable space."
+faqs:
+  - q: "How do I organize a small kitchen with little cabinet space?"
+    a: "Start by clearing out duplicates and rarely used items. Then add height inside cabinets with shelf risers, store pans and trays vertically, use the inside of cabinet doors for lids and wraps, and move one or two things to the wall — a knife strip, a rail with hooks, or a shallow shelf."
+  - q: "How do I measure for kitchen cabinet organizers?"
+    a: "Measure the cabinet's interior width, depth and height, then measure the door opening, which is often 2–5 cm narrower because of hinges and the face frame. Pull-out organizers must fit through the opening, not just inside the cabinet. Note pipes, the dishwasher and any center stile."
+  - q: "What should stay on the counter in a small kitchen?"
+    a: "Only what you use every day: often the kettle or coffee maker, plus a utensil crock and a knife block or wall strip. Everything else — toaster, mixer, blender — goes in a cabinet or on a shelf until you need it."
+  - q: "Are clear pantry containers worth it?"
+    a: "For dry goods you buy often — rice, pasta, oats, flour — yes, because you can see what's running low and square containers stack better than bags. They don't help for things you use rarely. Label each with the contents and the use-by date from the original pack."
+  - q: "What is a toe-kick drawer?"
+    a: "A shallow drawer fitted into the space under base cabinets, where the kick plate normally sits. It's usually 8–10 cm (3–4 in) tall and suits baking trays, chopping boards or a step stool. It's a renovation-level add-on, so it suits owners more than renters."
 ---
 
-If you are looking for small kitchen organization ideas, the best place to start is with function rather than decoration. A workable kitchen organization plan separates food preparation, cooking, dishwashing, and food storage so tools return to useful places.
+Small kitchen organization works best when you group things by where they're used — prep, cooking, cleaning, food storage — then add height inside cabinets and set a strict limit on what stays out on the counter. Measure every cabinet opening before you buy organizers, because hinges and frames eat into the space.
 
-## 1. Use Cabinet Doors for Lightweight Storage
+The ideas below work in a galley kitchen, a studio kitchenette, or an L-shaped kitchen with only a few base cabinets.
 
-Adhesive or mounted organizers on the inside of cabinet doors hold spice packets, foil, cling film, or small tools without using any shelf space.
+[ADD YOUR PHOTO: your kitchen counters and open cabinets before organizing]
 
-Keep walking paths, doors, drawers, and frequently used surfaces easy to access.
+## Before You Start: Clear and Measure
 
-## 2. Store Pans Vertically
+### 1. Empty one cabinet at a time
 
-A vertical pan organizer or a few shelf dividers let you store pans upright rather than stacking them. This makes it faster to grab the pan you need without moving everything else.
+Take everything out of one cabinet. Get rid of duplicates (three spatulas, five mismatched lids), things that are broken, and anything you haven't used in a year. Move rarely used things — the turkey roaster, the fondue set — to a high cabinet or out of the kitchen.
 
-Measure the wall before drilling or ordering storage.
+### 2. Measure the opening, not just the inside
 
-## 3. Create a Countertop Appliance Limit
+For each cabinet, write down:
 
-Decide how many appliances can live on the counter and store the rest in a cabinet. A clear counter makes a small kitchen feel larger and easier to work in.
+- Interior width, depth and height
+- **Door opening width** — often 2–5 cm narrower than the interior because of hinges and the face frame
+- Any center stile (the vertical bar between double doors)
+- Pipes, the waste disposal, or the dishwasher's side under the sink
+- Shelf positions, and whether they adjust
 
-## 4. Use Pull-Out Storage in Deep Cabinets
+Pull-out baskets and drawers must fit through the opening. Plenty of people buy organizers that fit the cabinet but won't go in through the door.
 
-Deep cabinets are hard to use efficiently without pull-out drawers or bins. A pull-out organizer brings items at the back within easy reach.
+## Zone 1: Prep
 
-Use labels only where they genuinely help.
+### 3. Keep knives, boards and bowls near the main counter
 
-## 5. Create Zones for Cooking and Prep
+Choose the longest stretch of counter as your prep zone. Store knives, chopping boards, mixing bowls and measuring cups within one step of it. A magnetic knife strip on the wall frees a drawer and the counter space a knife block takes.
 
-Group items by task: cooking tools near the hob, prep tools near the chopping board, and baking supplies together in one cabinet. This makes the kitchen faster to use and easier to tidy.
+### 4. Store cutting boards and trays vertically
 
-## 6. Use Drawer Dividers for Utensils
+Boards, baking sheets, muffin tins and cooling racks stack badly. Use a vertical divider insert in a base cabinet or above the fridge so each one slides out on its own. Most dividers need about 30–35 cm of cabinet height.
 
-Drawer dividers prevent utensils from mixing together and make it faster to find what you need. Use them in every drawer, not just the cutlery drawer.
+### 5. Divide the utensil drawer
 
-## 7. Add Shelf Risers Inside Cabinets
+Adjustable drawer dividers keep spatulas, whisks and peelers separate. Measure the drawer's interior height under the counter lip — often 2–3 cm less than the drawer box — before buying an insert.
 
-Shelf risers double the usable height inside a cabinet by creating a second level. Use them for plates, mugs, or canned goods.
+[ADD YOUR PHOTO: your utensil drawer with dividers]
 
+## Zone 2: Cooking
 
-## 8. Add a Lazy Susan for Oils and Sauces
+### 6. Store pans upright or on a rack
 
-A lazy Susan in a corner cabinet or on a shelf lets you reach items at the back without moving everything in front. Use it for oils, sauces, and condiments.
+A pan organizer rack holds frying pans on their sides like files, so you can pull one out without lifting the rest. It works in a base cabinet 30 cm or wider. Lids go on a lid rack or a rail inside the cabinet door.
 
-## 9. Use Clear Pantry Containers Carefully
+### 7. Put oils and spices beside the hob
 
-Clear containers for dry goods look tidy but require regular refilling and labeling. Use them only for items you use frequently enough to justify the extra step.
+Keep everyday oils, salt and pepper on a small tray next to the stove, and spices in a drawer insert or a tiered riser in the nearest cabinet. Heat and light shorten the life of spices, so avoid storing them directly above the hob.
 
+### 8. Add a turntable for bottles
 
-## 10. Group Baking Supplies Together
+A 25–30 cm turntable in a corner or deep cabinet brings bottles at the back to the front with a spin. Use one for oils and sauces, another for baking extracts.
 
-Keep all baking supplies — flour, sugar, baking powder, and tools — in one cabinet or drawer. This makes baking faster and prevents supplies from being scattered across multiple locations.
+## Zone 3: Cleaning
 
-## 11. Store Daily Items Closest to Their Work Zone
+### 9. Organize under the sink around the pipes
 
-Keep the items you use every day at the front of cabinets and closest to where you use them. Store less-used items at the back or in higher cabinets.
+Under-sink space is split by the trap. Use two narrow bins or a U-shaped organizer that works around the plumbing. Keep dish soap, sponges and the dishwasher tablets at the front. Leave the shutoff valves clear.
 
-## 12. Add Hooks for Lightweight Tools
+Store cleaning products in a cabinet with a child lock if there are young children in the house.
 
-A hook rail on the wall or inside a cabinet holds lightweight tools, oven gloves, or small utensils without using any drawer or shelf space.
+### 10. Hang tea towels and gloves inside a door
 
+Small adhesive or over-door hooks inside the sink cabinet hold rubber gloves and a drying cloth. Check the door still closes.
 
-## 13. Use a Slim Rolling Cart
+## Zone 4: Food Storage
 
-A slim rolling cart can move between the kitchen and dining area as needed. It is especially useful in rentals where you cannot add permanent storage.
+### 11. Use shelf risers to double cabinet height
 
-## 14. Store Cutting Boards Vertically
+Most kitchen cabinets have shelves 25–35 cm apart, but plates and mugs are only 8–12 cm tall. A wire or wood shelf riser creates a second level. Put plates below and bowls or mugs on the riser.
 
-A vertical divider or a few bookends keep cutting boards upright and easy to grab. This frees up the horizontal shelf space they would otherwise take up.
+### 12. Decant only what you use often
 
+Clear, square containers for rice, pasta, oats, flour and cereal save space over half-empty bags. Label each with the contents and the best-before date. Don't decant everything — it's a lot of washing for things you rarely use.
 
-## Final Thoughts
+### 13. Group baking supplies in one bin
 
-The strongest small kitchen organization ideas are the ones that make the room easier to cook in, not simply more decorated. Start with a clear counter, create zones, and use vertical and door storage where they fit the actual cabinet dimensions.
+Flour, sugar, baking powder, vanilla, cases and piping bags go in one lidded bin you can lift out onto the counter. When baking takes up one bin instead of a whole shelf, there's room for everyday food.
 
-## Measure Before Choosing an Organizer
+If your dry goods live on open shelves, the same grouping rules apply — see [open shelving styling](/post/kitchen-open-shelving-styling/) for keeping them tidy.
 
-Empty the target drawer or cabinet enough to identify its usable space, then measure interior width, depth, and height. For a cabinet, include the frame lip, hinges, shelf supports, and plumbing or appliance parts that reduce clearance. Measure the opening as well as the interior: a bin that fits inside may still not pass through the door. Check how far drawers and cabinet doors open and keep ventilation, appliance instructions, and access to shutoffs unobstructed.
+## Use the Hidden Spaces
 
-Use a simple task map before relocating items: prep tools near the clear prep surface, cooking tools near the hob, dishes near the dishwasher or drying area, and food near where it is served. If one person uses the kitchen, this can be a compact set of zones; in a shared kitchen, agree on the shared everyday items first. Keep sharp tools and cleaning products secured appropriately for children and pets.
+### 14. Use the inside of cabinet doors
 
-For example, if baking trays are difficult to retrieve from a deep cabinet, measure the cabinet opening and shelf depth, then compare those measurements with a vertical divider's assembled dimensions. Check that the trays can be lifted out without hitting a shelf above. A few existing file dividers or a sturdy box can help test the arrangement before buying a purpose-made rack. This is an illustrative method; the right fit depends on the actual cabinet and cookware.
+Door-mounted racks hold lids, foil, cling film, measuring spoons and a small chopping board. Measure the depth between the door and the shelf edge — usually only 5–8 cm — and the clearance around the hinges.
 
-Try the new placement during normal meal preparation. If it adds steps or makes another item harder to reach, move the category to a different zone. Recheck the setup when appliances or household routines change rather than keeping an inconvenient system for appearance alone.
+### 15. Hang mugs and tools on a rail
+
+A wall rail with S-hooks under a wall cabinet or along the splashback holds mugs, ladles, a sieve and a tea towel. It frees a whole cabinet shelf. Screw it into studs or use fixings rated for the load.
+
+### 16. Consider a toe-kick drawer (owners)
+
+The space under base cabinets, behind the kick plate, is usually 8–10 cm tall. A toe-kick drawer there can hold trays, boards or a folding step stool. It's a renovation job, so it suits owners rather than renters.
+
+### 17. Slide a rolling cart into a narrow gap
+
+A 12–20 cm wide rolling cart fits between the fridge and the wall or beside the cooker. It holds oils, spices, cans or cleaning supplies. Measure the gap at its narrowest point, including skirting and any hose or cable.
+
+## Set a Counter Limit
+
+Decide how many things can stay on the counter — two or three is a good target. Usually the kettle or coffee maker, a utensil crock and maybe a fruit bowl. The toaster, blender and mixer go into a base cabinet or onto a shelf. A clear counter is more usable for cooking and quicker to wipe.
+
+## Mistakes to Avoid
+
+- **Buying organizers before decluttering.** You'll organize things you don't use.
+- **Measuring the interior but not the opening.**
+- **Deep bins at the back of deep cabinets.** Use pull-outs or turntables instead.
+- **Storing spices above the hob.** Heat dulls them.
+- **Every appliance on the counter.** Set a limit.
+
+## What It Costs
+
+| Upgrade | Typical cost |
+| --- | --- |
+| Shelf risers (2) | $15–$30 |
+| Pan organizer rack | $20–$40 |
+| Drawer dividers | $15–$35 |
+| Turntables (2) | $15–$30 |
+| Clear pantry containers (set of 6–8) | $30–$60 |
+| Rolling slim cart | $20–$40 |
+| Wall rail with hooks | $15–$40 |
+| Pull-out cabinet basket | $40–$100 each |
+
+Prices vary by region and store.
+
+## Review After a Week
+
+Notice what you keep leaving out. If it's used daily, give it a home within a step of where you use it. If it's an appliance you rarely use, store it further away. If a cabinet is still a mess, the organizer doesn't fit what you're storing — try a different one.
+
+[ADD YOUR PHOTO: your kitchen after organizing, from the same angle as the before photo]
+
+Have open shelves? [Open shelving styling](/post/kitchen-open-shelving-styling/) covers what to keep on them. For mounting shelves or rails, see the [floating shelf checklist](/post/diy-floating-shelves/), and for the rest of the flat, [small apartment organization ideas](/post/small-apartment-organization-ideas/).

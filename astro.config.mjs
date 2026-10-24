@@ -85,6 +85,15 @@ export default defineConfig({
   trailingSlash: 'always',
   redirects: {
     '/author/sophie-lane/': '/about/',
+    // Near-duplicate posts merged into the stronger guide on the same topic.
+    '/post/bathroom-storage-ideas-small-spaces/': { status: 301, destination: '/post/small-bathroom-organization-ideas/' },
+    '/post/bathroom-organization-ideas-small-spaces/': { status: 301, destination: '/post/small-bathroom-organization-ideas/' },
+    '/post/cozy-christmas-bedroom-ideas/': { status: 301, destination: '/post/christmas-bedroom-ideas/' },
+    '/post/small-kitchen-storage-ideas/': { status: 301, destination: '/post/small-kitchen-organization-ideas/' },
+    '/post/boys-bedroom-storage-ideas/': { status: 301, destination: '/post/small-boys-bedroom-ideas/' },
+    '/post/toddler-friendly-halloween-decor-ideas-non-scary/': { status: 301, destination: '/post/non-scary-halloween-decor-toddler-rooms/' },
+    '/post/small-space-halloween-decor/': { status: 301, destination: '/post/small-apartment-halloween-decor-renter-friendly/' },
+    '/post/small-apartment-storage-ideas/': { status: 301, destination: '/post/small-apartment-organization-ideas/' },
   },
   integrations: [sitemap({ filter: includeInSitemap })],
   build: {
