@@ -117,4 +117,4 @@ Swap one or two items each season: a bowl of clementines in December, a jug of t
 
 <!-- [ADD YOUR PHOTO: your finished counter, wide shot] {file: photo-3} -->
 
-For storage that clears the counter, see [small kitchen organization ideas](/post/small-kitchen-organization-ideas/). If you have open shelves above the counter, [open shelving styling](/post/kitchen-open-shelving-styling/) covers what to put on them. In December, [Christmas kitchen decor ideas](/post/christmas-kitchen-decor-ideas/) shows how to decorate without losing workspace.
+Storage that clears the counter is covered in [small kitchen organization ideas](/post/small-kitchen-organization-ideas/). If you have open shelves above the counter, [open shelving styling](/post/kitchen-open-shelving-styling/) covers what to put on them. In December, [Christmas kitchen decor ideas](/post/christmas-kitchen-decor-ideas/) shows how to decorate without losing workspace.

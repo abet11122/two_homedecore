@@ -111,8 +111,8 @@ The most important rule for choosing a Halloween wreath is to match it to the st
 
 Choose a wreath that suits the exterior colour, the architectural style, and the interior decor. The wreath is the first impression — it should feel like it belongs.
 
-A Halloween wreath is the highest-impact single change you can make to the exterior of your home. Choose a style that suits the house, use dried materials for durability, and hang it with an over-the-door hook for a renter-friendly installation. The wreath sets the tone for everything else.
+Nothing you hang outside changes the look of a house as quickly as a wreath. Pick a style that suits the building, use dried materials so it survives the month, and hang it on an over-the-door hook if you rent. Everything else on the step takes its cue from it.
 
-## More Halloween ideas
+## Dressing the rest of the entrance
 
 To dress the space around the door, see [Halloween entryway decor](/post/halloween-entryway-decor-ideas/) and [outdoor decor for small yards and balconies](/post/outdoor-halloween-decor-ideas-small-yards-balconies/). For an old-fashioned look, [vintage Halloween decor](/post/vintage-halloween-decor-ideas/) has paper and crepe ideas. A wheat or dried-leaf wreath can stay up through November; [the autumn mantel](/post/autumn-mantel-styling/) explains which materials last.

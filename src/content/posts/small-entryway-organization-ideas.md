@@ -26,7 +26,7 @@ faqs:
     a: "A hook rail, a boot tray and a key dish usually cost $30–$60. Adding a slim tip-out shoe cabinet and a small wall shelf brings a typical total to $120–$250."
 ---
 
-A small entryway works when people can open the door, step in, put down what they're carrying and leave again without stepping around anything. Measure the route with the door fully open, keep slim storage on one wall, and give keys, mail and wet shoes separate homes so none of them turns into a pile.
+The test for an entryway is simple: can someone open the door, step in, put down what they're carrying and leave again without stepping around anything? Measure the route with the door fully open, keep slim storage on one wall, and give keys, mail and wet shoes separate homes so none of them turns into a pile.
 
 That's true whether your "entryway" is a proper hall or a 60 cm strip of wall beside the front door of a studio. The plan below works for both.
 
@@ -112,4 +112,4 @@ A mirror, a runner or a small lamp makes the entry feel welcoming — but add th
 
 Notice what still spills over. Shoes outside their spaces mean too many pairs or too little storage. A full mail file means it isn't being emptied. A hook nobody uses is in the wrong place. Fix that one zone first.
 
-If your entry opens straight into the living space, [zoning a studio](/post/studio-apartment-zoning/) shows how to create a separate drop zone with furniture and rugs. For whole-home systems, see [small apartment organization ideas](/post/small-apartment-organization-ideas/). If you're renting, [apartment decor ideas on a budget](/post/apartment-decor-ideas-budget/) covers no-drill alternatives to wall-mounted storage.
+If your entry opens straight into the living space, [zoning a studio](/post/studio-apartment-zoning/) shows how to create a separate drop zone with furniture and rugs. Whole-home systems are in [small apartment organization ideas](/post/small-apartment-organization-ideas/). If you're renting, [apartment decor ideas on a budget](/post/apartment-decor-ideas-budget/) covers no-drill alternatives to wall-mounted storage.

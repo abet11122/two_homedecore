@@ -117,4 +117,4 @@ Over-door hooks hold a robe and tomorrow's outfit. A slim over-door organizer wi
 
 Each night for a week, notice what lands on the bed, floor or chair. Tomorrow's outfit needs a hook. Laundry needs a hamper where clothes come off. Books and devices need a bedside spot. Fix the item that keeps returning first.
 
-For styling the room once storage is sorted, see [cozy small bedroom ideas](/post/cozy-small-bedroom-ideas/) and [small bedroom ideas that look expensive](/post/small-bedroom-ideas-that-look-expensive/). If you're planning a full refresh, the [small bedroom makeover guide](/post/small-bedroom-makeover-ideas/) puts everything in order.
+Once the storage is sorted, styling comes next in [cozy small bedroom ideas](/post/cozy-small-bedroom-ideas/) and [small bedroom ideas that look expensive](/post/small-bedroom-ideas-that-look-expensive/). If you're planning a full refresh, the [small bedroom makeover guide](/post/small-bedroom-makeover-ideas/) puts everything in order.

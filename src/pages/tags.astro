@@ -47,7 +47,8 @@ function scale(count: number) {
 }
 ---
 
-<Layout title="All topics" description={description} schemas={[listSchema]}>
+{/* Crawlable, not indexed — it exists to link the tag hubs, not to rank. */}
+<Layout title="All topics" description={description} noindex schemas={[listSchema]}>
   <header class="border-b border-rule bg-sand/40">
     <div class="wrap py-10 lg:py-14">
       <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Tags' }]} />

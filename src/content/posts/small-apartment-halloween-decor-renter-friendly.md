@@ -36,7 +36,7 @@ A dark wreath works in a small entryway without overwhelming it.
 
 ## 3. Style One Tray on the Coffee Table
 
-A tray containing a candle, a small pumpkin, and one or two dark objects keeps the seasonal display contained and easy to move.
+Keeping it on a tray — a candle, a small pumpkin, one or two dark objects — means the whole display lifts away in one movement.
 
 It also stops the display from spreading across the whole table.
 
@@ -88,7 +88,7 @@ Keep it to one candle rather than a full display. The kitchen counter needs to s
 
 ## 12. Add a Small Pumpkin to the Bathroom
 
-A single small pumpkin on the bathroom shelf or windowsill extends the seasonal styling into a room that is often forgotten. A ceramic pumpkin in cream or terracotta suits most bathroom palettes.
+The bathroom is the room most people forget, so one small pumpkin on a shelf or windowsill goes further here than it would anywhere else. In cream or terracotta ceramic it sits happily against most bathroom palettes.
 
 Pair it with a dark hand soap dispenser or a small dark candle for a more complete look.
 
@@ -124,6 +124,6 @@ A single well-chosen display is always more effective than a room covered in sea
 
 Start with one focal point, keep walkways and exits clear, and favor pieces that store flat. Before attaching anything to a wall or window, check the lease and the product's surface instructions. A tabletop display is a useful fallback when the wall finish is uncertain.
 
-## More Halloween ideas
+## Doors, balconies and bathrooms
 
 Your front door gets more attention in [Halloween entryway decor](/post/halloween-entryway-decor-ideas/), and a balcony can join in with [outdoor decor for small spaces](/post/outdoor-halloween-decor-ideas-small-yards-balconies/). The [Halloween bathroom guide](/post/halloween-bathroom-decor-ideas/) is full of peel-off ideas for rentals. When it's all packed away, [fall apartment decor](/post/fall-apartment-decor-ideas/) uses the same damage-free hooks.

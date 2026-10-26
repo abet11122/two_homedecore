@@ -168,4 +168,4 @@ Two minutes, and it's the difference between a styled entry and a dumping ground
 - One-third of the surface left empty
 - A lamp if you can — warm bulb, 2700K
 
-For a seasonal take, the [Halloween entryway ideas](/post/halloween-entryway-decor-ideas/) and the three-height method in [the autumn mantel](/post/autumn-mantel-styling/) both use this same framework. If your entry is mostly a storage problem, start with [small entryway organization](/post/small-entryway-organization-ideas/), and the [floating shelf checklist](/post/diy-floating-shelves/) covers mounting a shelf instead of a table.
+Seasonally, the [Halloween entryway ideas](/post/halloween-entryway-decor-ideas/) and the three-height method in [the autumn mantel](/post/autumn-mantel-styling/) both use this same framework. If your entry is mostly a storage problem, start with [small entryway organization](/post/small-entryway-organization-ideas/), and the [floating shelf checklist](/post/diy-floating-shelves/) covers mounting a shelf instead of a table.

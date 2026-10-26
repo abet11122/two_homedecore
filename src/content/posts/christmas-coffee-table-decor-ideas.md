@@ -26,7 +26,7 @@ faqs:
     a: "Limit decorations to one tray, keep the display low, and leave at least half the surface free. Pick decorations you can lift off in one go — the whole tray — when you need the table for games or food."
 ---
 
-The best Christmas coffee table decor fits on one tray, stays low, and leaves at least half the table free for drinks, snacks and board games. Style the tray with three heights — a small tree or lantern, a medium piece, and low fillers — and choose LED candles if the table gets busy.
+A coffee table has a job all through December — drinks, snacks, board games — so Christmas decor has to fit on one tray, stay low, and leave at least half the surface free. Style that tray with three heights: a small tree or lantern, a medium piece, and low fillers. Choose LED candles if the table gets busy.
 
 The coffee table is the most used surface in a living room in December. It has to look festive and still work.
 
@@ -136,4 +136,4 @@ A small box or a basket under the table keeps remotes and chargers off the festi
 - **Fragile glass ornaments** where children or pets can reach them.
 - **Too many colors.** Match the rest of the room.
 
-For the rest of the room, see [cozy Christmas living room ideas](/post/cozy-christmas-living-room-ideas/). The three-height method is explained in more detail in [the autumn mantel](/post/autumn-mantel-styling/), and [small-space Christmas decor ideas](/post/small-space-christmas-decor-ideas/) shows how to decorate one spot per room.
+The room around the table is covered in [cozy Christmas living room ideas](/post/cozy-christmas-living-room-ideas/). The three-height method is explained in more detail in [the autumn mantel](/post/autumn-mantel-styling/), and [small-space Christmas decor ideas](/post/small-space-christmas-decor-ideas/) shows how to decorate one spot per room.

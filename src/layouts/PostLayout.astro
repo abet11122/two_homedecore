@@ -63,6 +63,16 @@ const tags = [...new Set((d.tags ?? []).map(tagSlug))]
     linked: hubs.has(slug),
   }));
 
+/*
+  The byline has to name whoever the Article schema names, or the two
+  disagree on the page. Both fall back to the publisher until
+  src/site.ts -> person is filled in.
+*/
+const hasPerson = !SITE.person.name.startsWith('[');
+const bylineName = hasPerson ? SITE.person.name : SITE.author;
+const bylineRole = hasPerson ? SITE.person.role : SITE.authorRole;
+const bylineHref = hasPerson ? '/about/' : `/author/${SITE.authorSlug}/`;
+
 const words = wordCount(post.body ?? '');
 const canonical = new URL(Astro.url.pathname, Astro.site ?? SITE.url).href;
 
@@ -124,10 +134,10 @@ const faqSchema = d.faqs?.length
         <h1 id="post-title">{d.title}</h1>
         <p class="post-deck">{d.description}</p>
         <div class="post-byline">
-          {SITE.authorAvatar && <img src={SITE.authorAvatar} alt="" width="42" height="42" class="post-avatar" />}
+          {(hasPerson ? SITE.person.photo : SITE.authorAvatar) && <img src={hasPerson ? SITE.person.photo : SITE.authorAvatar} alt="" width="42" height="42" class="post-avatar" />}
           <div>
-            <a href={`/author/${SITE.authorSlug}/`}>Published by {SITE.author}</a>
-            <p>{d.updatedDate ? 'Updated ' : ''}<time datetime={(d.updatedDate ?? d.publishDate).toISOString()}>{formatDate(d.updatedDate ?? d.publishDate)}</time><span aria-hidden="true"> · </span>{SITE.authorRole}</p>
+            <a href={bylineHref}>{hasPerson ? 'Written by' : 'Published by'} {bylineName}</a>
+            <p>{d.updatedDate ? 'Updated ' : ''}<time datetime={(d.updatedDate ?? d.publishDate).toISOString()}>{formatDate(d.updatedDate ?? d.publishDate)}</time><span aria-hidden="true"> · </span>{bylineRole}</p>
           </div>
         </div>
         <div class="post-actions">
@@ -141,7 +151,7 @@ const faqSchema = d.faqs?.length
         <div class="frame post-hero-image">
           <Img src={d.heroImage} alt={d.heroImageAlt ?? d.title} width={900} height={1000} loading="eager" fetchpriority="high" sizes="(min-width: 1440px) 580px, (min-width: 900px) 44vw, (min-width: 640px) 85vw, 100vw" />
         </div>
-        <figcaption><span>{categoryName(d.category)} inspiration</span>{heroPhoto ? (heroPhoto.sourceUrl ? <a href={heroPhoto.sourceUrl} target="_blank" rel="noopener noreferrer">Photo: {heroPhoto.photographer}</a> : <span>Photo: {heroPhoto.photographer}</span>) : <span>{SITE.name}</span>}</figcaption>
+        <figcaption><span>{categoryName(d.category)} inspiration</span>{heroPhoto ? (heroPhoto.sourceUrl ? <a href={heroPhoto.sourceUrl} target="_blank" rel="noopener noreferrer">Photo: {heroPhoto.photographer}</a> : <span>Photo: {heroPhoto.photographer}</span>) : <span>Licensed stock photo</span>}</figcaption>
       </figure>
     </div>
 

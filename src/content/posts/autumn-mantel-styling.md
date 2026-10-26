@@ -27,7 +27,7 @@ faqs:
     a: "Late November, before Christmas decorating starts. Store dried materials in a box somewhere dry — they'll be fine for next year."
 ---
 
-A good autumn mantel uses three clearly different heights, a palette of browns rather than orange, and natural materials that look better as they dry — with about 40% of the shelf left empty. It takes twenty minutes and mostly uses what's already in the house.
+Three clearly different heights, a palette of browns rather than orange, natural materials that look better as they dry, and about 40% of the shelf left empty. That is the whole method for an autumn mantel. It takes twenty minutes and mostly uses what's already in the house.
 
 <!-- [ADD YOUR PHOTO: your mantel or shelf cleared and empty, before styling] {file: photo-1} -->
 
@@ -142,4 +142,4 @@ Keeping autumn up until January is the single fastest way to make a house feel n
 
 ---
 
-For the whole room, see [cozy fall living room decor ideas](/post/fall-living-room-decor-ideas/). Renters with no mantel can borrow the shelf and windowsill ideas in [fall apartment decor](/post/fall-apartment-decor-ideas/), and the same three-height method works on an [entryway table](/post/entryway-table-decor-ideas/). For a room that feels considered beyond the season, explore our [minimalist living room guide](/post/minimalist-living-room-guide/).
+The whole room gets the same treatment in [cozy fall living room decor ideas](/post/fall-living-room-decor-ideas/). Renters with no mantel can borrow the shelf and windowsill ideas in [fall apartment decor](/post/fall-apartment-decor-ideas/), and the same three-height method works on an [entryway table](/post/entryway-table-decor-ideas/). For a room that feels considered beyond the season, explore our [minimalist living room guide](/post/minimalist-living-room-guide/).

@@ -26,7 +26,7 @@ faqs:
     a: "Spare toilet rolls, hand towels, a small plant, cotton pads in a lidded jar — light things that won't break or spill if they fall. Avoid glass bottles, heavy items, and medicines or cleaners that should be stored securely."
 ---
 
-Over-toilet storage works when it's shallow, mounted high enough to lift the cistern lid, and holds only light items. Measure the clear wall width, the height above the cistern, and your head clearance when standing — then choose between open shelves, a closed cabinet or a freestanding frame based on what you need to store.
+Three measurements decide what goes above a toilet: the clear wall width, the height above the cistern, and your head clearance when standing. Whatever fits into them has to be shallow, mounted high enough to lift the cistern lid, and loaded with light items only. After that, the choice between open shelves, a closed cabinet and a freestanding frame comes down to what you need to store.
 
 The wall above a toilet is often the biggest unused surface in a small bathroom. It's also where bad measurements show up fastest: a shelf that blocks the lid, a cabinet you bump every morning, a frame that makes cleaning around the base impossible.
 
@@ -105,4 +105,4 @@ Lift the cistern lid, flush, clean around the base, and take an item off the top
 
 <!-- [ADD YOUR PHOTO: your finished over-toilet storage] {file: photo-2} -->
 
-For the rest of the room, [small bathroom organization ideas](/post/small-bathroom-organization-ideas/) covers the vanity, door and shower zones. The [floating shelf checklist](/post/diy-floating-shelves/) goes deeper on wall types and fixings, and renters can find more no-drill options in [apartment decor ideas on a budget](/post/apartment-decor-ideas-budget/).
+Elsewhere in the room, [small bathroom organization ideas](/post/small-bathroom-organization-ideas/) covers the vanity, door and shower zones. The [floating shelf checklist](/post/diy-floating-shelves/) goes deeper on wall types and fixings, and renters can find more no-drill options in [apartment decor ideas on a budget](/post/apartment-decor-ideas-budget/).

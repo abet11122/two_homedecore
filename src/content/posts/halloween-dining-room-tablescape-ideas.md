@@ -123,8 +123,8 @@ The most important rule for a Halloween tablescape is to keep the table function
 
 A beautiful table that is difficult to eat at is always less successful than a simpler table that works well.
 
-An elegant Halloween tablescape is built on dark linens, candlelight, and a few well-chosen seasonal details. Start with the tablecloth and the candles — they create the foundation of the atmosphere. Add a pumpkin centrepiece, dark napkins, and one detail at each place setting. The table does the rest.
+Dark linens, candlelight and a few well-chosen seasonal details are the whole recipe. Lay the tablecloth and light the candles first, because everything else is built on them. Then a pumpkin centrepiece, dark napkins, and one small detail at each place setting.
 
-## More Halloween ideas
+## Before and after the meal
 
 Pair the table with a [Halloween dessert spread](/post/halloween-dessert-table-styling-ideas/) or keep it formal with [elegant Halloween decor](/post/elegant-halloween-decor/). The [Halloween kitchen ideas](/post/halloween-kitchen-decor-ideas/) are useful if you eat where you cook. Keep the candles and linen for November; [cozy fall living room decor](/post/fall-living-room-decor-ideas/) shows what to do with them.

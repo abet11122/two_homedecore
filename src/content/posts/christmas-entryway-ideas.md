@@ -26,7 +26,7 @@ faqs:
     a: "Only if they're rated for outdoor use (look for an IP44 rating or higher, or an outdoor label) and plugged into an outdoor socket or a weatherproof connector. Solar or battery lights avoid cables entirely."
 ---
 
-A welcoming Christmas entryway needs a well-sized wreath on the door, one decorated surface inside, warm lights, and a clear plan for guests' coats, boots and bags. Keep the walkway free — in December, the entry is the busiest few square meters of the home.
+In December the entry becomes the busiest few square meters of the home, which makes decorating it mostly a question of what you leave clear. Give it a well-sized wreath on the door, one decorated surface inside, warm lights, and somewhere for guests' coats, boots and bags — then keep the walkway itself empty.
 
 These ideas suit a small hall, a shared-building front door, or a studio where the "entry" is a strip of wall.
 
@@ -130,4 +130,4 @@ Check that the door opens fully, the walkway is at least 75–90 cm wide, keys s
 - **Decorating every surface.** The entry needs space for guests.
 - **Cords across the step or walkway.**
 
-For year-round entry storage, see [small entryway organization](/post/small-entryway-organization-ideas/). The rest of the home is covered in [small-space Christmas decor ideas](/post/small-space-christmas-decor-ideas/) and [cozy Christmas living room ideas](/post/cozy-christmas-living-room-ideas/).
+Year-round entry storage is covered in [small entryway organization](/post/small-entryway-organization-ideas/). The rest of the home is covered in [small-space Christmas decor ideas](/post/small-space-christmas-decor-ideas/) and [cozy Christmas living room ideas](/post/cozy-christmas-living-room-ideas/).

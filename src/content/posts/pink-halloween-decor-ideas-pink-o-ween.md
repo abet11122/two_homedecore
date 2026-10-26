@@ -109,6 +109,6 @@ Without the black, the display reads as a birthday party. With it, the display r
 
 Pink-o-ween works because it takes the seasonal palette in an unexpected direction while keeping the core Halloween symbols — bats, skulls, pumpkins, candles — intact. Start with blush pumpkins and black bats, add pink candles and rose gold accents, and keep the black as the anchor throughout.
 
-## More Halloween ideas
+## Softer, brighter, or in a bedroom
 
 Pink works well in children's rooms too — see [non-scary toddler room ideas](/post/non-scary-halloween-decor-toddler-rooms/). For a bedroom version, the [Halloween bedroom guide](/post/halloween-bedroom-decor-ideas/) has more textile swaps, and if you want brighter still, try [neon Y2K party decor](/post/neon-y2k-apocalypse-halloween-party-decor-ideas/). Most of the blush and cream pieces fit into [fall apartment decor](/post/fall-apartment-decor-ideas/) afterwards.

@@ -26,7 +26,7 @@ faqs:
     a: "A wall-mounted fold-down rack or a ceiling-hung pulley airer uses vertical space and folds away. Freestanding wing racks are cheap but take up floor space. Make sure there's airflow — open a window or run an extractor fan — so damp air doesn't cause condensation and mold."
 ---
 
-A small laundry area works when one load can move from dirty to put away without creating a pile on the floor. Follow a normal load through the space, find the step where it stalls — sorting, supplies, drying or folding — and fix that step first. Then check every storage idea against the appliance doors, vents and service access.
+One load should be able to move from dirty to put away without leaving a pile on the floor. When it can't, follow a normal load through the space and find the step where it stalls — sorting, supplies, drying or folding — and fix that step first. Then check every storage idea against the appliance doors, vents and service access.
 
 Your "laundry room" might be a closet with stacked machines, a corner of the kitchen, or a utility room. The tasks are the same; only the space changes.
 
@@ -115,4 +115,4 @@ Give each person a basket that clean clothes go straight into, and have them car
 
 If dirty clothes still pile up, move the hamper closer to where clothes come off. If supplies are still out on top of the machine, the shelf is too high or too far. If clean clothes sit unfolded, the problem is the surface or the baskets, not storage.
 
-For other compact rooms in the house, see [small apartment organization ideas](/post/small-apartment-organization-ideas/) and [small bathroom organization ideas](/post/small-bathroom-organization-ideas/). The [floating shelf checklist](/post/diy-floating-shelves/) explains how to check a wall before mounting a shelf above your machines.
+Other compact rooms get the same treatment in [small apartment organization ideas](/post/small-apartment-organization-ideas/) and [small bathroom organization ideas](/post/small-bathroom-organization-ideas/). The [floating shelf checklist](/post/diy-floating-shelves/) explains how to check a wall before mounting a shelf above your machines.

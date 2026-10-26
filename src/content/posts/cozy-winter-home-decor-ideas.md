@@ -150,4 +150,4 @@ A boot tray, a basket of hats and gloves, and a warm lamp for coming home in the
 - **Bright overhead light in the evening.** Use lamps.
 - **Toxic bulbs where pets can reach.**
 
-For more warmth and texture ideas, see [cozy Christmas living room ideas](/post/cozy-christmas-living-room-ideas/) — most of the textiles carry straight into January. The [minimalist living room guide](/post/minimalist-living-room-guide/) is a good reset after the holidays, and [apartment decor ideas on a budget](/post/apartment-decor-ideas-budget/) covers lighting changes that make winter evenings better.
+More warmth and texture ideas sit in [cozy Christmas living room ideas](/post/cozy-christmas-living-room-ideas/) — most of the textiles carry straight into January. The [minimalist living room guide](/post/minimalist-living-room-guide/) is a good reset after the holidays, and [apartment decor ideas on a budget](/post/apartment-decor-ideas-budget/) covers lighting changes that make winter evenings better.

@@ -27,7 +27,7 @@ faqs:
     a: "Keep the big things neutral — walls, bed frame, wardrobe — and put the theme into cheap, swappable items like bedding, a poster and a lamp. Navy, sage, warm grey and natural wood work from toddler to teen."
 ---
 
-A small boys bedroom works when the bed position leaves floor for play, everyday things are stored at his height, and the theme lives in a few swappable items. Start with the layout, then add storage he can use without help, then add personality. That order keeps the room usable as he grows from five to twelve.
+Layout first, then storage he can use without help, then personality. Put the bed where it leaves floor for play, keep everyday things at his height, and let the theme live in a few swappable items. That order is what keeps a small room usable as he grows from five to twelve.
 
 These ideas suit a box room, a shared room, or an apartment bedroom of around 2.5 × 3 m (8 × 10 ft).
 
@@ -165,4 +165,4 @@ Every evening: clothes in the hamper, bag on its hook, one toy bin filled. Every
 
 Cube shelves are easy to find second-hand. Buy the bed new, so you get the safety instructions and the right fixings.
 
-As he gets older, see [modern boys bedroom ideas](/post/modern-boys-bedroom-ideas/) for a more grown-up look and [teenage boy bedroom ideas](/post/teenage-boy-bedroom-ideas/) for study and gaming zones. For general storage measurements, see [small bedroom storage](/post/small-bedroom-storage-ideas/), and the [floating shelf checklist](/post/diy-floating-shelves/) covers wall fixings.
+As he gets older, see [modern boys bedroom ideas](/post/modern-boys-bedroom-ideas/) for a more grown-up look and [teenage boy bedroom ideas](/post/teenage-boy-bedroom-ideas/) for study and gaming zones. General storage measurements are in [small bedroom storage](/post/small-bedroom-storage-ideas/), and the [floating shelf checklist](/post/diy-floating-shelves/) covers wall fixings.

@@ -26,7 +26,7 @@ faqs:
     a: "Choose decor that stores flat or small: cushion covers instead of cushions, a folded runner, dried stems in a long box. One labeled storage bag on top of the wardrobe or under the bed should hold the whole season."
 ---
 
-Fall apartment decor works best when it's small and specific: one seasonal focal point, textiles that change the mood, dried natural stems, and warm lamplight. Everything should store flat in one bag and hang without damaging the walls. You can do the whole flat in an afternoon for well under $100.
+Small and specific beats seasonal-everywhere, especially in a rental: one fall focal point, textiles that change the mood, dried natural stems, and warm lamplight. Everything should store flat in one bag and hang without damaging the walls. You can do the whole flat in an afternoon for well under $100.
 
 These ideas are for a small rental — a studio or one-bedroom — where there's no mantel, no storage room and no permission to drill.
 
@@ -137,4 +137,4 @@ Most small apartments can be styled for fall for $50–$100, and almost all of i
 
 <!-- [ADD YOUR PHOTO: your whole room with the fall styling finished, lamps on] {file: photo-3} -->
 
-For a bigger space, see [cozy fall living room decor ideas](/post/fall-living-room-decor-ideas/). The [budget apartment decor guide](/post/apartment-decor-ideas-budget/) covers year-round changes that make seasonal decor look even better, and when November ends, [small-space Christmas decor ideas](/post/small-space-christmas-decor-ideas/) picks up where this leaves off.
+In a bigger space, start with [cozy fall living room decor ideas](/post/fall-living-room-decor-ideas/). The [budget apartment decor guide](/post/apartment-decor-ideas-budget/) covers year-round changes that make seasonal decor look even better, and when November ends, [small-space Christmas decor ideas](/post/small-space-christmas-decor-ideas/) picks up where this leaves off.

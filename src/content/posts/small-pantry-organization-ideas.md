@@ -26,7 +26,7 @@ faqs:
     a: "Choose one tall cabinet or a freestanding pantry unit, use door racks for spices and packets, put a slim rolling cart in a gap beside the fridge, and keep dry goods grouped in labeled bins you can lift out. A shelf above the counter can hold jars you use daily."
 ---
 
-A small pantry works when each shelf has a job: daily foods at eye level, heavy items low, backups high, and the deep corners fitted with a turntable or pull-out bin so nothing gets lost. Take an inventory before buying anything, measure every shelf, and only add organizers that solve a real access problem.
+Give each shelf a job and a small pantry stops swallowing food: daily items at eye level, heavy things low, backups high, and a turntable or pull-out bin in the deep corners where jars disappear. Take an inventory before buying anything, measure every shelf, and only add organizers that solve a real access problem.
 
 <!-- [ADD YOUR PHOTO: your pantry before organizing] {file: photo-1} -->
 
@@ -78,4 +78,4 @@ Put each group back according to the shelf map. During a normal shopping and coo
 - **Deep bins you can't lift out.** Choose bins you can grab with one hand.
 - **No home for new shopping.** Leave a little empty space on each shelf.
 
-For the rest of the kitchen, see [small kitchen organization ideas](/post/small-kitchen-organization-ideas/). If your pantry is open shelving, [open shelving styling](/post/kitchen-open-shelving-styling/) shows how to keep it looking calm, and [small apartment organization ideas](/post/small-apartment-organization-ideas/) covers finding storage in a flat without a pantry.
+The rest of the kitchen is in [small kitchen organization ideas](/post/small-kitchen-organization-ideas/). If your pantry is open shelving, [open shelving styling](/post/kitchen-open-shelving-styling/) shows how to keep it looking calm, and [small apartment organization ideas](/post/small-apartment-organization-ideas/) covers finding storage in a flat without a pantry.

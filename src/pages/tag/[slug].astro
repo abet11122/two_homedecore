@@ -79,12 +79,18 @@ const listSchema = {
 };
 ---
 
+{/*
+  Tag hubs are crawlable but never indexed. They re-list posts that already
+  have a canonical home under /category/, so indexing them only offers a
+  search engine — or an ad reviewer — a second, thinner copy of the archive.
+  The links stay followable so the posts keep the internal link equity.
+*/}
 <Layout
   title={title}
   description={description}
   image={lead?.data.pinImage}
   imageWide={lead?.data.heroImage}
-  noindex={posts.length < MIN_INDEXABLE_ARCHIVE_POSTS}
+  noindex
   allowAds={posts.length >= MIN_INDEXABLE_ARCHIVE_POSTS}
   schemas={[listSchema]}
 >

@@ -27,7 +27,7 @@ faqs:
     a: "Things you use every day and take with you when you move: a good mattress, bedding and towels, a desk chair if you work from home, a large rug, and one quality lamp. Save on side tables, storage, cushion covers and decor."
 ---
 
-The best budget apartment decor ideas aren't objects at all: warm light, curtains hung properly, a rug that fits, and textiles you can take with you. Do the free steps first, then spend in order of impact — the list below is ranked that way.
+Four things change a rented flat more than anything you could buy for it: warm light, curtains hung properly, a rug that actually fits, and textiles that come with you when you move. Budget apartment decor starts there. Do the free steps first, then spend in order of impact — the list below is ranked that way.
 
 <!-- [ADD YOUR PHOTO: your living room before any changes] {file: photo-1} -->
 
@@ -189,4 +189,4 @@ The pattern behind all of it: **light, soft things, and fewer objects arranged b
 
 ## Keep going
 
-For smaller rooms, see [small bedroom makeover on a budget](/post/small-bedroom-makeover-ideas/) and [small apartment organization ideas](/post/small-apartment-organization-ideas/). If your flat is one room, [zoning a studio](/post/studio-apartment-zoning/) shows how to divide it without walls. For a calmer look with fewer things, the [minimalist living room guide](/post/minimalist-living-room-guide/) is a good next read.
+Smaller rooms are covered in [small bedroom makeover on a budget](/post/small-bedroom-makeover-ideas/) and [small apartment organization ideas](/post/small-apartment-organization-ideas/). If your flat is one room, [zoning a studio](/post/studio-apartment-zoning/) shows how to divide it without walls. For a calmer look with fewer things, the [minimalist living room guide](/post/minimalist-living-room-guide/) is a good next read.

@@ -19,7 +19,7 @@ faqs:
     a: "Cotton stretch cobwebs ($3–$5 a bag) are the most effective cheap prop — they cover a large area and create an immediate haunted effect. Coloured light bulbs ($2–$4 each) change the atmosphere of any room. A fog machine ($20–$30) adds the most dramatic atmospheric effect per dollar spent."
 ---
 
-A DIY haunted house works because the atmosphere is created by lighting, sound, and a few well-placed props rather than expensive decorations. This guide covers 17 ways to turn a real home into a haunted house for Halloween, room by room.
+Lighting, sound and a few well-placed props do almost all the work in a DIY haunted house. Expensive decorations do very little of it. This guide covers 17 ways to turn a real home into a haunted house for Halloween, room by room.
 
 ## 1. Start With the Lighting
 
@@ -123,8 +123,8 @@ The most important rule for a DIY haunted house is to work room by room rather t
 
 Choose two or three rooms to go all-in on and leave the rest relatively normal. The contrast between the haunted rooms and the normal ones adds to the effect.
 
-A DIY haunted house is built on atmosphere rather than expensive props. Start with the lighting and the cobwebs — they create the foundation of the effect. Add a fog machine, a skeleton, and sound effects. Work room by room and commit to a few strong moments rather than covering everything.
+Atmosphere does the frightening here, not the price of the props. Get the lighting and the cobwebs in first, then add a fog machine, a skeleton and sound. Work room by room and commit to a few strong moments instead of covering everything thinly.
 
-## More Halloween ideas
+## Scarier, moodier, or back to normal
 
 Take the scare outside with [outdoor decor for small yards](/post/outdoor-halloween-decor-ideas-small-yards-balconies/), or go moody instead of scary with [gothic dark-botanical decor](/post/gothic-halloween-decor-ideas-dark-botanical/). Throwing a party? [Neon Y2K party decor](/post/neon-y2k-apocalypse-halloween-party-decor-ideas/) uses the same colored bulbs. When the house goes back to normal, [cozy fall living room decor](/post/fall-living-room-decor-ideas/) is a gentler next step.

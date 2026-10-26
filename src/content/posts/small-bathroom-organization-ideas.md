@@ -29,7 +29,7 @@ faqs:
     a: "A basic refresh with drawer dividers, two bins, a tray and adhesive hooks often costs under $50. Adding an over-toilet unit, an under-sink pull-out organizer and a shower caddy typically brings the total to $100–$200. Prices vary by store and region."
 ---
 
-Small bathroom organization works when every item has a home within reach of where it's used, and nothing blocks the door, the toilet or the cabinet hinges. The fastest route there is to declutter first, measure each storage zone, and only then buy organizers sized to those measurements.
+Everything in a small bathroom needs a home within reach of where it's used, and nothing can block the door, the toilet or the cabinet hinges. The fastest route to that is unglamorous: declutter first, measure each storage zone, and only then buy organizers sized to those measurements.
 
 A typical small bathroom — around 1.5 × 2 m (5 × 7 ft) — has three hard-working zones: the vanity and under-sink cabinet, the wall above the toilet, and the back of the door. Most clutter problems come from one of them being underused while the counter takes the overflow. The 17 ideas below are grouped by zone so you can fix the worst one first.
 

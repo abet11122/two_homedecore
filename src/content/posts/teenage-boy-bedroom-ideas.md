@@ -136,4 +136,4 @@ Teen rooms can get stuffy, especially with a gaming PC running. Open the window 
 
 If he games or studies for hours, the chair is the piece most worth stretching the budget for.
 
-If he's not quite a teenager yet, [modern boys bedroom ideas](/post/modern-boys-bedroom-ideas/) covers the in-between years. For desk setups in other rooms, see [small home office ideas](/post/small-home-office-ideas/), and [small bedroom ideas that look expensive](/post/small-bedroom-ideas-that-look-expensive/) shows how to keep a functional room looking polished.
+If he's not quite a teenager yet, [modern boys bedroom ideas](/post/modern-boys-bedroom-ideas/) covers the in-between years. Desk setups in other rooms are in [small home office ideas](/post/small-home-office-ideas/), and [small bedroom ideas that look expensive](/post/small-bedroom-ideas-that-look-expensive/) shows how to keep a functional room looking polished.

@@ -85,7 +85,7 @@ Stick to two or three materials — paper, glass and wood, say — so the displa
 
 A collection of old glass bottles, jars, and vials labelled with handwritten tags — "bat wings," "eye of newt," "spider silk" — creates a vintage apothecary display that suits Halloween without any obvious themed products.
 
-Old glass bottles are common at antique shops and thrift stores. Print or handwrite the labels on aged paper (tea-stained printer paper works well).
+Thrift shops and antique stalls are full of old glass bottles. Print or handwrite the labels on aged paper (tea-stained printer paper works well).
 
 ## 12. Use a Vintage-Style Tablecloth
 
@@ -123,8 +123,8 @@ The most important rule for vintage Halloween decor is the palette. Warm amber, 
 
 A single bright modern orange pumpkin in a vintage display will pull the eye away from everything else. Keep the palette consistent and the display will read as intentional.
 
-Vintage Halloween decor works because it draws on a visual language that is genuinely old — the prints, the colours, and the objects all have a history. Start with a few reproduction prints, a pair of antique candlesticks, and a matte pumpkin. The palette does the rest.
+The reason this look holds up is that none of it was invented for the season: the prints, the colours and the objects all came from somewhere. A few reproduction prints, a pair of antique candlesticks and a matte pumpkin will establish it, and the amber-and-cream palette carries the rest.
 
-## More Halloween ideas
+## Where this palette goes next
 
 Printed vintage art looks great above a fireplace — see [Halloween mantel decor](/post/halloween-mantel-decor-ideas/). Crepe and paper also suit [Halloween wreaths](/post/halloween-wreath-ideas-front-door-styling/), and [elegant Halloween decor](/post/elegant-halloween-decor/) is the candlelit cousin of this look. The amber and cream palette carries straight into [the autumn mantel](/post/autumn-mantel-styling/).

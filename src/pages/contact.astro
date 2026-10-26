@@ -47,11 +47,18 @@ const reasons = [
             ? 'Fill in the form and your message comes straight to my inbox. I usually reply within a few days.'
             : 'The form opens your email app with the message ready to send. I usually reply within a few days.'}
         </p>
+        {/*
+          Without a form endpoint the message has to go through the visitor's
+          own mail app. A plain `action="mailto:"` POST is unreliable — several
+          browsers silently drop it — so the script below composes the mailto
+          link instead, and the address under the form is the fallback when
+          scripting is off.
+        */}
         <form
           class="contact-form mt-8 grid max-w-xl gap-5"
           action={hasEndpoint ? SITE.contactFormEndpoint : `mailto:${SITE.email}`}
-          method="post"
-          enctype={hasEndpoint ? undefined : 'text/plain'}
+          method={hasEndpoint ? 'post' : 'get'}
+          data-mailto={hasEndpoint ? undefined : SITE.email}
         >
           <label>
             <span>Your name</span>
@@ -77,6 +84,7 @@ const reasons = [
             I use your details only to reply. See the <a href="/privacy-policy/" class="underline">Privacy Policy</a>.
           </p>
           <button type="submit" class="contact-submit">Send message</button>
+          <p class="contact-status text-[0.9375rem] text-ink-60" data-contact-status role="status"></p>
         </form>
         <p class="mt-8 text-[0.9375rem] text-ink-60">
           Prefer email? Write to <a href={'mailto:' + SITE.email} class="underline underline-offset-2 hover:text-clay">{SITE.email}</a>.
@@ -106,6 +114,34 @@ const reasons = [
   </div>
 </Layout>
 
+<script>
+  // Compose the mailto ourselves; see the note above the form.
+  const form = document.querySelector<HTMLFormElement>('.contact-form[data-mailto]');
+  const status = form?.querySelector<HTMLParagraphElement>('[data-contact-status]');
+
+  form?.addEventListener('submit', (event) => {
+    if (!form.reportValidity()) return;
+    event.preventDefault();
+
+    const field = (name: string) =>
+      (form.elements.namedItem(name) as HTMLInputElement | HTMLTextAreaElement | null)?.value.trim() ?? '';
+
+    const topic = field('topic') || 'Message from the website';
+    const body = [
+      `From: ${field('name')} <${field('email')}>`,
+      `Topic: ${topic}`,
+      '',
+      field('message'),
+    ].join('\n');
+
+    const href = `mailto:${form.dataset.mailto}?subject=${encodeURIComponent(topic)}&body=${encodeURIComponent(body)}`;
+    if (status) {
+      status.textContent = 'Opening your email app with the message ready to send.';
+    }
+    window.location.href = href;
+  });
+</script>
+
 <style>
   .contact-form label { display: grid; gap: 6px; font-size: 0.875rem; font-weight: 500; color: #2b2a26; }
   .contact-form input,
@@ -134,4 +170,5 @@ const reasons = [
     letter-spacing: 0.02em;
   }
   .contact-submit:hover { background: #555c43; }
+  .contact-status:empty { display: none; }
 </style>

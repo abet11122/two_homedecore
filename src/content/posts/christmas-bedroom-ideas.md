@@ -26,7 +26,7 @@ faqs:
     a: "Using what you have plus a set of LED lights, a cushion cover pair and some cut greenery usually costs $30–$60. Adding a tabletop tree, a wreath and a festive throw brings a typical budget to $80–$150."
 ---
 
-The best Christmas bedroom ideas add warmth without making the room harder to rest in. Choose one focal point — lights on the headboard, a wreath above the bed, or a small tree — then let textiles carry the season. A bedroom is the one room where "more" usually works against you: extra objects on nightstands get knocked over in the dark, and bright decorations fight with sleep.
+A bedroom is the one room where more decoration usually works against you: extra objects on nightstands get knocked over in the dark, and bright decorations fight with sleep. So decorate it for Christmas the other way round — one focal point, whether that's lights on the headboard, a wreath above the bed, or a small tree — then let textiles carry the rest of the season.
 
 This guide works for a typical small bedroom of about 3 × 3 m (10 × 10 ft), where the bed takes up most of the floor and every surface has a job.
 
@@ -131,4 +131,4 @@ Store lights wrapped around a piece of cardboard so they don't tangle. Fold cush
 
 <!-- [ADD YOUR PHOTO: a close-up of your headboard or bedside display] {file: photo-2} -->
 
-For the rest of the home, the [small-space Christmas decor guide](/post/small-space-christmas-decor-ideas/) covers apartments room by room, and [cozy Christmas living room ideas](/post/cozy-christmas-living-room-ideas/) shows how to scale these ideas up for the main room. Want the bedroom to feel cozy all winter? Start with the [cozy small bedroom guide](/post/cozy-small-bedroom-ideas/).
+Beyond the bedroom, the [small-space Christmas decor guide](/post/small-space-christmas-decor-ideas/) covers apartments room by room, and [cozy Christmas living room ideas](/post/cozy-christmas-living-room-ideas/) shows how to scale these ideas up for the main room. Want the bedroom to feel cozy all winter? Start with the [cozy small bedroom guide](/post/cozy-small-bedroom-ideas/).

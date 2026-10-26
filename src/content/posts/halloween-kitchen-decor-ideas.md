@@ -142,8 +142,8 @@ The most important rule for Halloween kitchen decor is to keep the counter funct
 
 A kitchen that looks good and works well is always more successful than one that looks seasonal but is difficult to use.
 
-The strongest Halloween kitchen decor is the kind that adds atmosphere without getting in the way. Start with a dish towel swap and a pumpkin on the counter, add a black cat to the shelf, and keep the rest of the counter clear.
+Swap the dish towel, put a pumpkin on the counter, add a black cat to the shelf — and leave the rest of the counter clear. In a kitchen that is still being cooked in, that restraint is what keeps the decor from becoming an obstacle.
 
-## More Halloween ideas
+## If you're hosting as well
 
 Eating in the kitchen? Combine this with the [Halloween tablescape guide](/post/halloween-dining-room-tablescape-ideas/) or a [dessert table](/post/halloween-dessert-table-styling-ideas/). For printable labels and old-style signs, see [vintage Halloween decor](/post/vintage-halloween-decor-ideas/). The pumpkins and dried oranges work all autumn — [cozy fall living room decor](/post/fall-living-room-decor-ideas/) shows where to move them.

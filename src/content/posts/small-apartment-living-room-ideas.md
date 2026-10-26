@@ -26,7 +26,7 @@ faqs:
     a: "Use a low media unit with doors, a storage ottoman instead of a coffee table, a tall narrow bookcase anchored to the wall, floating shelves above the sofa or TV, and baskets under a console. Closed storage keeps a small room calmer than open shelves."
 ---
 
-A small apartment living room works when the furniture is scaled to the room, the walkways stay 75–90 cm wide, the rug is big enough to anchor the seating, and storage is closed. Measure first, choose one of a handful of proven layouts, and light it at three heights.
+Scale, walkways, rug size, closed storage. A small living room is decided by those four things, and only one of them is really about what the furniture looks like. Keep walkways 75–90 cm wide, get a rug big enough to anchor the seating, and shut the clutter away. Measure first, choose one of a handful of proven layouts, and light the room at three heights.
 
 These ideas suit living rooms of roughly 9–15 m² (100–160 sq ft) — common in one-bedroom apartments.
 
@@ -131,4 +131,4 @@ Warm-white 2700K bulbs. Turn off the overhead in the evening and the room immedi
 
 The sofa and armchair take most of the budget. Put any savings into a rug that is big enough.
 
-For a calmer look, see the [minimalist living room guide](/post/minimalist-living-room-guide/). If your living room is also a bedroom, [zoning a studio](/post/studio-apartment-zoning/) and [small studio apartment ideas](/post/small-studio-apartment-ideas/) show how to divide it, and [apartment decor ideas on a budget](/post/apartment-decor-ideas-budget/) covers cheap upgrades.
+A calmer version of the same room is in the [minimalist living room guide](/post/minimalist-living-room-guide/). If your living room is also a bedroom, [zoning a studio](/post/studio-apartment-zoning/) and [small studio apartment ideas](/post/small-studio-apartment-ideas/) show how to divide it, and [apartment decor ideas on a budget](/post/apartment-decor-ideas-budget/) covers cheap upgrades.

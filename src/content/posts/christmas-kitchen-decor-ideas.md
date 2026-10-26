@@ -26,7 +26,7 @@ faqs:
     a: "Choose two spots: the window (lights, a small wreath or a garland on a tension rod) and one open shelf or cabinet top. Add a festive tea towel and a bowl of clementines. That's enough to make a small kitchen feel festive without losing workspace."
 ---
 
-The best Christmas kitchen decor goes above and around the work surfaces, not on them: windows, cabinet doors, open shelves and the space above the cabinets. Keep anything flammable away from the hob and oven, use decorations you can wipe clean, and let food — clementines, cinnamon, gingerbread — do some of the decorating.
+A kitchen counter is working space in December more than in any other month, so Christmas decor belongs above and around it rather than on it: windows, cabinet doors, open shelves and the space above the cabinets. Keep anything flammable away from the hob and oven, use decorations you can wipe clean, and let food — clementines, cinnamon, gingerbread — do some of the decorating.
 
 The kitchen is a working room in December — probably the busiest of the year — so every idea here leaves the prep area clear.
 
@@ -135,4 +135,4 @@ A small pan of water with orange peel, cinnamon sticks, cloves and a little rose
 
 <!-- [ADD YOUR PHOTO: your kitchen fully decorated] {file: photo-3} -->
 
-For other rooms, see [cozy Christmas living room ideas](/post/cozy-christmas-living-room-ideas/) and [Christmas bedroom ideas](/post/christmas-bedroom-ideas/). If your kitchen is tiny, [small-space Christmas decor ideas](/post/small-space-christmas-decor-ideas/) shows how to pick one spot per room, and [small kitchen organization ideas](/post/small-kitchen-organization-ideas/) frees up the space to begin with.
+Other rooms are covered in [cozy Christmas living room ideas](/post/cozy-christmas-living-room-ideas/) and [Christmas bedroom ideas](/post/christmas-bedroom-ideas/). If your kitchen is tiny, [small-space Christmas decor ideas](/post/small-space-christmas-decor-ideas/) shows how to pick one spot per room, and [small kitchen organization ideas](/post/small-kitchen-organization-ideas/) frees up the space to begin with.

@@ -26,7 +26,7 @@ faqs:
     a: "Give everything one home, run a ten-minute reset each evening (surfaces clear, things back in their zones), and follow one in, one out: when something new comes in, something old leaves. Small spaces fill up fast without a rule."
 ---
 
-Small apartment organization works when every activity has a zone, every zone has storage for what's used there, and you use the hidden spaces most people ignore: under the bed, above doors, behind doors and in narrow gaps. Start at the front door, then work through the flat one zone at a time.
+Give every activity a zone, give every zone storage for the things used there, and then go after the space most flats waste: under the bed, above doors, behind doors and in the narrow gaps between things. Start at the front door and work through the flat one zone at a time.
 
 These ideas suit a studio or one-bedroom apartment of around 35–55 m² (375–600 sq ft), where storage is short and every surface has a job.
 
@@ -129,4 +129,4 @@ Pick the spot that annoys you most — usually the entry, the kitchen counter or
 
 <!-- [ADD YOUR PHOTO: the same space after organizing] {file: photo-3} -->
 
-For room-by-room detail, see [small kitchen organization ideas](/post/small-kitchen-organization-ideas/), [small bedroom storage](/post/small-bedroom-storage-ideas/) and [small bathroom organization ideas](/post/small-bathroom-organization-ideas/). Renters can find damage-free ideas in [apartment decor ideas on a budget](/post/apartment-decor-ideas-budget/).
+Room-by-room detail follows in [small kitchen organization ideas](/post/small-kitchen-organization-ideas/), [small bedroom storage](/post/small-bedroom-storage-ideas/) and [small bathroom organization ideas](/post/small-bathroom-organization-ideas/). Renters can find damage-free ideas in [apartment decor ideas on a budget](/post/apartment-decor-ideas-budget/).

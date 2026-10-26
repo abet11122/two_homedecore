@@ -65,7 +65,7 @@ Height is important in a small entryway — a tall element draws the eye up and 
 
 ## 8. Hang a Bat Garland Across the Ceiling
 
-In a covered porch or small foyer, a bat garland hung across the ceiling uses overhead space rather than floor space. Use removable adhesive strips to attach it without nails.
+In a covered porch or small foyer, a bat garland hung across the ceiling uses overhead space rather than floor space. Removable adhesive strips will hold it without a single nail.
 
 A ceiling garland is one of the most renter-friendly entryway decor ideas — it uses space that is otherwise empty and comes down without damage.
 
@@ -111,8 +111,8 @@ The most important rule for Halloween entryway decor is to keep the walkway clea
 
 A clear, well-lit path with a few well-chosen seasonal details is always more welcoming than a path blocked by decorations.
 
-The strongest Halloween entryway decor is the kind that creates an impression without blocking the entrance. Start with a wreath on the door, a pumpkin to one side, and a lantern for light. Add a garland or a console table display if the space allows.
+An entry display has to make an impression without getting in the way of the door. A wreath, a pumpkin to one side and a lantern will do it. Add a garland or a console table display only where the space genuinely allows one.
 
-## More Halloween ideas
+## The door and the step outside
 
 The door itself gets its own guide in [Halloween wreath ideas](/post/halloween-wreath-ideas-front-door-styling/). If you have a step or balcony, add [outdoor decor for small spaces](/post/outdoor-halloween-decor-ideas-small-yards-balconies/), and renters should read [renter-friendly Halloween decor](/post/small-apartment-halloween-decor-renter-friendly/) before using adhesive hooks. For the season after, see [fall apartment decor](/post/fall-apartment-decor-ideas/).

@@ -140,4 +140,4 @@ A large mirror opposite or beside the window doubles the daylight. Lean a full-l
 
 These are typical ranges from mainstream stores. Second-hand lamps and curtains can easily halve the textiles stage.
 
-For the finishing layers, see [cozy small bedroom ideas](/post/cozy-small-bedroom-ideas/) and [small bedroom ideas that look expensive](/post/small-bedroom-ideas-that-look-expensive/). If you're renting and can't paint, [apartment decor ideas on a budget](/post/apartment-decor-ideas-budget/) covers removable alternatives.
+The finishing layers are in [cozy small bedroom ideas](/post/cozy-small-bedroom-ideas/) and [small bedroom ideas that look expensive](/post/small-bedroom-ideas-that-look-expensive/). If you're renting and can't paint, [apartment decor ideas on a budget](/post/apartment-decor-ideas-budget/) covers removable alternatives.

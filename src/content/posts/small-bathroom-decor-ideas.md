@@ -26,7 +26,7 @@ faqs:
     a: "Change what you can take with you: a new shower curtain on a tension rod, towels and a bath mat, a freestanding or over-door mirror, plants, a tray for the counter, and new cabinet knobs (keep the originals). Removable wallpaper can work on a dry wall, but check the lease."
 ---
 
-Small bathroom decor works best when it makes the room feel bigger and survives steam: a large mirror, light walls in moisture-resistant paint, a shower curtain hung near the ceiling, humidity-loving plants, and a few good-looking things on a clear counter. Decor doesn't need much space — it needs to be chosen well.
+Decor in a small bathroom has two jobs at once: make the room feel bigger, and survive steam. A large mirror, light walls in moisture-resistant paint, a shower curtain hung near the ceiling, humidity-loving plants, and a few good-looking things on a clear counter will do both. None of it needs much space — it needs to be chosen well.
 
 For storage and organization, see [small bathroom organization ideas](/post/small-bathroom-organization-ideas/). This guide is about how the room looks.
 
@@ -127,4 +127,4 @@ A cotton or chenille bath mat in your accent color is soft underfoot and adds wa
 
 <!-- [ADD YOUR PHOTO: your finished bathroom] {file: photo-3} -->
 
-For the practical side, see [small bathroom organization ideas](/post/small-bathroom-organization-ideas/), [over-toilet storage](/post/bathroom-over-toilet-storage-ideas/) and [under-sink organization](/post/under-sink-bathroom-organization-ideas/). Renters can find more damage-free upgrades in [apartment decor ideas on a budget](/post/apartment-decor-ideas-budget/).
+The practical side is covered in [small bathroom organization ideas](/post/small-bathroom-organization-ideas/), [over-toilet storage](/post/bathroom-over-toilet-storage-ideas/) and [under-sink organization](/post/under-sink-bathroom-organization-ideas/). Renters can find more damage-free upgrades in [apartment decor ideas on a budget](/post/apartment-decor-ideas-budget/).

@@ -26,7 +26,7 @@ faqs:
     a: "In a corner that isn't in a walkway, at least 1 meter (3 ft) from radiators, heaters and fireplaces, and near a socket so cables don't cross the floor. In front of a window can work if it doesn't block a radiator below it."
 ---
 
-Christmas decor for a small apartment works best when you pick the right tree for your floor space, decorate one spot per room, and hang everything without damaging the walls. Plan where it will all be stored before buying anything — in a small home, the January packing-up is part of the design.
+In a small home the January packing-up is part of the design, so decide where everything will be stored before you buy any of it. Then pick the right tree for your floor space, decorate one spot per room, and hang the rest without damaging the walls.
 
 This guide covers the whole apartment. For room-specific ideas, see [Christmas bedroom ideas](/post/christmas-bedroom-ideas/) and [cozy Christmas living room ideas](/post/cozy-christmas-living-room-ideas/).
 
@@ -124,4 +124,4 @@ A small apartment's whole Christmas should fit into one or two boxes on top of a
 - **Overloading adhesive hooks.** Check the rating.
 - **Buying decorations with nowhere to store them.**
 
-For bedroom ideas, see [Christmas bedroom ideas](/post/christmas-bedroom-ideas/). If you have a mantel or a bigger living room, [cozy Christmas living room ideas](/post/cozy-christmas-living-room-ideas/) goes further. The year-round basics in [small apartment organization](/post/small-apartment-organization-ideas/) make it much easier to find space for holiday boxes.
+Bedrooms have their own guide in [Christmas bedroom ideas](/post/christmas-bedroom-ideas/). If you have a mantel or a bigger living room, [cozy Christmas living room ideas](/post/cozy-christmas-living-room-ideas/) goes further. The year-round basics in [small apartment organization](/post/small-apartment-organization-ideas/) make it much easier to find space for holiday boxes.

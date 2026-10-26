@@ -26,7 +26,7 @@ faqs:
     a: "Keep the window wall clear, use light walls and one rug per zone, choose furniture with visible legs, hang curtains high and wide, add a large mirror opposite or beside the window, and hide clutter in closed storage."
 ---
 
-The best small studio apartment ideas start with the bed: it's the biggest piece in the room, so place it first, then choose furniture that folds, extends or stores to fit around it. Keep walkways clear, leave the window wall open, and give each zone its own light. A 25 m² studio can feel like a one-bedroom when every piece earns its floor space.
+Start with the bed. It's the biggest piece in a studio, so it goes down first and everything else — furniture that folds, extends or stores — fits around it. Keep walkways clear, leave the window wall open, and give each zone its own light. A 25 m² studio can feel like a one-bedroom when every piece earns its floor space.
 
 For how to build boundaries between zones, see [zoning a studio](/post/studio-apartment-zoning/). This guide is about choosing the furniture and layout.
 
@@ -79,7 +79,7 @@ Two folding chairs hung on a wall hook give you extra seating without floor spac
 - **Above the kitchen cabinets and wardrobe:** lidded boxes for seasonal things.
 - **Behind the front door:** hooks and an over-door rack.
 
-For more space-finding ideas, see [small apartment organization ideas](/post/small-apartment-organization-ideas/).
+More ways to find space are in [small apartment organization ideas](/post/small-apartment-organization-ideas/).
 
 ## Three Sample Layouts
 
@@ -137,4 +137,4 @@ Warm white (2700K) bulbs throughout. At night, turn off the overhead and switch 
 
 A wall bed is the outlier. Most studios get further with a daybed and a drop-leaf table for a fraction of the price.
 
-For the next step, [zoning a studio](/post/studio-apartment-zoning/) covers dividers and circulation in detail. [Apartment decor ideas on a budget](/post/apartment-decor-ideas-budget/) shows the cheapest upgrades for a rental, and if you work from home, [small home office ideas](/post/small-home-office-ideas/) covers fitting a desk into a corner.
+The next step is [zoning a studio](/post/studio-apartment-zoning/) covers dividers and circulation in detail. [Apartment decor ideas on a budget](/post/apartment-decor-ideas-budget/) shows the cheapest upgrades for a rental, and if you work from home, [small home office ideas](/post/small-home-office-ideas/) covers fitting a desk into a corner.

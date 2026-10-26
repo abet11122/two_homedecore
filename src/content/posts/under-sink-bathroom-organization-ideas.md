@@ -87,4 +87,4 @@ Put the products used every day where they can be reached without moving another
 - **Cleaning products on an open low shelf** in a home with young children.
 - **Stacking deep bins.** You'll stop using the bottom one.
 
-For the rest of the bathroom, see [small bathroom organization ideas](/post/small-bathroom-organization-ideas/) and [over-toilet storage](/post/bathroom-over-toilet-storage-ideas/). The same measure-the-pipes approach works under a kitchen sink — see [small kitchen organization ideas](/post/small-kitchen-organization-ideas/).
+The rest of the bathroom is covered in [small bathroom organization ideas](/post/small-bathroom-organization-ideas/) and [over-toilet storage](/post/bathroom-over-toilet-storage-ideas/). The same measure-the-pipes approach works under a kitchen sink — see [small kitchen organization ideas](/post/small-kitchen-organization-ideas/).

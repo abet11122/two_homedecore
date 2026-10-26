@@ -27,7 +27,7 @@ faqs:
     a: "Use things that clip, hook, click or stand: deck tiles, hook-over planters and tables, cable-tied screening, tension rods and freestanding furniture. Avoid drilling into the wall or railing unless your lease allows it."
 ---
 
-The best small balcony decor uses the railing and the walls instead of the floor: a hook-over bar table, railing planters, a folding chair, deck tiles underfoot and solar string lights. Measure the depth first — it decides what furniture fits — and keep 24 inches clear to the door.
+On a small balcony the floor is the one surface you cannot spare, so the decor goes on the railing and the walls instead: a hook-over bar table, railing planters, a folding chair, deck tiles underfoot and solar string lights. Measure the depth first — it decides what furniture fits — and keep 24 inches clear to the door.
 
 <!-- [ADD YOUR PHOTO: your balcony as it is now, shot from the doorway] {file: photo-1} -->
 
@@ -192,4 +192,4 @@ Nothing permanent, nothing drilled, and it fits on 4 x 8 feet.
 
 <!-- [ADD YOUR PHOTO: your finished balcony at dusk with the lights on] {file: photo-3} -->
 
-For more renter-friendly upgrades indoors, see [apartment decor ideas on a budget](/post/apartment-decor-ideas-budget/). In autumn, the [fall apartment decor guide](/post/fall-apartment-decor-ideas/) covers balcony and window styling, and if your balcony opens off a studio, [zoning a studio](/post/studio-apartment-zoning/) shows how to make it feel like a separate room.
+Indoors, more renter-friendly upgrades are collected in [apartment decor ideas on a budget](/post/apartment-decor-ideas-budget/). In autumn, the [fall apartment decor guide](/post/fall-apartment-decor-ideas/) covers balcony and window styling, and if your balcony opens off a studio, [zoning a studio](/post/studio-apartment-zoning/) shows how to make it feel like a separate room.

@@ -123,4 +123,4 @@ A framed photo, a favorite print or a plant on the windowsill makes the room fee
 - **Curtains hung on the window frame.** Hang them higher and wider.
 - **A visible work desk.** Hide it at night.
 
-For a complete refresh, see the [small bedroom makeover guide](/post/small-bedroom-makeover-ideas/). Want the room to look more polished as well as cozy? [Small bedroom ideas that look expensive](/post/small-bedroom-ideas-that-look-expensive/) has the details. In December, [Christmas bedroom ideas](/post/christmas-bedroom-ideas/) builds on this same warm, layered base.
+A complete refresh is laid out in the [small bedroom makeover guide](/post/small-bedroom-makeover-ideas/). Want the room to look more polished as well as cozy? [Small bedroom ideas that look expensive](/post/small-bedroom-ideas-that-look-expensive/) has the details. In December, [Christmas bedroom ideas](/post/christmas-bedroom-ideas/) builds on this same warm, layered base.

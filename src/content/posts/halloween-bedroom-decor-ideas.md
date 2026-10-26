@@ -19,7 +19,7 @@ faqs:
     a: "Warm amber bulbs around 2200K create the most atmospheric effect. String lights with amber or orange bulbs draped along a headboard or window frame add seasonal warmth without any obvious Halloween imagery. Flameless LED candles are safe for bedrooms and give the same effect as real candles."
 ---
 
-Halloween bedroom decor works best when it leans into what a bedroom already does well — warmth, texture, and low light. The goal is not to turn the room into a haunted house. It is to make it feel a little moodier, a little darker, and a little more atmospheric than usual.
+The goal in a bedroom is not a haunted house. It is a room that feels a little moodier, a little darker and a little more atmospheric than usual — which means Halloween decor here leans into what a bedroom already does well: warmth, texture and low light.
 
 Keep decorations removable and away from sleeping surfaces, lamps, closet doors, and the route to the bedroom exit. A pillow cover, a small garland, or a shaded accent light can add a seasonal note without making the room harder to use.
 
@@ -143,8 +143,8 @@ The most important rule for Halloween bedroom decor is to keep the bed itself co
 
 A cozy, well-made bed with one or two dark accent cushions reads as intentional. A bed covered in Halloween props reads as a display, not a place to sleep.
 
-The strongest Halloween bedroom decor is the kind that makes the room feel atmospheric rather than themed. Start with lighting and textiles, add one or two seasonal objects, and keep the bed itself calm.
+Change the light and the textiles, add one or two seasonal objects, and leave the bed itself alone. That is enough to shift the mood of a bedroom without turning it into a themed room.
 
-## More Halloween ideas
+## The rooms next door
 
 Decorating a little one's room? [Non-scary toddler room ideas](/post/non-scary-halloween-decor-toddler-rooms/) keep things friendly. For a moodier adult room, [gothic dark-botanical decor](/post/gothic-halloween-decor-ideas-dark-botanical/) is the next step, and the [bathroom ideas](/post/halloween-bathroom-decor-ideas/) finish the look next door. In November, swap the cobwebs for the textiles in [fall apartment decor](/post/fall-apartment-decor-ideas/).

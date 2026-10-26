@@ -146,8 +146,8 @@ Cut-paper or card bats arranged on one wall are playful, easy to take down and c
 
 In rentals, check the lease, wall finish, and adhesive instructions before attaching bats. A paper display on an existing shelf avoids wall adhesive.
 
-The strongest elegant Halloween decor is the kind that makes the room feel atmospheric rather than themed. Start with a restrained palette, choose one focal point, and add a few well-chosen pieces that work with your existing decor. Small, deliberate choices are usually more successful than covering every surface.
+Atmospheric beats themed, every time. Begin with a restrained palette, choose one focal point, and add a few pieces that work with the decor already in the room. A handful of deliberate choices will nearly always read better than a covered surface.
 
-## More Halloween ideas
+## Where to take this next
 
 If you want to go darker, the [gothic dark-botanical guide](/post/gothic-halloween-decor-ideas-dark-botanical/) uses the same restraint with blacker florals. The [Halloween mantel ideas](/post/halloween-mantel-decor-ideas/) and [tablescape ideas](/post/halloween-dining-room-tablescape-ideas/) show how to keep one surface the star. After the 31st, most of these candles and dried stems can stay out for [the autumn mantel](/post/autumn-mantel-styling/).

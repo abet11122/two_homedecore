@@ -79,7 +79,7 @@ LED neon signs are available on Amazon and at home stores. Printed neon-effect s
 
 Holographic or iridescent streamers hung from the ceiling or doorways add a metallic, futuristic quality to the space. They catch the neon lighting and create a constantly shifting visual effect.
 
-Holographic streamers are available at party supply stores and on Amazon. They are inexpensive and create a dramatic visual effect.
+Holographic streamers turn up in party supply shops and on Amazon. They cost very little and catch every bit of light in the room.
 
 ## 11. Use Silver Skull Decorations
 
@@ -141,8 +141,8 @@ The most important rule for Y2K apocalypse decor is to commit to the excess. The
 
 If the room looks like it might be too much, add one more neon light. That is the Y2K approach.
 
-Y2K Apocalypse Halloween decor is the most maximalist seasonal theme of 2026. Start with the neon LED strip lights and the silver tablecloths — they create the foundation of the aesthetic. Add metallic pumpkins, glitch prints, and a fog machine. Commit to the excess and the atmosphere builds itself.
+Of all this year's seasonal themes, Y2K Apocalypse is the one that rewards excess. Put up the neon LED strips and the silver tablecloths first; metallic pumpkins, glitch prints and a fog machine go on top of them. Half-committing is the only real way to get this theme wrong.
 
-## More Halloween ideas
+## Food, lights and the morning after
 
 For the food, see [Halloween dessert table styling](/post/halloween-dessert-table-styling-ideas/). If neon is too much, [pink Halloween decor](/post/pink-halloween-decor-ideas-pink-o-ween/) is playful without the black light, and the [haunted house setup](/post/haunted-house-decor-ideas-diy-spooky-setup/) shares the colored-bulb tricks. After the party, the [fall apartment guide](/post/fall-apartment-decor-ideas/) brings things back to warm white.

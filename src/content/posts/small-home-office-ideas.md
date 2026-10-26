@@ -27,7 +27,7 @@ faqs:
     a: "A soft light in front of you, slightly above eye level — a lamp on a shelf behind your screen or a small ring light. Avoid a bright window behind you, which turns you into a silhouette."
 ---
 
-A small home office works when three things are right: a desk deep enough for your setup (20–24 inches), light from the side rather than behind you, and a way to put it all away at the end of the day. About 40 × 54 inches of floor is enough — a corner, a closet, or the end of a bedroom wall.
+Three things matter more than the size of the room: a desk deep enough for your setup (20–24 inches), light from the side rather than behind you, and a way to put it all away at the end of the day. About 40 × 54 inches of floor is enough — a corner, a closet, or the end of a bedroom wall.
 
 <!-- [ADD YOUR PHOTO: the corner or alcove you're using for your office] {file: photo-1} -->
 
@@ -189,4 +189,4 @@ Clear the desk at the end of the day. Laptop closed or put away, papers in the d
 | Chair | Armless task chair |
 | Cable management | Channel + underdesk power strip |
 
-If the office has to share a studio, [zoning a studio](/post/studio-apartment-zoning/) shows how to separate work from rest. For a teenager's study and gaming desk, see [teenage boy bedroom ideas](/post/teenage-boy-bedroom-ideas/). The [floating shelf checklist](/post/diy-floating-shelves/) explains how to mount shelves and a wall desk safely.
+If the office has to share a studio, [zoning a studio](/post/studio-apartment-zoning/) shows how to separate work from rest. A teenager's study and gaming desk is covered in [teenage boy bedroom ideas](/post/teenage-boy-bedroom-ideas/). The [floating shelf checklist](/post/diy-floating-shelves/) explains how to mount shelves and a wall desk safely.

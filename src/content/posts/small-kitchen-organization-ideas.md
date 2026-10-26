@@ -26,7 +26,7 @@ faqs:
     a: "A shallow drawer fitted into the space under base cabinets, where the kick plate normally sits. It's usually 8–10 cm (3–4 in) tall and suits baking trays, chopping boards or a step stool. It's a renovation-level add-on, so it suits owners more than renters."
 ---
 
-Small kitchen organization works best when you group things by where they're used — prep, cooking, cleaning, food storage — then add height inside cabinets and set a strict limit on what stays out on the counter. Measure every cabinet opening before you buy organizers, because hinges and frames eat into the space.
+Group things by where they're used — prep, cooking, cleaning, food storage — then add height inside the cabinets and set a strict limit on what stays out on the counter. That sequence does more for a small kitchen than any single organizer. Measure every cabinet opening before you buy one, because hinges and frames eat into the space.
 
 The ideas below work in a galley kitchen, a studio kitchenette, or an L-shaped kitchen with only a few base cabinets.
 
@@ -143,4 +143,4 @@ Notice what you keep leaving out. If it's used daily, give it a home within a st
 
 <!-- [ADD YOUR PHOTO: your kitchen after organizing, from the same angle as the before photo] {file: photo-3} -->
 
-Have open shelves? [Open shelving styling](/post/kitchen-open-shelving-styling/) covers what to keep on them. For mounting shelves or rails, see the [floating shelf checklist](/post/diy-floating-shelves/), and for the rest of the flat, [small apartment organization ideas](/post/small-apartment-organization-ideas/).
+Have open shelves? [Open shelving styling](/post/kitchen-open-shelving-styling/) covers what to keep on them. To mount shelves or rails, use the [floating shelf checklist](/post/diy-floating-shelves/), and for the rest of the flat, [small apartment organization ideas](/post/small-apartment-organization-ideas/).

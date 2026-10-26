@@ -111,8 +111,8 @@ A dessert table is at its most photogenic before the party starts and before gue
 
 Good lighting — natural light from a window or a ring light — creates the most accurate colour representation. Share the photos before the party so guests know what to expect.
 
-A Halloween dessert table is built on three principles: a backdrop, a colour palette, and varying heights. Start with the backdrop and the tablecloth, set up the heights with stands and risers, and fill in with treats in the colour palette. Label everything, add a few decorative objects, and photograph it before the party starts.
+Three things carry a dessert table: a backdrop, a colour palette, and height. Hang the backdrop and lay the tablecloth, build the levels with stands and risers, then fill in with treats that stay inside the palette. Label everything, add a few decorative objects, and photograph it before the guests reach it.
 
-## More Halloween ideas
+## The rest of the party
 
 Hosting a full dinner? The [Halloween tablescape guide](/post/halloween-dining-room-tablescape-ideas/) covers place settings and centerpieces. For a party with neon instead of candlelight, see [neon Y2K party decor](/post/neon-y2k-apocalypse-halloween-party-decor-ideas/), and the [Halloween kitchen ideas](/post/halloween-kitchen-decor-ideas/) dress the room behind the table. The three-height trick for cake stands comes from [the autumn mantel](/post/autumn-mantel-styling/).

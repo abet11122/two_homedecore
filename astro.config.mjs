@@ -6,11 +6,12 @@ import { readFileSync, readdirSync } from 'node:fs';
 import { join, relative, sep } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { parse } from 'yaml';
+import { satteri } from '@astrojs/markdown-satteri';
+import { stripPhotoMarkers } from './scripts/strip-photo-markers.mjs';
 import {
   CATEGORIES,
   MIN_INDEXABLE_ARCHIVE_POSTS,
   SITE,
-  collectTags,
 } from './src/site.ts';
 
 const postsDirectory = fileURLToPath(new URL('./src/content/posts/', import.meta.url));
@@ -55,13 +56,14 @@ const indexableCategories = new Set(
     .filter((category) => discoverablePosts.filter((post) => post.data.category === category.slug).length >= MIN_INDEXABLE_ARCHIVE_POSTS)
     .map((category) => category.slug)
 );
-const indexableTags = new Set(collectTags(discoverablePosts).map((tag) => tag.slug));
 
 function includeInSitemap(page) {
   const pathname = new URL(page).pathname;
   if (
     /^\/admin(?:\/|$)/.test(pathname) ||
     /^\/(?:search|saved|404)\/?$/.test(pathname) ||
+    // Tag hubs and their index are noindex; a sitemap entry would contradict that.
+    /^\/tags?(?:\/|$)/.test(pathname) ||
     pathname === '/author/sophie-lane/' ||
     excludedPostPaths.has(pathname)
   ) {
@@ -69,10 +71,7 @@ function includeInSitemap(page) {
   }
 
   const category = pathname.match(/^\/category\/([^/]+)\/?$/);
-  if (category && !indexableCategories.has(category[1])) return false;
-
-  const tag = pathname.match(/^\/tag\/([^/]+)\/?$/);
-  return !tag || indexableTags.has(tag[1]);
+  return !category || indexableCategories.has(category[1]);
 }
 
 // https://astro.build/config
@@ -96,6 +95,10 @@ export default defineConfig({
     '/post/small-apartment-storage-ideas/': { status: 301, destination: '/post/small-apartment-organization-ideas/' },
   },
   integrations: [sitemap({ filter: includeInSitemap })],
+  markdown: {
+    // Keeps the unfilled photo markers out of the shipped HTML.
+    processor: satteri({ hastPlugins: [stripPhotoMarkers] }),
+  },
   build: {
     inlineStylesheets: 'auto',
   },

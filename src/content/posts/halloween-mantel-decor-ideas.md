@@ -111,8 +111,8 @@ The mantel display should be lit — by the candles on the shelf, the fairy ligh
 
 The combination of candlelight, fairy lights, and the warm glow of a lantern creates the most atmospheric Halloween mantel lighting.
 
-A well-styled Halloween mantel is the most impactful single change you can make to a living room for the season. Start with a garland and tall candles, add a pumpkin and a dark floral arrangement, and keep the palette consistent. The mantel does the rest.
+Nothing else does as much for a living room in October as a styled mantel. A garland and tall candles, then a pumpkin and a dark floral arrangement, with the palette held steady throughout — that is the whole shelf.
 
-## More Halloween ideas
+## Matching the mantel to the room
 
 Want the mantel to match the rest of the room? [Elegant Halloween decor](/post/elegant-halloween-decor/) and [gothic dark-botanical decor](/post/gothic-halloween-decor-ideas-dark-botanical/) use the same palettes, and [vintage Halloween decor](/post/vintage-halloween-decor-ideas/) is good for printed art. The three-height method here is explained in full in [the autumn mantel](/post/autumn-mantel-styling/).

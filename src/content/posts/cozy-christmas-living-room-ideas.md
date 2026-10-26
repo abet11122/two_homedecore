@@ -26,7 +26,7 @@ faqs:
     a: "Cut 2–3 cm off the trunk just before putting it in the stand, fill the stand with water straight away, and check the level every day — a fresh tree can drink a liter or more a day. Keep it away from heat. Remove it when needles drop easily, because a dry tree is a fire hazard."
 ---
 
-A cozy Christmas living room comes down to warm light, soft textiles and restraint: put the tree where you see it from the sofa, give it plenty of warm lights, style one main surface, and let throws and cushions do the rest. Keep walkways and surfaces clear enough that the room still works for family, guests and gifts.
+Warm light, soft textiles, restraint. Put the tree where you see it from the sofa, give it plenty of warm lights, style one main surface, and let throws and cushions do the rest. The room still has to work for family, guests and gifts through the whole of December, so keep the walkways and a few surfaces clear.
 
 This guide is for the main living room. For a whole small apartment, see [small-space Christmas decor ideas](/post/small-space-christmas-decor-ideas/).
 
@@ -149,4 +149,4 @@ Borrow or store folding chairs, clear a coffee table for food and drinks, and ma
 - Don't run cables under rugs.
 - Keep the tree out of the walkway, and measure the spot before buying.
 
-For the rest of the home, see [Christmas bedroom ideas](/post/christmas-bedroom-ideas/) and [small-space Christmas decor ideas](/post/small-space-christmas-decor-ideas/). The same three-height styling used on the [autumn mantel](/post/autumn-mantel-styling/) works for a Christmas mantel too, and [fall living room decor ideas](/post/fall-living-room-decor-ideas/) covers the textiles you can keep out all winter.
+Elsewhere in the house there are [Christmas bedroom ideas](/post/christmas-bedroom-ideas/) and [small-space Christmas decor ideas](/post/small-space-christmas-decor-ideas/). The same three-height styling used on the [autumn mantel](/post/autumn-mantel-styling/) works for a Christmas mantel too, and [fall living room decor ideas](/post/fall-living-room-decor-ideas/) covers the textiles you can keep out all winter.

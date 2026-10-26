@@ -26,7 +26,7 @@ faqs:
     a: "Paint, new bedding and three framed prints typically cost $150–$300. Adding a new bed frame, desk and lighting brings a typical budget to $600–$1,200, depending on brands and region."
 ---
 
-A modern boys bedroom comes down to four choices: a restrained palette, clean-lined furniture, graphic art instead of character merchandise, and layered lighting. Get those right and the room works for a six-year-old and still looks good when he's thirteen — you change the details, not the room.
+Four choices carry a modern boys bedroom: a restrained palette, clean-lined furniture, graphic art instead of character merchandise, and layered lighting. Get those right and the room works for a six-year-old and still looks good when he's thirteen — you change the details, not the room.
 
 This is a style guide. For layouts and storage in a tight room, start with [small boys bedroom ideas](/post/small-boys-bedroom-ideas/).
 

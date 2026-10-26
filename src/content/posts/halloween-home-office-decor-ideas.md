@@ -77,7 +77,7 @@ This is one of the most practical Halloween home office changes — it improves 
 
 ## 10. Add a Seasonal Scented Candle
 
-A candle in a dark vessel with an autumn fragrance — cedarwood, dark amber, or smoked wood — adds a sensory layer to the home office's seasonal styling. Use a flameless version if you prefer not to burn candles while working.
+A candle in a dark vessel with an autumn fragrance — cedarwood, dark amber, or smoked wood — adds a sensory layer to the home office's seasonal styling. A flameless one gives the same effect with nothing burning beside you.
 
 A scented candle on the shelf adds atmosphere without any visual clutter on the desk.
 
@@ -111,8 +111,8 @@ The most important rule for Halloween home office decor is to keep the desk surf
 
 A clear desk with one or two small seasonal objects reads as intentional. A desk covered in Halloween props reads as a display, not a workspace.
 
-Halloween home office decor works best when it is subtle and atmospheric rather than themed. Start with a small pumpkin on the shelf and a dark candle in the background. Add a seasonal mug and a dark desk mat. Keep the desk clear and the background styled. The atmosphere builds without disrupting the work.
+A desk you work at all day can carry atmosphere, but not a theme. A small pumpkin on the shelf, a dark candle behind you, a seasonal mug, a dark desk mat: styled in the background, clear in front of you. None of it gets in the way of the work.
 
-## More Halloween ideas
+## For shared flats and video calls
 
 If the office is in a shared flat, [renter-friendly Halloween decor](/post/small-apartment-halloween-decor-renter-friendly/) has more damage-free options. For video-call backdrops with a softer feel, look at [vintage Halloween decor](/post/vintage-halloween-decor-ideas/) or [elegant Halloween decor](/post/elegant-halloween-decor/). Once November starts, [fall apartment decor](/post/fall-apartment-decor-ideas/) keeps the desk warm without the skeletons.
