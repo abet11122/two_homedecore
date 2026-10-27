@@ -72,7 +72,7 @@ Four purchases are worth a tape measure and twenty minutes, because getting them
 
 **New:** the mattress. It is the thing you spend a third of your life on, and second-hand mattresses carry risks that are not worth the saving.
 
-**Second-hand, happily:** solid wood furniture, bookcases, dining chairs, desks, lamps, mirrors, picture frames, baskets, and most kitchen equipment that is not non-stick. These cost a fraction of new and are usually better made.
+**Second-hand, happily:** solid wood furniture, bookcases, dining chairs, desks, lamps, mirrors, picture frames, baskets, and most kitchen equipment that is not non-stick. These cost a fraction of new and are usually better made — [thrift flip home decor](/post/thrift-flip-home-decor/) has the five checks to do before paying.
 
 **Second-hand, carefully:** upholstered furniture. Smells and pests are hard to assess, and fabric holds both. Inspect seams and underneath in good light, or skip it.
 
