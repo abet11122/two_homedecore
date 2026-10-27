@@ -137,4 +137,4 @@ A neutral base makes seasonal updates easy: a rust throw in autumn, a red plaid 
 
 <!-- [ADD YOUR PHOTO: your finished neutral bedroom in the evening with lamps on] {file: photo-3} -->
 
-A warmer, more colorful take on natural style runs through [earthy bedroom ideas](/post/earthy-bedroom-ideas/). The [cozy small bedroom guide](/post/cozy-small-bedroom-ideas/) covers lighting and textiles in more depth, and [small bedroom ideas that look expensive](/post/small-bedroom-ideas-that-look-expensive/) shows how neutral rooms can look high-end on a budget.
+Where the clothes go when the room has no closet is covered in [bedroom with no closet](/post/bedroom-with-no-closet/). A warmer, more colorful take on natural style runs through [earthy bedroom ideas](/post/earthy-bedroom-ideas/). The [cozy small bedroom guide](/post/cozy-small-bedroom-ideas/) covers lighting and textiles in more depth, and [small bedroom ideas that look expensive](/post/small-bedroom-ideas-that-look-expensive/) shows how neutral rooms can look high-end on a budget.

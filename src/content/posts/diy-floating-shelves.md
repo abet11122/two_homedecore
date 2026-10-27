@@ -110,4 +110,4 @@ If the wall type is unknown, the manufacturer's support points do not align with
 
 ## Where to Use Floating Shelves
 
-Above the toilet is one of the most useful spots in a small home — see [over-toilet bathroom storage](/post/bathroom-over-toilet-storage-ideas/) for heights and depths. In the kitchen, [open shelving styling](/post/kitchen-open-shelving-styling/) covers what to put on them. In a small bedroom, a shelf can replace a bedside table; the [small bedroom storage guide](/post/small-bedroom-storage-ideas/) explains the clearances.
+The same wall checks apply to hanging anything heavy: [how high to hang art](/post/how-high-to-hang-art/) covers pictures and mirrors. Above the toilet is one of the most useful spots in a small home — see [over-toilet bathroom storage](/post/bathroom-over-toilet-storage-ideas/) for heights and depths. In the kitchen, [open shelving styling](/post/kitchen-open-shelving-styling/) covers what to put on them. In a small bedroom, a shelf can replace a bedside table; the [small bedroom storage guide](/post/small-bedroom-storage-ideas/) explains the clearances.

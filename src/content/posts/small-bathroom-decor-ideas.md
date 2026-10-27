@@ -127,4 +127,4 @@ A cotton or chenille bath mat in your accent color is soft underfoot and adds wa
 
 <!-- [ADD YOUR PHOTO: your finished bathroom] {file: photo-3} -->
 
-The practical side is covered in [small bathroom organization ideas](/post/small-bathroom-organization-ideas/), [over-toilet storage](/post/bathroom-over-toilet-storage-ideas/) and [under-sink organization](/post/under-sink-bathroom-organization-ideas/). Renters can find more damage-free upgrades in [apartment decor ideas on a budget](/post/apartment-decor-ideas-budget/).
+The practical side is covered in [small bathroom organization ideas](/post/small-bathroom-organization-ideas/), [over-toilet storage](/post/bathroom-over-toilet-storage-ideas/) and [under-sink organization](/post/under-sink-bathroom-organization-ideas/). The same peel-and-stick cautions apply to tiling anywhere steamy — [renter-friendly backsplash ideas](/post/renter-friendly-backsplash-ideas/) has the test to run first. Renters can find more damage-free upgrades in [apartment decor ideas on a budget](/post/apartment-decor-ideas-budget/).

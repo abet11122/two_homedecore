@@ -161,4 +161,6 @@ If you hit all five, your open shelving is functional *and* beautiful.
 
 ---
 
+Shelves put a second timber into a room that already has a floor and probably a worktop; [how to mix wood tones](/post/how-to-mix-wood-tones/) covers keeping those three in agreement.
+
 **Before choosing open shelves, compare the display space with your everyday storage needs and cleaning routine.**

@@ -154,4 +154,4 @@ When you're done, the room should pass this test: *"A warm white living room wit
 
 <!-- [ADD YOUR PHOTO: your finished minimalist living room] {file: photo-3} -->
 
-Lighting and rugs on a budget get more detail in [apartment decor ideas on a budget](/post/apartment-decor-ideas-budget/). If your living room also has to be a bedroom or office, [zoning a studio](/post/studio-apartment-zoning/) shows how to keep it calm. To bring the same approach into the kitchen, read [open shelving styling](/post/kitchen-open-shelving-styling/).
+The two measurements that do most of the work here are in [what size rug do you need](/post/what-size-rug-do-i-need/) and [how high to hang curtains](/post/how-high-to-hang-curtains/). Lighting and rugs on a budget get more detail in [apartment decor ideas on a budget](/post/apartment-decor-ideas-budget/). If your living room also has to be a bedroom or office, [zoning a studio](/post/studio-apartment-zoning/) shows how to keep it calm. To bring the same approach into the kitchen, read [open shelving styling](/post/kitchen-open-shelving-styling/).

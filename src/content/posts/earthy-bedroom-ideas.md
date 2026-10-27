@@ -141,4 +141,4 @@ These five or six things change the whole room — and move with you.
 - **Shiny finishes.** Matte, natural and textured surfaces suit the look.
 - **Rough jute where you step barefoot.** Choose wool or a blend by the bed.
 
-To push the warmth further, read [cozy small bedroom ideas](/post/cozy-small-bedroom-ideas/). The [small bedroom makeover plan](/post/small-bedroom-makeover-ideas/) explains how much paint you need and what order to work in, and [small bedroom ideas that look expensive](/post/small-bedroom-ideas-that-look-expensive/) covers the finishing details.
+If the room also needs to read as larger, [how to make a bedroom look bigger](/post/how-to-make-a-bedroom-look-bigger/) separates what works from what only gets repeated. To push the warmth further, read [cozy small bedroom ideas](/post/cozy-small-bedroom-ideas/). The [small bedroom makeover plan](/post/small-bedroom-makeover-ideas/) explains how much paint you need and what order to work in, and [small bedroom ideas that look expensive](/post/small-bedroom-ideas-that-look-expensive/) covers the finishing details.

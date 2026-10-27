@@ -160,4 +160,4 @@ Making a small bedroom look expensive isn't necessarily about spending more mone
 
 Start with the bed, improve the lighting, reduce clutter, introduce texture and choose a consistent color palette. Then add one or two features—such as oversized artwork, beautiful curtains or a statement light—that give the room personality.
 
-Most importantly, don't overcrowd the space. A small bedroom that feels calm, comfortable and thoughtfully styled can look every bit as beautiful as a much larger room.
+If the room still looks off and you cannot say why, [why your room looks cheap](/post/why-does-my-room-look-cheap/) works through the usual causes in order. Most importantly, don't overcrowd the space. A small bedroom that feels calm, comfortable and thoughtfully styled can look every bit as beautiful as a much larger room.

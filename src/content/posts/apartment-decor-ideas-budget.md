@@ -189,4 +189,4 @@ The pattern behind all of it: **light, soft things, and fewer objects arranged b
 
 ## Keep going
 
-Smaller rooms are covered in [small bedroom makeover on a budget](/post/small-bedroom-makeover-ideas/) and [small apartment organization ideas](/post/small-apartment-organization-ideas/). If your flat is one room, [zoning a studio](/post/studio-apartment-zoning/) shows how to divide it without walls. For a calmer look with fewer things, the [minimalist living room guide](/post/minimalist-living-room-guide/) is a good next read.
+Two of the changes above have measurements of their own: [how high to hang curtains](/post/how-high-to-hang-curtains/) and [what size rug do you need](/post/what-size-rug-do-i-need/). Smaller rooms are covered in [small bedroom makeover on a budget](/post/small-bedroom-makeover-ideas/) and [small apartment organization ideas](/post/small-apartment-organization-ideas/). If your flat is one room, [zoning a studio](/post/studio-apartment-zoning/) shows how to divide it without walls. For a calmer look with fewer things, the [minimalist living room guide](/post/minimalist-living-room-guide/) is a good next read.

@@ -115,4 +115,4 @@ In a house with doors you can close a mess away. In a studio, every surface is o
 
 ---
 
-*Working with a compact bedroom? Try our [small bedroom ideas](/post/small-bedroom-ideas-that-look-expensive/) next.*
+*Working with a compact bedroom? Try our [small bedroom ideas](/post/small-bedroom-ideas-that-look-expensive/) next, or start with the walkway widths in [how to arrange furniture in a small room](/post/how-to-arrange-furniture-in-a-small-room/).*

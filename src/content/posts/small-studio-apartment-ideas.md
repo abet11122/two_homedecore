@@ -79,7 +79,7 @@ Two folding chairs hung on a wall hook give you extra seating without floor spac
 - **Above the kitchen cabinets and wardrobe:** lidded boxes for seasonal things.
 - **Behind the front door:** hooks and an over-door rack.
 
-More ways to find space are in [small apartment organization ideas](/post/small-apartment-organization-ideas/).
+A television still needs a sensible height and viewing distance in a studio — [where to put the TV](/post/where-to-put-tv-in-living-room/) has both. More ways to find space are in [small apartment organization ideas](/post/small-apartment-organization-ideas/).
 
 ## Three Sample Layouts
 
