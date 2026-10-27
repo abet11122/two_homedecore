@@ -130,4 +130,4 @@ Check that the door opens fully, the walkway is at least 75–90 cm wide, keys s
 - **Decorating every surface.** The entry needs space for guests.
 - **Cords across the step or walkway.**
 
-Year-round entry storage is covered in [small entryway organization](/post/small-entryway-organization-ideas/). The rest of the home is covered in [small-space Christmas decor ideas](/post/small-space-christmas-decor-ideas/) and [cozy Christmas living room ideas](/post/cozy-christmas-living-room-ideas/).
+Somewhere to sit while boots come off is covered in [entryway bench ideas](/post/entryway-bench-ideas/), and a hall too tight for furniture is handled in [narrow hallway decor ideas](/post/narrow-hallway-decor-ideas/). Year-round entry storage is covered in [small entryway organization](/post/small-entryway-organization-ideas/). The rest of the home is covered in [small-space Christmas decor ideas](/post/small-space-christmas-decor-ideas/) and [cozy Christmas living room ideas](/post/cozy-christmas-living-room-ideas/).
