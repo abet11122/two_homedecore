@@ -37,8 +37,20 @@ export const GET: APIRoute = async ({ request }) => {
 		})
 		.map((post) => post.id);
 
+	/*
+	  Names and booleans only, never values. An environment variable only
+	  reaches a function on the deployment built after it was added, so
+	  `builtFrom` is what tells you whether a redeploy has happened yet.
+	*/
+	const diagnostics = {
+		env: process.env.VERCEL_ENV ?? 'unknown',
+		builtFrom: process.env.VERCEL_GIT_COMMIT_SHA?.slice(0, 7) ?? 'unknown',
+		hookConfigured: Boolean(process.env.VERCEL_DEPLOY_HOOK_URL),
+		secretConfigured: Boolean(process.env.CRON_SECRET),
+	};
+
 	const body = (extra: Record<string, unknown>) =>
-		new Response(JSON.stringify({ due, ...extra }, null, 2), {
+		new Response(JSON.stringify({ ...diagnostics, due, ...extra }, null, 2), {
 			status: 200,
 			headers: { 'content-type': 'application/json' },
 		});
@@ -46,7 +58,15 @@ export const GET: APIRoute = async ({ request }) => {
 	if (due.length === 0) return body({ triggered: false, reason: 'nothing due' });
 
 	const hook = process.env.VERCEL_DEPLOY_HOOK_URL;
-	if (!hook) return body({ triggered: false, reason: 'VERCEL_DEPLOY_HOOK_URL is not set' });
+	if (!hook) {
+		return body({
+			triggered: false,
+			reason:
+				'VERCEL_DEPLOY_HOOK_URL is not visible to this deployment. Check it is set for ' +
+				'the Production environment, then redeploy — a variable only reaches the ' +
+				'deployment built after it was added.',
+		});
+	}
 
 	const response = await fetch(hook, { method: 'POST' });
 	return body({ triggered: response.ok, status: response.status });
