@@ -60,7 +60,7 @@ const indexableCategories = new Set(
 function includeInSitemap(page) {
   const pathname = new URL(page).pathname;
   if (
-    /^\/admin(?:\/|$)/.test(pathname) ||
+    /^\/(?:admin|api)(?:\/|$)/.test(pathname) ||
     /^\/(?:search|saved|404)\/?$/.test(pathname) ||
     // Tag hubs and their index are noindex; a sitemap entry would contradict that.
     /^\/tags?(?:\/|$)/.test(pathname) ||

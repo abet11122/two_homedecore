@@ -54,7 +54,7 @@ Clearances that matter:
 - **Desk depth 50–60 cm** for a monitor; 45 cm is workable for a laptop only.
 - Check what is behind you **in the camera frame**. A made daybed is a fine background; an unmade bed is not.
 
-[Small home office ideas](/post/small-home-office-ideas/) covers desk sizing and lighting in more detail.
+[Small home office ideas](/post/small-home-office-ideas/) covers desk sizing, and [home office lighting](/post/home-office-lighting-ideas/) deals with glare and what the camera sees on calls.
 
 <!-- [ADD YOUR PHOTO: the room set up for work] {file: photo-1} -->
 
