@@ -50,6 +50,17 @@ export const GET: APIRoute = async ({ request }) => {
 		builtFrom: process.env.VERCEL_GIT_COMMIT_SHA?.slice(0, 7) ?? 'unknown',
 		hookConfigured: Boolean(process.env.DEPLOY_HOOK_URL),
 		secretConfigured: Boolean(process.env.CRON_SECRET),
+		/*
+		  Whether the project's other configured variables reach this function.
+		  If these are true while hookConfigured is false, custom variables do
+		  flow through and only this one is missing or misspelt. If they are all
+		  false, nothing set in the dashboard is reaching the deployment.
+		  These names are already public in .env.example; no value is read.
+		*/
+		otherVarsVisible: {
+			SITE_URL: Boolean(process.env.SITE_URL),
+			PUBLIC_ADSENSE_CLIENT_ID: Boolean(process.env.PUBLIC_ADSENSE_CLIENT_ID),
+		},
 	};
 
 	const body = (extra: Record<string, unknown>) =>
