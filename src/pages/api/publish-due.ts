@@ -11,15 +11,17 @@ export const prerender = false;
  * route until a build runs on or after its date. Without something calling
  * this, a scheduled post stays invisible until the next push.
  *
- * Vercel's cron (see vercel.json) calls this daily. The configured path
- * keeps its trailing slash, because the site sets trailingSlash: 'always'
- * and would otherwise 404 the cron. It looks back 48 hours
- * rather than at today alone, so a single missed run still gets caught.
+ * Vercel's cron (see vercel.json) calls this daily, at a path that keeps its
+ * trailing slash because the site sets `trailingSlash: 'always'` and would
+ * otherwise 404 the cron. It looks back 48 hours rather than at today alone,
+ * so a single missed run still gets caught.
  *
- * Needs DEPLOY_HOOK_URL set to a deploy hook from the Vercel dashboard.
- * The name deliberately avoids a VERCEL_ prefix, which Vercel reserves for
- * its own system variables and will not let you create. CRON_SECRET is optional; when set, Vercel sends it as a bearer
- * token and anything without it is refused.
+ * Needs DEPLOY_HOOK_URL set to a deploy hook from the Vercel dashboard. The
+ * name avoids a VERCEL_ prefix on purpose: Vercel reserves that for its own
+ * system variables and will not create a custom one with it.
+ *
+ * CRON_SECRET is optional. When it is set, Vercel sends it as a bearer token
+ * and any request without it is refused.
  */
 const LOOK_BACK_MS = 48 * 60 * 60 * 1000;
 
