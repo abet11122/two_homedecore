@@ -16,8 +16,9 @@ export const prerender = false;
  * and would otherwise 404 the cron. It looks back 48 hours
  * rather than at today alone, so a single missed run still gets caught.
  *
- * Needs VERCEL_DEPLOY_HOOK_URL set to a deploy hook from the Vercel
- * dashboard. CRON_SECRET is optional; when set, Vercel sends it as a bearer
+ * Needs DEPLOY_HOOK_URL set to a deploy hook from the Vercel dashboard.
+ * The name deliberately avoids a VERCEL_ prefix, which Vercel reserves for
+ * its own system variables and will not let you create. CRON_SECRET is optional; when set, Vercel sends it as a bearer
  * token and anything without it is refused.
  */
 const LOOK_BACK_MS = 48 * 60 * 60 * 1000;
@@ -45,7 +46,7 @@ export const GET: APIRoute = async ({ request }) => {
 	const diagnostics = {
 		env: process.env.VERCEL_ENV ?? 'unknown',
 		builtFrom: process.env.VERCEL_GIT_COMMIT_SHA?.slice(0, 7) ?? 'unknown',
-		hookConfigured: Boolean(process.env.VERCEL_DEPLOY_HOOK_URL),
+		hookConfigured: Boolean(process.env.DEPLOY_HOOK_URL),
 		secretConfigured: Boolean(process.env.CRON_SECRET),
 	};
 
@@ -57,12 +58,12 @@ export const GET: APIRoute = async ({ request }) => {
 
 	if (due.length === 0) return body({ triggered: false, reason: 'nothing due' });
 
-	const hook = process.env.VERCEL_DEPLOY_HOOK_URL;
+	const hook = process.env.DEPLOY_HOOK_URL;
 	if (!hook) {
 		return body({
 			triggered: false,
 			reason:
-				'VERCEL_DEPLOY_HOOK_URL is not visible to this deployment. Check it is set for ' +
+				'DEPLOY_HOOK_URL is not visible to this deployment. Check it is set for ' +
 				'the Production environment, then redeploy — a variable only reaches the ' +
 				'deployment built after it was added.',
 		});
