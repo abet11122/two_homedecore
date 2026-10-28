@@ -48,7 +48,7 @@ A good second-hand piece is better made than most of what you can buy new at the
 
 **Veneered chipboard and MDF.** The thin veneer cannot be sanded, and the board underneath swells permanently at the first hint of damp. Flat-pack furniture that has already been assembled and moved once is usually at the end of its life.
 
-**Upholstered furniture.** Sofas, armchairs, padded headboards. Smells and pests are hard to assess, and fabric holds both. If you do look, inspect the seams and the underside in good light.
+**Upholstered furniture.** Sofas, armchairs, padded headboards. Fabric holds odours and anything living in it, and neither is something you can judge from a photograph. If you do look, inspect the seams and the underside in good light.
 
 **Anything with small round holes.** Could be old woodworm damage, could be active. Fresh, pale dust around the holes suggests active. Not a risk worth taking into a flat with other wooden furniture.
 

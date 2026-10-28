@@ -59,10 +59,16 @@ const profileSchema = {
 };
 ---
 
+{/*
+  Crawlable, not indexed. Articles name a Person whose url is /about/, so
+  that page is the author's. This one is a second listing of the same
+  archive under the publisher's name, which is a thin duplicate to index.
+*/}
 <Layout
   title={SITE.author}
   description={description}
   imageWide={latest?.data.heroImage}
+  noindex
   schemas={[profileSchema]}
 >
   <header class="border-b border-rule bg-sand/40">

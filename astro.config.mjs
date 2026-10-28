@@ -64,7 +64,8 @@ function includeInSitemap(page) {
     /^\/(?:search|saved|404)\/?$/.test(pathname) ||
     // Tag hubs and their index are noindex; a sitemap entry would contradict that.
     /^\/tags?(?:\/|$)/.test(pathname) ||
-    pathname === '/author/sophie-lane/' ||
+    // The author hub is noindex; a sitemap entry would contradict that.
+    /^\/author(?:\/|$)/.test(pathname) ||
     excludedPostPaths.has(pathname)
   ) {
     return false;
