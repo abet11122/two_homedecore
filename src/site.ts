@@ -42,6 +42,20 @@ export const SITE = {
   /** AdSense publisher ID (matches public/ads.txt). Used for the site-verification meta tag. */
   adsenseClient: 'ca-pub-8497285724891966',
   /**
+   * Whether a consent message is live in AdSense (Privacy & messaging ->
+   * GDPR). While this is false, adsbygoogle.js never loads, so the only
+   * AdSense marker on the page is the verification meta tag.
+   *
+   * Google's site review looks for the publisher ID on the page via the ads
+   * code, and Google's own consent message is delivered BY that same script
+   * — so this gate has to open before either can happen. Set up the message
+   * in AdSense first, then set this to true.
+   *
+   * Consent Mode already defaults ad_storage and ad_personalization to
+   * denied in Layout.astro, so loading the script does not grant consent.
+   */
+  consentMessageConfigured: false,
+  /**
    * Optional form endpoint (e.g. a Formspree URL) for the contact form.
    * When empty, the form opens the visitor's email app instead.
    */

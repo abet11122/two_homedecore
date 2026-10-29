@@ -78,7 +78,9 @@ const adsenseId =
   import.meta.env.ADSENSE_CLIENT_ID ||
   SITE.adsenseClient ||
   '';
-const consentManagementConfigured = import.meta.env.PUBLIC_ADSENSE_CMP_CONFIGURED === 'true';
+// Env var or src/site.ts, so this works without Vercel environment variables.
+const consentManagementConfigured =
+  import.meta.env.PUBLIC_ADSENSE_CMP_CONFIGURED === 'true' || SITE.consentMessageConfigured;
 const loadAdsense = Boolean(allowAds && !noindex && adsenseId && consentManagementConfigured);
 
 /*
