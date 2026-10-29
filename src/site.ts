@@ -54,7 +54,7 @@ export const SITE = {
    * Consent Mode already defaults ad_storage and ad_personalization to
    * denied in Layout.astro, so loading the script does not grant consent.
    */
-  consentMessageConfigured: false,
+  consentMessageConfigured: true,
   /**
    * Optional form endpoint (e.g. a Formspree URL) for the contact form.
    * When empty, the form opens the visitor's email app instead.
