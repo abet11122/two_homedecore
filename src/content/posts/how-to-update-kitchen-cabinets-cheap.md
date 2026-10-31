@@ -1,6 +1,6 @@
 ---
 title: "How to Update Kitchen Cabinets Cheaply (Without It Peeling)"
-description: "Handles, paint, film and replacement doors compared on cost and effort, plus the preparation that decides whether painted cabinets last five years or five months."
+description: "Handles, paint, film and replacement doors compared on cost and effort, plus the preparation that decides whether painted cabinets last."
 category: kitchen
 tags: ["kitchen cabinets", "diy", "budget decor", "small kitchen", "rental kitchen"]
 publishDate: 2026-11-02

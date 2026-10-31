@@ -129,4 +129,4 @@ Pick the spot that annoys you most — usually the entry, the kitchen counter or
 
 <!-- [ADD YOUR PHOTO: the same space after organizing] {file: photo-3} -->
 
-Room-by-room detail follows in [small kitchen organization ideas](/post/small-kitchen-organization-ideas/), [small bedroom storage](/post/small-bedroom-storage-ideas/) and [small bathroom organization ideas](/post/small-bathroom-organization-ideas/). Renters can find damage-free ideas in [apartment decor ideas on a budget](/post/apartment-decor-ideas-budget/).
+Laundry is its own problem when there is no utility room — [small laundry room organization](/post/small-laundry-room-organization-ideas/) works through it by task. Room-by-room detail follows in [small kitchen organization ideas](/post/small-kitchen-organization-ideas/), [small bedroom storage](/post/small-bedroom-storage-ideas/) and [small bathroom organization ideas](/post/small-bathroom-organization-ideas/). Renters can find damage-free ideas in [apartment decor ideas on a budget](/post/apartment-decor-ideas-budget/).

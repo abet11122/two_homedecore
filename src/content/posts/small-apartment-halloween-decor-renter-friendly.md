@@ -44,7 +44,7 @@ It also stops the display from spreading across the whole table.
 
 Cut-paper or card bats arranged on one wall add a playful seasonal note. Only attach them if the surface and lease allow it, using a method approved for that finish.
 
-Keep the arrangement loose and asymmetric for a more editorial look. A tight grid of identical bats reads as a craft project rather than a styled display.
+Leave it loose and off-centre rather than balanced. A tight grid of identical bats reads as a craft project rather than a styled display.
 
 ## 5. Use Window Clings on Glass Surfaces
 
@@ -60,19 +60,19 @@ A black or dark garland of leaves, stars, or geometric shapes draped along a she
 
 Small ceramic or fabric pumpkins placed on existing shelves add seasonal colour without taking up floor space. Group two or three together rather than spreading one pumpkin across every shelf.
 
-Ceramic pumpkins last indefinitely and store in a small box. Real pumpkins last two to three weeks indoors.
+Ceramic pumpkins last indefinitely and store in a small box. Indoors, expect a fortnight or so before a real pumpkin softens.
 
 ## 8. Use Flameless Candles Throughout
 
 Flameless LED candles in dark vessels — black, terracotta, or dark ceramic — add atmosphere without any fire risk. Use them on shelves, windowsills, and the coffee table tray.
 
-Pick LED candles that flicker; steady ones look fake from across the room. Most run on AA batteries and last the whole season.
+Pick LED candles that flicker; steady ones look fake from across the room. A set of AA batteries will see them through to November.
 
 ## 9. Add a Seasonal Throw to the Sofa
 
 A throw in deep plum, charcoal, or dark burgundy draped over the sofa arm adds seasonal colour without any wall attachment.
 
-The throw works all autumn, not just at Halloween.
+A throw like that stays useful well past the 31st.
 
 ## 10. Hang a Moon or Botanical Print in an Existing Frame
 
@@ -84,7 +84,7 @@ Dark botanical prints and moon phase illustrations are available on Etsy for a f
 
 A single dark pillar candle — black, deep red, or dark green — on the kitchen counter adds a seasonal note to a room that is easy to overlook. Use a flameless version if you prefer not to burn candles near food prep surfaces.
 
-Keep it to one candle rather than a full display. The kitchen counter needs to stay functional.
+One candle is enough here; a row of them turns into a display. The kitchen counter needs to stay functional.
 
 ## 12. Add a Small Pumpkin to the Bathroom
 
@@ -114,7 +114,7 @@ Use a battery-powered lantern rather than a real candle in the entryway — it i
 
 A few bare or dark-painted branches in a tall vase you already own add height and a slightly eerie quality without any obvious Halloween imagery. They also last the entire season.
 
-Dried branches are free from any garden or park.
+A bare branch from the garden or a park costs nothing.
 
 ## 17. Keep the Display to One Box
 

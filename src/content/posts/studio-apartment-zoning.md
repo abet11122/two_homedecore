@@ -8,6 +8,20 @@ heroImage: "photo-1502005229762-cf1b2da7c5d6"
 pinImage: "photo-1618221195710-dd6b41faaea6"
 featured: false
 affiliateDisclosure: false
+faqs:
+  - q: "How do you divide a studio apartment?"
+    a: "Use furniture, rugs, light and level rather than walls. A bookcase set perpendicular to a wall, a rug under the seating, a separate lamp for each zone, and a change of flooring or a step all read as boundaries without closing the space in or needing permission from a landlord."
+  - q: "How do you separate the bed in a studio?"
+    a: "A curtain on a ceiling track is the most effective reversible option, because it closes fully when you want it to and disappears when you do not. A tall headboard, an open shelf unit, or simply placing the bed where it is not visible from the door all help where a track is not possible."
+  - q: "What is the minimum walkway in a studio?"
+    a: "About 60 cm for a route one person uses occasionally, and 75–90 cm for the main path through the room. Below 60 cm people turn sideways to pass, which is the point at which a small room starts to feel cramped regardless of its floor area."
+  - q: "How do you make a studio feel like separate rooms?"
+    a: "Give each zone its own light and its own floor. Those two signals do more than any divider: a rug and a lamp turn a corner into a reading area, and a pendant over a table turns another into a dining space. Boundaries that the eye reads are enough; they do not have to be solid."
+keyTakeaways:
+  - "Decide the zones before moving a single piece of furniture."
+  - "Give each zone its own light and its own floor; those two signals do most of the work."
+  - "Keep main routes 75\u201390 cm and secondary ones at least 60 cm."
+  - "Boundaries only have to be read by the eye, not built."
 ---
 
 The problem with a studio is almost never the square metreage. It is that one undivided space means every activity leaks into every other one — you eat where you work, sleep where you entertain, and the room never signals that anything has ended. The fix is not more storage. It is boundaries.

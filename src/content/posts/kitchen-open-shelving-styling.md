@@ -1,6 +1,6 @@
 ---
 title: "Open Shelving in the Kitchen: Practical Styling Without the Chaos"
-description: "Open kitchen shelves can be beautiful and functional. Learn the color theory, spacing rules, and maintenance tips that make open shelving work in a real kitchen."
+description: "Open kitchen shelves can be beautiful and functional. The styling formula, what belongs on them, and the upkeep nobody mentions first."
 category: "kitchen"
 tags: ["kitchen", "open-shelving", "organization", "design", "styling"]
 publishDate: 2026-08-05
@@ -8,6 +8,20 @@ heroImage: "photo-1484154218962-a197022b5858"
 pinImage: "photo-1560185007-cde436f6a4d0"
 featured: false
 affiliateDisclosure: false
+faqs:
+  - q: "Is open shelving practical in a kitchen?"
+    a: "It is practical for the things you use daily and reach for without thinking — plates, mugs, glasses, bowls. It is impractical for everything else, because anything stored on an open shelf is on permanent display and collects airborne grease. It suits cooks who keep a modest, coordinated set of everyday crockery."
+  - q: "What should you put on kitchen open shelves?"
+    a: "Things used daily, so they get washed through use rather than sitting under a film. Plates and bowls stacked, mugs and glasses in rows, one or two objects with height. Keep the rarely used equipment behind a door where it belongs."
+  - q: "How do you stop open shelves looking cluttered?"
+    a: "Limit the number of materials and colours, leave visible gaps rather than filling the full span, stack in groups rather than lining items up individually, and keep packaging off the shelf. The restraint has to be ongoing, not a one-off tidy."
+  - q: "Do open shelves near a cooker get greasy?"
+    a: "Yes. Cooking releases an airborne film that settles on everything not behind a door. Items used daily are effectively cleaned by use; anything used rarely needs washing before use. Keep open storage away from the hob where the layout allows."
+keyTakeaways:
+  - "Open shelves suit daily crockery; everything used rarely belongs behind a door."
+  - "Limit materials and colours, and leave visible gaps rather than filling the span."
+  - "Anything near the hob collects an airborne film of cooking grease."
+  - "The restraint has to be ongoing — there is no door to close on a bad day."
 ---
 
 ## The Open Shelving Question: Beautiful or Chaotic?

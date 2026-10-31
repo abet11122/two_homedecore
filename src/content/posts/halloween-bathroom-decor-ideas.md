@@ -1,6 +1,6 @@
 ---
 title: "15 Halloween Bathroom Decor Ideas — Small Space Seasonal Styling"
-description: "Style your bathroom for Halloween with 15 small space ideas using dark candles, spooky soap dispensers, pumpkins, black towels, and renter-friendly seasonal touches."
+description: "Style your bathroom for Halloween with 15 small-space ideas: towel swaps, a ceramic pumpkin, flameless candles and details that wipe clean."
 category: bathroom
 tags: ["halloween decor", "bathroom decor", "seasonal decorating", "small spaces", "renter friendly"]
 publishDate: 2026-09-25

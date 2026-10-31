@@ -13,6 +13,15 @@ keyTakeaways:
   - "Layer table and floor lamps for a comfortable glow while keeping reading areas bright enough."
   - "Bring in wood, woven baskets, and a few seasonal accents while leaving everyday surfaces usable."
   - "Refresh what you already own and stop decorating while the room still has breathing space."
+faqs:
+  - q: "How do you make a living room feel cozy for fall?"
+    a: "Change the light and the textiles before buying anything. Warm 2700K bulbs, a lamp or two instead of the ceiling fitting, one heavy throw and a change of cushion covers will do more than a shelf of seasonal objects. Texture is what reads as warmth, not quantity."
+  - q: "What colours work for fall living room decor?"
+    a: "Browns, rust, ochre and olive sit more comfortably in a room you live in than bright orange does. Pick two or three and repeat each of them at least twice across the room, so the scheme reads as deliberate rather than accumulated."
+  - q: "How do you decorate for fall without spending much?"
+    a: "Swap cushion covers rather than cushions, cut stems or foliage from outside, move warm-toned things you already own into one room, and change the bulbs. The most effective seasonal changes are usually rearrangement rather than purchase."
+  - q: "When should fall decor go up and come down?"
+    a: "Most people put it up in late September and the useful limit is late November, before Christmas decorating starts. Dried material stores well in a box for the following year; leaving autumn out into January is what makes a room feel neglected."
 ---
 
 A cozy fall living room does not need to be covered in orange pumpkins. Often the biggest change comes from a few practical layers: softer textiles, warmer light, natural materials, and deeper accent colors.

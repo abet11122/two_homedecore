@@ -136,4 +136,4 @@ A small box or a basket under the table keeps remotes and chargers off the festi
 - **Fragile glass ornaments** where children or pets can reach them.
 - **Too many colors.** Match the rest of the room.
 
-The room around the table is covered in [cozy Christmas living room ideas](/post/cozy-christmas-living-room-ideas/). The three-height method is explained in more detail in [the autumn mantel](/post/autumn-mantel-styling/), and [small-space Christmas decor ideas](/post/small-space-christmas-decor-ideas/) shows how to decorate one spot per room.
+The room around the table is covered in [cozy Christmas living room ideas](/post/cozy-christmas-living-room-ideas/). The three-height method is explained in more detail in [the autumn mantel](/post/autumn-mantel-styling/) and applied to December in [Christmas mantel decor ideas](/post/christmas-mantel-decor-ideas/), and [small-space Christmas decor ideas](/post/small-space-christmas-decor-ideas/) shows how to decorate one spot per room.

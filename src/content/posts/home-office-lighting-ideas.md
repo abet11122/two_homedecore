@@ -84,7 +84,7 @@ Check what the camera actually sees rather than trusting the room. Open the came
 
 ## In a room doing two jobs
 
-Where the office shares a bedroom or a guest room, the lighting has to switch roles at the end of the day. A desk lamp you can turn off independently, on a separate switch or plug, is what lets the room stop being an office — which matters more than it sounds for sleeping in. [Guest bedroom and office combo](/post/guest-bedroom-office-combo/) covers the rest of that changeover.
+Where the office shares a bedroom or a guest room, the lighting has to switch roles at the end of the day. In October the same desk takes a little seasonal styling without losing the light — [Halloween home office decor](/post/halloween-home-office-decor-ideas/) keeps it to the background. A desk lamp you can turn off independently, on a separate switch or plug, is what lets the room stop being an office — which matters more than it sounds for sleeping in. [Guest bedroom and office combo](/post/guest-bedroom-office-combo/) covers the rest of that changeover.
 
 ## Where it goes wrong
 

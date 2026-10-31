@@ -1,6 +1,6 @@
 ---
 title: "20 Neon Y2K Apocalypse Halloween Party Decor Ideas"
-description: "Throw the most talked-about Halloween party of 2026 with 20 neon Y2K apocalypse decor ideas using neon lighting, metallic textures, sci-fi props, and retro-futuristic styling."
+description: "Throw a Y2K Apocalypse Halloween party with neon LED strips, silver tablecloths, metallic pumpkins, glitch prints and a fog machine."
 category: seasonal
 tags: ["halloween decor", "y2k decor", "party decor", "neon halloween", "halloween 2026"]
 publishDate: 2026-09-21

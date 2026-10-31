@@ -14,6 +14,15 @@ keyTakeaways:
   - "Use matte pumpkins, taper candles, and dried branches for a sophisticated seasonal look."
   - "Create one spooky focal point and keep the rest of the room calm."
   - "Choose pieces that store flat and work with your normal decor to keep costs low."
+faqs:
+  - q: "What makes Halloween decor look elegant rather than cheap?"
+    a: "Restraint and palette. A limited range of colours — black, cream and a muted orange — plus matte rather than plastic finishes, and a few deliberate pieces instead of a covered surface. The material usually matters more than the price: real candles, dried stems and ceramic read as considered where moulded plastic does not."
+  - q: "What colours work for an elegant Halloween scheme?"
+    a: "Black with cream or bone, warmed by one muted accent such as rust, oxblood or deep amber. Bright orange and purple are what make a scheme read as novelty. Keeping to two or three colours across the whole display is what holds it together."
+  - q: "Can elegant Halloween decor work in a small home?"
+    a: "It suits one better than a maximalist approach does, because the whole method is choosing one surface and doing it properly. A mantel, a console or a dining table is enough. Pieces that store flat afterwards matter more in a small home than anywhere else."
+  - q: "What can stay out after Halloween?"
+    a: "Most of it, if the palette is muted. Taper candles, dried stems, matte ceramic pumpkins in cream or terracotta and dark florals all carry into November without reading as leftover Halloween. The bats and the skulls are the things that go back in the box."
 ---
 
 Elegant Halloween decor is about restraint. A few well-chosen pieces in a limited palette create more atmosphere than a room covered in themed products. The goal is to bring in the season without making the space feel like a temporary display.

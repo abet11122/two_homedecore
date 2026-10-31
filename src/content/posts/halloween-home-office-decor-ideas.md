@@ -1,6 +1,6 @@
 ---
 title: "15 Halloween Home Office Decor Ideas — Spooky Without Distraction"
-description: "Add Halloween atmosphere to your home office with 15 ideas using dark desk accessories, seasonal candles, subtle pumpkins, and spooky styling that keeps you productive."
+description: "Halloween atmosphere for a desk you still have to work at: a small pumpkin, a dark candle behind you, a seasonal mug and a clear worktop."
 category: home-office
 tags: ["halloween decor", "home office decor", "seasonal decorating", "desk decor", "halloween 2026"]
 publishDate: 2026-09-27

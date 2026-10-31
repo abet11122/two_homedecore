@@ -42,7 +42,7 @@ Choose towels with a print that suits your kitchen's colour palette. A dark-back
 
 ## 4. Add a Seasonal Hand Soap
 
-A hand soap in a dark vessel or with a Halloween label adds a seasonal note to the sink area without any additional decor. Many brands release Halloween-themed soaps in October.
+A hand soap in a dark vessel or with a Halloween label adds a seasonal note to the sink area without any additional decor. Seasonal hand soaps turn up in most supermarkets from late September.
 
 Or pour your usual dish soap into an amber glass bottle with a hand-lettered tag.
 
