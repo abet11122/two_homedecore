@@ -70,8 +70,12 @@ export const SITE = {
   authorLinks: [] as string[],
   locale: 'en_US',
   lang: 'en',
-  /** Square mark used for Organization.logo in structured data. */
-  logo: '/favicon.svg',
+  /**
+   * Square mark used for Organization.logo in structured data. Must be a
+   * raster of at least 112x112; Google does not accept SVG logos.
+   */
+  logo: '/logo.png',
+  logoSize: 512,
 } as const;
 
 export type CategorySlug =

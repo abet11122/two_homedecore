@@ -51,6 +51,17 @@ const excludedPostPaths = new Set(
     .filter((post) => post.data.noindex || post.data.excludeFromListings)
     .map((post) => `/post/${post.id}/`)
 );
+/*
+  Every post already carries an accurate date; this is the only thing the
+  sitemap was missing. Keyed by pathname so serialize() can look it up.
+*/
+const lastmodByPath = new Map(
+  posts.map((post) => [
+    `/post/${post.id}/`,
+    new Date(post.data.updatedDate ?? post.data.publishDate),
+  ])
+);
+
 const indexableCategories = new Set(
   CATEGORIES
     .filter((category) => discoverablePosts.filter((post) => post.data.category === category.slug).length >= MIN_INDEXABLE_ARCHIVE_POSTS)
@@ -84,6 +95,8 @@ export default defineConfig({
   adapter: vercel(),
   trailingSlash: 'always',
   redirects: {
+    // Some third-party tools only look for the non-canonical path.
+    '/sitemap.xml': { status: 301, destination: '/sitemap-index.xml' },
     '/author/sophie-lane/': '/about/',
     // Near-duplicate posts merged into the stronger guide on the same topic.
     '/post/bathroom-storage-ideas-small-spaces/': { status: 301, destination: '/post/small-bathroom-organization-ideas/' },
@@ -95,7 +108,18 @@ export default defineConfig({
     '/post/small-space-halloween-decor/': { status: 301, destination: '/post/small-apartment-halloween-decor-renter-friendly/' },
     '/post/small-apartment-storage-ideas/': { status: 301, destination: '/post/small-apartment-organization-ideas/' },
   },
-  integrations: [sitemap({ filter: includeInSitemap })],
+  integrations: [
+    sitemap({
+      filter: includeInSitemap,
+      serialize(item) {
+        const lastmod = lastmodByPath.get(new URL(item.url).pathname);
+        if (lastmod && !Number.isNaN(lastmod.getTime())) {
+          item.lastmod = lastmod.toISOString();
+        }
+        return item;
+      },
+    }),
+  ],
   markdown: {
     // Keeps the unfilled photo markers out of the shipped HTML.
     processor: satteri({ hastPlugins: [stripPhotoMarkers] }),

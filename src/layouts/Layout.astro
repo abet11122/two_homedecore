@@ -117,6 +117,8 @@ const orgNode = {
   logo: {
     '@type': 'ImageObject',
     url: abs(SITE.logo),
+    width: SITE.logoSize,
+    height: SITE.logoSize,
     caption: SITE.name,
   },
   sameAs: [SITE.pinterest, SITE.instagram].filter(url => url && new URL(url).pathname !== '/'),
