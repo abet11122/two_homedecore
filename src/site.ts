@@ -28,15 +28,21 @@ export const SITE = {
     role: 'Founder & editor',
     /** Path to your own headshot, e.g. '/images/about/me.webp'. Leave '' to hide. */
     photo: '/images/about/mubashar.webp',
-    bio: '[ONE OR TWO SENTENCES: who you are, where you live, and what kind of small home you decorate — e.g. "I live in a 550 sq ft one-bedroom with a partner and a cat, and I write about making small rooms work."]',
+    bio: "I write and publish every guide on this site myself. They are general references for people decorating their own homes rather than the record of a professional practice, and no design training or trade qualification is claimed.",
     /**
      * Paragraphs for "Who runs this site" on the About page. Any entry still
      * starting with "[" is treated as unfilled and is not rendered.
+     *
+     * Adapted from the author copy already published on the sister site, so
+     * every claim here is the owner's own and none of it is invented. It
+     * deliberately describes how the guides are written rather than asserting
+     * lived experience that has not been established — an unverifiable
+     * backstory is worth less to a reviewer than a verifiable method.
      */
     story: [
-      '[YOUR STORY: two or three sentences about where you live and the home you are working with — size, layout, rent or own, who shares it with you.]',
-      '[YOUR REASON: why you started the site — the moment small-space living frustrated you.]',
-      '[YOUR EXPERIENCE: anything true that makes your advice credible — years of renting small places, projects you have done yourself, a design or trades background.]',
+      'That is a real name rather than a house byline, but it is not a claim of professional qualification. I am not a designer, I hold no trade credential, and nothing here should be read as one. These are guides for people decorating their own homes.',
+      'Each guide is written for a single question and edited to answer it in the opening lines, before any background. Where a measurement, spacing or quantity appears it is there because it changes the result — the 60 cm a dining chair needs behind it to push back and stand, the rug size that keeps the furniture legs on, the 2700K bulb that stops a bathroom reading as clinical. Guides are structured around their own subject rather than a shared template, so two articles here should not read like the same article with different nouns.',
+      'A first-hand project, price, review or quotation needs a traceable source before it is presented as one, so invented personal experience and invented qualifications do not appear here. Where a guide has been rewritten, an updated date is shown alongside the original date it was published.',
     ],
   },
   /** AdSense publisher ID (matches public/ads.txt). Used for the site-verification meta tag. */
