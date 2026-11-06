@@ -79,7 +79,7 @@ export const SITE = {
    * every Monetag format stops at once. Worth knowing where this line is
    * if AdSense ever asks about the ads on the page.
    */
-  monetagZone: '306815',
+  monetagZone: '',
   /** Delivery host for the tag above. Monetag rotates these; copy whatever
       is in the snippet they hand you rather than reusing an old one. */
   monetagTagSrc: 'https://quge5.com/88/tag.min.js',
