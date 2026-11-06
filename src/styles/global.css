@@ -11,6 +11,50 @@
    visit. Overriding the fallback's metrics to match makes the swap
    invisible instead.
 ------------------------------------------------------------------- */
+/*
+  Self-hosted from @fontsource-variable (latin subset, variable weight axis).
+
+  These came from fonts.googleapis.com until Lighthouse measured the cost:
+  the stylesheet was render-blocking and left the real font files three hops
+  from the document (HTML -> googleapis CSS -> gstatic woff2, landing at
+  3.2s). Served from our own origin and preloaded in Layout.astro it is one
+  hop. The Fallback faces below keep their metric overrides, so the swap
+  still does not move the text.
+
+  One variable file per style covers every weight the design asks for
+  (Inter 400/500/600, Playfair 500/600/700 and italic 500).
+
+  These filenames carry no content hash, and vercel.json caches /fonts/ for
+  a year as immutable: to change a font, give the new file a new name here
+  as well, or browsers that already have the old one will keep using it.
+*/
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 900;
+  src: url('/fonts/inter-latin-wght-normal.woff2') format('woff2-variations');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 900;
+  src: url('/fonts/playfair-display-latin-wght-normal.woff2') format('woff2-variations');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 100 900;
+  src: url('/fonts/playfair-display-latin-wght-italic.woff2') format('woff2-variations');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+
 @font-face {
   font-family: 'Inter Fallback';
   src: local('Arial');

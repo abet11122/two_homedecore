@@ -5,7 +5,7 @@ const { minutes } = Astro.props;
 
 <div class="reading-tools" data-reading-minutes={minutes} hidden>
   <p class="reading-time-left"><span class="reading-dot" aria-hidden="true"></span><span data-reading-remaining>{minutes} min read</span></p>
-  <button class="reading-size" type="button" aria-pressed="false" aria-controls="article-body" aria-label="Use larger article text" data-reading-size><span class="reading-size-icon" aria-hidden="true">Aa</span><span data-reading-size-label>Larger text</span></button>
+  <button class="reading-size" type="button" aria-pressed="false" aria-controls="article-body" data-reading-size><span class="reading-size-icon" aria-hidden="true">Aa</span><span data-reading-size-label>Larger text</span></button>
 </div>
 
 <script>
@@ -52,7 +52,8 @@ const { minutes } = Astro.props;
     function setSize(large: boolean) {
       article!.dataset.textSize = large ? 'large' : 'default';
       sizeButton!.setAttribute('aria-pressed', String(large));
-      sizeButton!.setAttribute('aria-label', large ? 'Use standard article text' : 'Use larger article text');
+      /* No aria-label: the visible label below names the button, so the two
+         cannot fall out of step and WCAG 2.5.3 holds in both states. */
       sizeButton!.querySelector('[data-reading-size-label]')!.textContent = large ? 'Standard text' : 'Larger text';
       measure();
     }

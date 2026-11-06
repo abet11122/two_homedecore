@@ -70,6 +70,14 @@
 .room-card > span > span { color: #8f4728; font-family: Inter, sans-serif; font-size: 13px; }
 .room-card small { display: block; font-size: 11px; line-height: 1.6; margin-top: 5px; color: var(--muted); }
 .discovery-section { background: #f2eee7; border-block: 1px solid var(--line); padding-block: 70px; scroll-margin-top: 145px; }
+/*
+  clay (#B05B38) and the card meta grey were both contrast-checked against
+  paper white, where they clear AA. On the #f2eee7 panels they do not:
+  11px clay lands at 4.13:1 and needs 4.5:1. clay.deep is the palette answer
+  and measures 5.86:1 here, so the kicker darkens only on the tint.
+*/
+.discovery-section .eyebrow,
+.saved-empty .eyebrow { color: #8f4728; }
 #rooms-title { scroll-margin-top: 165px; }
 .idea-filters { display: flex; flex-wrap: wrap; gap: 7px; padding-block: 3px 22px; border-bottom: 1px solid #ddd5c8; }
 .idea-filters button { font-size: 12px; min-height: 44px; padding: 10px 16px; border: 1px solid #d7cdbf; border-radius: 3px; background: transparent; touch-action: manipulation; transition: color 150ms, background-color 150ms; }
@@ -82,7 +90,7 @@
 .weekend-photo { min-height: 420px; }
 .weekend-copy { background: #eaece2; padding: 44px 46px; position: relative; }
 .weekend-copy .eyebrow { color: #526149; font-size: 11px; }
-.weekend-number { display: block; font-family: 'Playfair Display', Georgia, serif; font-style: italic; font-size: 17px; color: #6a755f; margin-top: 28px; }
+.weekend-number { display: block; font-family: 'Playfair Display', Georgia, serif; font-style: italic; font-size: 17px; color: #5d6554; margin-top: 28px; }
 .weekend-copy h2 { font-size: clamp(1.8rem, 2.5vw, 2.5rem); font-weight: 500; line-height: 1.2; margin-block: 13px 18px; }
 .weekend-copy > p:not(.eyebrow) { font-size: 15px; line-height: 1.85; max-width: 360px; color: #5d6554; }
 .weekend-copy .link-arrow { min-height: 44px; font-size: 13px; color: #344b3c; margin-top: 24px; gap: 20px; }

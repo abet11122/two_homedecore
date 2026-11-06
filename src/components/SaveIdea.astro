@@ -82,6 +82,9 @@ const { id, title } = Astro.props;
     catch { button.querySelector('[data-save-label]')!.textContent = 'Saving unavailable'; }
   });
   window.addEventListener('storage', sync);
+  /* The homepage injects the tail of its idea grid after load; those save
+     buttons ship hidden and need this sync to appear. */
+  document.addEventListener('ideas:appended', sync);
   window.addEventListener('pageshow', sync);
   document.addEventListener('astro:page-load', sync);
   sync();

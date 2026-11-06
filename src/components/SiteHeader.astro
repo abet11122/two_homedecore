@@ -40,7 +40,15 @@ const isArticle = Astro.url.pathname.startsWith('/post/');
         </nav>
       </details>
     </div>
-    <a class="wordmark" href="/" aria-label={SITE.name + ' home'}>
+    {/*
+      No aria-label here on purpose. WCAG 2.5.3 asks that the accessible name
+      contain the text shown on screen, and an aria-label replaces the whole
+      of it — so a label of "<name> home" left the visible tagline out of the
+      name and someone using voice control could not say what they saw.
+      Letting the content name the link keeps the two identical. On post
+      pages the tagline is display:none, which drops it from both at once.
+    */}
+    <a class="wordmark" href="/">
       <span>{SITE.name}</span>
       <small>Cozy ideas for every home.</small>
     </a>

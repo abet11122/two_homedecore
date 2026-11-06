@@ -1,0 +1,22 @@
+---
+/**
+ * The tail of the homepage idea grid, as a bare HTML fragment.
+ *
+ * index.astro renders the first IDEAS_INITIAL cards and fetches this on idle,
+ * so the filters and "discover more" reach the whole library without the
+ * homepage shipping it all. Markup here must stay identical to the grid
+ * children in index.astro, including the data-idea-room wrapper.
+ *
+ * PostCard's scoped styles already ship with the homepage, so the injected
+ * cards pick them up; nothing here needs its own CSS.
+ */
+import PostCard from '../../components/PostCard.astro';
+import { homeIdeas, IDEAS_INITIAL } from '../../lib/homeIdeas';
+
+export const prerender = true;
+export const partial = true;
+
+const { gridPosts } = await homeIdeas();
+const rest = gridPosts.slice(IDEAS_INITIAL);
+---
+{rest.map((post) => <div data-idea-room={post.data.category}><PostCard post={post} /></div>)}
