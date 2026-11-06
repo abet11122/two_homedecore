@@ -233,6 +233,9 @@ const jsonLd = { '@context': 'https://schema.org', '@graph': graph };
     {SITE.googleVerification && (
       <meta name="google-site-verification" content={SITE.googleVerification} />
     )}
+    {SITE.monetagVerification && (
+      <meta name="monetag" content={SITE.monetagVerification} />
+    )}
     {adsenseId && <meta name="google-adsense-account" content={adsenseId} />}
 
     <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />

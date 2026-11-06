@@ -70,6 +70,8 @@ export const SITE = {
   pinterestVerification: '',
   /** Paste your Google Search Console verification code here. */
   googleVerification: 'ZtIbCUoxgl0O7sXwcRjCEO-6a2PBnsdhgGXnFHOVOgA',
+  /** Paste your Monetag site-verification code here (Sites -> Verify). */
+  monetagVerification: '48b54e9aa46ea81d89e424bb333eedfa',
   /** Slug for the author hub page at /author/<slug>/. */
   authorSlug: 'editorial-team',
   /** Verified public profiles for the publisher. */
