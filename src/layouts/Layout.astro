@@ -82,6 +82,13 @@ const adsenseId =
 const consentManagementConfigured =
   import.meta.env.PUBLIC_ADSENSE_CMP_CONFIGURED === 'true' || SITE.consentMessageConfigured;
 const loadAdsense = Boolean(allowAds && !noindex && adsenseId && consentManagementConfigured);
+/*
+  Monetag rides the same allowAds/noindex gate as AdSense, so it stays off
+  the admin panel, the 404 and anything noindexed. It deliberately does NOT
+  wait on the CMP the way loadAdsense does: Monetag runs its own consent
+  handling, so gating it on Google's would leave it permanently off.
+*/
+const loadMonetag = Boolean(allowAds && !noindex && SITE.monetagZone && SITE.monetagTagSrc);
 
 /*
   Which room the reader is standing in. A category page marks its own item;
@@ -267,6 +274,19 @@ const jsonLd = { '@context': 'https://schema.org', '@graph': graph };
       gtag('js', new Date());
       gtag('config', 'G-GPZD9NPCSL');
     </script>
+
+    {/* Monetag Multitag — in <head> because the tag binds early; async, so
+        it does not block the parser. data-cfasync keeps Cloudflare's Rocket
+        Loader from deferring it, which is what Monetag's own snippet asks
+        for. See monetagZone in site.ts for the kill switch. */}
+    {loadMonetag && (
+      <script
+        is:inline
+        async
+        data-cfasync="false"
+        src={SITE.monetagTagSrc}
+        data-zone={SITE.monetagZone}></script>
+    )}
   </head>
 
   <body>

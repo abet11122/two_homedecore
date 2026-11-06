@@ -72,6 +72,17 @@ export const SITE = {
   googleVerification: 'ZtIbCUoxgl0O7sXwcRjCEO-6a2PBnsdhgGXnFHOVOgA',
   /** Paste your Monetag site-verification code here (Sites -> Verify). */
   monetagVerification: '48b54e9aa46ea81d89e424bb333eedfa',
+  /**
+   * Monetag Multitag zone. One tag serves popunders, interstitials and
+   * push, and which of them appears is decided on Monetag's side, not
+   * here — so this is the kill switch: clear monetagZone, redeploy, and
+   * every Monetag format stops at once. Worth knowing where this line is
+   * if AdSense ever asks about the ads on the page.
+   */
+  monetagZone: '306815',
+  /** Delivery host for the tag above. Monetag rotates these; copy whatever
+      is in the snippet they hand you rather than reusing an old one. */
+  monetagTagSrc: 'https://quge5.com/88/tag.min.js',
   /** Slug for the author hub page at /author/<slug>/. */
   authorSlug: 'editorial-team',
   /** Verified public profiles for the publisher. */
