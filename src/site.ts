@@ -83,6 +83,18 @@ export const SITE = {
   /** Delivery host for the tag above. Monetag rotates these; copy whatever
       is in the snippet they hand you rather than reusing an old one. */
   monetagTagSrc: 'https://quge5.com/88/tag.min.js',
+  /**
+   * Monetag Direct Link. Unlike the Multitag above this loads no script
+   * and injects nothing — it is only a URL behind a link, which is why it
+   * is the one Monetag format that cannot affect AdSense or page speed.
+   *
+   * It is rendered in the footer, labelled, and carries rel="sponsored".
+   * Google treats an unmarked monetised link as a link scheme, so if this
+   * is ever moved, the label and the rel go with it. Never wire it to open
+   * on a page click or as a popunder: that is the behaviour that makes the
+   * other formats a problem.
+   */
+  monetagDirectLink: 'https://uplcm.com/4/12207174',
   /** Slug for the author hub page at /author/<slug>/. */
   authorSlug: 'editorial-team',
   /** Verified public profiles for the publisher. */

@@ -361,6 +361,15 @@ const jsonLd = { '@context': 'https://schema.org', '@graph': graph };
           </p>
           <p class="text-xs text-paper/45">
             Some links may earn a commission. <a href="/disclosure/" class="underline underline-offset-2 hover:text-clay-soft">Read our disclosure</a>.
+            {SITE.monetagDirectLink && (
+              <>
+                {' '}<a
+                  href={SITE.monetagDirectLink}
+                  rel="sponsored nofollow noopener"
+                  target="_blank"
+                  class="underline underline-offset-2 hover:text-clay-soft">Sponsored offers</a>.
+              </>
+            )}
           </p>
         </div>
       </div>
