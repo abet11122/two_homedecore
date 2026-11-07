@@ -248,9 +248,21 @@ const jsonLd = { '@context': 'https://schema.org', '@graph': graph };
     <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
 
     {/*
-      Google Consent Mode v2 defaults — denied until the certified CMP
-      (Privacy & messaging / UMP) records a choice. Required for EEA, UK and CH.
-      See README → "GDPR consent" for the one line you paste to switch it on.
+      Google Consent Mode v2 defaults, by region.
+
+      The EEA, the UK and Switzerland start at denied, and Google's certified
+      consent message (AdSense Privacy & messaging) asks those visitors and
+      updates the state with their answer. That message is only shown there.
+
+      This used to be one default, denied for every visitor in the world. The
+      intent was always the three regions above, but with no `region` list it
+      applied everywhere, and since nobody outside them is ever asked, nobody
+      ever granted it. Every Analytics hit went out cookieless (gcs=G100), so
+      GA4 reported zero users while Search Console showed real daily clicks,
+      and every AdSense request went out non-personalised (npa=1).
+
+      The region-specific default wins for visitors in those countries whatever
+      the order; everyone else gets the general one below it.
     */}
     <script is:inline>
       window.dataLayer = window.dataLayer || [];
@@ -262,7 +274,14 @@ const jsonLd = { '@context': 'https://schema.org', '@graph': graph };
         ad_user_data: 'denied',
         ad_personalization: 'denied',
         analytics_storage: 'denied',
+        region: ['AT', 'BE', 'BG', 'HR', 'CY', 'CZ', 'DK', 'EE', 'FI', 'FR', 'DE', 'GR', 'HU', 'IE', 'IT', 'LV', 'LT', 'LU', 'MT', 'NL', 'PL', 'PT', 'RO', 'SK', 'SI', 'ES', 'SE', 'IS', 'LI', 'NO', 'GB', 'CH'],
         wait_for_update: 500,
+      });
+      gtag('consent', 'default', {
+        ad_storage: 'granted',
+        ad_user_data: 'granted',
+        ad_personalization: 'granted',
+        analytics_storage: 'granted',
       });
     </script>
     <script
