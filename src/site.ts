@@ -48,6 +48,21 @@ export const SITE = {
   /** AdSense publisher ID (matches public/ads.txt). Used for the site-verification meta tag. */
   adsenseClient: 'ca-pub-8497285724891966',
   /**
+   * Ad unit IDs, one per placement. AdSense only issues these once the site
+   * is approved (Ads -> By ad unit -> Display ads). Until then they stay
+   * empty and no manual unit renders. A PUBLIC_ADSENSE_SLOT_* env var still
+   * wins if set, but these mean Vercel needs no environment variables —
+   * .env is gitignored and never reaches a deploy.
+   */
+  adsenseSlots: {
+    'in-article-top': '',
+    'in-article-mid': '',
+    'before-related': '',
+    feed: '',
+    anchor: '',
+    sidebar: '',
+  } as Record<string, string>,
+  /**
    * Whether a consent message is live in AdSense (Privacy & messaging ->
    * GDPR). While this is false, adsbygoogle.js never loads, so the only
    * AdSense marker on the page is the verification meta tag.
@@ -94,7 +109,9 @@ export const SITE = {
    * on a page click or as a popunder: that is the behaviour that makes the
    * other formats a problem.
    */
-  monetagDirectLink: 'https://uplcm.com/4/12207174',
+  // Paused while the AdSense review is open: the offers behind it are
+  // Monetag's choice, not ours. Restore with 'https://uplcm.com/4/12207174'.
+  monetagDirectLink: '',
   /** Slug for the author hub page at /author/<slug>/. */
   authorSlug: 'editorial-team',
   /** Verified public profiles for the publisher. */

@@ -351,6 +351,15 @@ const jsonLd = { '@context': 'https://schema.org', '@graph': graph };
               <li><a href="/terms-and-conditions/" class="text-sm text-paper/65 hover:text-clay-soft">Terms &amp; Conditions</a></li>
               <li><a href="/disclaimer/" class="text-sm text-paper/65 hover:text-clay-soft">Disclaimer</a></li>
               <li><a href="/disclosure/" class="text-sm text-paper/65 hover:text-clay-soft">Disclosure</a></li>
+              {/*
+                Consent revocation. Google's EU consent policy wants changing a
+                choice to be as easy as making one. The consent tool only loads
+                where AdSense does, so on those pages the click opens it in
+                place (script below); everywhere else this is a plain link home,
+                where the #privacy-settings hash opens it on arrival. Either way
+                every page has a working control, which the privacy policy says.
+              */}
+              <li><a href="/#privacy-settings" data-privacy-settings class="text-sm text-paper/65 hover:text-clay-soft">Privacy settings</a></li>
             </ul>
           </div>
         </div>
@@ -376,6 +385,30 @@ const jsonLd = { '@context': 'https://schema.org', '@graph': graph };
     </footer>
 
     <slot name="after-footer" />
+
+    {loadAdsense && (
+      <script is:inline>
+        (function () {
+          function openConsent() {
+            window.googlefc = window.googlefc || {};
+            window.googlefc.callbackQueue = window.googlefc.callbackQueue || [];
+            // Deferred inside a function: googlefc may not exist yet, and the
+            // queue runs this once Google's consent tool has loaded.
+            window.googlefc.callbackQueue.push(function () {
+              window.googlefc.showRevocationMessage();
+            });
+          }
+          document.addEventListener('click', function (event) {
+            var target = event.target;
+            var link = target instanceof Element && target.closest('[data-privacy-settings]');
+            if (!link) return;
+            event.preventDefault();
+            openConsent();
+          });
+          if (location.hash === '#privacy-settings') openConsent();
+        })();
+      </script>
+    )}
 
     {/* AdSense — deferred so it never competes with the main content paint */}
     {loadAdsense && (

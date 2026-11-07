@@ -1,4 +1,6 @@
 ---
+import { SITE } from '../site';
+
 /**
  * AdSense slot with a reserved box.
  *
@@ -38,15 +40,27 @@ const { placement, mobile, desktop, class: className = '', enabled = true } = As
 const m = mobile ?? SIZES[placement].mobile;
 const dsk = desktop ?? SIZES[placement].desktop;
 
+/*
+  Each value resolves env var first, then src/site.ts — the same order
+  Layout.astro uses. This file used to read env vars only, so on Vercel,
+  where .env never arrives, the client ID and consent flag came out empty
+  and showAd was false on every page even while Layout loaded AdSense: the
+  script ran with no unit to fill. Keep the two in step.
+*/
 const clientId =
   import.meta.env.PUBLIC_ADSENSE_CLIENT_ID ||
   import.meta.env.ADSENSE_CLIENT_ID ||
+  SITE.adsenseClient ||
   '';
-const consentManagementConfigured = import.meta.env.PUBLIC_ADSENSE_CMP_CONFIGURED === 'true';
+const consentManagementConfigured =
+  import.meta.env.PUBLIC_ADSENSE_CMP_CONFIGURED === 'true' || SITE.consentMessageConfigured;
 
-// Optional per-placement slot IDs, e.g. PUBLIC_ADSENSE_SLOT_IN_ARTICLE_TOP=1234567890
+// Per-placement unit ID, e.g. PUBLIC_ADSENSE_SLOT_IN_ARTICLE_TOP=1234567890
 const envKey = `PUBLIC_ADSENSE_SLOT_${placement.toUpperCase().replace(/-/g, '_')}`;
-const slotId = (import.meta.env as Record<string, string | undefined>)[envKey] || '';
+const slotId =
+  (import.meta.env as Record<string, string | undefined>)[envKey] ||
+  SITE.adsenseSlots[placement] ||
+  '';
 
 const showAd = Boolean(enabled && clientId && slotId && consentManagementConfigured);
 const uid = `ad-${placement}`;
