@@ -211,22 +211,17 @@ const faqSchema = d.faqs?.length
 
         <Faq items={d.faqs ?? []} />
 
-        <section class="post-pin mt-14 border-t border-rule pt-10">
-          <div class="text-center">
-            <p class="eyebrow-muted">Save it</p>
-            <h2 class="mt-3 font-display text-2xl text-ink sm:text-3xl">Pin this for your board</h2>
-            <p class="mx-auto mt-3 max-w-md text-[0.9375rem] leading-relaxed text-ink-60">
-              Tap the image to save it to Pinterest and come back to it when you are ready to start.
-            </p>
-          </div>
-          <div class="mt-8">
-            <PinterestButton image={d.pinImage} title={d.title} description={d.description} />
-          </div>
-        </section>
+
+        {/*
+          PostNav documents itself as "immediately after the article body",
+          but it had drifted behind the Pinterest card and the author note,
+          about 1,070px on a phone, before a reader who had just finished was
+          offered anything else to read. The FAQ stays first because it is
+          still the article answering its own question.
+        */}
+        <PostNav prev={prev} next={next} />
 
         <AuthorBox publishDate={d.publishDate} updatedDate={d.updatedDate} />
-
-        <PostNav prev={prev} next={next} />
       </div>
 
       {/* A configured sidebar ad gets a separate rail only on wide screens. */}
@@ -240,6 +235,27 @@ const faqSchema = d.faqs?.length
     <div class="mx-auto max-w-[72rem]">
       <AdSlot placement="before-related" class="mt-14" enabled={!isNoindex} />
       <RelatedPosts category={d.category} currentId={post.id} />
+    </div>
+
+    {/*
+      The Pinterest card sits after the reading list rather than before it:
+      saving is still one tap away here and on every image via the hover
+      button, but it no longer stands between a finished article and the
+      next one. Held to the reading column so the card keeps its width.
+    */}
+    <div class="mx-auto w-full max-w-reading">
+      <section class="post-pin mt-14 border-t border-rule pt-10">
+        <div class="text-center">
+          <p class="eyebrow-muted">Save it</p>
+          <h2 class="mt-3 font-display text-2xl text-ink sm:text-3xl">Pin this for your board</h2>
+          <p class="mx-auto mt-3 max-w-md text-[0.9375rem] leading-relaxed text-ink-60">
+            Tap the image to save it to Pinterest and come back to it when you are ready to start.
+          </p>
+        </div>
+        <div class="mt-8">
+          <PinterestButton image={d.pinImage} title={d.title} description={d.description} />
+        </div>
+      </section>
     </div>
   </article>
 

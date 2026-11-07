@@ -64,8 +64,19 @@
 .reading-article > p:first-of-type { font-size: 1.055em; color: #34382d; }
 .reading-article > p:first-of-type::first-letter { font-size: 3.55em; font-weight: 500; color: #626b4a; line-height: .92; padding: .03em .06em 0 0; margin-right: .055em; }
 .reading-article h2 { margin-top: 2.25em; padding-top: 1.1em; border-top: 1px solid var(--reading-rule); font-size: clamp(1.65rem, 2.4vw, 2.1rem); line-height: 1.3; font-weight: 500; letter-spacing: -.027em; scroll-margin-top: 175px; text-wrap: pretty; }
-.reading-article h3 { margin-top: 1.8em; font-size: 1.3em; font-weight: 500; line-height: 1.4; scroll-margin-top: 175px; }
-.reading-article h2 + *, .reading-article h3 + * { margin-top: 1em; }
+/*
+  h2 opens a section; h3 is a numbered idea inside it. They used to share
+  Playfair at 500 and sat 1.13x apart, so on a phone the section break read
+  as just another item and the structure the contents rail shows on desktop
+  disappeared from the body. h3 moves to the reading face at 600: the change
+  of family carries the step that size alone could not. Playfair also gets
+  spindly near text sizes (see the note in tailwind.config.mjs), which is
+  the other reason the item heading belongs in Inter. em, not px, so it
+  follows the Larger text toggle.
+*/
+.reading-article h3 { margin-top: 1.9em; font-family: Inter, 'Inter Fallback', system-ui, -apple-system, 'Segoe UI', sans-serif; font-size: 1.15em; font-weight: 600; line-height: 1.4; letter-spacing: -.011em; font-feature-settings: 'kern' 1, 'liga' 1; scroll-margin-top: 175px; }
+.reading-article h2 + * { margin-top: 1em; }
+.reading-article h3 + * { margin-top: .55em; }
 .reading-article strong { color: #303729; font-weight: 600; }
 .reading-article a { color: #4c603f; text-decoration-color: #9aa386; text-underline-offset: 4px; }
 .reading-article a:hover { color: #8f4728; text-decoration-color: currentColor; }
@@ -164,10 +175,9 @@ body:has(.post-page) #progress { width: 100%; height: 3px; background: #7a825f; 
   .reading-tools { margin-top: 24px; gap: 8px; }
   .reading-time-left, .reading-size { font-size: 11px; }
   .reading-size { padding-inline: 9px; }
-  .reading-article { font-size: 17px; line-height: 1.85; margin-top: 26px; }
+  .reading-article { font-size: 17px; line-height: 1.7; margin-top: 26px; }
   .reading-article[data-text-size='large'] { font-size: 20px; }
   .reading-article h2 { font-size: 26px; line-height: 1.32; margin-top: 1.9em; padding-top: 1em; }
-  .reading-article h3 { font-size: 22px; }
   .reading-article > p:first-of-type::first-letter { font-size: 3.25em; }
   .reading-article blockquote { padding: 20px; }
   .reading-article .product-callout { padding: 21px 20px; }
