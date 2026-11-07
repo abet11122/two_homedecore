@@ -389,23 +389,61 @@ const jsonLd = { '@context': 'https://schema.org', '@graph': graph };
     {loadAdsense && (
       <script is:inline>
         (function () {
-          function openConsent() {
+          /*
+            Google only loads its revocation tool where consent is required
+            (the EEA, UK and Switzerland). Elsewhere there is no stored choice
+            to change, so rather than let the link do nothing, it opens the
+            part of the privacy policy that explains why.
+          */
+          var POLICY = '/privacy-policy/#consent';
+          function revocationReady() {
+            return !!(window.googlefc && typeof window.googlefc.showRevocationMessage === 'function');
+          }
+          function openConsent(arrivedByLink) {
+            if (revocationReady()) {
+              window.googlefc.showRevocationMessage();
+              return;
+            }
+            if (!arrivedByLink) {
+              // Clicked here, long after load: if the tool is absent now, it
+              // is not coming for this visitor.
+              location.href = POLICY;
+              return;
+            }
+            // Sent here from a page without the tool, which may still be
+            // loading. Queue the call, and fall back to the policy if it never
+            // turns up. Guarded, so a queue run without the function cannot throw.
+            var opened = false;
             window.googlefc = window.googlefc || {};
             window.googlefc.callbackQueue = window.googlefc.callbackQueue || [];
-            // Deferred inside a function: googlefc may not exist yet, and the
-            // queue runs this once Google's consent tool has loaded.
             window.googlefc.callbackQueue.push(function () {
-              window.googlefc.showRevocationMessage();
+              if (!opened && revocationReady()) {
+                opened = true;
+                window.googlefc.showRevocationMessage();
+              }
             });
+            setTimeout(function () {
+              if (opened) return;
+              if (revocationReady()) {
+                opened = true;
+                window.googlefc.showRevocationMessage();
+              } else {
+                location.href = POLICY;
+              }
+            }, 2500);
           }
           document.addEventListener('click', function (event) {
             var target = event.target;
             var link = target instanceof Element && target.closest('[data-privacy-settings]');
             if (!link) return;
             event.preventDefault();
-            openConsent();
+            openConsent(false);
           });
-          if (location.hash === '#privacy-settings') openConsent();
+          if (location.hash === '#privacy-settings') {
+            // Drop the hash so a reload does not reopen it.
+            history.replaceState(null, '', location.pathname + location.search);
+            openConsent(true);
+          }
         })();
       </script>
     )}
