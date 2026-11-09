@@ -107,6 +107,14 @@ export default defineConfig({
     '/post/toddler-friendly-halloween-decor-ideas-non-scary/': { status: 301, destination: '/post/non-scary-halloween-decor-toddler-rooms/' },
     '/post/small-space-halloween-decor/': { status: 301, destination: '/post/small-apartment-halloween-decor-renter-friendly/' },
     '/post/small-apartment-storage-ideas/': { status: 301, destination: '/post/small-apartment-organization-ideas/' },
+    /*
+      Off-niche Halloween posts pruned on 2026-10-24. Only the two with a
+      genuinely related live guide are redirected; the costume, nail, makeup
+      and trick-or-treat bag posts have no honest match and stay 404, which is
+      the correct signal for content removed on purpose.
+    */
+    '/post/halloween-charcuterie-snack-board-ideas/': { status: 301, destination: '/post/halloween-dessert-table-styling-ideas/' },
+    '/post/halloween-drink-cocktail-ideas/': { status: 301, destination: '/post/halloween-dining-room-tablescape-ideas/' },
   },
   integrations: [
     sitemap({
