@@ -15,7 +15,7 @@ const name = hasPerson ? SITE.person.name : SITE.author;
 const role = hasPerson ? SITE.person.role : SITE.authorRole;
 const bio = hasPerson && !SITE.person.bio.startsWith('[') ? SITE.person.bio : SITE.authorBio;
 const photo = hasPerson ? SITE.person.photo : SITE.authorAvatar;
-const href = hasPerson ? '/about/' : `/author/${SITE.authorSlug}/`;
+const href = `/author/${SITE.authorSlug}/`;
 ---
 
 <aside class="author-note mt-14 border-y border-rule py-8" aria-label="About the author">
@@ -41,7 +41,7 @@ const href = hasPerson ? '/about/' : `/author/${SITE.authorSlug}/`;
           </>
         )}
       </p>
-      <a class="author-stories" href={`/author/${SITE.authorSlug}/`}>Browse the editorial archive <span aria-hidden="true">↗</span></a>
+      <a class="author-stories" href={href}>Every guide by {name} <span aria-hidden="true">↗</span></a>
     </div>
   </div>
 </aside>

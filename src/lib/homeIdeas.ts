@@ -30,7 +30,12 @@ export async function homeIdeas() {
     posts.find((p) => p.data.featured && p.data.category !== 'seasonal') ??
     posts[0];
 
-  const gridPosts = posts.filter((post) => post.id !== featured?.id);
+  /*
+    The grid holds the whole library, featured guide included. Leaving the
+    featured one out made the hero say "86 guides" while the grid said "85",
+    on the same screen.
+  */
+  const gridPosts = posts;
 
   return { posts, featured, gridPosts };
 }

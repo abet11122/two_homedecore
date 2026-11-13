@@ -24,7 +24,7 @@ export async function GET(context: APIContext) {
     '',
     `> ${SITE.description}`,
     '',
-    `Published by ${SITE.author}. ${SITE.authorBio}`,
+    `Written by ${SITE.person.name}. ${SITE.person.bio}`,
     '',
     `${posts.length} free articles across ${CATEGORIES.length} rooms. Each article shows a publication date and an update date when one is provided.`,
     '',
@@ -56,7 +56,7 @@ export async function GET(context: APIContext) {
     '## About',
     '',
     `- [About ${SITE.name}](${url('/about/')}): editorial standards and how the site is funded`,
-    `- [${SITE.author}](${url(`/author/${SITE.authorSlug}/`)}): publisher archive`,
+    `- [${SITE.person.name}](${url(`/author/${SITE.authorSlug}/`)}): the author, and every guide on the site`,
     `- [Disclosure](${url('/disclosure/')}): affiliate and advertising policy`,
     ''
   );

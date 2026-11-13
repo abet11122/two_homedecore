@@ -77,8 +77,13 @@ const values = [
       <div class="lg:col-span-7">
         <div class="article no-dropcap">
           <h2>Who runs {SITE.name}</h2>
-          {hasPerson && <p>Hi, I'm {SITE.person.name}, and I run {SITE.name}.</p>}
-          {story.map((para) => <p>{para}</p>)}
+          {hasPerson && <p>Hi, I'm <a href={`/author/${SITE.authorSlug}/`}>{SITE.person.name}</a>, and I run {SITE.name}. {SITE.person.bio}</p>}
+          {hasPerson && story.length > 0 && (
+            <p>
+              How each guide is researched, measured and corrected is set out on
+              <a href={`/author/${SITE.authorSlug}/`}>my author page</a>, alongside every guide I have published here.
+            </p>
+          )}
           <p>
             {SITE.name} is a small independent site about decorating and organizing compact homes.
             The guides are written for people living in apartments, rentals and small houses, where
@@ -133,6 +138,12 @@ const values = [
           <p class="mt-2 font-display text-2xl text-ink">{hasPerson ? SITE.person.name : SITE.author}</p>
           <p class="mt-1 text-xs uppercase tracking-[0.1em] text-ink-40">{hasPerson ? SITE.person.role : SITE.authorRole}</p>
           <p class="mt-4 text-[0.9375rem] leading-relaxed text-ink-60">{hasPerson && !SITE.person.bio.startsWith('[') ? SITE.person.bio : SITE.authorBio}</p>
+          {hasPerson && <a href={`/author/${SITE.authorSlug}/`} class="link-arrow mt-6 mr-6">
+            Author page
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true">
+              <path d="M5 12h14M13 6l6 6-6 6"></path>
+            </svg>
+          </a>}
           <a href="/contact/" class="link-arrow mt-6">
             Get in touch
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true">

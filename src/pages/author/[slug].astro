@@ -10,25 +10,34 @@ import { SITE, CATEGORIES, categoryName, formatDateShort, isVisiblePost } from '
 export const prerender = true;
 
 /**
- * Author hub.
+ * The named author's page.
  *
- * Google's guidance on helpful content leans hard on who wrote a page and why
- * they are qualified to. Every article already carries an author byline and a
- * Person node in its structured data — this is the page that node points at,
- * so the claim resolves to something real instead of dangling.
+ * Every byline, the author box and the Article schema's Person point here,
+ * so "who wrote this" resolves to one indexable page about one person
+ * rather than a house byline. The old /author/editorial-team/ hub 301s
+ * here (astro.config.mjs).
  */
 export async function getStaticPaths() {
   return [{ params: { slug: SITE.authorSlug } }];
 }
+
+// Same gate the byline and AuthorBox use, so this page never shows a
+// placeholder the rest of the site is hiding.
+const hasPerson = !SITE.person.name.startsWith('[');
+const name = hasPerson ? SITE.person.name : SITE.author;
+const role = hasPerson ? SITE.person.role : SITE.authorRole;
+const bio = hasPerson && !SITE.person.bio.startsWith('[') ? SITE.person.bio : SITE.authorBio;
+const photo = hasPerson ? SITE.person.photo : SITE.authorAvatar;
+const story = hasPerson ? SITE.person.story.filter((para) => !para.startsWith('[')) : [];
 
 const posts = (await getCollection('posts')).filter(isVisiblePost).sort(
   (a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime()
 );
 
 const [latest, ...rest] = posts;
-const recent = rest.slice(0, 5);
+const recent = rest.slice(0, 8);
 
-// Rooms written about most — concrete evidence of where the expertise sits.
+// Rooms written about most — where the archive actually sits.
 const beats = CATEGORIES.map((c) => ({
   ...c,
   count: posts.filter((p) => p.data.category === c.slug).length,
@@ -37,16 +46,37 @@ const beats = CATEGORIES.map((c) => ({
   .sort((a, b) => b.count - a.count);
 
 const oldest = posts[posts.length - 1];
-const description = `${SITE.author}, ${SITE.authorRole.toLowerCase()} at ${SITE.name}. ${SITE.authorBio}`;
+const description = `${name}, ${role.toLowerCase()} of ${SITE.name}. ${bio}`.slice(0, 300);
 
 const origin = (Astro.site ?? new URL(SITE.url)).origin;
+const pageUrl = `${origin}/author/${SITE.authorSlug}/`;
 
+/*
+  ProfilePage with the Person as mainEntity. The @id matches the one every
+  BlogPosting's author points at (Layout.astro), so search engines resolve
+  the byline and this page to the same person.
+*/
 const profileSchema = {
-  '@type': 'CollectionPage',
-  '@id': `${origin}/author/${SITE.authorSlug}/#archive`,
+  '@type': 'ProfilePage',
+  '@id': `${pageUrl}#profile`,
+  url: pageUrl,
+  name: `${name} — ${SITE.name}`,
   isPartOf: { '@id': `${origin}/#website` },
-  about: { '@id': `${origin}/#organization` },
-  mainEntity: {
+  ...(oldest ? { dateCreated: oldest.data.publishDate.toISOString() } : {}),
+  mainEntity: hasPerson
+    ? {
+        '@type': 'Person',
+        '@id': `${pageUrl}#person`,
+        name,
+        url: pageUrl,
+        jobTitle: role,
+        description: bio,
+        ...(photo ? { image: new URL(photo, origin).href } : {}),
+        worksFor: { '@id': `${origin}/#organization` },
+        ...(SITE.authorLinks.length ? { sameAs: SITE.authorLinks } : {}),
+      }
+    : { '@id': `${origin}/#organization` },
+  hasPart: {
     '@type': 'ItemList',
     numberOfItems: posts.length,
     itemListElement: posts.slice(0, 20).map((post, i) => ({
@@ -59,27 +89,21 @@ const profileSchema = {
 };
 ---
 
-{/*
-  Crawlable, not indexed. Articles name a Person whose url is /about/, so
-  that page is the author's. This one is a second listing of the same
-  archive under the publisher's name, which is a thin duplicate to index.
-*/}
 <Layout
-  title={SITE.author}
+  title={name}
   description={description}
   imageWide={latest?.data.heroImage}
-  noindex
   schemas={[profileSchema]}
 >
   <header class="border-b border-rule bg-sand/40">
     <div class="wrap py-10 lg:py-14">
-      <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: SITE.author }]} />
+      <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'About', href: '/about/' }, { label: name }]} />
 
       <div class="mt-8 grid gap-9 lg:grid-cols-12 lg:items-center lg:gap-14">
-        {SITE.authorAvatar && <div class="lg:col-span-2">
+        {photo && <div class="lg:col-span-2">
           <img
-            src={SITE.authorAvatar}
-            alt={SITE.author}
+            src={photo}
+            alt={`Portrait of ${name}`}
             width="160"
             height="160"
             loading="eager"
@@ -87,18 +111,18 @@ const profileSchema = {
           />
         </div>}
 
-        <div class="lg:col-span-10">
-          <p class="eyebrow">{SITE.authorRole}</p>
+        <div class={photo ? 'lg:col-span-10' : 'lg:col-span-12'}>
+          <p class="eyebrow">{role}, {SITE.name}</p>
           <h1 class="mt-4 font-display text-[2.5rem] leading-[1.05] text-ink sm:text-5xl lg:text-[3.5rem]">
-            {SITE.author}
+            {name}
           </h1>
           <p class="mt-5 max-w-2xl text-[1.0625rem] leading-relaxed text-ink-60">
-            {SITE.authorBio}
+            {bio}
           </p>
 
           <dl class="mt-8 flex flex-wrap gap-x-12 gap-y-5 border-t border-rule pt-6">
             <div>
-              <dt class="eyebrow-muted">Stories</dt>
+              <dt class="eyebrow-muted">Guides</dt>
               <dd class="mt-1.5 font-display text-2xl text-ink">{posts.length}</dd>
             </div>
             <div>
@@ -107,9 +131,9 @@ const profileSchema = {
             </div>
             {oldest && (
               <div>
-                <dt class="eyebrow-muted">Archive since</dt>
+                <dt class="eyebrow-muted">Writing here since</dt>
                 <dd class="mt-1.5 font-display text-2xl text-ink">
-                  {oldest.data.publishDate.getUTCFullYear()}
+                  {oldest.data.publishDate.toLocaleDateString('en-US', { month: 'long', year: 'numeric', timeZone: 'UTC' })}
                 </dd>
               </div>
             )}
@@ -127,8 +151,21 @@ const profileSchema = {
     </div>
   </header>
 
-  <section class="wrap py-12 lg:py-16" aria-labelledby="author-beats">
-    <h2 id="author-beats" class="eyebrow-muted">What {SITE.author} writes about</h2>
+  {story.length > 0 && (
+    <section class="wrap py-12 lg:py-16" aria-labelledby="author-method">
+      <div class="article no-dropcap mx-auto max-w-reading">
+        <h2 id="author-method">How I write these guides</h2>
+        {story.map((para) => <p>{para}</p>)}
+        <p>
+          Found something wrong in a guide? <a href="/contact/">Tell me</a> and I will correct it and
+          show the update date. How the site is funded is set out in the <a href="/disclosure/">disclosure policy</a>.
+        </p>
+      </div>
+    </section>
+  )}
+
+  <section class="wrap pb-12 lg:pb-16" aria-labelledby="author-beats">
+    <h2 id="author-beats" class="eyebrow-muted">What {name} writes about</h2>
     <ul class="mt-5 flex flex-wrap items-baseline gap-x-7 gap-y-3">
       {beats.map((c) => (
         <li>
@@ -145,7 +182,7 @@ const profileSchema = {
 
   {latest && (
     <section class="wrap" aria-labelledby="author-latest">
-      <SectionHead id="author-latest" kicker="Most recent" title="Latest byline" />
+      <SectionHead id="author-latest" kicker="Most recent" title="Latest guide" />
       <div class="mt-12">
         <PostCard post={latest} variant="wide" sizes="(min-width: 640px) 45vw, 90vw" />
       </div>
@@ -157,7 +194,7 @@ const profileSchema = {
       <SectionHead
         id="author-archive"
         kicker="The back catalogue"
-        title="More from Small Cozy Home"
+        title={`More from ${name}`}
         href="/tags/"
         hrefLabel="Browse all"
       />

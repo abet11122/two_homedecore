@@ -72,19 +72,6 @@ export const prerender = true;
     <a href="https://www.aboutads.info/choices/" rel="nofollow noopener" target="_blank">aboutads.info</a>.
   </p>
 
-  {SITE.monetagDirectLink && (
-    <>
-      <h2>Sponsored links</h2>
-      <p>
-        The site footer carries a link marked <strong>Sponsored offers</strong>, supplied by Monetag.
-        It is an ordinary link: nothing from Monetag loads on this site, and nothing is stored in your
-        browser until you choose to follow it. If you do, you leave this site for an offer selected by
-        Monetag, and that site's own privacy practices apply. We do not choose, review or endorse the
-        offers shown, and we may earn a payment when the link is used.
-      </p>
-    </>
-  )}
-
   <h2>Cookies and similar technologies</h2>
   <p>
     Cookies are small files a website or a third party stores in your browser. This site and the
@@ -117,9 +104,6 @@ export const prerender = true;
     <li><strong>Google</strong> — analytics signals, and advertising delivery and measurement through AdSense.</li>
     <li><strong>Our hosting provider (Vercel)</strong> — to serve and protect the site.</li>
     <li><strong>Google advertising partners</strong> — third-party ad vendors that Google certifies. Google lists them in its <a href="https://support.google.com/admanager/answer/9012903" rel="nofollow noopener" target="_blank">ad technology providers list</a>.</li>
-    {SITE.monetagDirectLink && (
-      <li><strong>Monetag</strong> — only if you follow the footer's sponsored link, and then on Monetag's own site rather than this one.</li>
-    )}
     <li><strong>Pinterest</strong> — when its sharing script is loaded or you use a Pinterest link.</li>
     <li><strong>Legal authorities</strong> — where we are legally required to.</li>
   </ul>

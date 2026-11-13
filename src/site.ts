@@ -4,7 +4,8 @@
  */
 
 export const SITE = {
-  name: 'smallcozyhome.store',
+  /** The brand, used in titles, the masthead, schema and legal pages. Not the domain. */
+  name: 'Small Cozy Home',
   tagline: 'Big ideas for small, cozy spaces',
   description:
     'Small Cozy Home is your guide to making every square foot count — room styling, storage ideas, DIY projects and cozy decor for real homes of every size.',
@@ -85,35 +86,12 @@ export const SITE = {
   pinterestVerification: '',
   /** Paste your Google Search Console verification code here. */
   googleVerification: 'ZtIbCUoxgl0O7sXwcRjCEO-6a2PBnsdhgGXnFHOVOgA',
-  /** Paste your Monetag site-verification code here (Sites -> Verify). */
-  monetagVerification: '48b54e9aa46ea81d89e424bb333eedfa',
   /**
-   * Monetag Multitag zone. One tag serves popunders, interstitials and
-   * push, and which of them appears is decided on Monetag's side, not
-   * here — so this is the kill switch: clear monetagZone, redeploy, and
-   * every Monetag format stops at once. Worth knowing where this line is
-   * if AdSense ever asks about the ads on the page.
+   * Slug for the named author page at /author/<slug>/. Every byline, the
+   * Article schema's Person url and the footer link point here. The old
+   * /author/editorial-team/ hub 301s to it (astro.config.mjs).
    */
-  monetagZone: '',
-  /** Delivery host for the tag above. Monetag rotates these; copy whatever
-      is in the snippet they hand you rather than reusing an old one. */
-  monetagTagSrc: 'https://quge5.com/88/tag.min.js',
-  /**
-   * Monetag Direct Link. Unlike the Multitag above this loads no script
-   * and injects nothing — it is only a URL behind a link, which is why it
-   * is the one Monetag format that cannot affect AdSense or page speed.
-   *
-   * It is rendered in the footer, labelled, and carries rel="sponsored".
-   * Google treats an unmarked monetised link as a link scheme, so if this
-   * is ever moved, the label and the rel go with it. Never wire it to open
-   * on a page click or as a popunder: that is the behaviour that makes the
-   * other formats a problem.
-   */
-  // Paused while the AdSense review is open: the offers behind it are
-  // Monetag's choice, not ours. Restore with 'https://uplcm.com/4/12207174'.
-  monetagDirectLink: '',
-  /** Slug for the author hub page at /author/<slug>/. */
-  authorSlug: 'editorial-team',
+  authorSlug: 'mubashar-shahzad',
   /** Verified public profiles for the publisher. */
   authorLinks: [] as string[],
   locale: 'en_US',

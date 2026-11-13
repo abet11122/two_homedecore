@@ -82,13 +82,6 @@ const adsenseId =
 const consentManagementConfigured =
   import.meta.env.PUBLIC_ADSENSE_CMP_CONFIGURED === 'true' || SITE.consentMessageConfigured;
 const loadAdsense = Boolean(allowAds && !noindex && adsenseId && consentManagementConfigured);
-/*
-  Monetag rides the same allowAds/noindex gate as AdSense, so it stays off
-  the admin panel, the 404 and anything noindexed. It deliberately does NOT
-  wait on the CMP the way loadAdsense does: Monetag runs its own consent
-  handling, so gating it on Google's would leave it permanently off.
-*/
-const loadMonetag = Boolean(allowAds && !noindex && SITE.monetagZone && SITE.monetagTagSrc);
 
 /*
   Which room the reader is standing in. A category page marks its own item;
@@ -154,8 +147,14 @@ const articleNode =
         image: [ogImage, twitterImage].filter((v, i, a) => a.indexOf(v) === i),
         datePublished: publishDate,
         dateModified: updatedDate || publishDate,
+        // Same @id as the Person on the author page, so both resolve to one entity.
         author: hasPerson
-          ? { '@type': 'Person', name: SITE.person.name, url: `${origin}/about/` }
+          ? {
+              '@type': 'Person',
+              '@id': `${origin}/author/${SITE.authorSlug}/#person`,
+              name: SITE.person.name,
+              url: `${origin}/author/${SITE.authorSlug}/`,
+            }
           : { '@id': ORG_ID },
         publisher: { '@id': ORG_ID },
         isPartOf: { '@id': SITE_ID },
@@ -240,9 +239,6 @@ const jsonLd = { '@context': 'https://schema.org', '@graph': graph };
     {SITE.googleVerification && (
       <meta name="google-site-verification" content={SITE.googleVerification} />
     )}
-    {SITE.monetagVerification && (
-      <meta name="monetag" content={SITE.monetagVerification} />
-    )}
     {adsenseId && <meta name="google-adsense-account" content={adsenseId} />}
 
     <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
@@ -293,19 +289,6 @@ const jsonLd = { '@context': 'https://schema.org', '@graph': graph };
       gtag('js', new Date());
       gtag('config', 'G-GPZD9NPCSL');
     </script>
-
-    {/* Monetag Multitag — in <head> because the tag binds early; async, so
-        it does not block the parser. data-cfasync keeps Cloudflare's Rocket
-        Loader from deferring it, which is what Monetag's own snippet asks
-        for. See monetagZone in site.ts for the kill switch. */}
-    {loadMonetag && (
-      <script
-        is:inline
-        async
-        data-cfasync="false"
-        src={SITE.monetagTagSrc}
-        data-zone={SITE.monetagZone}></script>
-    )}
   </head>
 
   <body>
@@ -355,7 +338,7 @@ const jsonLd = { '@context': 'https://schema.org', '@graph': graph };
               <li><a href="/about/" class="text-sm text-paper/65 hover:text-clay-soft">About Us</a></li>
               <li>
                   <a href={`/author/${SITE.authorSlug}/`} class="text-sm text-paper/65 hover:text-clay-soft">
-                  {SITE.author}
+                  {hasPerson ? SITE.person.name : SITE.author}
                 </a>
               </li>
               <li><a href="/contact/" class="text-sm text-paper/65 hover:text-clay-soft">Contact Us</a></li>
@@ -389,15 +372,6 @@ const jsonLd = { '@context': 'https://schema.org', '@graph': graph };
           </p>
           <p class="text-xs text-paper/45">
             Some links may earn a commission. <a href="/disclosure/" class="underline underline-offset-2 hover:text-clay-soft">Read our disclosure</a>.
-            {SITE.monetagDirectLink && (
-              <>
-                {' '}<a
-                  href={SITE.monetagDirectLink}
-                  rel="sponsored nofollow noopener"
-                  target="_blank"
-                  class="underline underline-offset-2 hover:text-clay-soft">Sponsored offers</a>.
-              </>
-            )}
           </p>
         </div>
       </div>
