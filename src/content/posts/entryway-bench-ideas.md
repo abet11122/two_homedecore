@@ -96,4 +96,4 @@ Two things help. Give the items that colonise it their own home — a tray for p
 - **A lift-up lid you have to clear first.** It will stop being opened.
 - **Buying for the wall length rather than the person.** 45–60 cm each.
 
-For the rest of the hall — keys, post, and keeping the route clear — [small entryway organization](/post/small-entryway-organization-ideas/) covers the zones, and [narrow hallway decor ideas](/post/narrow-hallway-decor-ideas/) deals with halls too tight for furniture of any kind.
+For the rest of the hall — keys, post, and keeping the route clear — [narrow hallway decor ideas](/post/narrow-hallway-decor-ideas/) covers the drop zones, including halls too tight for furniture of any kind.

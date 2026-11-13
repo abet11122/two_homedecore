@@ -131,4 +131,4 @@ Store lights wrapped around a piece of cardboard so they don't tangle. Fold cush
 
 <!-- [ADD YOUR PHOTO: a close-up of your headboard or bedside display] {file: photo-2} -->
 
-Beyond the bedroom, the [small-space Christmas decor guide](/post/small-space-christmas-decor-ideas/) covers apartments room by room, and [cozy Christmas living room ideas](/post/cozy-christmas-living-room-ideas/) shows how to scale these ideas up for the main room. Want the bedroom to feel cozy all winter? Start with the [cozy small bedroom guide](/post/cozy-small-bedroom-ideas/).
+Beyond the bedroom, the [small-space Christmas decor guide](/post/small-space-christmas-decor-ideas/) covers apartments room by room, and [cozy Christmas living room ideas](/post/cozy-christmas-living-room-ideas/) shows how to scale these ideas up for the main room. Want the bedroom to feel cozy all winter? Start with [small bedroom ideas that look expensive](/post/small-bedroom-ideas-that-look-expensive/), which begins with light and layered bedding.

@@ -2,6 +2,8 @@
 title: "15 Halloween Wreath Ideas — Front Door Styling for Every Style"
 description: "Find the perfect Halloween wreath with 15 front door styling ideas covering dark botanicals, vintage, pink-o-ween, gothic, and DIY wreath designs for 2026."
 category: seasonal
+noindex: true
+excludeFromListings: true
 tags: ["halloween decor", "wreath ideas", "front door decor", "seasonal decorating", "halloween 2026"]
 publishDate: 2026-09-24
 heroImage: "photo-1508193638397-1c4234db14d8"

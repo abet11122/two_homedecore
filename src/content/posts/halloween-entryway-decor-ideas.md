@@ -2,6 +2,8 @@
 title: "15 Halloween Entryway Decor Ideas for a Spooky First Impression"
 description: "Create a spooky first impression with 15 Halloween entryway decor ideas using wreaths, pumpkin displays, lanterns, and seasonal styling for every size entry."
 category: entryway
+noindex: true
+excludeFromListings: true
 tags: ["halloween decor", "entryway decor", "seasonal decorating", "halloween 2026", "front door decor"]
 publishDate: 2026-09-09
 heroImage: "photo-1765766599670-a625d0fef258"
@@ -115,4 +117,4 @@ An entry display has to make an impression without getting in the way of the doo
 
 ## The door and the step outside
 
-The door itself gets its own guide in [Halloween wreath ideas](/post/halloween-wreath-ideas-front-door-styling/). If you have a step or balcony, add [outdoor decor for small spaces](/post/outdoor-halloween-decor-ideas-small-yards-balconies/), and renters should read [renter-friendly Halloween decor](/post/small-apartment-halloween-decor-renter-friendly/) before using adhesive hooks. For the season after, see [fall apartment decor](/post/fall-apartment-decor-ideas/).
+The door itself gets its own guide in [Halloween wreath ideas](/post/halloween-wreath-ideas-front-door-styling/). If you have a step or balcony, add [outdoor decor for small spaces](/post/outdoor-halloween-decor-ideas-small-yards-balconies/), and renters should read [renter-friendly Halloween decor](/post/small-apartment-halloween-decor-renter-friendly/) before using adhesive hooks. For the season after, see [fall apartment decor](/post/fall-living-room-decor-ideas/).

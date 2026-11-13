@@ -109,4 +109,4 @@ You cannot make a television invisible, but you can stop it being the only thing
 - **Visible cables.** Trunking costs almost nothing.
 - **Facing the sofa at the fireplace and the TV simultaneously.** Choose.
 
-In a studio or a room that has to do several jobs, the television's position affects everything else — [zoning a studio](/post/studio-apartment-zoning/) and [small studio apartment ideas](/post/small-studio-apartment-ideas/) both start from the layout rather than the screen.
+In a studio or a room that has to do several jobs, the television's position affects everything else — [small studio apartment ideas](/post/small-studio-apartment-ideas/) starts from the layout rather than the screen.

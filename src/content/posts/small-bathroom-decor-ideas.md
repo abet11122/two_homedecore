@@ -1,130 +1,107 @@
 ---
-title: "Small Bathroom Decor Ideas for a Stylish Space"
-description: "Small bathroom decor ideas that make a tiny room feel bigger: mirror sizes, moisture-proof paint, a high shower curtain, humidity-loving plants and towels."
+title: "Small Bathroom Decor Ideas: Mirror, Light, Paint and One Pattern"
+description: "Small bathroom decor that makes the room feel bigger and survives steam: mirror size, light at face height, paint finish, a high curtain and one pattern."
 category: bathroom
-tags: ["small bathroom", "bathroom decor", "bathroom styling", "small spaces", "bathroom organization"]
+tags: ["small bathroom", "bathroom decor", "bathroom styling", "small spaces", "bathroom lighting"]
 publishDate: 2026-11-08
-updatedDate: 2026-11-08
+updatedDate: 2026-11-13
 heroImage: "photo-1552321554-5fefe8c9ef14"
 pinImage: "photo-1584622650111-993a426fbf0a"
 featured: false
 keyTakeaways:
-  - "Go big with the mirror — about the width of the vanity, or wider — to double the light."
-  - "Use a bathroom-rated paint with a mildew-resistant finish; satin or eggshell suits most small bathrooms."
-  - "Hang the shower curtain rod close to the ceiling with an extra-long curtain to make the room look taller."
-  - "Choose decor that survives steam: glass, ceramic, metal, plants that love humidity."
+  - "Fix the light before the decor: lights either side of the mirror at face height, 2700–3000K, CRI 90 or above."
+  - "Make the mirror about the width of the vanity, with its center 150–165 cm from the floor."
+  - "Choose the paint finish before the color: bathroom-formulated, and an LRV above 70 if you want the room to read bright."
+  - "Hang the shower curtain rod 5–10 cm below the ceiling with an extra-long curtain."
+  - "Use one pattern only, and only materials that survive steam."
 faqs:
   - q: "How do I make a small bathroom look bigger?"
-    a: "Use a large mirror, light walls with one consistent color, a shower curtain hung near the ceiling, a floating vanity or one on legs, clear surfaces, and good lighting at the mirror. Matching the wall and tile colors can also make edges disappear."
-  - q: "What paint finish is best for a small bathroom?"
-    a: "A bathroom-specific or mildew-resistant paint in satin or eggshell is easy to wipe and stands up to steam. Matte bathroom paints exist too and hide wall flaws better, but check that they're rated for high-humidity rooms."
+    a: "Light the mirror from the sides, make the mirror about as wide as the vanity, paint the walls in one light, bathroom-rated color, hang the shower curtain near the ceiling, and keep the counter and floor clear. A floating vanity or one on legs shows more floor, which also helps."
   - q: "What size mirror should go over a bathroom vanity?"
-    a: "A mirror about the same width as the vanity, or slightly narrower, looks balanced. In a small bathroom, going as wide as the vanity — or wall-to-wall — maximizes the light. Hang it so the center is around eye level, roughly 150–165 cm from the floor."
-  - q: "Which plants survive in a bathroom?"
-    a: "Plants that like humidity and cope with lower light: pothos, ferns such as Boston fern, peace lily, snake plant and air plants. A window helps; a windowless bathroom needs a plant that tolerates very low light, or a grow light."
+    a: "About the width of the vanity, or slightly narrower. In a small bathroom, going as wide as the vanity, or wall to wall, gives the most reflected light. Hang it so its center is around eye level, roughly 150–165 cm from the floor."
+  - q: "What color bulb is best for a bathroom mirror?"
+    a: "Warm to neutral white, 2700–3000K, with a color rendering index (CRI) of 90 or above. Low-CRI light makes skin and tile look grey whatever the color temperature. Put the light either side of the mirror at face height rather than overhead, which casts shadows under the eyes."
+  - q: "Which plants survive in a small bathroom?"
+    a: "Plants that like humidity and tolerate lower light: pothos, Boston fern, peace lily and snake plant. A windowless bathroom suits a snake plant or ZZ plant, a grow light, or good faux greenery. Pothos and peace lily are toxic to cats and dogs, so keep them out of reach."
   - q: "How do I decorate a rental bathroom?"
-    a: "Change what you can take with you: a new shower curtain on a tension rod, towels and a bath mat, a freestanding or over-door mirror, plants, a tray for the counter, and new cabinet knobs (keep the originals). Removable wallpaper can work on a dry wall, but check the lease."
+    a: "Change what comes with you: the shower curtain on a tension rod, towels and a bath mat, a freestanding mirror, plants, a counter tray, and the bulb. Swap cabinet knobs only if you keep the originals. Test any adhesive product on a hidden patch for a week, because steam breaks bonds fast."
 ---
 
-Decor in a small bathroom has two jobs at once: make the room feel bigger, and survive steam. A large mirror, light walls in moisture-resistant paint, a shower curtain hung near the ceiling, humidity-loving plants, and a few good-looking things on a clear counter will do both. None of it needs much space — it needs to be chosen well.
+Decor in a small bathroom has two jobs at once: make the room feel bigger, and survive steam. Five decisions do most of it — light at the mirror, the mirror's size, the paint finish, a shower curtain hung near the ceiling, and a single pattern. Everything else is detail, and none of it needs floor space.
 
-For storage and organization, see [small bathroom organization ideas](/post/small-bathroom-organization-ideas/). This guide is about how the room looks.
+This page is the overview. Several of these decisions have a full guide of their own, linked in each section, and the table at the end sends you to the right one for the problem in front of you.
 
 <!-- [ADD YOUR PHOTO: your bathroom before decorating] {file: photo-1} -->
 
-## Make It Feel Bigger
+## 1. Light the mirror, not the ceiling
 
-### 1. Go big with the mirror
+A single ceiling fitting puts every shadow exactly where you need to see: under the eyes, under the chin. Light from either side of the mirror at face height is the fix, and it changes how the whole room looks as well as how you look in it.
 
-A large mirror is the single best decor change in a small bathroom. Make it about the width of the vanity, or go wall-to-wall. Hang it so the center is roughly 150–165 cm from the floor. Round and arched mirrors soften a boxy room.
+Two numbers matter on the bulb: **2700–3000K**, and a **CRI of 90 or above**. Low-CRI light makes skin and tile look grey whatever the color temperature.
 
-### 2. Keep walls light — or go all in
+Bathroom wiring is regulated and fixed fittings are an electrician's job; fittings near water need the right IP rating. [Bathroom lighting ideas](/post/bathroom-lighting-ideas/) covers the layout, the bulb numbers and what renters can change without wiring.
 
-Light colors — warm white, pale green, soft blue, sand — reflect light. Alternatively, a deep color on every wall can make a small bathroom feel cozy and jewel-like. What makes it feel small is mixing lots of colors and patterns.
+## 2. Go wide with the mirror
 
-### 3. Use bathroom-rated paint
+The mirror is the biggest decor change available in a small bathroom, because it doubles whatever light you have. Make it about the **width of the vanity**, or go wall to wall. Hang it with its center roughly **150–165 cm** from the floor. A round or arched mirror softens a boxy room; a cabinet mirror adds storage without losing the effect.
 
-Choose a paint labeled for bathrooms or mildew resistance, in satin or eggshell. It wipes clean and resists steam. Prepare walls properly — clean off any mildew before painting.
+## 3. Choose the finish, then the color
 
-### 4. Hang the shower curtain high
+Steam ruins ordinary paint. Use a paint formulated for bathrooms, usually in satin or eggshell, which wipes clean and resists mildew. Clean off any existing mildew before painting.
 
-Mount the rod about 5–10 cm below the ceiling and use an extra-long curtain (often 213–244 cm / 84–96 in) so it falls to just above the floor. The room looks taller instead of being cut in half. A tension rod works in a rental.
+Then think about reflectance rather than color. A paint's **light reflectance value (LRV)** above about 70 is what makes it read as bright. And a pale color is not the only option: a windowless bathroom often looks better dark and well lit than pale and grey. [Small bathroom paint colors](/post/small-bathroom-paint-colors/) explains LRV, how to test a sample properly and how to work around tile you can't change.
 
-### 5. Show the floor
+## 4. Hang the shower curtain high
 
-A floating vanity, a vanity on legs, or a wall-mounted toilet shows more floor, which makes the room feel larger. If you can't change the fixtures, keep the floor clear of baskets and bins.
+Mount the rod about **5–10 cm below the ceiling** and use an extra-long curtain, often 213–244 cm (84–96 in), so it falls to just above the floor. The room looks taller instead of being cut in half at door height. A tension rod does this in a rental with no holes, and in a rented bathroom it is the biggest single change available. [Rental bathroom makeover](/post/rental-bathroom-makeover/) ranks the rest of the reversible changes.
 
-## Color and Pattern
+## 5. One pattern, and only one
 
-### 6. Add pattern in one place
-
-Choose one: a patterned shower curtain, a tiled floor, removable wallpaper on one dry wall, or a patterned bath mat. One pattern adds character; three make a small room busy.
-
-### 7. Try removable wallpaper on a dry wall
-
-Peel-and-stick wallpaper works best on a wall away from the shower, in a well-ventilated bathroom. Test it on a small patch first.
-
-### 8. Use matching towels
-
-Two or three towel colors that match the walls or shower curtain look calmer than a mixed collection. White, grey, sage, terracotta and navy all work.
+Choose one place for pattern: the shower curtain, a tiled floor, removable wallpaper on a dry wall away from the shower, or the bath mat. One pattern adds character; three make a small room busy. Removable wallpaper needs a well-ventilated room and a hidden test patch left for a week before you commit.
 
 <!-- [ADD YOUR PHOTO: your towels and shower curtain] {file: photo-2} -->
 
-## Lighting
+## 6. Textiles in two or three colors
 
-### 9. Light the mirror from the sides or above
+Towels in two or three colors picked from the walls or the curtain look calmer than a mixed collection. White, grey, sage, terracotta and navy all work. A cotton or chenille bath mat in the accent color adds warmth underfoot; wash it weekly.
 
-A single overhead light casts shadows on your face. Wall lights on each side of the mirror, or a light bar above it, give even light. Use fittings rated for bathroom zones — check the IP rating with an electrician.
+## 7. Plants that like steam
 
-### 10. Use warm-white bulbs
-
-2700–3000K for a warm, flattering look. 4000K is better for close tasks like shaving or makeup, if you prefer brighter light at the mirror.
-
-## Plants
-
-### 11. Add plants that love humidity
-
-- **Pothos:** trails from a shelf; tolerates low light.
-- **Boston fern:** loves steam.
-- **Peace lily:** handles low light.
+- **Pothos:** trails from a shelf and tolerates low light.
+- **Boston fern:** thrives on humidity.
+- **Peace lily:** copes with low light.
 - **Snake plant:** almost indestructible.
-- **Air plants:** no soil; mist or soak them weekly.
 
-Windowless bathrooms are hard on plants; choose a snake plant or ZZ plant, or use faux greenery.
+A windowless bathroom is hard on any plant: choose a snake plant or ZZ plant, add a small grow light, or use good faux greenery. Pothos and peace lily are toxic to cats and dogs, so keep them high. A bunch of fresh eucalyptus tied to the shower head scents the steam for two to three weeks.
 
-### 12. Hang eucalyptus in the shower
+## 8. Clear the counter, then style one tray
 
-A bunch of fresh eucalyptus tied to the shower head releases scent in the steam. Replace it every two to three weeks.
+A clear counter makes a small bathroom feel bigger and takes seconds to wipe. Keep daily essentials on one tray of sealed wood, stone or metal, decant hand soap into a glass or ceramic pump bottle, and put everything else away. New knobs, a towel ring or a toilet roll holder in brass, black or chrome make builder-grade fittings look finished; in a rental, keep the originals in a labeled bag.
 
-## Details
+## 9. Art that can take the humidity
 
-### 13. Style one tray
-
-A small tray on the counter holds soap, a candle and one or two products in matching bottles. Everything else goes in a cabinet.
-
-### 14. Decant soap into matching bottles
-
-Glass or ceramic pump bottles for hand soap and lotion look cleaner than branded packaging. Label them if they look alike.
-
-### 15. Upgrade the hardware
-
-New cabinet knobs, a towel ring, or a toilet roll holder in brass, black or chrome make a builder-grade bathroom look finished. In a rental, keep the originals.
-
-### 16. Add one piece of art
-
-A small framed print in a frame with a glass front, hung away from the shower. Moisture can damage unprotected paper, so choose a printed canvas or a framed print with good ventilation.
-
-### 17. Layer a soft bath mat
-
-A cotton or chenille bath mat in your accent color is soft underfoot and adds warmth. Wash it weekly.
-
-## Decor That Doesn't Survive a Bathroom
-- **A small mirror.** Go wide.
-- **Ordinary paint in a steamy room.** Use bathroom-rated paint.
-- **A curtain rod at door height.** Hang it near the ceiling.
-- **Too many patterns.** Choose one.
-- **Decor that hates moisture.** Paper, unsealed wood and fabric suffer.
+A small print behind glass, in a sealed frame, on the wall furthest from the shower. Unprotected paper and unsealed wood warp in steam. One piece is enough in a small bathroom.
 
 <!-- [ADD YOUR PHOTO: your finished bathroom] {file: photo-3} -->
 
-The practical side is covered in [small bathroom organization ideas](/post/small-bathroom-organization-ideas/), [over-toilet storage](/post/bathroom-over-toilet-storage-ideas/) and [under-sink organization](/post/under-sink-bathroom-organization-ideas/). Hanging anything in a rented bathroom without drilling is covered in [how to decorate without nails](/post/how-to-decorate-without-nails/). The same peel-and-stick cautions apply to tiling anywhere steamy — [renter-friendly backsplash ideas](/post/renter-friendly-backsplash-ideas/) has the test to run first. Renters can find more damage-free upgrades in [apartment decor ideas on a budget](/post/apartment-decor-ideas-budget/).
+## Decor that doesn't survive a bathroom
+
+- **A small mirror.** Go as wide as the vanity.
+- **Ordinary paint.** Use a bathroom-formulated finish.
+- **A curtain rod at door height.** Near the ceiling.
+- **Several patterns.** Choose one.
+- **Paper, unsealed wood and dry-clean fabrics** near the shower.
+- **Adhesive products without a week-long test.** Steam breaks bonds.
+
+## Where to go next
+
+| If the problem is… | Read |
+| --- | --- |
+| Shadows at the mirror, a grey-looking room | [Bathroom lighting ideas](/post/bathroom-lighting-ideas/) |
+| Choosing a wall color that survives steam | [Small bathroom paint colors](/post/small-bathroom-paint-colors/) |
+| A rented bathroom you can't drill or paint | [Rental bathroom makeover](/post/rental-bathroom-makeover/) |
+| Bottles on every surface | [Small bathroom organization](/post/small-bathroom-organization-ideas/) |
+| Chaos under the sink | [Under-sink organization](/post/under-sink-bathroom-organization-ideas/) |
+| An empty wall above the toilet | [Over-toilet storage](/post/bathroom-over-toilet-storage-ideas/) |
+
+Hanging anything without drilling is covered in [how to decorate without nails](/post/how-to-decorate-without-nails/).

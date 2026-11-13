@@ -69,7 +69,7 @@ For curtains it has one real drawback: a tension rod has to sit inside the revea
 
 **Adhesive hooks and strips.** For light frames, hooks and small objects, within the limits above.
 
-**Removable wallpaper and film.** Genuinely transformative on one wall, and genuinely risky on the wrong surface. Same rules as everything else: test patch, a week's wait, written agreement from the landlord for anything large. [Renter-friendly backsplash ideas](/post/renter-friendly-backsplash-ideas/) covers the same products in a kitchen, where heat makes them worse.
+**Removable wallpaper and film.** Genuinely transformative on one wall, and genuinely risky on the wrong surface. Same rules as everything else: test patch, a week's wait, written agreement from the landlord for anything large. The backsplash section of [rental kitchen makeover](/post/rental-kitchen-makeover/) covers the same products in a kitchen, where heat makes them worse.
 
 ## Applying them so they hold
 

@@ -96,4 +96,4 @@ Keep the bedding **in the room** — under the daybed, in an ottoman, in the wal
 - **Bedding stored elsewhere.** Keep it in the room.
 - **No floor for a suitcase.** The most common oversight there is.
 
-If the room has to do a third job as well, [zoning a studio](/post/studio-apartment-zoning/) covers dividing one space between uses, and [how to arrange furniture in a small room](/post/how-to-arrange-furniture-in-a-small-room/) has the walkway widths that constrain any of it.
+If the room has to do a third job as well, [zoning a studio](/post/small-studio-apartment-ideas/) covers dividing one space between uses, and [how to arrange furniture in a small room](/post/how-to-arrange-furniture-in-a-small-room/) has the walkway widths that constrain any of it.

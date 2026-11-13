@@ -2,6 +2,8 @@
 title: "11 Non-Scary Halloween Decor Ideas for Toddler Rooms"
 description: "Decorate a toddler's bedroom for Halloween with 11 contained ideas and a checklist for age guidance, small parts, breakable items, and cords."
 category: bedroom
+noindex: true
+excludeFromListings: true
 tags: ["halloween decor", "toddler room", "kids bedroom", "non-scary halloween", "family halloween"]
 publishDate: 2026-10-02
 updatedDate: 2026-10-13

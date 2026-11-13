@@ -2,6 +2,8 @@
 title: "20 Neon Y2K Apocalypse Halloween Party Decor Ideas"
 description: "Throw a Y2K Apocalypse Halloween party with neon LED strips, silver tablecloths, metallic pumpkins, glitch prints and a fog machine."
 category: seasonal
+noindex: true
+excludeFromListings: true
 tags: ["halloween decor", "y2k decor", "party decor", "neon halloween", "halloween 2026"]
 publishDate: 2026-09-21
 heroImage: "photo-1508193638397-1c4234db14d8"
@@ -145,4 +147,4 @@ Of all this year's seasonal themes, Y2K Apocalypse is the one that rewards exces
 
 ## Food, lights and the morning after
 
-For the food, see [Halloween dessert table styling](/post/halloween-dessert-table-styling-ideas/). If neon is too much, [pink Halloween decor](/post/pink-halloween-decor-ideas-pink-o-ween/) is playful without the black light, and the [haunted house setup](/post/haunted-house-decor-ideas-diy-spooky-setup/) shares the colored-bulb tricks. After the party, the [fall apartment guide](/post/fall-apartment-decor-ideas/) brings things back to warm white.
+For the food, see [Halloween dessert table styling](/post/halloween-dessert-table-styling-ideas/). If neon is too much, [pink Halloween decor](/post/pink-halloween-decor-ideas-pink-o-ween/) is playful without the black light, and the [haunted house setup](/post/haunted-house-decor-ideas-diy-spooky-setup/) shares the colored-bulb tricks. After the party, the [fall apartment guide](/post/fall-living-room-decor-ideas/) brings things back to warm white.

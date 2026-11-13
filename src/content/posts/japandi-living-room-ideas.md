@@ -3,8 +3,8 @@ title: "Japandi Living Room: What Actually Defines It"
 description: "The two traditions behind the look, the materials and proportions that carry it, and why most Japandi rooms online are just beige minimalism."
 category: living-room
 tags: ["japandi", "living room", "minimalism", "styling", "wood tones"]
-publishDate: 2026-11-19
-updatedDate: 2026-11-19
+publishDate: 2026-12-01
+updatedDate: 2026-12-01
 heroImage: "photo-1555041469-a586c61ea9bc"
 pinImage: "photo-1484101403633-562f891dc89a"
 featured: false

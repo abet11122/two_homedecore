@@ -2,6 +2,8 @@
 title: "15 Halloween Home Office Decor Ideas — Spooky Without Distraction"
 description: "Halloween atmosphere for a desk you still have to work at: a small pumpkin, a dark candle behind you, a seasonal mug and a clear worktop."
 category: home-office
+noindex: true
+excludeFromListings: true
 tags: ["halloween decor", "home office decor", "seasonal decorating", "desk decor", "halloween 2026"]
 publishDate: 2026-09-27
 heroImage: "photo-1591382696684-38c427c7547a"
@@ -115,4 +117,4 @@ A desk you work at all day can carry atmosphere, but not a theme. A small pumpki
 
 ## For shared flats and video calls
 
-If the office is in a shared flat, [renter-friendly Halloween decor](/post/small-apartment-halloween-decor-renter-friendly/) has more damage-free options. For video-call backdrops with a softer feel, look at [vintage Halloween decor](/post/vintage-halloween-decor-ideas/) or [elegant Halloween decor](/post/elegant-halloween-decor/). Once November starts, [fall apartment decor](/post/fall-apartment-decor-ideas/) keeps the desk warm without the skeletons.
+If the office is in a shared flat, [renter-friendly Halloween decor](/post/small-apartment-halloween-decor-renter-friendly/) has more damage-free options. For video-call backdrops with a softer feel, look at [vintage Halloween decor](/post/vintage-halloween-decor-ideas/) or [elegant Halloween decor](/post/elegant-halloween-decor/). Once November starts, [fall apartment decor](/post/fall-living-room-decor-ideas/) keeps the desk warm without the skeletons.

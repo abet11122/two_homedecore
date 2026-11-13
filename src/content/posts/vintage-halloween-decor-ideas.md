@@ -2,6 +2,8 @@
 title: "17 Vintage Halloween Decor Ideas for a Nostalgic Seasonal Display"
 description: "Create a nostalgic Halloween display with 17 vintage Halloween decor ideas using retro prints, antique candlesticks, aged pumpkins, and warm amber lighting."
 category: seasonal
+noindex: true
+excludeFromListings: true
 tags: ["halloween decor", "vintage decor", "seasonal decorating", "retro halloween", "autumn"]
 publishDate: 2026-09-05
 heroImage: "photo-1508193638397-1c4234db14d8"

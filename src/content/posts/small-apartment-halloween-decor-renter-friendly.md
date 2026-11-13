@@ -2,6 +2,8 @@
 title: "17 Small Apartment Halloween Decor Ideas — Renter-Friendly"
 description: "Decorate a small rental apartment for Halloween with tabletop displays, clear walkways, and a checklist for lease, surface, and adhesive restrictions."
 category: renter
+noindex: true
+excludeFromListings: true
 tags: ["halloween decor", "renter friendly", "small spaces", "apartment decor", "seasonal decorating"]
 publishDate: 2026-09-03
 updatedDate: 2026-10-13
@@ -126,4 +128,4 @@ Start with one focal point, keep walkways and exits clear, and favor pieces that
 
 ## Doors, balconies and bathrooms
 
-Your front door gets more attention in [Halloween entryway decor](/post/halloween-entryway-decor-ideas/), and a balcony can join in with [outdoor decor for small spaces](/post/outdoor-halloween-decor-ideas-small-yards-balconies/). The [Halloween bathroom guide](/post/halloween-bathroom-decor-ideas/) is full of peel-off ideas for rentals. When it's all packed away, [fall apartment decor](/post/fall-apartment-decor-ideas/) uses the same damage-free hooks.
+Your front door gets more attention in [Halloween entryway decor](/post/halloween-entryway-decor-ideas/), and a balcony can join in with [outdoor decor for small spaces](/post/outdoor-halloween-decor-ideas-small-yards-balconies/). The [Halloween bathroom guide](/post/halloween-bathroom-decor-ideas/) is full of peel-off ideas for rentals. When it's all packed away, [fall apartment decor](/post/fall-living-room-decor-ideas/) uses the same damage-free hooks.

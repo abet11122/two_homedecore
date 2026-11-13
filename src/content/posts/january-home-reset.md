@@ -93,7 +93,7 @@ Resist tidying the whole house. Instead, pick the **single spot that annoys you 
 
 Fix that one properly. A system that holds beats a whole-house tidy that undoes itself.
 
-Depending on where yours is: [small entryway organization](/post/small-entryway-organization-ideas/), [small kitchen organization ideas](/post/small-kitchen-organization-ideas/), or [small bedroom storage](/post/small-bedroom-storage-ideas/).
+Depending on where yours is: [narrow hallway decor ideas](/post/narrow-hallway-decor-ideas/), [small kitchen organization ideas](/post/small-kitchen-organization-ideas/), or [small bedroom storage](/post/small-bedroom-storage-ideas/).
 
 ## What not to do in January
 

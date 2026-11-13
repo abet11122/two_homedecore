@@ -3,8 +3,8 @@ title: "Cozy Winter Home Decor Ideas for a Warm January Home"
 description: "Cozy winter decor for after the holidays: what to keep from Christmas, textiles, warm lighting, drafts, winter greenery and a calm palette — room by room."
 category: "seasonal"
 tags: ["winter decor", "cozy home", "seasonal decorating", "home styling", "hygge"]
-publishDate: 2026-11-22
-updatedDate: 2026-11-22
+publishDate: 2026-11-21
+updatedDate: 2026-11-21
 heroImage: "photo-1507003211169-0a1dd7228f2d"
 pinImage: "photo-1543589077-47d81606c1bf"
 featured: false
@@ -133,7 +133,7 @@ Throws, layered rugs, lamps, candles and a basket of logs or pinecones.
 
 ### 19. Bedroom
 
-Flannel sheets, a wool blanket, a runner by the bed, and a warm bedside lamp. See [cozy small bedroom ideas](/post/cozy-small-bedroom-ideas/).
+Flannel sheets, a wool blanket, a runner by the bed, and a warm bedside lamp. See [small bedroom ideas that look expensive](/post/small-bedroom-ideas-that-look-expensive/).
 
 ### 20. Kitchen
 
@@ -141,7 +141,7 @@ A bowl of citrus, a pot of soup or stew, and a jar of winter branches on the tab
 
 ### 21. Entry
 
-A boot tray, a basket of hats and gloves, and a warm lamp for coming home in the dark. See [small entryway organization](/post/small-entryway-organization-ideas/).
+A boot tray, a basket of hats and gloves, and a warm lamp for coming home in the dark. [Narrow hallway decor ideas](/post/narrow-hallway-decor-ideas/) covers organizing the drop zone.
 
 ## Easy to Get Wrong in January
 - **Keeping all the Christmas decor up.** Edit to wintry pieces only.

@@ -54,7 +54,7 @@ This is free if you are moving an existing rod, and it is one of the biggest cha
 
 Every strong edge is something for the eye to measure. Walls, ceiling, woodwork and curtains that sit close in tone remove those edges and the room's boundaries blur.
 
-Note that this does **not** mean white. A bedroom painted a single deep colour — walls, woodwork and often the ceiling — routinely looks larger than a white room with brilliant white trim and a dark floor, because the dark room has fewer internal edges. [Cozy small bedroom ideas](/post/cozy-small-bedroom-ideas/) leans into that version.
+Note that this does **not** mean white. A bedroom painted a single deep colour — walls, woodwork and often the ceiling — routinely looks larger than a white room with brilliant white trim and a dark floor, because the dark room has fewer internal edges. [Earthy bedroom ideas](/post/earthy-bedroom-ideas/) leans into a warm version of that.
 
 ### Clear the surfaces
 

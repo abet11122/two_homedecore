@@ -84,7 +84,7 @@ The classic balcony complaint is water running onto the flat below — and it is
 
 **Tomatoes and chillies** — reliable in a sunny spot in a 30-litre-plus pot. Needs consistent watering or the fruit splits.
 
-**Tall grasses** — the best balcony screening plant: light, moves in the wind rather than fighting it, and looks good for most of the year. See [small balcony privacy ideas](/post/small-balcony-privacy-ideas/) for using them that way.
+**Tall grasses** — the best balcony screening plant: light, moves in the wind rather than fighting it, and looks good for most of the year. The privacy section of [small balcony decor ideas](/post/balcony-decor-ideas/) covers using them that way.
 
 **Ferns and hostas** — for a shaded balcony, and better than struggling with sun-lovers in the wrong place.
 

@@ -3,8 +3,8 @@ title: "A Small Living Room With a Dining Table in It"
 description: "The clearances two functions need in one room, which table shapes survive it, and how to stop the whole space reading as a waiting area."
 category: small-spaces
 tags: ["living room", "dining", "furniture layout", "small spaces", "measuring"]
-publishDate: 2026-11-19
-updatedDate: 2026-11-19
+publishDate: 2026-11-26
+updatedDate: 2026-11-26
 heroImage: "photo-1502672023488-70e25813eb80"
 pinImage: "photo-1618221195710-dd6b41faaea6"
 featured: false
@@ -74,7 +74,7 @@ A single open room with a table at one end and a sofa at the other reads as a wa
 
 **The back of the sofa as the line.** Face the sofa away from the table. A narrow console behind it reinforces the boundary and adds a surface for lamps.
 
-[Zoning a studio](/post/studio-apartment-zoning/) takes the same approach further for a room doing three jobs.
+[Zoning a studio](/post/small-studio-apartment-ideas/) takes the same approach further for a room doing three jobs.
 
 ## Chairs that earn their space
 

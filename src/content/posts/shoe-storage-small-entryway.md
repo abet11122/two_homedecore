@@ -103,4 +103,4 @@ Some halls have none to give. The route is 80 cm wide and the door opens across 
 - **Ignoring the door swing.** It decides what fits more than the floor area does.
 - **A unit deeper than the hall can give.** Leave 75 cm to walk through.
 
-Once the shoes have a home, the next question is usually whether there is room to sit down while putting them on — [entryway bench ideas](/post/entryway-bench-ideas/) has the dimensions. For the hall as a whole, [small entryway organization](/post/small-entryway-organization-ideas/) covers keys, post and the route through.
+Once the shoes have a home, the next question is usually whether there is room to sit down while putting them on — [entryway bench ideas](/post/entryway-bench-ideas/) has the dimensions. For the hall as a whole, [narrow hallway decor ideas](/post/narrow-hallway-decor-ideas/) covers keys, post and the route through.

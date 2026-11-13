@@ -1,192 +1,121 @@
 ---
-title: "Small Home Office Ideas for Tiny Corners"
-description: "Small home office ideas for corners, closets, hallways and shared rooms — desk sizes, layouts, storage and lighting that make a tiny workspace usable."
+title: "Small Home Office Ideas: Six Places a Desk Fits, With Sizes"
+description: "Where a desk fits in a home with no spare room — closet, corner, wall, stairs, console or fold-down — with the 100 × 135 cm footprint, desk heights and storage."
 category: "home-office"
 tags: ["home office", "small spaces", "desk", "storage", "lighting"]
 publishDate: 2026-08-29
-updatedDate: 2026-10-24
+updatedDate: 2026-11-13
 heroImage: "photo-1777460978703-32d290b8f9e3"
 pinImage: "photo-1697809462690-57bc1601f665"
 featured: false
 affiliateDisclosure: false
 keyTakeaways:
-  - "A usable small office needs about 40 × 54 inches of floor: a 40 × 24 in desk plus 30 in to push the chair back."
-  - "Desk height is 29–30 inches; put the top of the monitor at or just below eye level."
-  - "Light from the side and a task lamp opposite your writing hand; a light in front of you for video calls."
+  - "A usable small office needs about 100 × 135 cm of floor: a 100 × 60 cm desk plus 75 cm behind it to push the chair back."
+  - "Desk height is 73–76 cm; the top of the screen sits at or just below eye level, an arm's length away."
+  - "Put the desk at 90° to the window, with a task lamp on the side opposite your writing hand."
   - "Store up the wall, not across the floor, and clear the desk at the end of every day."
 faqs:
   - q: "How much space do you need for a small home office?"
-    a: "About 40 × 54 inches (100 × 135 cm) of floor: a desk around 40 inches wide and 24 inches deep, plus about 30 inches behind it to push the chair back and stand up. A laptop-only setup can work with a 30-inch-wide, 20-inch-deep desk."
+    a: "About 100 × 135 cm (40 × 54 in) of floor: a desk around 100 cm wide and 60 cm deep, plus about 75 cm behind it to push the chair back and stand up. A laptop-only setup works on a desk 75 cm wide and 50 cm deep."
   - q: "What is the right desk height?"
-    a: "About 29–30 inches (73–76 cm) for most adults. Adjust the chair so your elbows are at about 90° when typing and your feet rest flat on the floor, using a footrest if needed."
+    a: "About 73–76 cm (29–30 in) for most adults. Adjust the chair so your elbows are at about 90° when typing and your feet rest flat on the floor, using a footrest if the chair has to go high."
   - q: "Where should a desk go in a small room?"
-    a: "Ideally at 90° to the window so daylight comes from the side — facing a window causes glare and sitting with your back to it puts your face in shadow on video calls. Corners, alcoves and closets all work well."
+    a: "Ideally at 90° to the window so daylight comes from the side. Facing a window means glare all day, and sitting with your back to it puts your face in shadow on video calls. Corners, alcoves and shallow closets all work well."
   - q: "How do I hide a home office in a bedroom?"
-    a: "Use a closet office with doors or a curtain, a fold-down wall desk, or a console table that reads as furniture. Keep work items in a closed box or drawer, and clear the desk at the end of each day."
+    a: "Use a closet office with doors or a curtain, a fold-down wall desk, or a console table that reads as furniture. Keep work things in one closed box or drawer, and clear the desk at the end of each day so the room stops being an office."
   - q: "What lighting is best for video calls?"
-    a: "A soft light in front of you, slightly above eye level — a lamp on a shelf behind your screen or a small ring light. Avoid a bright window behind you, which turns you into a silhouette."
+    a: "A soft light in front of you, slightly above eye level — a lamp on a shelf behind the screen or a small ring light. Avoid a bright window behind you, which turns you into a silhouette."
 ---
 
-Three things matter more than the size of the room: a desk deep enough for your setup (20–24 inches), light from the side rather than behind you, and a way to put it all away at the end of the day. About 40 × 54 inches of floor is enough — a corner, a closet, or the end of a bedroom wall.
+Most people working from home don't have a spare room. They have a corner of the bedroom, an alcove, or one end of the dining table — and that's enough, if three things are right: a desk deep enough for your setup, light from the side rather than behind you, and a way to put it all away at the end of the day. About **100 × 135 cm** of floor does it.
 
 <!-- [ADD YOUR PHOTO: the corner or alcove you're using for your office] {file: photo-1} -->
 
-Most people working from home don't have a spare room. They have a corner of the bedroom, an alcove under the stairs, or one end of the dining table.
+## How much space a desk actually needs
 
-A small workspace can work genuinely well — but only if you get three things right: the desk depth, the light, and the ability to make the whole thing disappear when you're done.
+- **Width:** 100 cm is comfortable for a laptop plus a notebook; 75 cm works if space is tight.
+- **Depth:** 60 cm for a monitor, 50 cm for laptop-only. Below about 45 cm the keyboard hangs off the edge, unless a monitor arm frees the back of the desk.
+- **Height:** 73–76 cm for most adults.
+- **Behind the chair:** 75 cm to push back and stand up. This is the measurement people forget, and it's what turns a desk that fits into one that's usable.
 
-## How much space you actually need
+So a working office is a rectangle of roughly 100 × 135 cm. Tape it out on the floor before buying anything.
 
-Less than you'd think.
+## Six places a desk fits
 
-- **Desk width:** 40 inches is comfortable for a laptop setup. 30 inches works if you're tight.
-- **Desk depth:** 24 inches for a monitor, 20 inches for laptop-only. Below 18 inches your keyboard hangs off the edge.
-- **Clearance behind the chair:** 30 inches to push back and stand up. This is the measurement people forget.
+| Spot | Desk depth | Hides away? | Best for |
+| --- | --- | --- | --- |
+| Closet | 50–60 cm, a standard closet's depth | Yes, behind doors or a curtain | A bedroom office |
+| Corner | 60 cm, L-shaped or straight | No | Two walls for shelves |
+| Floating wall desk | 50–60 cm | No, but leaves the floor clear | A small room that feels crowded |
+| Under the stairs | 50–60 cm, at the tall end | Partly | A hallway nook |
+| Console table | 30–40 cm | Reads as furniture | Laptop work for a few hours |
+| Fold-down wall desk | About 50 cm open | Yes, folds flat | A room with another job |
 
-So a functional home office is roughly **40 x 54 inches** of floor. That fits in a corner, an alcove, or the end of a bedroom wall.
+**The closet office.** Take the rail out of a shallow closet and fit a desktop at 73–76 cm with shelves above. The whole back wall becomes a pinboard, and when the doors close or a curtain is drawn, the office is gone — the single biggest advantage when it's in a bedroom. Check the closet's depth first; many are 55–60 cm, which suits a desk exactly.
 
-## 1. The closet office
+**The corner.** Corners are dead space for most furniture, so a desk there costs almost nothing in usable floor, and you get two walls for shelves.
 
-Take the doors off a small closet, remove the rod, and build in a desk at 29–30 inches high with shelves above.
+**A floating wall desk.** No legs, so the floor stays clear underneath and a small room feels less crowded. It takes real load from a monitor and leaning elbows, so it must be fixed into studs or solid masonry, not plasterboard alone.
 
-You get a workspace that's fully enclosed, with the whole back wall available for a pinboard or shelving. Add a curtain or put the doors back on and the office vanishes at 6pm — the single biggest advantage of this setup if the office is in a bedroom.
+**Under the stairs.** Put the desk at the tall end and check the headroom: you want at least 100 cm above the seat. A wall light and one shelf make it a nook.
 
-Depth is the thing to check: standard closets are 24 inches deep, which is exactly right for a desk.
+**A console table.** At 30–40 cm deep it's too shallow for a monitor but fine for a few hours on a laptop, and it reads as furniture in a bedroom or living room.
 
-## 2. Corner desk
-
-An L-shaped or corner desk uses the least useful floor space in a room. Corners are dead zones for most furniture, so putting the desk there costs you almost nothing.
-
-A corner setup also gives you two walls for shelving and pinboards.
-
-## 3. Floating desk
-
-A wall-mounted desk with no legs. The clear floor underneath makes a small room feel much less crowded, and you can slide a stool or a small filing cabinet under it.
-
-Mount at 29 inches. Make sure it's into studs — a floating desk with a monitor and elbows on it takes real load.
-
-## 4. Under the stairs
-
-The triangular space under a staircase fits a desk beautifully if you place it at the tall end. Add a wall light, a shelf, and it becomes a proper nook.
-
-Check the headroom where you'll be sitting — you want 40 inches minimum above the seat.
-
-## 5. Narrow console desk in a hallway or bedroom
-
-A console table 12–16 inches deep works as a laptop desk. Not enough for a monitor setup, but perfectly fine for a few hours of laptop work, and it reads as furniture rather than as an office.
-
-Ideal for a bedroom where you don't want a workspace dominating the room.
-
-## 6. Fold-down wall desk
-
-A drop-leaf or murphy-style desk mounted to the wall. Folds flat when closed, opens to a 20-inch work surface.
-
-Best for spaces that have to do two jobs — a guest room, a dining room, a small living room. The office genuinely disappears.
+**A fold-down wall desk.** Opens to a 50 cm work surface and folds flat when closed. Best where the room has another job — a guest room, a dining room — and the office has to disappear completely. [Guest bedroom and office combo](/post/guest-bedroom-office-combo/) covers that arrangement in detail.
 
 <!-- [ADD YOUR PHOTO: your desk setup from behind the chair] {file: photo-2} -->
 
-## Set up the screen and chair properly
+## Screen and chair
 
 Small desks often mean a laptop on a low surface, which is hard on the neck.
 
-- **Screen:** an arm's length away, with the top of the screen at or slightly below eye level. A laptop stand plus a separate keyboard and mouse fixes most laptop posture problems.
-- **Elbows:** roughly 90° when typing, shoulders relaxed.
-- **Feet:** flat on the floor, or on a footrest if the chair is high.
-- **Monitor arm:** frees desk depth — useful on an 18–20 inch desk.
+- **Screen:** an arm's length away, with its top at or slightly below eye level. A laptop stand plus a separate keyboard and mouse fixes most laptop posture.
+- **Elbows** at roughly 90° when typing, shoulders relaxed; **feet** flat, or on a footrest.
+- **Chair:** a dining chair is fine for half an hour and painful after two. If you work more than a couple of hours a day, a task chair matters more than the desk. In a small room choose one with no arms, or removable ones, so it tucks fully under.
 
-## Lighting is the thing most people get wrong
+## Light from the side
 
-A small office in a corner is usually in the darkest part of the room. Overhead ceiling light behind you creates screen glare and shadows on your work.
+A desk in a corner is usually in the darkest part of the room. Put it at **90° to the window**, so daylight comes from the side: facing the window means glare, and having it behind you puts your face in shadow on calls. Add a task lamp on the side opposite your writing hand, and a warm lamp elsewhere so you're not staring at a bright screen in a dark corner. For video calls, a soft light in front of you, slightly above eye level, solves most problems. Glare, shadows and webcam light are covered fully in [home office lighting](/post/home-office-lighting-ideas/).
 
-What you need:
+## Storage: up the wall, not across the floor
 
-- **A task lamp on the desk**, positioned to the side opposite your writing hand
-- **Natural light from the side**, not in front (glare) or behind (silhouette on video calls)
-- **A warm ambient source** — a lamp elsewhere in the room — so you're not staring at a bright screen in a dark corner
+- **Shelves** at about 45 cm and 75 cm above the desk — high enough to clear a monitor, low enough to reach seated.
+- **A pegboard**, the most flexible option in a small office: pots, hooks and small shelves that move as the work changes.
+- **One drawer unit on castors** that rolls under the desk.
+- **Wall files** for paper.
 
-If you're on video calls, put a light *in front of you*, above eye level. A small ring light or a lamp on a shelf facing you solves the "why do I look terrible" problem straight away.
+Keep the desktop for what you're working on today. Everything else lives on the wall or in the drawer.
 
-## Storage: go up, not out
+**Cables:** a power strip screwed to the underside of the desk, a cable tray beneath the desktop and one bundled run down a single leg clear up most of it. Visible cables make a small space look chaotic faster than anything else.
 
-Floor space is what you don't have. Wall space above the desk is free.
+## Make it look like part of the room
 
-- **Floating shelves** at 18 inches and 30 inches above the desk
-- **Pegboard** — the most flexible option for a small office; holds pots, hooks, small shelves, and reconfigures freely
-- **Wall pockets or magazine files** for papers
-- **A single drawer unit** on castors that rolls under the desk
+When the office is in a bedroom or living room, it should read as furniture: a wooden desk rather than white laminate, a lamp rather than a clip light, art on the wall rather than a calendar and sticky notes, one closed box for the unattractive essentials, a plant. When you're not working, you shouldn't see a workstation.
 
-Keep the desk surface for what you're working on today. Everything else lives on the wall.
+## The shut-down habit
 
-## The cable problem
+The hardest part of a small home office isn't the layout; it's that work now lives in the room where you relax. Clear the desk at the end of each day — laptop away, papers in the drawer, chair pushed in. Two minutes, and the space stops being an office.
 
-In a small space, visible cables make everything look chaotic. Three cheap fixes:
-
-- Adhesive cable channel along the back edge of the desk
-- A cable tray screwed underneath the desktop
-- Velcro ties bundling everything into one run down a single leg
-
-A power strip mounted underneath the desk, not on the floor, cleans up 80% of it.
-
-## Chair — don't compromise here
-
-A dining chair is fine for 30 minutes and painful after two hours. If you work more than a couple of hours a day, a proper task chair matters more than the desk does.
-
-In a small space, look for:
-
-- No arms, or removable arms — the chair tucks fully under the desk
-- A smaller footprint base
-- Neutral colour so it reads as furniture in a bedroom or living room
-
-## Making it look like part of the room
-
-If the office is in a bedroom or living room, it should look like furniture, not like an office.
-
-- Wooden desk rather than white laminate
-- A lamp instead of a clip light
-- Art on the wall above, not just a calendar and sticky notes
-- A basket or closed box for the ugly essentials
-- One plant
-
-The goal is that when you're not working, you don't see a workstation sitting in your bedroom.
-
-## Setup Mistakes
-- **Forgetting chair clearance.** Measure 30 inches behind the desk.
-- **Facing a window.** Glare all day, and you'll squint at the screen.
-- **A floating desk in plasterboard alone.** Fix it into studs.
-- **A dining chair for full workdays.** Your back will tell you.
-- **Cables everywhere.** Mount the power strip under the desk.
-
-## Pricing a Corner Office
+## Pricing a small office
 
 | Item | Typical cost |
 | --- | --- |
 | Wall-mounted or fold-down desk | $60–$200 |
-| Compact desk, 40 × 24 in | $80–$250 |
+| Compact desk, 100 × 60 cm | $80–$250 |
 | Armless task chair | $80–$250 |
 | Task lamp | $25–$80 |
 | Laptop stand, keyboard and mouse | $40–$100 |
 | Pegboard or two floating shelves | $25–$70 |
 | Cable tray and under-desk power strip | $20–$50 |
 
-Expect to pay toward the top of each range for anything that adjusts, like chairs, desks and monitor arms.
+Expect the top of each range for anything that adjusts, such as chairs, desks and monitor arms.
 
-## The shut-down habit
+## Setup mistakes
 
-The hardest part of a small home office isn't the layout — it's that work is now in the room where you relax.
+- **Forgetting the 75 cm behind the chair.**
+- **Facing the window.** Glare all day.
+- **A floating desk fixed to plasterboard alone.** Use studs.
+- **A dining chair for full workdays.**
+- **Cables on the floor.** Mount the power strip under the desk.
 
-Clear the desk at the end of the day. Laptop closed or put away, papers in the drawer, chair pushed in. It takes two minutes and it's what lets the space stop being an office.
-
----
-
-**Minimum viable small office:**
-
-| Item | Spec |
-|---|---|
-| Desk | 40 x 24 inches, 29–30 inches high |
-| Clearance behind | 30 inches |
-| Task lamp | Warm, adjustable, on the desk |
-| Shelf | One, 18 inches above the desk |
-| Chair | Armless task chair |
-| Cable management | Channel + underdesk power strip |
-
-If the office has to share a studio, [zoning a studio](/post/studio-apartment-zoning/) shows how to separate work from rest. A teenager's study and gaming desk is covered in [teenage boy bedroom ideas](/post/teenage-boy-bedroom-ideas/). The [floating shelf checklist](/post/diy-floating-shelves/) explains how to mount shelves and a wall desk safely.
+If the office shares a studio, [small studio apartment ideas](/post/small-studio-apartment-ideas/) shows how to zone work away from rest. A teenager's study and gaming desk is in [teenage boy bedroom ideas](/post/teenage-boy-bedroom-ideas/), and the [floating shelf checklist](/post/diy-floating-shelves/) explains how to fix shelves and a wall desk safely.

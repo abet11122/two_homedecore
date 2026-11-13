@@ -1,10 +1,10 @@
 ---
-title: "Minimalist Living Rooms: Less Is More"
-description: "A practical guide to a minimalist small living room: what to keep, layout measurements, a calm palette, hidden storage and warm lighting that isn't stark."
+title: "Minimalist Living Room Ideas: What to Keep and How to Keep It Warm"
+description: "A minimalist small living room: what to keep, layout measurements, a 70-25-5 palette, closed storage, and the lamps and texture that stop it feeling cold."
 category: "living-room"
-tags: ["minimalism", "living-room", "design-principles", "declutter", "serene-spaces"]
+tags: ["minimalism", "living rooms", "declutter", "small spaces", "living room styling"]
 publishDate: 2026-08-20
-updatedDate: 2026-10-24
+updatedDate: 2026-11-13
 heroImage: "photo-1616486338812-3dadae4b4ace"
 pinImage: "photo-1519710164239-da123dc03ef4"
 featured: true
@@ -33,14 +33,6 @@ Minimalism isn't about owning nothing. It's about having only what serves you. S
 
 <!-- [ADD YOUR PHOTO: your living room before decluttering] {file: photo-1} -->
 
-## The Three Pillars
-
-**1. Simplicity.** Clean lines, open floor, few decorative objects. Not austere — edited.
-
-**2. Function.** Every item earns its place. A chair must be comfortable. A side table must hold what you actually put down. Decoration that does nothing is clutter in disguise.
-
-**3. Quality over quantity.** One good sofa beats a sofa, two armchairs and a pouf you never use. Fewer, better pieces also last longer.
-
 ## Step 1: Declutter One Surface at a Time
 
 Start with the coffee table. Take everything off, wipe it, and put back only what you use weekly or love: perhaps a book, a coaster, one object. Then the TV unit, then the shelves, then the floor.
@@ -56,7 +48,7 @@ Most living rooms lose a third of their objects in this step without anyone miss
 
 ## Step 2: Choose the Essentials
 
-You need four things: somewhere to sit, somewhere to put things down, somewhere to hide things, and light.
+You need four things: somewhere to sit, somewhere to put things down, somewhere to hide things, and light. Each one has to earn its place — a chair must be comfortable, a side table must hold what you actually put down — and one good sofa beats a sofa, two armchairs and a pouf nobody uses.
 
 **The sofa.** A neutral sofa in a natural fabric — linen, cotton, wool. In a small room, a sofa on visible legs looks lighter than one sitting on the floor. A 2- or 2.5-seater (about 160–200 cm) fits most small living rooms. Avoid big sectionals unless the room is large — they fill the floor and limit layout.
 
@@ -73,10 +65,11 @@ You need four things: somewhere to sit, somewhere to put things down, somewhere 
 | Sofa to coffee table | 40–45 cm (16–18 in) |
 | Walkways through the room | 75–90 cm (30–36 in) |
 | Seat to TV | About 1.5–2.5 times the screen's diagonal |
+| TV height | Center of the screen 100–110 cm from the floor, near seated eye level |
 | Rug size | Big enough for at least the front legs of all seating |
 | Art above a sofa | Bottom edge 20–25 cm above the sofa back |
 
-Pull the sofa a little off the wall if you can — even 10 cm makes a room feel less like a waiting room. Leave one wall or corner mostly empty.
+Pull the sofa a little off the wall if you can — even 10 cm makes a room feel less like a waiting room. Leave one wall or corner mostly empty. If the TV is the hardest thing to place, [where to put the TV](/post/where-to-put-tv-in-living-room/) has the distance table by screen size.
 
 <!-- [ADD YOUR PHOTO: your living room layout from above or from a corner] {file: photo-2} -->
 
@@ -154,4 +147,4 @@ When you're done, the room should pass this test: *"A warm white living room wit
 
 <!-- [ADD YOUR PHOTO: your finished minimalist living room] {file: photo-3} -->
 
-The two measurements that do most of the work here are in [what size rug do you need](/post/what-size-rug-do-i-need/) and [how high to hang curtains](/post/how-high-to-hang-curtains/). Lighting and rugs on a budget get more detail in [apartment decor ideas on a budget](/post/apartment-decor-ideas-budget/). If your living room also has to be a bedroom or office, [zoning a studio](/post/studio-apartment-zoning/) shows how to keep it calm. To bring the same approach into the kitchen, read [open shelving styling](/post/kitchen-open-shelving-styling/).
+The two measurements that do most of the work here are in [what size rug do you need](/post/what-size-rug-do-i-need/) and [how high to hang curtains](/post/how-high-to-hang-curtains/). Lighting and rugs on a budget get more detail in [apartment decor ideas on a budget](/post/apartment-decor-ideas-budget/). If your living room also has to be a bedroom or office, [small studio apartment ideas](/post/small-studio-apartment-ideas/) shows how to zone it and keep it calm. To bring the same approach into the kitchen, read [open shelving styling](/post/kitchen-open-shelving-styling/).

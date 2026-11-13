@@ -3,8 +3,8 @@ title: "Spa Bathroom Ideas for a Room That Is Not a Spa"
 description: "What actually produces the feeling — warmth, texture, low light and empty counter — and which of it works in an ordinary small bathroom."
 category: bathroom
 tags: ["bathroom", "spa bathroom", "styling", "small spaces", "renter-friendly"]
-publishDate: 2026-11-19
-updatedDate: 2026-11-19
+publishDate: 2026-11-17
+updatedDate: 2026-11-17
 heroImage: "photo-1552321554-5fefe8c9ef14"
 pinImage: "photo-1584622650111-993a426fbf0a"
 featured: false

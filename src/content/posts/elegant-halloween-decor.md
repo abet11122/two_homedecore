@@ -2,6 +2,8 @@
 title: "17 Elegant Halloween Decor Ideas for a Sophisticated Home"
 description: "Create a stylish seasonal display with 17 elegant Halloween decor ideas using muted palettes, matte pumpkins, taper candles, and restrained styling."
 category: seasonal
+noindex: true
+excludeFromListings: true
 tags: ["halloween decor", "seasonal decorating", "elegant decor", "autumn", "home styling"]
 publishDate: 2026-09-13
 updatedDate: 2026-10-13

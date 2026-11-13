@@ -2,6 +2,8 @@
 title: "15 Halloween Mantel Decor Ideas — Elegant Seasonal Styling"
 description: "Style a grown-up Halloween mantel with 15 elegant ideas using candles, pumpkins, garlands, dark florals, and restrained seasonal styling for every fireplace."
 category: seasonal
+noindex: true
+excludeFromListings: true
 tags: ["halloween decor", "mantel decor", "fireplace decor", "seasonal decorating", "halloween 2026"]
 publishDate: 2026-09-23
 heroImage: "photo-1508193638397-1c4234db14d8"

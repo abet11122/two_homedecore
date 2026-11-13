@@ -2,6 +2,8 @@
 title: "13 Outdoor Halloween Decor Ideas for Small Yards & Balconies"
 description: "Decorate a small yard, patio, or balcony for Halloween with 13 outdoor ideas using pumpkins, string lights, wreaths, and weather-resistant seasonal styling."
 category: outdoor
+noindex: true
+excludeFromListings: true
 tags: ["halloween decor", "outdoor decor", "balcony decor", "small spaces", "seasonal decorating"]
 publishDate: 2026-09-11
 heroImage: "photo-1693643449872-67f203f99560"

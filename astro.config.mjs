@@ -75,8 +75,6 @@ function includeInSitemap(page) {
     /^\/(?:search|saved|404)\/?$/.test(pathname) ||
     // Tag hubs and their index are noindex; a sitemap entry would contradict that.
     /^\/tags?(?:\/|$)/.test(pathname) ||
-    // The author hub is noindex; a sitemap entry would contradict that.
-    /^\/author(?:\/|$)/.test(pathname) ||
     excludedPostPaths.has(pathname)
   ) {
     return false;
@@ -98,12 +96,14 @@ export default defineConfig({
     // Some third-party tools only look for the non-canonical path.
     '/sitemap.xml': { status: 301, destination: '/sitemap-index.xml' },
     '/author/sophie-lane/': '/about/',
+    // The house byline hub, replaced by the named author's page.
+    '/author/editorial-team/': { status: 301, destination: '/author/mubashar-shahzad/' },
     // Near-duplicate posts merged into the stronger guide on the same topic.
     '/post/bathroom-storage-ideas-small-spaces/': { status: 301, destination: '/post/small-bathroom-organization-ideas/' },
     '/post/bathroom-organization-ideas-small-spaces/': { status: 301, destination: '/post/small-bathroom-organization-ideas/' },
     '/post/cozy-christmas-bedroom-ideas/': { status: 301, destination: '/post/christmas-bedroom-ideas/' },
     '/post/small-kitchen-storage-ideas/': { status: 301, destination: '/post/small-kitchen-organization-ideas/' },
-    '/post/boys-bedroom-storage-ideas/': { status: 301, destination: '/post/small-boys-bedroom-ideas/' },
+    '/post/boys-bedroom-storage-ideas/': { status: 301, destination: '/post/modern-boys-bedroom-ideas/' },
     '/post/toddler-friendly-halloween-decor-ideas-non-scary/': { status: 301, destination: '/post/non-scary-halloween-decor-toddler-rooms/' },
     '/post/small-space-halloween-decor/': { status: 301, destination: '/post/small-apartment-halloween-decor-renter-friendly/' },
     '/post/small-apartment-storage-ideas/': { status: 301, destination: '/post/small-apartment-organization-ideas/' },
@@ -115,6 +115,19 @@ export default defineConfig({
     */
     '/post/halloween-charcuterie-snack-board-ideas/': { status: 301, destination: '/post/halloween-dessert-table-styling-ideas/' },
     '/post/halloween-drink-cocktail-ideas/': { status: 301, destination: '/post/halloween-dining-room-tablescape-ideas/' },
+    /*
+      AdSense cleanup, 2026-11-13: overlapping guides merged into the stronger
+      post on the same subject. Each source's unique material was moved into
+      the target first; pins and old links land on the section that absorbed it.
+    */
+    '/post/christmas-coffee-table-decor-ideas/': { status: 301, destination: '/post/cozy-christmas-living-room-ideas/' },
+    '/post/small-balcony-privacy-ideas/': { status: 301, destination: '/post/balcony-decor-ideas/' },
+    '/post/renter-friendly-backsplash-ideas/': { status: 301, destination: '/post/rental-kitchen-makeover/' },
+    '/post/cozy-small-bedroom-ideas/': { status: 301, destination: '/post/small-bedroom-ideas-that-look-expensive/' },
+    '/post/fall-apartment-decor-ideas/': { status: 301, destination: '/post/fall-living-room-decor-ideas/' },
+    '/post/small-entryway-organization-ideas/': { status: 301, destination: '/post/narrow-hallway-decor-ideas/' },
+    '/post/small-boys-bedroom-ideas/': { status: 301, destination: '/post/modern-boys-bedroom-ideas/' },
+    '/post/studio-apartment-zoning/': { status: 301, destination: '/post/small-studio-apartment-ideas/' },
   },
   integrations: [
     sitemap({

@@ -2,6 +2,8 @@
 title: "20 Halloween Kitchen Decor Ideas — Pumpkin & Black Cat Accents"
 description: "Style your kitchen for Halloween with 20 ideas using pumpkin displays, black cat accents, dark candles, spooky dish towels, and seasonal counter styling."
 category: kitchen
+noindex: true
+excludeFromListings: true
 tags: ["halloween decor", "kitchen decor", "seasonal decorating", "halloween 2026", "autumn kitchen"]
 publishDate: 2026-09-07
 updatedDate: 2026-10-13

@@ -1,120 +1,99 @@
 ---
-title: "Kitchen Countertop Decor Ideas That Stay Practical"
-description: "Kitchen countertop decor that doesn't get in the way: what to leave out, styling corners and the space by the hob, trays, plants, boards and wipe-clean choices."
+title: "Kitchen Countertop Decor: Style the Edges, Keep 90 cm Clear"
+description: "Kitchen countertop decor by zone: the 60–90 cm prep stretch that stays clear, the back strip and corners that take decor, and what survives hob and sink."
 category: kitchen
 tags: ["kitchen decor", "kitchen styling", "countertop decor", "kitchen organization", "home styling"]
 publishDate: 2026-11-08
-updatedDate: 2026-11-08
+updatedDate: 2026-11-13
 heroImage: "photo-1556909114-f6e7ad7d3136"
 pinImage: "photo-1556909172-54557c7e4fb7"
 featured: false
 keyTakeaways:
-  - "Keep the main prep stretch — ideally 60–90 cm — completely clear."
-  - "Decorate corners and the back edge of the counter, not the front working area."
-  - "Make decor useful: a utensil crock, oil and salt on a tray, a fruit bowl, a leaning board."
-  - "Choose things you can wipe or wash; kitchen counters collect grease and splashes."
+  - "Keep one continuous prep stretch of 60–90 cm completely clear, ideally between the sink and the hob."
+  - "Decor lives in the back 10–15 cm against the splashback and in the corners, never along the front edge."
+  - "Make decor useful: a utensil crock, oil and salt on one tray, a fruit bowl, leaning boards."
+  - "Nothing that burns, melts or stains beside the hob; nothing absorbent beside the sink."
+  - "In a kitchen with under 2 m of counter, style one corner and leave the rest."
 faqs:
   - q: "How do I decorate a kitchen countertop without clutter?"
-    a: "Keep the main prep area clear, and decorate only the corners and the back edge: a tray with oil and salt beside the hob, a utensil crock, a fruit bowl, a leaning chopping board and one plant. Items that are useful and good-looking count as decor."
+    a: "Keep the main prep stretch clear and decorate only the back strip against the splashback and the corners: a tray with oil and salt beside the hob, a utensil crock, a fruit bowl, a leaning chopping board and one plant. Things that are useful and good-looking count as decor, and everything should lift off in one move to wipe."
   - q: "What should I keep on my kitchen counter?"
-    a: "Only what you use every day: often the kettle or coffee maker, a utensil holder, a knife strip or block, salt and oil near the hob, and a fruit bowl. Store appliances you use weekly or less in a cupboard."
+    a: "Only what you use every day: usually the kettle or coffee maker, a utensil crock, a knife strip on the wall rather than a block, salt and oil near the hob, and a fruit bowl. Appliances you use weekly or less, like a mixer or blender, go in a cupboard."
   - q: "How much clear counter space do I need to cook?"
-    a: "Kitchen planning guidelines commonly suggest a continuous prep area of at least 60–90 cm (24–36 in), ideally between the sink and the hob. In a very small kitchen, keep at least one clear stretch for chopping and use a board over the sink for extra space."
+    a: "Kitchen planning guidelines commonly suggest a continuous prep area of at least 60–90 cm (24–36 in), ideally between the sink and the hob. In a very small kitchen, keep at least one clear stretch for chopping, and use a board over the sink for extra space."
   - q: "What plants grow well on a kitchen counter?"
-    a: "Herbs like basil, parsley, chives and mint on a sunny windowsill; pothos or a small snake plant for lower light. Keep plants away from the hob's heat and out of the splash zone around the sink."
+    a: "Herbs on the sunniest windowsill: basil wants the most light, while chives, parsley and mint are more forgiving. For lower light, a pothos or a small snake plant on a back corner. Keep every plant out of the hob's heat and the splash zone around the sink."
   - q: "How do I style a kitchen corner?"
-    a: "Corners are the hardest counter space to use for prep, so they're the best place for decor. Lean one or two chopping boards against the wall, put a utensil crock or a large jar in front, and add a small plant or a cookbook on a stand."
+    a: "Corners are the hardest counter space to prep on, so they're the best place for decor. Lean one or two chopping boards against the wall, put a heavy utensil crock or a tall jar in front, and add a small plant or a cookbook on a stand — three heights, grouped."
 ---
 
-Practical kitchen countertop decor keeps the main prep area clear and lives in the corners and along the back edge. The best pieces are useful as well as good-looking — a utensil crock, oil and salt on a small tray, a fruit bowl, a leaning chopping board, a pot of herbs — and everything should be easy to wipe or wash.
-
-A counter is a work surface first. Decor that has to be moved every time you cook won't last a week.
+A counter is a work surface first, so decor that has to be moved every time you cook won't last a week. The fix is to treat the counter as zones. One continuous prep stretch of **60–90 cm** stays completely clear. Decor goes in the back **10–15 cm** against the splashback and in the corners, where nobody chops anyway. And each piece has to survive where it sits: nothing that burns beside the hob, nothing that soaks up water beside the sink.
 
 <!-- [ADD YOUR PHOTO: your counters before styling] {file: photo-1} -->
 
-## Start With What Stays Out
+## First: clear it, then put back only daily things
 
-### 1. Clear everything, then put back daily items
+Take everything off the counters and wipe them. Put back only what gets used every day — usually the kettle or coffee maker and a utensil crock. Appliances used weekly or less, like a mixer, toaster or blender, go into a cupboard. What's left is the base you're decorating around, and in most kitchens it's less than you expect. [Small kitchen organization ideas](/post/small-kitchen-organization-ideas/) covers where the rest goes.
 
-Take everything off the counters. Put back only what you use every day — usually the kettle or coffee maker, a utensil holder and maybe a knife block. Appliances you use weekly or less, like a mixer, toaster or blender, go into a cupboard.
+## The counter, zone by zone
 
-### 2. Protect the prep zone
+| Zone | What goes there | What doesn't |
+| --- | --- | --- |
+| The prep stretch, 60–90 cm | Nothing. A board while you work, then cleared | Decor of any kind |
+| The back strip, 10–15 cm deep | A utensil crock, a tray of oils, a leaning board, a jar | Anything you have to lift to use the counter |
+| Corners | Leaning boards, a crock, one plant, a cookbook stand | Food prep, which corners are bad at |
+| Beside the hob | Oil, salt and pepper on a metal or stone tray; the crock | Wooden boards, cookbooks, plants, tea towels |
+| Beside the sink | Soap in a glass or ceramic pump, a dish brush in a holder | Fabric, paper, unsealed wood |
+| The windowsill | Herbs, a small jug of flowers or branches | Anything heat-sensitive in strong sun |
 
-Keep a continuous stretch of at least 60–90 cm clear, ideally between the sink and the hob. That's your chopping area. Nothing decorative goes there.
+**The prep stretch** is the one rule that matters most. Keep a continuous run of at least 60–90 cm clear, ideally between the sink and the hob, which is where you move food from washing to cooking. Kitchen planning guidelines commonly suggest that range.
 
-## Decorate the Edges
+**The back strip** is where most decor should live. You can reach past a crock or a tray standing against the splashback while working, and the front of the counter stays clear for chopping.
 
-### 3. Use the back edge, against the splashback
+**The hob side** gets heat and spatter, so only things that wipe clean and won't scorch: a metal, stone or glazed tray, about 20 × 30 cm, holding oil, vinegar, salt and pepper. One tray means one lift to wipe underneath.
 
-The strip along the wall — 10–15 cm deep — is where most decor should live. You can reach past it while working, and it keeps the front edge clear.
+**The sink side** gets splashed constantly. Decant dish soap into a glass or ceramic pump and keep a wooden brush in a holder that drains. That's enough.
 
-### 4. Style the corners
+## Five useful pieces that count as decor
 
-Corners are awkward for prep and good for display:
+**A utensil crock.** Stoneware or wood, heavy enough not to tip when you pull a spatula out, beside the hob. It frees a drawer and puts the tools where they're used.
 
-- Lean one or two wooden chopping boards against the wall.
-- Put a large ceramic utensil crock or a tall jar in front.
-- Add a small plant or a cookbook on a stand.
+**A fruit bowl.** Wide and shallow, on a back corner out of direct sun. Keep bananas apart from other fruit: they give off ethylene, which ripens everything around them faster.
 
-### 5. Group small things on a tray
+**Leaning chopping boards.** One or two wooden boards leaned against the splashback in a corner, largest at the back. Useful, warm, and the best thing to put in a corner.
 
-Oil, vinegar, salt and pepper by the hob look tidy on a small wooden, marble or metal tray (about 20 × 30 cm), and you can lift them all at once to wipe the counter.
+**A magnetic knife strip.** On the wall rather than a block on the counter, it gives back the footprint a block takes. Mount it out of reach of children and away from the edge of the sink.
+
+**A cookbook on a stand.** One open book, or two or three stacked flat, adds color. Keep it well away from the hob and the sink.
 
 <!-- [ADD YOUR PHOTO: your styled corner or hob tray] {file: photo-2} -->
 
-## Useful Decor
+## Plants and flowers
 
-### 6. A utensil crock
+Herbs belong on the sunniest windowsill. **Basil** wants the most light and regular watering; **chives, parsley and mint** are more forgiving, and mint is best in its own pot because it spreads. For lower light, a small pothos or snake plant on a back corner or an open shelf. Pothos is toxic to cats and dogs, so keep it high if you have pets. Cut flowers or a few branches in a heavy jug by the window add color for a week; change the water every couple of days. No plant goes beside the hob.
 
-A stoneware or wooden crock beside the hob keeps spatulas, spoons and tongs within reach and frees a drawer. Choose one heavy enough not to tip.
+## Materials that survive a kitchen
 
-### 7. A fruit bowl
+Glass, glazed ceramic, stone, metal and sealed wood all wipe clean. Unsealed wood, woven baskets and fabric soak up grease and splashes, and paper and felt don't belong near the hob or the sink at all. If it can't be wiped or washed, it won't look good for long on a counter.
 
-A wide, shallow bowl of fruit is decor and food. Keep bananas separate — they speed up ripening of other fruit. Don't put the bowl in direct sun.
+## A worked example: a 240 cm run with a sink and hob
 
-### 8. A knife strip instead of a block
+Corner by the wall: two boards leaned against the splashback, the crock in front of them. Between the sink and the hob: 90 cm, completely clear. Beside the hob: the tray of oil and salt, against the back. Beside the sink: a soap pump and a brush. On the windowsill: two pots of herbs. The fruit bowl goes on the dining table or a back corner. Six things on 240 cm, and the counter still works.
 
-A magnetic knife strip on the wall frees the counter space a block takes, and wooden-handled knives look good on display.
+**In a small kitchen with under 2 m of counter,** cut it back further: style one corner only — a board and a crock — and keep everything else for cooking.
 
-### 9. A cookbook stand
+## Change it with the seasons, lightly
 
-One open cookbook on a stand, or two or three stacked flat, adds color. Keep them away from the sink and hob.
+Keep the base all year — crock, tray, boards — and swap one or two things: a bowl of clementines in December, a jug of tulips in spring, a few small squashes in autumn. In December, [Christmas kitchen decor ideas](/post/christmas-kitchen-decor-ideas/) shows how to go further without losing the prep stretch.
 
-### 10. A soap dispenser and brush set
+## Counter habits that backfire
 
-Matching glass or ceramic dispensers for dish soap, plus a wooden dish brush in a small holder, tidy up the sink area.
-
-## Natural Touches
-
-### 11. Grow herbs on the windowsill
-
-Basil, parsley, chives, thyme and mint grow well on a sunny sill. They're useful, smell good, and are easy to keep alive with regular watering.
-
-### 12. Add one plant away from the hob
-
-A small pothos, a snake plant or a pot of trailing ivy on a back corner or open shelf. Keep plants out of the splash zone and away from the heat.
-
-### 13. Use cut flowers or branches
-
-A small jug of flowers or a few branches in a heavy vase by the window. Change the water every couple of days.
-
-## Choose Wipe-Clean Materials
-
-### 14. Pick materials that survive a kitchen
-
-Glass, glazed ceramic, stone, metal and sealed wood clean easily. Unsealed wood, woven baskets and fabric collect grease and splashes. Avoid paper and felt near the hob or sink.
-
-### 15. Edit seasonally
-
-Swap one or two items each season: a bowl of clementines in December, a jug of tulips in spring, a pumpkin in autumn. Keep the base — crock, tray, boards — all year.
-
-## Counter Habits That Backfire
-- **Decor on the prep stretch.** Keep it clear.
-- **Every appliance on the counter.** Store what you don't use daily.
-- **Lots of small objects.** Group them on a tray.
-- **Plants beside the hob.** Heat and splashes damage them.
-- **Hard-to-clean materials.** Choose wipeable ones.
+- **Decor on the prep stretch.** It gets moved every day, then stops getting put back.
+- **Every appliance out.** Store what you don't use daily.
+- **Lots of small objects.** Group them on one tray.
+- **Plants or boards beside the hob.** Heat and spatter ruin them.
+- **Things that can't be wiped.** Choose washable materials.
 
 <!-- [ADD YOUR PHOTO: your finished counter, wide shot] {file: photo-3} -->
 
-If the kitchen is rented, [rental kitchen makeover](/post/rental-kitchen-makeover/) covers what you can change without losing the deposit, and dry food gets a home in [no pantry storage ideas](/post/no-pantry-storage-ideas/). Storage that clears the counter is covered in [small kitchen organization ideas](/post/small-kitchen-organization-ideas/). If you have open shelves above the counter, [open shelving styling](/post/kitchen-open-shelving-styling/) covers what to put on them. In December, [Christmas kitchen decor ideas](/post/christmas-kitchen-decor-ideas/) shows how to decorate without losing workspace.
+If there are open shelves above the counter, [open shelving styling](/post/kitchen-open-shelving-styling/) covers what to put on them. In a rented kitchen, [rental kitchen makeover](/post/rental-kitchen-makeover/) covers what you can change without losing the deposit, and dry food gets a home in [no pantry storage ideas](/post/no-pantry-storage-ideas/).

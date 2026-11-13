@@ -2,6 +2,8 @@
 title: "20 Halloween Bedroom Decor Ideas — Spooky But Still Cozy"
 description: "Decorate your bedroom for Halloween without losing the cozy feel with 20 ideas using dark textiles, moody lighting, pumpkins, and restrained seasonal styling."
 category: bedroom
+noindex: true
+excludeFromListings: true
 tags: ["halloween decor", "bedroom decor", "seasonal decorating", "cozy bedroom", "halloween 2026"]
 publishDate: 2026-09-02
 heroImage: "photo-1595526114035-0d45ed16cfbf"
@@ -147,4 +149,4 @@ Change the light and the textiles, add one or two seasonal objects, and leave th
 
 ## The rooms next door
 
-Decorating a little one's room? [Non-scary toddler room ideas](/post/non-scary-halloween-decor-toddler-rooms/) keep things friendly. For a moodier adult room, [gothic dark-botanical decor](/post/gothic-halloween-decor-ideas-dark-botanical/) is the next step, and the [bathroom ideas](/post/halloween-bathroom-decor-ideas/) finish the look next door. In November, swap the cobwebs for the textiles in [fall apartment decor](/post/fall-apartment-decor-ideas/).
+Decorating a little one's room? [Non-scary toddler room ideas](/post/non-scary-halloween-decor-toddler-rooms/) keep things friendly. For a moodier adult room, [gothic dark-botanical decor](/post/gothic-halloween-decor-ideas-dark-botanical/) is the next step, and the [bathroom ideas](/post/halloween-bathroom-decor-ideas/) finish the look next door. In November, swap the cobwebs for the textiles in [fall apartment decor](/post/fall-living-room-decor-ideas/).

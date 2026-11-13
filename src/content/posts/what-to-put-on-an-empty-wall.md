@@ -74,7 +74,7 @@ Given that, the ranking for most bedrooms:
 
 The gap rule applies: **15–25 cm between the top of the headboard and the bottom of the piece**, and about two-thirds the width of the bed. A 150 cm double wants roughly 100 cm of art.
 
-Where the room is small, consider doing nothing above the bed and putting the effort into the wall you see when you walk in. [Cozy small bedroom ideas](/post/cozy-small-bedroom-ideas/) takes that further.
+Where the room is small, consider doing nothing above the bed and putting the effort into the wall you see when you walk in. [Small bedroom ideas that look expensive](/post/small-bedroom-ideas-that-look-expensive/) takes that further.
 
 <!-- [ADD YOUR PHOTO: the finished wall] {file: photo-2} -->
 

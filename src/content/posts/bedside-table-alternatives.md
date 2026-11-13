@@ -62,7 +62,7 @@ One measurement governs all of them: the usable height is **roughly level with t
 
 **A hanging caddy.** Fabric pockets that hook over the bed frame or slide between mattress and base. Holds a phone, a book and a charger. No floor, no wall, no fixings — the obvious choice in a rental where you cannot drill and have no space. Not a surface for a drink.
 
-**A clamp-on tray.** Clamps to the bed frame and swings a small tray over the mattress. Good for a bunk or a loft bed, where there is no adjacent surface at all. [Small boys bedroom ideas](/post/small-boys-bedroom-ideas/) covers bunk arrangements where this is often the only option.
+**A clamp-on tray.** Clamps to the bed frame and swings a small tray over the mattress. Good for a bunk or a loft bed, where there is no adjacent surface at all. [Modern boys bedroom ideas](/post/modern-boys-bedroom-ideas/) covers bunk arrangements where this is often the only option.
 
 ## Picking one
 

@@ -2,6 +2,8 @@
 title: "17 Gothic Halloween Decor Ideas — Dark Botanical Style"
 description: "Create a moody, sophisticated Halloween display with 17 gothic Halloween decor ideas using dark botanicals, black candles, dried flowers, and deep jewel tones."
 category: seasonal
+noindex: true
+excludeFromListings: true
 tags: ["halloween decor", "gothic decor", "dark botanical", "seasonal decorating", "halloween 2026"]
 publishDate: 2026-09-10
 heroImage: "photo-1508193638397-1c4234db14d8"

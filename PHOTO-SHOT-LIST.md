@@ -5,7 +5,7 @@ Your own photos are the strongest sign to readers and to AdSense reviewers that 
 ## How to add a photo (2 minutes)
 
 1. Make a folder named after the post: `photos-inbox/<post-slug>/`
-   (the slug is the post's file name without `.md`, e.g. `photos-inbox/small-entryway-organization-ideas/`).
+   (the slug is the post's file name without `.md`, e.g. `photos-inbox/narrow-hallway-decor-ideas/`).
 2. Save the photo with the file name from the tables below — `hero.jpg`, `photo-1.jpg`, `photo-2.jpg` … (JPG, PNG, WebP, TIFF or AVIF; on an iPhone, export as JPG — HEIC isn't supported).
 3. Next to it, create a text file with the same name: `photo-1.txt`
    - **Line 1:** alt text (required) — what is in the photo, in plain words, e.g. `Two-tier shoe rack holding six pairs of trainers beside the front door`.
@@ -64,11 +64,13 @@ What the script does for you:
 | `photo-2` | Utensil drawer with dividers, pulled open | Directly from above |
 | `photo-3` | Same view as `photo-1` after organizing | Same spot |
 
-### 5. small-boys-bedroom-ideas
+### 5. modern-boys-bedroom-ideas
+*(Absorbed small-boys-bedroom-ideas on 2026-11-13, including its licensed photos.)*
 | File | What to photograph | Angle |
 | --- | --- | --- |
 | `hero` | *(optional — the post already has its own licensed photos)* | — |
-| `photo-1` | The room with its two or three theme items (bedding, print, lamp) — no child in frame | From the doorway or a corner |
+| `photo-1` | The room before restyling — no child in frame | From the doorway or a corner |
+| `photo-2` | The art wall or picture ledge you set up | Straight on |
 
 ### 6. apartment-decor-ideas-budget
 | File | What to photograph | Angle |
@@ -77,12 +79,13 @@ What the script does for you:
 | `photo-1` | Living room before any changes (overhead light on) | Same corner as the hero |
 | `photo-2` | After the bulb, curtain and rug changes | Same corner again |
 
-### 7. small-entryway-organization-ideas
+### 7. narrow-hallway-decor-ideas
+*(Absorbed small-entryway-organization-ideas on 2026-11-13.)*
 | File | What to photograph | Angle |
 | --- | --- | --- |
 | `hero` | Hooks, shoe storage and key spot together | Straight on from across the hall |
-| `photo-1` | The entry as it is now | Just inside the front door, looking in |
-| `photo-2` | Shoe storage open, showing how many pairs it holds | Straight on, close |
+| `photo-1` | The hallway as it is now | From one end, chest height |
+| `photo-2` | The finished hallway | Same spot as `photo-1` |
 
 ### 8. small-home-office-ideas
 | File | What to photograph | Angle |
@@ -91,12 +94,12 @@ What the script does for you:
 | `photo-1` | The corner or alcove before the desk went in | Wide |
 | `photo-2` | Desk setup from behind the chair | Standing behind the chair, slightly above |
 
-### 9. studio-apartment-zoning
+### 9. christmas-decor-on-a-budget (shoot now — in season)
 | File | What to photograph | Angle |
 | --- | --- | --- |
-| `hero` | The divider between two zones (bookcase, sofa back or curtain) | From the living zone, looking toward the bed |
-| `photo-1` | The studio from the front door, zones visible | Doorway, wide |
-| `photo-2` | The layout from a high corner | Stand on a step stool in the corner opposite the door |
+| `hero` | The finished room in the evening, tree or main display lit | From across the room |
+| `photo-1` | The surface you are decorating, before | Straight on |
+| `photo-2` | The finished room in the evening | Same spot as the hero |
 
 ### 10. minimalist-living-room-guide
 | File | What to photograph | Angle |
@@ -120,12 +123,13 @@ What the script does for you:
 | `photo-1` | The room before, from the doorway | Same spot as the hero |
 | `photo-2` | Mid-paint, or a close-up of the new wall color with trim | Straight on |
 
-### 13. cozy-small-bedroom-ideas
+### 13. small-bedroom-ideas-that-look-expensive
+*(Absorbed cozy-small-bedroom-ideas on 2026-11-13.)*
 | File | What to photograph | Angle |
 | --- | --- | --- |
 | `hero` | Bed with throw and cushions, bedside lamp on, evening | Low, from the foot corner |
 | `photo-1` | Bedroom in the evening with lamps on, ceiling light off | Doorway |
-| `photo-2` | Close-up of the layered textiles | Close, from the side of the bed |
+| `photo-2` | The bed layered in three parts | From the foot of the bed |
 
 ### 14. small-laundry-room-organization-ideas
 | File | What to photograph | Angle |
@@ -164,9 +168,10 @@ What the script does for you:
 | `photo-2` | Close-up of one shelf of grouped ceramics or glass | Close, at shelf height |
 
 ### 19. small-studio-apartment-ideas
+*(Absorbed studio-apartment-zoning on 2026-11-13.)*
 | File | What to photograph | Angle |
 | --- | --- | --- |
-| `hero` | Daybed or sofa with the table nearby, daytime | From the kitchen end of the room |
+| `hero` | The divider between two zones (bookcase, sofa back or curtain), daytime | From the living zone, looking toward the bed |
 | `photo-1` | The studio from the front door | Doorway |
 | `photo-2` | Layout from a high corner | Step stool, corner |
 
@@ -181,14 +186,13 @@ What the script does for you:
 
 These posts use the same stock hero as at least one other post. A `hero` photo of your own fixes each one — start with the posts in the top 20 above.
 
-- `photo-1508193638397-1c4234db14d8` (10 posts): `elegant-halloween-decor`, `gothic-halloween-decor-ideas-dark-botanical`, `halloween-dessert-table-styling-ideas`, `halloween-dining-room-tablescape-ideas`, `halloween-mantel-decor-ideas`, `halloween-wreath-ideas-front-door-styling`, `haunted-house-decor-ideas-diy-spooky-setup`, `neon-y2k-apocalypse-halloween-party-decor-ideas`, `pink-halloween-decor-ideas-pink-o-ween`, `vintage-halloween-decor-ideas` — these will be noindexed in November, so they're the lowest priority.
-- `photo-1555041469-a586c61ea9bc` (5 posts): `modern-boys-bedroom-ideas`, `small-apartment-living-room-ideas`, `small-apartment-organization-ideas`, `small-studio-apartment-ideas`, `teenage-boy-bedroom-ideas`
-- `photo-1512389142860-9c449e58a543` (5 posts): `christmas-bedroom-ideas`, `christmas-coffee-table-decor-ideas`, `christmas-entryway-ideas`, `cozy-christmas-living-room-ideas`, `small-space-christmas-decor-ideas`
-- `photo-1616594039964-ae9021a400a0` (4 posts): `cozy-small-bedroom-ideas`, `earthy-bedroom-ideas`, `neutral-bedroom-ideas`, `small-bedroom-makeover-ideas`
+- `photo-1508193638397-1c4234db14d8` (10 posts): `elegant-halloween-decor`, `gothic-halloween-decor-ideas-dark-botanical`, `halloween-dessert-table-styling-ideas`, `halloween-dining-room-tablescape-ideas`, `halloween-mantel-decor-ideas`, `halloween-wreath-ideas-front-door-styling`, `haunted-house-decor-ideas-diy-spooky-setup`, `neon-y2k-apocalypse-halloween-party-decor-ideas`, `pink-halloween-decor-ideas-pink-o-ween`, `vintage-halloween-decor-ideas` — noindexed since 2026-11-13, so they're the lowest priority.
+- `photo-1555041469-a586c61ea9bc` (4 posts): `small-apartment-living-room-ideas`, `small-apartment-organization-ideas`, `small-studio-apartment-ideas`, `teenage-boy-bedroom-ideas`
+- `photo-1512389142860-9c449e58a543` (4 posts): `christmas-bedroom-ideas`, `christmas-entryway-ideas`, `cozy-christmas-living-room-ideas`, `small-space-christmas-decor-ideas`
+- `photo-1616594039964-ae9021a400a0` (3 posts): `earthy-bedroom-ideas`, `neutral-bedroom-ideas`, `small-bedroom-makeover-ideas`
 - `photo-1556909114-f6e7ad7d3136` (4 posts): `christmas-kitchen-decor-ideas`, `kitchen-countertop-decor-ideas`, `small-kitchen-organization-ideas`, `small-pantry-organization-ideas`
 - `photo-1552321554-5fefe8c9ef14` (3 posts): `bathroom-over-toilet-storage-ideas`, `small-bathroom-decor-ideas`, `under-sink-bathroom-organization-ideas`
 - `photo-1616486338812-3dadae4b4ace` (2 posts): `minimalist-living-room-guide`, `small-bedroom-storage-ideas`
 - `photo-1595526114035-0d45ed16cfbf` (2 posts): `halloween-bedroom-decor-ideas`, `non-scary-halloween-decor-toddler-rooms`
-- `photo-1507003211169-0a1dd7228f2d` (2 posts): `cozy-winter-home-decor-ideas`, `fall-apartment-decor-ideas`
 
 To find every remaining marker on the site: search the posts folder for `ADD YOUR PHOTO`.

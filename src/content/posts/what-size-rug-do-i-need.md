@@ -70,7 +70,7 @@ Measure the table. Add **60 cm (24 in) on every side**. That is roughly how far 
 
 A 90 × 180 cm table needs about 210 × 300 cm. A round table of 120 cm diameter needs about 240 cm across, round or square.
 
-In a small flat where the dining table shares the living room, it is usually better to skip the rug under the table entirely than to put a too-small one there. [Zoning a studio](/post/studio-apartment-zoning/) covers how to handle a room doing two jobs at once.
+In a small flat where the dining table shares the living room, it is usually better to skip the rug under the table entirely than to put a too-small one there. [Zoning a studio](/post/small-studio-apartment-ideas/) covers how to handle a room doing two jobs at once.
 
 ## Bedrooms: three options
 

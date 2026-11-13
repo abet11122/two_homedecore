@@ -105,4 +105,4 @@ Most people's dominant wood is a rental floor they would not have picked.
 - **Cool bulbs over warm wood.** It exaggerates every orange in the room.
 - **Mixed metals on top of mixed woods.** Pick one metal and stay with it.
 
-Wood tone is one of the quieter reasons a room feels off — [why your room looks cheap](/post/why-does-my-room-look-cheap/) covers the louder ones, and [cozy small bedroom ideas](/post/cozy-small-bedroom-ideas/) shows the same thinking applied to a full palette.
+Wood tone is one of the quieter reasons a room feels off — [why your room looks cheap](/post/why-does-my-room-look-cheap/) covers the louder ones, and [earthy bedroom ideas](/post/earthy-bedroom-ideas/) shows the same thinking applied to a full palette.

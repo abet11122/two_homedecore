@@ -2,6 +2,8 @@
 title: "15 Pink Halloween Decor Ideas — The Pink-o-ween Trend"
 description: "Embrace the Pink-o-ween trend with 15 pink Halloween decor ideas using blush pumpkins, pastel bats, rose gold accents, and soft seasonal styling for 2026."
 category: seasonal
+noindex: true
+excludeFromListings: true
 tags: ["halloween decor", "pink halloween", "pink-o-ween", "seasonal decorating", "halloween 2026"]
 publishDate: 2026-09-06
 heroImage: "photo-1508193638397-1c4234db14d8"
@@ -111,4 +113,4 @@ Pink-o-ween works because it takes the seasonal palette in an unexpected directi
 
 ## Softer, brighter, or in a bedroom
 
-Pink works well in children's rooms too — see [non-scary toddler room ideas](/post/non-scary-halloween-decor-toddler-rooms/). For a bedroom version, the [Halloween bedroom guide](/post/halloween-bedroom-decor-ideas/) has more textile swaps, and if you want brighter still, try [neon Y2K party decor](/post/neon-y2k-apocalypse-halloween-party-decor-ideas/). Most of the blush and cream pieces fit into [fall apartment decor](/post/fall-apartment-decor-ideas/) afterwards.
+Pink works well in children's rooms too — see [non-scary toddler room ideas](/post/non-scary-halloween-decor-toddler-rooms/). For a bedroom version, the [Halloween bedroom guide](/post/halloween-bedroom-decor-ideas/) has more textile swaps, and if you want brighter still, try [neon Y2K party decor](/post/neon-y2k-apocalypse-halloween-party-decor-ideas/). Most of the blush and cream pieces fit into [fall apartment decor](/post/fall-living-room-decor-ideas/) afterwards.

@@ -47,7 +47,7 @@ Measure your room, draw it roughly to scale, and put the bed in. Most small room
 
 **The wall the door swings onto is usually wrong.** Either the door hits the bed or you lose the clearance behind it. Map the swing before anything else; this is the one constraint that cannot be negotiated with.
 
-**A corner saves the most floor.** Headboard on one wall, one long side against another. For a single bed or a child's room this is often the best use of a small room, and it frees a genuine play or desk area. [Small boys bedroom ideas](/post/small-boys-bedroom-ideas/) uses the same logic.
+**A corner saves the most floor.** Headboard on one wall, one long side against another. For a single bed or a child's room this is often the best use of a small room, and it frees a genuine play or desk area. [Modern boys bedroom ideas](/post/modern-boys-bedroom-ideas/) uses the same logic for a child's room.
 
 For a double, the corner has a cost: whoever sleeps on the inside climbs over the other person. Fine for one sleeper, tiring for two. Decide which problem you would rather have.
 

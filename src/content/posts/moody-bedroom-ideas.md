@@ -3,8 +3,8 @@ title: "Moody Bedroom Ideas: Going Dark Without Going Cave"
 description: "Which bedrooms suit a dark scheme, how to light one so it reads as intimate rather than gloomy, and the finishes that decide it."
 category: bedroom
 tags: ["moody decor", "bedroom decor", "paint colors", "lighting", "small bedrooms"]
-publishDate: 2026-11-19
-updatedDate: 2026-11-19
+publishDate: 2026-11-24
+updatedDate: 2026-11-24
 heroImage: "photo-1615874959474-d609969a20ed"
 pinImage: "photo-1499916078039-922301b0eb9b"
 featured: false
@@ -94,4 +94,4 @@ One thing to keep pale or reflective: the area around the window, and anything t
 - **Flat textiles.** Three textures on the bed, minimum.
 - **Testing a small chip in daylight.** Large sample, your own bulbs, at night.
 
-For a warmer, lighter version of the same instinct, [earthy bedroom ideas](/post/earthy-bedroom-ideas/) uses clay and olive rather than ink, and [cozy small bedroom ideas](/post/cozy-small-bedroom-ideas/) gets to a similar feeling without the commitment of dark paint.
+For a warmer, lighter version of the same instinct, [earthy bedroom ideas](/post/earthy-bedroom-ideas/) uses clay and olive rather than ink, and [small bedroom ideas that look expensive](/post/small-bedroom-ideas-that-look-expensive/) gets to a similar warmth with light and layers instead of dark paint.

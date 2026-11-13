@@ -2,6 +2,8 @@
 title: "17 Haunted House Decor Ideas — DIY Spooky Setup for Halloween"
 description: "Turn your home into a haunted house with 17 DIY spooky setup ideas using cobwebs, fog machines, eerie lighting, props, and room-by-room styling for Halloween."
 category: seasonal
+noindex: true
+excludeFromListings: true
 tags: ["halloween decor", "haunted house", "diy halloween", "spooky decor", "halloween 2026"]
 publishDate: 2026-09-22
 heroImage: "photo-1508193638397-1c4234db14d8"

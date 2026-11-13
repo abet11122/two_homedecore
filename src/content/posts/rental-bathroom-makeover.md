@@ -75,7 +75,7 @@ If you are considering peel-and-stick tile, vinyl flooring or removable wallpape
 3. Leave it **at least a week**, then peel it slowly and look at what came away.
 4. Keep everything well clear of the shower, the bath and the splash zone around the basin.
 
-The same cautions, with more detail on removal technique, are in [renter-friendly backsplash ideas](/post/renter-friendly-backsplash-ideas/).
+The same cautions, with more detail on removal technique, are in the backsplash section of [rental kitchen makeover](/post/rental-kitchen-makeover/).
 
 **Painting** needs permission and the right product — a bathroom-formulated paint, never matt emulsion. [Small bathroom paint colors](/post/small-bathroom-paint-colors/) covers the finish and the reflectance that actually decides how bright the room reads.
 

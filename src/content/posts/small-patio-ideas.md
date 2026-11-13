@@ -105,4 +105,4 @@ The same moves that work in a small room work here:
 - **Fixing to a fence that is not yours.** Check first.
 - **No lighting.** It halves the months you use it.
 
-For a balcony rather than a yard, [balcony decor ideas for small spaces](/post/balcony-decor-ideas/) covers working off the railing, and [small balcony privacy ideas](/post/small-balcony-privacy-ideas/) deals with screening several floors up.
+For a balcony rather than a yard, [small balcony decor ideas](/post/balcony-decor-ideas/) covers working off the railing and screening several floors up.

@@ -1,10 +1,10 @@
 ---
 title: "Rental Kitchen Makeover: Reversible Changes That Hold Up"
-description: "What you can change in a rented kitchen without losing the deposit, ranked by how much each one actually alters the room."
+description: "What you can change in a rented kitchen without losing the deposit, from bulbs and handles to backsplash options, ranked by how much each alters the room."
 category: kitchen
 tags: ["rental kitchen", "renter-friendly", "small kitchen", "budget decor", "kitchen organization"]
 publishDate: 2026-11-02
-updatedDate: 2026-11-02
+updatedDate: 2026-11-13
 heroImage: "photo-1600489000022-c2086d79f9d4"
 pinImage: "photo-1484154218962-a197022b5858"
 featured: false
@@ -13,6 +13,7 @@ keyTakeaways:
   - "Lighting and handles change a rented kitchen more than anything else for the money."
   - "Check the lease wording on fixings and finishes before buying adhesive anything."
   - "Test every removable product on a hidden patch and leave it a week before committing."
+  - "Nothing adhesive goes behind the hob: use a freestanding metal or glass splash guard there."
 faqs:
   - q: "What can you change in a rental kitchen?"
     a: "Usually the lighting, the handles, freestanding storage, textiles, the shower of small appliances on the counter, and — with care and permission — removable surface coverings. What you generally cannot change without written consent is anything fixed: units, worktops, tiling, flooring and paint, depending on the lease."
@@ -24,6 +25,10 @@ faqs:
     a: "It is one of the safest changes, because it is completely reversible — keep the originals and put them back when you leave. Check the hole spacing first, since most handles come in fixed centres of 96, 128 or 160 mm, and a different spacing means new holes, which is a different conversation with the landlord."
   - q: "Is it worth improving a rental kitchen?"
     a: "If you will be there more than a year, yes — but weight the spending towards things that leave with you. Lighting, a trolley, good storage containers and textiles all move house. Adhesive films and paint do not, so treat those as consumables rather than investments."
+  - q: "Can you put peel-and-stick backsplash behind a stove?"
+    a: "Only if the product is explicitly rated for it, and most are not. Vinyl softens, adhesives fail and some films are flammable. Keep adhesive coverings clear of the hob and use a freestanding metal or toughened-glass splash guard there instead, which also comes with you when you move."
+  - q: "What is the best renter-friendly backsplash?"
+    a: "A freestanding acrylic, metal or glass panel resting against the wall behind the worktop, because it damages nothing and leaves with you. For full coverage, tile stickers on existing glazed tile are lower risk than film on painted plaster, since glaze releases adhesive more cleanly than paint does."
 ---
 
 Start with the lease and a camera. Read what it actually says about fixings, adhesives and redecoration — the wording varies far more than people assume — and photograph every surface before you touch anything, including the inside of the cupboards. Then put every original handle, shelf and fitting you remove into one labelled box that goes in the back of a cupboard until you move out.
@@ -86,9 +91,32 @@ If you go ahead:
 4. Clean and dry the surface properly first; grease is why most films fail early.
 5. Keep well clear of the hob and anywhere that gets hot.
 
-The same logic applies to backsplashes, which have enough detail of their own: [renter-friendly backsplash ideas](/post/renter-friendly-backsplash-ideas/).
+The same logic applies to the backsplash, which has enough detail of its own to get the next section.
 
 **Painting the cupboards** is a bigger step again and needs explicit permission. If you have it, [how to update kitchen cabinets cheaply](/post/how-to-update-kitchen-cabinets-cheap/) covers doing it so it lasts.
+
+## 7. The backsplash
+
+Two things decide this, and neither is how it looks: **what the wall is**, and **how close the covering gets to the hob**.
+
+**The wall.** Glazed tile and gloss paint are non-porous and generally release adhesive cleanly. Matt emulsion on plaster is the risky one: the paint film is often weaker than the adhesive bond, so the paint comes away with the product. Freshly painted walls are worse again, because paint takes weeks to cure fully.
+
+**The hob rule.** Nothing adhesive goes directly behind a hob unless the product is explicitly rated for it, and most are not. Vinyl softens, adhesives release, and some films are flammable. Behind the hob, use a freestanding metal or toughened-glass splash guard that stands on the worktop and goes in a box when you move.
+
+| Option | Damage risk | Near a hob | Comes with you |
+| --- | --- | --- | --- |
+| Freestanding acrylic, metal or glass panel | None | Yes, if metal or glass | Yes |
+| Tile stickers over existing tile | Low | No | No |
+| Peel-and-stick tile sheets | Medium to high on paint | No | No |
+| PVC or composite wall panels | Needs permission | Check the product | No |
+| Contact paper | Medium | No | No |
+| Wipeable paint, where redecorating is allowed | Low, repaintable | No | No |
+
+The freestanding panel is the least exciting answer and usually the best one: a sheet cut to size, resting against the wall behind the worktop, held by a bead of removable sealant along the bottom. If the kitchen already has tiles you dislike, stickers sized to the tiles are the next safest, since they sit inside the grout lines and release cleanly from glaze.
+
+**Fitting it so it lasts.** Degrease the wall and let it dry completely, because grease is the usual reason edges lift. Work from a spirit-level line rather than the worktop, which is rarely level. Turn the power off at the consumer unit before working near a socket faceplate, and leave removing one to an electrician. Keep the offcuts for repairs.
+
+**Taking it off.** Warm the surface with a hairdryer on low, then peel slowly back on itself at a shallow angle rather than pulling outwards. The shallow angle is what leaves the paint on the wall. The longer it has been up, the harder this gets, so weigh that when you stick it on, not when you move out.
 
 ## What to spend on, and what not to
 

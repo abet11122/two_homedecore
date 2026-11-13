@@ -2,6 +2,8 @@
 title: "15 Halloween Bathroom Decor Ideas — Small Space Seasonal Styling"
 description: "Style your bathroom for Halloween with 15 small-space ideas: towel swaps, a ceramic pumpkin, flameless candles and details that wipe clean."
 category: bathroom
+noindex: true
+excludeFromListings: true
 tags: ["halloween decor", "bathroom decor", "seasonal decorating", "small spaces", "renter friendly"]
 publishDate: 2026-09-25
 updatedDate: 2026-10-13
@@ -116,4 +118,4 @@ Nobody expects the bathroom to have been decorated, which is exactly why it land
 
 ## Other small rooms worth a swap
 
-Renters can borrow more peel-off ideas from [small apartment Halloween decor](/post/small-apartment-halloween-decor-renter-friendly/). If the bathroom is the only room you're decorating, the [bedroom ideas](/post/halloween-bedroom-decor-ideas/) and [elegant Halloween decor](/post/elegant-halloween-decor/) use the same candles and dark textiles. Once October is over, the [fall apartment guide](/post/fall-apartment-decor-ideas/) keeps the warm palette without the bats.
+Renters can borrow more peel-off ideas from [small apartment Halloween decor](/post/small-apartment-halloween-decor-renter-friendly/). If the bathroom is the only room you're decorating, the [bedroom ideas](/post/halloween-bedroom-decor-ideas/) and [elegant Halloween decor](/post/elegant-halloween-decor/) use the same candles and dark textiles. Once October is over, the [fall apartment guide](/post/fall-living-room-decor-ideas/) keeps the warm palette without the bats.

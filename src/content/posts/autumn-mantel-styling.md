@@ -2,6 +2,8 @@
 title: "The Autumn Mantel, Without the Plastic Pumpkins"
 description: "A grown-up approach to autumn decorating: three heights, one palette and materials that look better as they dry. Works on a shelf if you have no fireplace."
 category: "seasonal"
+noindex: true
+excludeFromListings: true
 tags: ["autumn", "mantel", "seasonal", "styling", "dried-flowers"]
 publishDate: 2026-08-27
 updatedDate: 2026-10-24
@@ -142,4 +144,4 @@ Keeping autumn up until January is the single fastest way to make a house feel n
 
 ---
 
-The whole room gets the same treatment in [cozy fall living room decor ideas](/post/fall-living-room-decor-ideas/). Renters with no mantel can borrow the shelf and windowsill ideas in [fall apartment decor](/post/fall-apartment-decor-ideas/), and the same three-height method works on an [entryway table](/post/entryway-table-decor-ideas/). For a room that feels considered beyond the season, explore our [minimalist living room guide](/post/minimalist-living-room-guide/).
+The whole room gets the same treatment in [cozy fall living room decor ideas](/post/fall-living-room-decor-ideas/). Renters with no mantel can borrow the shelf and windowsill ideas in [fall apartment decor](/post/fall-living-room-decor-ideas/), and the same three-height method works on an [entryway table](/post/entryway-table-decor-ideas/). For a room that feels considered beyond the season, explore our [minimalist living room guide](/post/minimalist-living-room-guide/).

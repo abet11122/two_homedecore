@@ -2,6 +2,8 @@
 title: "15 Halloween Dessert Table Styling Ideas for a Spooky Sweet Spread"
 description: "Style a Halloween dessert table with 15 ideas covering backdrops, tiered stands, themed treats, colour palettes, and display techniques for 2026."
 category: seasonal
+noindex: true
+excludeFromListings: true
 tags: ["halloween food", "dessert table", "halloween party", "halloween entertaining", "seasonal decorating"]
 publishDate: 2026-09-30
 heroImage: "photo-1508193638397-1c4234db14d8"

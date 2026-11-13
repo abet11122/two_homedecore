@@ -2,6 +2,8 @@
 title: "17 Halloween Dining Room & Tablescape Ideas — Elegant Entertaining"
 description: "Set a moody Halloween table with dark linens, candlelight and a pumpkin centrepiece — plus one small detail at every place setting."
 category: seasonal
+noindex: true
+excludeFromListings: true
 tags: ["halloween decor", "tablescape", "dining room decor", "halloween entertaining", "seasonal decorating"]
 publishDate: 2026-09-26
 heroImage: "photo-1508193638397-1c4234db14d8"

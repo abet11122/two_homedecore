@@ -3,8 +3,8 @@ title: "Neutral Bedroom Ideas That Feel Calm, Not Flat"
 description: "Neutral bedroom ideas that avoid the beige box: choosing warm vs cool whites, tonal layering, texture, contrast and lighting — with paint and fabric pairings."
 category: bedroom
 tags: ["neutral bedroom", "bedroom decor", "bedroom styling", "calm bedroom", "natural bedroom"]
-publishDate: 2026-11-22
-updatedDate: 2026-11-22
+publishDate: 2026-12-03
+updatedDate: 2026-12-03
 heroImage: "photo-1616594039964-ae9021a400a0"
 pinImage: "photo-1540518614846-7eded433c457"
 featured: false
@@ -137,4 +137,4 @@ A neutral base makes seasonal updates easy: a rust throw in autumn, a red plaid 
 
 <!-- [ADD YOUR PHOTO: your finished neutral bedroom in the evening with lamps on] {file: photo-3} -->
 
-For the opposite instinct — going dark rather than pale — [moody bedroom ideas](/post/moody-bedroom-ideas/) covers which rooms suit it. The same reflectance thinking decides a bathroom's palette — [small bathroom paint colors](/post/small-bathroom-paint-colors/) covers the finish that has to survive steam. Second-hand solid wood is the cheapest way into a neutral scheme; [thrift flip home decor](/post/thrift-flip-home-decor/) covers what is worth buying. Where the clothes go when the room has no closet is covered in [bedroom with no closet](/post/bedroom-with-no-closet/). A warmer, more colorful take on natural style runs through [earthy bedroom ideas](/post/earthy-bedroom-ideas/). The [cozy small bedroom guide](/post/cozy-small-bedroom-ideas/) covers lighting and textiles in more depth, and [small bedroom ideas that look expensive](/post/small-bedroom-ideas-that-look-expensive/) shows how neutral rooms can look high-end on a budget.
+For the opposite instinct — going dark rather than pale — [moody bedroom ideas](/post/moody-bedroom-ideas/) covers which rooms suit it. The same reflectance thinking decides a bathroom's palette — [small bathroom paint colors](/post/small-bathroom-paint-colors/) covers the finish that has to survive steam. Second-hand solid wood is the cheapest way into a neutral scheme; [thrift flip home decor](/post/thrift-flip-home-decor/) covers what is worth buying. Where the clothes go when the room has no closet is covered in [bedroom with no closet](/post/bedroom-with-no-closet/). A warmer, more colorful take on natural style runs through [earthy bedroom ideas](/post/earthy-bedroom-ideas/). [Small bedroom ideas that look expensive](/post/small-bedroom-ideas-that-look-expensive/) covers lighting and textiles in more depth, and shows how a neutral room can look high-end on a budget.

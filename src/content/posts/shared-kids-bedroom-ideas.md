@@ -71,7 +71,7 @@ The rule is simple. **Shared storage causes arguments; divided storage does not.
 - **School things:** a tray, shelf or hook each, at that child's height.
 - **Books:** a shelf each at a reachable height.
 
-Height matters more than quantity for younger children. Storage a four-year-old cannot reach is storage an adult operates on their behalf. [Small boys bedroom ideas](/post/small-boys-bedroom-ideas/) covers heights by age; the same applies regardless of who is in the room.
+Height matters more than quantity for younger children. Storage a four-year-old cannot reach is storage an adult operates on their behalf. [Modern boys bedroom ideas](/post/modern-boys-bedroom-ideas/) covers heights by age; the same applies regardless of who is in the room.
 
 Then use the places a shared room has and a single room does not: **under both beds** (shallow boxes on wheels), **the wall above the lower bunk's foot end**, and **the back of the door**.
 

@@ -83,7 +83,7 @@ Split it into two zones instead. Seating at one end, something else at the other
 - **Give each zone a rug.** Two rugs do more to define two areas than any amount of furniture arrangement.
 - **Put something with height at the far end**, so the eye stops there rather than running to the wall.
 
-[Zoning a studio](/post/studio-apartment-zoning/) takes the same approach further, for when the room has to do three jobs instead of two.
+[Zoning a studio](/post/small-studio-apartment-ideas/) takes the same approach further, for when the room has to do three jobs instead of two.
 
 ## Test it before you lift anything
 

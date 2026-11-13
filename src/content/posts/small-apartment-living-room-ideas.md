@@ -3,8 +3,8 @@ title: "Small Apartment Living Room Ideas: Layouts That Fit"
 description: "Small apartment living room ideas with furniture sizes, four tested layouts, rug and TV sizing, walkway clearances, storage and lighting for rooms under 15 m²."
 category: small-spaces
 tags: ["small apartment", "living room", "small spaces", "apartment living", "living room decor"]
-publishDate: 2026-11-15
-updatedDate: 2026-11-15
+publishDate: 2026-11-19
+updatedDate: 2026-11-19
 heroImage: "photo-1555041469-a586c61ea9bc"
 pinImage: "photo-1484101403633-562f891dc89a"
 featured: false
@@ -131,4 +131,4 @@ Warm-white 2700K bulbs. Turn off the overhead in the evening and the room immedi
 
 The sofa and armchair take most of the budget. Put any savings into a rug that is big enough.
 
-In December the one low surface in the room has to keep working — [Christmas coffee table decor](/post/christmas-coffee-table-decor-ideas/) keeps it to a tray. If the room reads as under-furnished, that is usually scale rather than quantity — [why your living room feels empty](/post/living-room-feels-empty/) — and [a living room with no fireplace](/post/living-room-no-fireplace-focal-point/) covers building a focal point from scratch. Furnishing from nothing is its own sequence — [first apartment checklist](/post/first-apartment-checklist/) sets the order. Where the front door opens straight into it, [building a drop zone](/post/no-entryway-apartment-ideas/) covers the square metre that takes. Where the room also has to take guests, [guest bedroom and office combo](/post/guest-bedroom-office-combo/) covers beds that disappear during the day. A calmer version of the same room is in the [minimalist living room guide](/post/minimalist-living-room-guide/). If your living room is also a bedroom, [zoning a studio](/post/studio-apartment-zoning/) and [small studio apartment ideas](/post/small-studio-apartment-ideas/) show how to divide it, and [apartment decor ideas on a budget](/post/apartment-decor-ideas-budget/) covers cheap upgrades.
+In December the one low surface in the room has to keep working — the coffee table section of [cozy Christmas living room ideas](/post/cozy-christmas-living-room-ideas/) keeps it to a tray. If the room reads as under-furnished, that is usually scale rather than quantity — [why your living room feels empty](/post/living-room-feels-empty/) — and [a living room with no fireplace](/post/living-room-no-fireplace-focal-point/) covers building a focal point from scratch. Furnishing from nothing is its own sequence — [first apartment checklist](/post/first-apartment-checklist/) sets the order. Where the front door opens straight into it, [building a drop zone](/post/no-entryway-apartment-ideas/) covers the square metre that takes. Where the room also has to take guests, [guest bedroom and office combo](/post/guest-bedroom-office-combo/) covers beds that disappear during the day. A calmer version of the same room is in the [minimalist living room guide](/post/minimalist-living-room-guide/). If your living room is also a bedroom, [small studio apartment ideas](/post/small-studio-apartment-ideas/) shows how to divide it, and [apartment decor ideas on a budget](/post/apartment-decor-ideas-budget/) covers cheap upgrades.

@@ -38,7 +38,7 @@ Without a defined edge, coats, bags and shoes spread into the room, because noth
 
 **A change of flooring**, if you own the place. Tile or a different board direction in the first metre. Permanent, and the most convincing version.
 
-**A piece of furniture as a wall.** A bookcase or a tall shelf unit standing perpendicular to the wall, forming one side of the zone. [Zoning a studio](/post/studio-apartment-zoning/) covers using furniture this way across a whole room.
+**A piece of furniture as a wall.** A bookcase or a tall shelf unit standing perpendicular to the wall, forming one side of the zone. [Small studio apartment ideas](/post/small-studio-apartment-ideas/) covers using furniture this way across a whole room.
 
 **A screen.** A folding screen beside the door hides the drop zone from the sofa and takes almost no floor when folded.
 
@@ -98,4 +98,4 @@ The first metre of a flat with no hall takes everything the street brings in, an
 - **Too many coats at the door.** One per person; the rest live elsewhere.
 - **A precious rug in the wettest square metre of the flat.** Washable, flat weave.
 
-For the organisation side once the zone exists, [small entryway organization](/post/small-entryway-organization-ideas/) covers keys, post and the route. If the flat is one room throughout, [small studio apartment ideas](/post/small-studio-apartment-ideas/) and [zoning a studio](/post/studio-apartment-zoning/) deal with the rest of it.
+For the organisation side once the zone exists, [narrow hallway decor ideas](/post/narrow-hallway-decor-ideas/) covers keys, post and the route. If the flat is one room throughout, [small studio apartment ideas](/post/small-studio-apartment-ideas/) deals with the rest of it, zoning included.

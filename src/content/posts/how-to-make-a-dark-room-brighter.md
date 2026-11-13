@@ -83,7 +83,7 @@ Two bulb specifications are worth caring about:
 
 Sometimes the honest answer is that the room has almost no daylight and never will, and that painting it pale is a fight you lose. A box room, an internal hallway, a basement.
 
-Painted a deep warm colour — olive, oxblood, a proper dark green — and lit with several warm lamps, that room stops being a failed bright room and becomes a deliberately cosy one. The darkness becomes the point rather than the problem. [Cozy small bedroom ideas](/post/cozy-small-bedroom-ideas/) works in the same direction.
+Painted a deep warm colour — olive, oxblood, a proper dark green — and lit with several warm lamps, that room stops being a failed bright room and becomes a deliberately cosy one. The darkness becomes the point rather than the problem. [Earthy bedroom ideas](/post/earthy-bedroom-ideas/) works in the same direction.
 
 <!-- [ADD YOUR PHOTO: the same room in the evening with the lamps on] {file: photo-2} -->
 
